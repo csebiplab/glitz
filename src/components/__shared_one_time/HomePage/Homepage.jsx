@@ -1,9 +1,19 @@
 import React from 'react';
+import AboutUs from './AboutUs/AboutUs';
+import Installation from './Installation/Installation';
 
 const Homepage = () => {
     return (
         <div className="custom-container">
-            home page
+
+            <section>
+                <AboutUs/>
+            </section>
+
+            <section>
+                <Installation/>
+            </section>
+
         </div>
     );
 };
