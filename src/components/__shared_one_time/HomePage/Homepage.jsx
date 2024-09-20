@@ -5,6 +5,9 @@ import ResidentialCommercial from './ResidentialCommercial/ResidentialCommercial
 import FlooringInstallation from './FlooringInstallation/FlooringInstallation';
 import BestFlooring from './BestFlooring/BestFlooring';
 import TrustUs from './TrustUs/TrustUs';
+import FloorsNow from './FloorsNow/FloorsNow';
+import Location from './Location/Location';
+import HowToVisualize from './HowToVisualize/HowToVisualize';
 
 const Homepage = () => {
     return (
@@ -31,7 +34,19 @@ const Homepage = () => {
             </section>
 
             <section>
+                <FloorsNow/>
+            </section>
+
+            <section>
+                <HowToVisualize/>
+            </section>
+
+            <section>
                 <TrustUs/>
+            </section>
+
+            <section>
+                <Location/>
             </section>
 
         </div>
