@@ -8,6 +8,8 @@ import TrustUs from './TrustUs/TrustUs';
 import FloorsNow from './FloorsNow/FloorsNow';
 import Location from './Location/Location';
 import HowToVisualize from './HowToVisualize/HowToVisualize';
+import Faq from './Faq/Faq';
+import ProjectGallery from './ProjectGallery/ProjectGallery';
 
 const Homepage = () => {
     return (
@@ -38,11 +40,19 @@ const Homepage = () => {
             </section>
 
             <section>
+                <ProjectGallery/>
+            </section>
+
+            <section>
                 <HowToVisualize/>
             </section>
 
             <section>
                 <TrustUs/>
+            </section>
+
+            <section>
+                <Faq/>
             </section>
 
             <section>
