@@ -12,6 +12,7 @@ import Faq from './Faq/Faq';
 import ProjectGallery from './ProjectGallery/ProjectGallery';
 import WhyChooseUs from './WhyChooseUs/WhyChooseUs';
 import OurServiceAreas from './OurServiceAreas/OurServiceAreas';
+import Services from './Services/Services';
 
 const Homepage = () => {
     return (
@@ -39,6 +40,10 @@ const Homepage = () => {
 
             <section>
                 <FloorsNow/>
+            </section>
+
+            <section>
+                <Services/>
             </section>
 
             <section>
