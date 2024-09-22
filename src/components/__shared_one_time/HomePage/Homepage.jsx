@@ -13,10 +13,20 @@ import ProjectGallery from './ProjectGallery/ProjectGallery';
 import WhyChooseUs from './WhyChooseUs/WhyChooseUs';
 import OurServiceAreas from './OurServiceAreas/OurServiceAreas';
 import Services from './Services/Services';
+import Brand from './Brand/Brand';
+import HomeBanner from './HomeBanner/HomeBanner';
 
 const Homepage = () => {
     return (
         <div className="custom-container">
+
+            <section>
+                <HomeBanner/>
+            </section>
+
+            <section>
+                <Brand/>
+            </section>
 
             <section>
                 <AboutUs/>
