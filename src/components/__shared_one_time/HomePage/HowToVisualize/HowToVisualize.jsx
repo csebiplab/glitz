@@ -15,7 +15,7 @@ const HowToVisualize = () => {
               <p className="text-lg font-normal text-secondary-50 text-center xl:text-left">
               Choosing the perfect flooring for your home can be challenging, but with our innovative floor visualization tool, you can now see how different flooring options will look in your exact room before making a decision. Simply upload a photo of your space, and instantly preview various styles, colors, and materials. Whether you're considering hardwood, tile, or carpet, our tool helps you make confident decisions by providing a realistic view of your chosen floors in your home.
               </p>
-              <div className="pt-[35px]">
+              <div className="pt-[35px] flex items-center justify-center md:justify-start">
               <button className="text-lg font-normal text-[#905C4C] btn_bg px-[46px] py-[15px]">See How It Works</button>
               </div>
               

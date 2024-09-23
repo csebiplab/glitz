@@ -82,7 +82,7 @@ const Services = () => {
                 <p className="text-lg font-normal text-secondary-200">
                   {data.desc}
                 </p>
-                <p className="flex items-center justify-center gap-[5px] text-lg font-bold text-secondary pb-[13px] pt-[30px]">
+                <p className="flex items-center justify-center gap-[5px] text-base md:text-lg font-bold text-primary pb-[13px] pt-[30px]">
                   {data.link}{" "}
                   <svg
                     xmlns="http://www.w3.org/2000/svg"

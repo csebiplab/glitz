@@ -49,7 +49,7 @@ const FlooringContractors = () => {
   return (
     <div>
       <div className="padding__top">
-        <div className="flex flex-col items-center justify-center">
+        <div className="container flex flex-col items-center justify-center">
           <HeadingIcon
             text={headingIconText.flooringContractors__headingIconText}
           />
@@ -64,7 +64,7 @@ const FlooringContractors = () => {
           </p>
         </div>
         {/* cart first div  */}
-        <div className="grid grid-cols-1 xl:grid-cols-3 gap-[44px] pt-[80px]">
+        <div className="grid grid-cols-1 xl:grid-cols-3 gap-[80px] md:gap-[44px] pt-[80px] px-[10px] md:px-0">
           {flooringData?.map((data) => {
             return (
               <div
@@ -89,7 +89,7 @@ const FlooringContractors = () => {
           })}
         </div>
         {/* cart second div  */}
-        <div className="grid grid-cols-1 xl:grid-cols-3 gap-[44px] pt-[80px] pb-[25px]">
+        <div className="grid grid-cols-1 xl:grid-cols-3 gap-[80px] md:gap-[44px]  pt-[80px] pb-[25px]  px-[10px] md:px-0">
           {flooringData1?.map((data) => {
             return (
               <div
@@ -114,7 +114,7 @@ const FlooringContractors = () => {
           })}
         </div>
         {/* third div  */}
-        <div className="flex flex-col xl:flex-row gap-[60px] 5xl:gap-[75px] pt-[60px] 5xl:pt-[75px]">
+        <div className="flex flex-col xl:flex-row gap-[80px] md:gap-[60px] 5xl:gap-[75px] pt-[60px] 5xl:pt-[75px]  px-[10px] md:px-0">
           <div className="w-full xl:w-1/3">
             <div className="cart_bg relative px-[11px] pb-[25px]">
               <Image
