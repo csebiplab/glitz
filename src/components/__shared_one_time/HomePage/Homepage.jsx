@@ -15,6 +15,7 @@ import OurServiceAreas from './OurServiceAreas/OurServiceAreas';
 import Services from './Services/Services';
 import Brand from './Brand/Brand';
 import HomeBanner from './HomeBanner/HomeBanner';
+import WorkingProcess from './WorkingProcess/WorkingProcess';
 
 const Homepage = () => {
     return (
@@ -58,6 +59,10 @@ const Homepage = () => {
 
             <section>
                 <ProjectGallery/>
+            </section>
+
+            <section>
+                <WorkingProcess/>
             </section>
 
             <section>
