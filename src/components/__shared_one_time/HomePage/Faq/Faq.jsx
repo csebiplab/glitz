@@ -64,16 +64,15 @@ const QAPoolInstallationQuestionsNAns = [
 const Faq = () => {
   return (
     <div className="padding__top ">
-      <section className="full__section_r_p">
+      <section className="full__section_r_p pl-3 md:pl-0">
         <div className="mx-auto">
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 gap-[34px]">
-            <div className="flex justify-end items-center pr-3 md:pr-0">
+            <div className="flex justify-end items-center">
               <Image
                 alt="faq"
                 src="/assets/glitz/images/FAQ.png"
                 width={768}
                 height={566}
-                className=""
               />
             </div>
 
@@ -92,7 +91,7 @@ const Faq = () => {
                   </div>
                 </div>
               </div>
-              <div className="pr-3 md:pr-0 pt-6">
+              <div className=" pt-6">
                 {QAPoolInstallationQuestionsNAns.map((ques, idx) => (
                   <div key={idx}>
                     <details className="group [&_summary::-webkit-details-marker]:hidden">

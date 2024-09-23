@@ -6,7 +6,7 @@ import React from "react";
 const FlooringInstallation = () => {
   return (
     <div>
-      <div className="container padding__top">
+      <div className="container padding__all">
         <div className="grid grid-cols-1 xl:grid-cols-2 gap-[35px]">
           <div className="order-2 xl:order-1 xl:col-span-1">
             <div className='flex justify-center xl:justify-start items-center'>
