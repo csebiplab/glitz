@@ -39,15 +39,15 @@ const maps = [
     location: "Cypress",
   },
   {
-    src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d182566.4045222721!2d-79.8305378187556!3d44.35926624980187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882aa3371ad7206d%3A0x1d2e0f00a84b535a!2sBarrie%2C%20ON%2C%20Canada!5e0!3m2!1sen!2sbd!4v1711192803692!5m2!1sen!2sbd",
+    src: "https://www.google.com/maps/embed?pb=!1m19!1m12!1m3!1d220877.23149478514!2d-95.7349797591806!3d30.116897075658045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m4!3e0!4m0!4m1!2sSpring!5e0!3m2!1sen!2sbd!4v1727066750287!5m2!1sen!2sbd",
     location: "Spring",
   },
   {
-    src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d92145.91175852313!2d-79.66673983224095!3d43.80274774858379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b257a9ad0b911%3A0xecea3dfb3abd0ac2!2sWoodbridge%2C%20Vaughan%2C%20ON%2C%20Canada!5e0!3m2!1sen!2sbd!4v1711192847430!5m2!1sen!2sbd",
+    src: "https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d126663.29235390289!2d-95.78339360975055!3d30.100210025719495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e0!4m0!4m5!1s0x8640cd9b23065c93%3A0xef63d4775526b925!2sTomball%2C%20TX%2C%20USA!3m2!1d30.0971621!2d-95.6160549!5e0!3m2!1sen!2sbd!4v1727066593822!5m2!1sen!2sbd",
     location: "Tomball",
   },
   {
-    src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d183980.1257805948!2d-79.5931173754818!3d43.90369790797781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b2a4936291733%3A0x5201760ad6b142ed!2sRichmond%20Hill%2C%20ON%2C%20Canada!5e0!3m2!1sen!2sbd!4v1711192914194!5m2!1sen!2sbd",
+    src: "https://www.google.com/maps/embed?pb=!1m19!1m12!1m3!1d220752.58147180665!2d-95.87648474773002!3d30.172592193827583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m4!3e0!4m0!4m1!2sMagnolia!5e0!3m2!1sen!2sbd!4v1727066689362!5m2!1sen!2sbd",
     location: "Magnolia",
   },
 ];
@@ -63,7 +63,7 @@ const OurServiceAreas = () => {
               />
 
             <div>
-              <h2 className="text-lg md:text-xl lg:text-2xl xl:text-[26px] 2xl:text-[28px] 3xl:text-3xl 4xl:text-[33px] 5xl:text-4xl font-normal text-center text-black pt-[8px] md:pt-[16px] pb-[16px] md:pb-[36px]">
+              <h2 className="text-[25px] md:text-[26px] lg:text-[29px] xl:text-[32px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[41px]  5xl:text-[44px] font-bold text-secondary leading-normal pt-[10px] pb-[25px] text-center">
               Glitz Floors & More Service Areas
               </h2>
             </div>

@@ -26,11 +26,11 @@ const HomeBanner = () => {
           </div>
           <div className="hero-right relative hidden md:block">
             <Image
-              width={928}
-              height={782}
-              src="/assets/kitchen_renovation/hero_bg.png"
+              width={944}
+              height={625}
+              src="/assets/glitz/images/hero_bg1.png"
               alt="hero small image"
-              className="hero-main-image mb-0"
+              className="hero-main-image mb-0 w-[944px] xl:h-[500px] 5xl:h-[625px]"
             />
           </div>
         </div>
