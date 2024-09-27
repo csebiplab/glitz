@@ -17,6 +17,7 @@ import Brand from './Brand/Brand';
 import HomeBanner from './HomeBanner/HomeBanner';
 import WorkingProcess from './WorkingProcess/WorkingProcess';
 import FlooringContractors from './FlooringContractors/FlooringContractors';
+import ContactUs from './ContactUs/ContactUs';
 
 const Homepage = () => {
     return (
@@ -88,6 +89,10 @@ const Homepage = () => {
 
             <section>
                 <OurServiceAreas/>
+            </section>
+
+            <section>
+                <ContactUs/>
             </section>
 
             <section>
