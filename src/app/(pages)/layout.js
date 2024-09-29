@@ -4,8 +4,9 @@ import "../globals.css";
 import RoutingProgressBar from "@/components/common/RoutingProgressBar";
 import Footer from "@/components/__layouts/Footers/Footer";
 import ScrollToTopComponent from "@/components/common/ScrollToTop";
-import { NavHeader } from "@/components/__layouts/Header/NavHeader";
+// import { NavHeader } from "@/components/__layouts/Header/NavHeader";
 import { Lucida_Grande, Naomi } from "../font";
+import { NavHeader } from "@/components/__layouts/Navbar/Header/NavHeader";
 
 
 
@@ -17,6 +18,7 @@ export default function RootLayout({ children }) {
           <RoutingProgressBar />
         </Suspense>
         <>
+          {/* <NavHeader/> */}
           <NavHeader/>
         </>
         {children}

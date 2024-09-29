@@ -7,65 +7,85 @@ import { headingIconText } from "@/utils/heading-text";
 
 const usualPool = [
   {
+    id : 1,
     title: "Higher upfront cost",
   },
   {
+    id : 2,
     title: "Potential for dust and odor",
   },
   {
+    id : 3,
     title: "Disruption of daily activities",
   },
   {
+    id : 4,
     title: "Limited availability during peak times",
   },
   {
+    id : 5,
     title: "Need for furniture removal",
   },
   {
+    id : 6,
     title: "Delays due to unforeseen issues",
   },
   {
+    id : 7,
     title: "Requirements after refinishing",
   },
   {
+    id : 8,
     title: "Lack of access to certain areas",
   },
   {
+    id : 9,
     title: "Inconsistent results with DIY attempts",
   },
   {
+    id : 10,
     title: "Potential for uneven application",
   }
 ];
 const easyPool = [
   {
+    id : 1,
     title: "Reliable and punctual service",
   },
   {
+    id : 2,
     title: "Efficient and thorough process",
   },
   {
+    id : 3,
     title: "Enhanced durability and finish",
   },
   {
+    id : 4,
     title: "Skilled and experienced team",
   },
   {
+    id : 5,
     title: "Customizable options",
   },
   {
+    id : 6,
     title: "Fast turnaround time",
   },
   {
+    id : 7,
     title: "Professional and friendly staff",
   },
   {
+    id : 8,
     title: "Commitment to excellence",
   },
   {
+    id : 9,
     title: "Expert craftsmanship",
   },
   {
+    id : 10,
     title: "High-quality materials",
   } 
 ];
@@ -82,10 +102,10 @@ const WhyChooseUs = () => {
               Usual Flooring Company
               </p>
               <div className="grid grid-rows-8 3xl:py-[35px] py-[20px] px-[20px] 2xl:text-[16px] lg:text-sm xs:text-[9px]">
-                {usualPool.map((usual, idx) => (
+                {usualPool?.map((usual) => (
                   <>
                   <div
-                    key={idx}
+                    key={usual?.id}
                     className="flex gap-4 items-center leading-none"
                   >
                     <Image
@@ -112,10 +132,10 @@ const WhyChooseUs = () => {
               Our Flooring Company
               </p>
               <div className="grid grid-rows-8 3xl:py-[35px] py-[25px] px-[20px] 2xl:text-[16px] lg:text-sm xs:text-[9px]">
-                {easyPool.map((usual, idx) => (
+                {easyPool.map((usual) => (
                   <>
                   <div
-                    key={idx}
+                    key={usual?.id}
                     className="flex gap-4 items-center leading-none  "
                   >
                     <Image

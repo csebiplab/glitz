@@ -1,0 +1,9 @@
+.main__nav {
+  background: #905C4C;
+  box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.25);
+}
+
+.btn__bg{
+  border-radius: 6px;
+  border: 1.5px solid #FFF;
+}
