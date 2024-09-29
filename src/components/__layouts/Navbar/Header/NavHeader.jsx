@@ -2,6 +2,7 @@
 
 import { ChevronDownIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import {
+  Button,
   Collapse,
   Drawer,
   IconButton,
@@ -16,7 +17,7 @@ import {
 } from "@material-tailwind/react";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useState, useEffect } from "react";
 import UpperNavbar from "./UpperNavbar";
 import "./NavHeader.css";
 
@@ -62,7 +63,7 @@ function OurServiceManu() {
             role="button"
           >
             <ListItem
-              className="flex items-center text-sm xl:text-[15px] 5xl:text-lg text-white font-bold leading-normal px-1 lg:px-3 2xl:px-5 -mt-[9px]"
+              className="flex items-center text-sm xl:text-[15px] 5xl:text-lg text-black font-bold leading-normal px-1 lg:px-3 2xl:px-5 -mt-[9px]"
               selected={isMenuOpen || isMobileMenuOpen}
               onClick={() => setIsMobileMenuOpen((cur) => !cur)}
             >
@@ -126,7 +127,7 @@ function NavList() {
         color="blue-gray"
         className="font-medium rounded-full text-sm lg:text-sm xl:text-base 2xl:text-lg"
       >
-        <ListItem className="flex items-start md:items-center text-sm xl:text-[15px] 5xl:text-lg text-white font-bold leading-normal px-1 lg:px-3 2xl:px-5">
+        <ListItem className="flex items-start md:items-center text-sm xl:text-[15px] 5xl:text-lg text-black font-bold leading-normal px-1 lg:px-3 2xl:px-5">
           Home
         </ListItem>
       </Typography>
@@ -138,7 +139,7 @@ function NavList() {
         color="blue-gray"
         className="font-medium rounded-full text-sm md:text-sm xl:text-base 2xl:text-lg"
       >
-        <ListItem className="flex items-start md:items-center text-sm xl:text-[15px] 5xl:text-lg text-white font-bold leading-normal px-1 lg:px-3 2xl:px-5">
+        <ListItem className="flex items-start md:items-center text-sm xl:text-[15px] 5xl:text-lg text-black font-bold leading-normal px-1 lg:px-3 2xl:px-5">
           About
         </ListItem>
       </Typography>
@@ -149,7 +150,7 @@ function NavList() {
         color="blue-gray"
         className="font-medium rounded-full text-sm md:text-sm xl:text-base 2xl:text-lg"
       >
-        <ListItem className="flex items-start md:items-center text-sm xl:text-[15px] 5xl:text-lg text-white font-bold leading-normal px-1 lg:px-3 2xl:px-5">
+        <ListItem className="flex items-start md:items-center text-sm xl:text-[15px] 5xl:text-lg text-black font-bold leading-normal px-1 lg:px-3 2xl:px-5">
           Gallery
         </ListItem>
       </Typography>
@@ -161,7 +162,7 @@ function NavList() {
         color="blue-gray"
         className="font-medium rounded-full text-sm md:text-sm xl:text-base 2xl:text-lg"
       >
-        <ListItem className="flex items-start md:items-center text-sm xl:text-[15px] 5xl:text-lg text-white font-bold leading-normal px-1 lg:px-3 2xl:px-5">
+        <ListItem className="flex items-start md:items-center text-sm xl:text-[15px] 5xl:text-lg text-black font-bold leading-normal px-1 lg:px-3 2xl:px-5">
           Kitchen Remodeling
         </ListItem>
       </Typography>
@@ -172,7 +173,7 @@ function NavList() {
         color="blue-gray"
         className="font-medium rounded-full text-sm md:text-sm xl:text-base 2xl:text-lg"
       >
-        <ListItem className="flex items-start md:items-center text-sm xl:text-[15px] 5xl:text-lg text-white font-bold leading-normal px-1 lg:px-3 2xl:px-5">
+        <ListItem className="flex items-start md:items-center text-sm xl:text-[15px] 5xl:text-lg text-black font-bold leading-normal px-1 lg:px-3 2xl:px-5">
           Bathroom Remodeling
         </ListItem>
       </Typography>
@@ -188,7 +189,7 @@ function NavList() {
         color="blue-gray"
         className="font-medium rounded-full text-sm md:text-sm xl:text-base 2xl:text-lg"
       >
-        <ListItem className="flex items-start md:items-center text-sm xl:text-[15px] 5xl:text-lg text-white font-bold leading-normal px-1 lg:px-3 2xl:px-5">
+        <ListItem className="flex items-start md:items-center text-sm xl:text-[15px] 5xl:text-lg text-black font-bold leading-normal px-1 lg:px-3 2xl:px-5">
           Contact Us
         </ListItem>
       </Typography>
@@ -198,6 +199,23 @@ function NavList() {
 
 export function NavHeader() {
   const [openNav, setOpenNav] = React.useState(false);
+  const [hideOnScroll, setHideOnScroll] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setHideOnScroll(true);
+      } else {
+        setHideOnScroll(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   React.useEffect(() => {
     window.addEventListener(
       "resize",
@@ -209,7 +227,7 @@ export function NavHeader() {
     <>
       <UpperNavbar />
       <header className="sticky top-0 z-50">
-        <div className="custom-container main__nav">
+        <div className="hidden md:block custom-container main__nav">
           <Navbar className="container rounded-none py-0 shadow-none max-w-full">
             <div className="flex items-center gap-[5px] text-blue-gray-900">
               <Link href="/" aria-label="Home">
@@ -224,7 +242,7 @@ export function NavHeader() {
               </Link>
               {/* bottom navbar  */}
               <div className="w-full flex flex-col justify-between pl-[4px]">
-                <div className="bg-secondary-400">
+                <div className="">
                   <div className=" flex justify-between items-center">
                     <div>
                       <button className="flex items-center gap-[8px] 5xl:gap-[18px]">
@@ -289,14 +307,66 @@ export function NavHeader() {
             </div>
           </Navbar>
         </div>
+
+        {/* small device start  */}
+        <div
+          id="hideOnScroll"
+          className={`block md:hidden pt-1 bg-secondary-400 ${
+            hideOnScroll ? "hidden" : ""
+          }`}
+        >
+          <div className="bg-secondary py-[10px]">
+            <p className="text-lg font-bold text-white leading-normal text-center">FLOORS NOW, PAY OVER TIME</p>
+            <p className="text-sm font-bold text-white leading-normal text-center pb-[10px]">Convenient monthly payments to fit your budget1</p>
+            <div className="flex justify-center items-center">
+            <button className="text-base font-bold leading-normal text-white py-[10px] px-[8px] rounded-[6px] border-[2px] border-white">View Financing Option</button>
+            </div>
+          </div>
+        </div>
+
+        <div className="w-full bg__color !bg-secondary-400 flex justify-between items-center px-[20px] sm:px-[30px] pb-[6px]">
+          <div className="block md:hidden">
+            <Image
+              src="/assets/glitz/images/sm_nab_logo.png"
+              alt="nav logo"
+              width={142}
+              height={91}
+              className="w-[142px] h-[91px]"
+            />
+          </div>
+
+          <div className="block md:hidden">
+            <IconButton
+              variant="text"
+              color="blue-gray"
+              className="lg:hidden"
+              onClick={() => setOpenNav(!openNav)}
+            >
+              {openNav ? (
+                <XMarkIcon className="h-6 w-6" strokeWidth={2} />
+              ) : (
+                <Image
+                  src="/assets/glitz/icons/menu_icon.png"
+                  width={33}
+                  height={33}
+                  alt="Menu"
+                  className="w-[33px] h-[33px]"
+                />
+              )}
+            </IconButton>
+          </div>
+        </div>
+
+        {/* small device end  */}
       </header>
+
       <Drawer
         placement="right"
         open={openNav}
         onClose={() => setOpenNav(false)}
-        className="p-4 overflow-y-auto pb-24 !z-[1000000000000000000]"
+        className="p-4 overflow-y-auto pb-24 !z-[1000000000000000000] bg-secondary-400"
       >
-        <div className="mb-6 flex items-center justify-between">
+        <div className="mb-6 flex items-center justify-between ">
           <Typography variant="p" color="blue-gray">
             Glitz Floors & More
           </Typography>
