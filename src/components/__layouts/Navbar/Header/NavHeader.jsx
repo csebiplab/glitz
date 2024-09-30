@@ -122,7 +122,7 @@ function NavList() {
     <List className="mt-4 mb-6 p-0 lg:mt-0 lg:mb-0 lg:flex-row md:items-center border-0 outline-none">
       <Typography
         as={Link}
-        href="/"
+        href="/home"
         variant="small"
         color="blue-gray"
         className="font-medium rounded-full text-sm lg:text-sm xl:text-base 2xl:text-lg"
@@ -134,7 +134,7 @@ function NavList() {
 
       <Typography
         as={Link}
-        href="/"
+        href="/about-us"
         variant="small"
         color="blue-gray"
         className="font-medium rounded-full text-sm md:text-sm xl:text-base 2xl:text-lg"
@@ -145,7 +145,7 @@ function NavList() {
       </Typography>
       <Typography
         as={Link}
-        href="/"
+        href="/gallery"
         variant="small"
         color="blue-gray"
         className="font-medium rounded-full text-sm md:text-sm xl:text-base 2xl:text-lg"
@@ -184,7 +184,7 @@ function NavList() {
 
       <Typography
         as={Link}
-        href="/"
+        href="/contact-us"
         variant="small"
         color="blue-gray"
         className="font-medium rounded-full text-sm md:text-sm xl:text-base 2xl:text-lg"
