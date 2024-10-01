@@ -3,6 +3,8 @@ import HomeBanner from "./HomeBanner/HomeBanner";
 import Flooring from "./Flooring/Flooring";
 import Gallery from "./Gallery/Gallery";
 import YourDream from "./YourDream/YourDream";
+import ContactUs from "./ContactUs/ContactUs";
+import ServicesArea from "./ServicesArea/ServicesArea";
 
 const Home = () => {
   return (
@@ -21,6 +23,14 @@ const Home = () => {
 
       <section>
         <YourDream/>
+      </section>
+
+      <section>
+        <ContactUs/>
+      </section>
+
+      <section>
+        <ServicesArea/>
       </section>
     </div>
   );
