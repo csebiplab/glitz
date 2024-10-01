@@ -73,7 +73,7 @@ const Footer = () => {
               <ul>
                 <li className="flex items-center gap-[24px] text-base 5xl:text-lg font-normal leading-[29px]">
                   <Image
-                    src="/assets/glitz/icons/map.png"
+                    src="/assets/glitz/icons/m.png"
                     alt="map icon"
                     width={21}
                     height={21}
@@ -88,7 +88,7 @@ const Footer = () => {
                 </li>
                 <li className="flex items-center gap-[24px] text-base 5xl:text-lg font-normal leading-[29px] py-[27px]">
                   <Image
-                    src="/assets/glitz/icons/phone.png"
+                    src="/assets/glitz/icons/p.png"
                     alt="phone icon"
                     width={21}
                     height={21}
@@ -208,7 +208,7 @@ const Footer = () => {
           <ul className="">
                 <li className="flex justify-center items-center gap-[24px] text-base 5xl:text-lg font-normal leading-[29px]">
                   <Image
-                    src="/assets/glitz/icons/map.png"
+                    src="/assets/glitz/icons/m.png"
                     alt="map icon"
                     width={21}
                     height={21}
@@ -223,7 +223,7 @@ const Footer = () => {
                 </li>
                 <li className="flex justify-center items-center gap-[24px] text-base 5xl:text-lg font-normal leading-[29px] py-[27px]">
                   <Image
-                    src="/assets/glitz/icons/phone.png"
+                    src="/assets/glitz/icons/p.png"
                     alt="phone icon"
                     width={21}
                     height={21}

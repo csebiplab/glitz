@@ -5,8 +5,8 @@ import Image from "next/image";
 const ContactUs = () => {
   return (
     <div>
-      <div className="full__section_l_p">
-        <div className="grid grid-cols-1 md:grid-cols-7 gap-[150px]">
+      <div className="full__section_l_p pr-3 md:pr-0">
+        <div className="grid grid-cols-1 md:grid-cols-7 gap-[60px] md:gap-[150px]">
           <div className="md:col-span-3">
             <p className="text-[25px] xl:text-[27px] 5xl:text-[30px] font-bold text-center md:text-left text-balck pb-[25px] 5xl:pb-[44px]">
               Contact Us for a Free Estimate
@@ -105,7 +105,7 @@ const ContactUs = () => {
           </div>
           <div className="md:col-span-4">
             <iframe
-              className="w-full h-[550px]"
+              className="w-full h-[400px] md:h-[550px]"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6827.416153838049!2d-95.67873389781465!3d29.996537571553294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640d57b61c6fd8d%3A0x2ba2182f0ab40249!2sGlitz%20Floors%20%26%20More!5e0!3m2!1sen!2sbd!4v1727705040633!5m2!1sen!2sbd"
               allowfullscreen=""
               loading="lazy"

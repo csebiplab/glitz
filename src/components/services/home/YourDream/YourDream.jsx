@@ -3,9 +3,9 @@ import React from "react";
 
 const YourDream = () => {
   return (
-    <div className="">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-[50px] md:gap-[60px] lg:gap-[70px] xl:gap-[80px] 2xl:gap-[90px] 3xl:gap-[100px] 4xl:gap-[110px] 5xl:gap-[120px] py-[10px] 5xl:py-[16px] pr-[10px] 5xl:pr-[16px] pl-[69px] lg:pl-[74px] xl:pl-[79px] 2xl:pl-[84px] 3xl:pl-[89px] 4xl:pl-[94px] 5xl:pl-[99px]">
-      <div className="md:col-span-1 flex flex-col justify-center">
+    <div className="pb-[60px] md:pb-0">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-[50px] md:gap-[60px] lg:gap-[70px] xl:gap-[80px] 2xl:gap-[90px] 3xl:gap-[100px] 4xl:gap-[110px] 5xl:gap-[120px] py-[10px] 5xl:py-[16px] pr-[10px] 5xl:pr-[16px] pl-[10px] lg:pl-[74px] xl:pl-[79px] 2xl:pl-[84px] 3xl:pl-[89px] 4xl:pl-[94px] 5xl:pl-[99px]">
+      <div className="md:col-span-1 flex flex-col justify-center pt-[40px] md:pt-0">
           <h2 className="text-[29px] md:text-[30px] lg:text-[31px] xl:text-[32px] 2xl:text-[33px] 3xl:text-[34px] 4xl:text-[35px] 5xl:text-[36px] font-extrabold text-black text-center">
             You Dream It . . . We Create It
           </h2>
@@ -28,6 +28,7 @@ const YourDream = () => {
             alt="your dream"
             width={925}
             height={488}
+            className="w-full h-[300px] md:h-[488px]"
           />
         </div>
         
