@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from "next/image";
 
 const UpperNavbar = () => {
   return (
@@ -9,7 +10,9 @@ const UpperNavbar = () => {
             <p className='text-xs 5xl:text-sm font-bold text-white leading-normal'>Convenient monthly payments to fit your budget1</p>
           </div>
           <div>
-            <p className='text-base font-bold text-white leading-normal'>0% Interest Financing Available</p>
+            <p className='flex items-center gap-[10px] text-base font-bold text-white leading-normal'>
+            <Image src="/assets/glitz/icons/info.png" alt="info icon" width={23} height={23}/>
+              0% Interest Financing Available</p>
             <p className='text-xs 5xl:text-sm font-normal text-white leading-normal pt-[4px] 5xl:pt-[6px]'>Ask About 0% Interest Financing with Synchrony Bank</p>
           </div>
           <div>
