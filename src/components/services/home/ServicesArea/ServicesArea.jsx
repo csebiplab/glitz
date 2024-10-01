@@ -1,10 +1,12 @@
 import React from "react";
+import { FaFacebook } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 
 const ServicesArea = () => {
   return (
     <div className="container py-[40px] xl:py-[50px] 5xl:py-[64px]">
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-[50px] 5xl:gap-[100px] px-[70px]">
-        <div className="md:col-span-1">
+      <div className="grid grid-cols-1 md:grid-cols-5 gap-[100px] 5xl:gap-[140px] px-[100px]">
+        <div className="md:col-span-2">
           <h6 className="text-[24px] 2xl:text-[30px] font-semibold text-black leading-[22px] pb-[32px]">
             Service Area
           </h6>
@@ -23,7 +25,7 @@ const ServicesArea = () => {
             </li>
           </ul>
         </div>
-        <div className="md:col-span-1">
+        <div className="md:col-span-2">
           <h6 className="text-[24px] 2xl:text-[30px] font-semibold text-black leading-[22px] pb-[32px]">
             Business Hours
           </h6>
@@ -35,11 +37,16 @@ const ServicesArea = () => {
             <li className="flex justify-between text-lg font-light text-black leading-[33px]">Friday <span>10:00AM - 5:00PM</span></li>
             <li className="flex justify-between text-lg font-light text-black leading-[33px] pt-[13px]">Saturday <span>10:00AM - 2:00PM</span></li>
           </ul>
+          
         </div>
         <div className="md:col-span-1">
           <h6 className="text-[24px] 2xl:text-[30px] font-semibold text-black leading-[22px] ">
             Social
           </h6>
+          <div className="flex items-center gap-[10px] pt-[36px]">
+            <FaFacebook className="w-[27px] h-[27px]"/>
+            <FaInstagram className="w-[27px] h-[27px]"/>
+          </div>
         </div>
       </div>
     </div>
