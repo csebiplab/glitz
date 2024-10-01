@@ -208,7 +208,7 @@ const Footer = () => {
           <ul className="">
                 <li className="flex justify-center items-center gap-[24px] text-base 5xl:text-lg font-normal leading-[29px]">
                   <Image
-                    src="/assets/icons/map.png"
+                    src="/assets/glitz/icons/map.png"
                     alt="map icon"
                     width={21}
                     height={21}
@@ -223,7 +223,7 @@ const Footer = () => {
                 </li>
                 <li className="flex justify-center items-center gap-[24px] text-base 5xl:text-lg font-normal leading-[29px] py-[27px]">
                   <Image
-                    src="/assets/icons/phone.png"
+                    src="/assets/glitz/icons/phone.png"
                     alt="phone icon"
                     width={21}
                     height={21}
@@ -234,7 +234,7 @@ const Footer = () => {
                 </li>
                 <li className="flex justify-center items-center gap-[24px] text-base 5xl:text-lg font-normal leading-[29px]">
                   <Image
-                    src="/assets/icons/email.png"
+                    src="/assets/glitz/icons/email.png"
                     alt="email icon"
                     width={21}
                     height={21}
@@ -257,7 +257,7 @@ const Footer = () => {
           <div className="pt-[50px]">
             <div className="border border-white  mx-[30px]" />
             <p className="text-base font-medium pb-[15px] text-white text-center pt-[20px]">
-            © All Copyright 2024 by GLITZ FLOORS & MORE
+            © All Copyright 2024 by GLITZ FLOORS & MORE
             </p>
             <div className="flex justify-evenly">
               <p className="text-base font-medium text-white">
@@ -272,7 +272,7 @@ const Footer = () => {
               WEBSITE DESIGN AND SEO BY :-
             </p>
             <Image
-              src="/assets/images/goKundu__fb.png"
+              src="/assets/glitz/icons/gokundu.png"
               alt="company logo"
               width={112}
               height={28}
