@@ -11,7 +11,7 @@ const galleryData = [
 const Gallery = () => {
     return (
         <div>
-            <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4'>
+            <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 '>
                 {
                     galleryData?.map((data, index)=>{
                         return <Image key={index} src={data} alt='gallery' width={480} height={450}/>
