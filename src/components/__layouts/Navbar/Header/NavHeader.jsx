@@ -24,10 +24,10 @@ import "./NavHeader.css";
 // our services nav menu
 const our_service_menu_items = {
   interior: [
-    {
-      title: "Swimming Pool Contractors in Toronto",
-      route: "/swimming-pool-contractors-in-toronto",
-    },
+    // {
+    //   title: "Swimming Pool Contractors in Toronto",
+    //   route: "/swimming-pool-contractors-in-toronto",
+    // },
   ],
 };
 
@@ -276,14 +276,15 @@ export function NavHeader() {
                           Location
                         </p>
                         <p className="text-[15px] 2xl:text-base 5xl:text-lg font-bold text-black leading-normal pt-[3px] 5xl:pt-[5px]">
-                          16726 Huffmeister Road, D400, Cypress, Tx 77429
+                          <Link href="location : 16726 Huffmeister Road, D400, Cypress, Tx 77429">16726 Huffmeister Road, D400, Cypress, Tx 77429</Link>
+                          
                         </p>
                       </div>
                     </div>
 
                     <div>
                       <button className="flex items-center gap-[5px] text-base 5xl:text-lg font-bold text-primary leading-normal pt-[17px] pb-[14px] px-[17px] border-[2px] border-secondary rounded-[6px]">
-                        Get Free Quote{" "}
+                        <Link href="tel : (281) 758-5450">Get Free Quoteee</Link>
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="18"
