@@ -1,13 +1,18 @@
 import React from "react";
-import ServicesArea from "../home/ServicesArea/ServicesArea";
 import ContactUs from "../home/ContactUs/ContactUs";
-import ContactBanner from "./ContactBanner/ContactBanner";
+import ServicesArea from "../home/ServicesArea/ServicesArea";
+import GalleryBanner from "./GalleryBanner/GalleryBanner";
+import OurWork from "./OurWork/OurWork";
 
-const ContactUsPage = () => {
+const Gallery = () => {
   return (
     <div className="custom-container">
       <section>
-        <ContactBanner />
+        <GalleryBanner />
+      </section>
+
+      <section>
+        <OurWork />
       </section>
 
       <section>
@@ -21,4 +26,4 @@ const ContactUsPage = () => {
   );
 };
 
-export default ContactUsPage;
+export default Gallery;
