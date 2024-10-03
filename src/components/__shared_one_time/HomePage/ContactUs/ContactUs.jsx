@@ -107,9 +107,9 @@ const ContactUs = () => {
             <iframe
               className="w-full h-[400px] md:h-[550px]"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6827.416153838049!2d-95.67873389781465!3d29.996537571553294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640d57b61c6fd8d%3A0x2ba2182f0ab40249!2sGlitz%20Floors%20%26%20More!5e0!3m2!1sen!2sbd!4v1727705040633!5m2!1sen!2sbd"
-              allowfullscreen=""
+              allowFullScreen=""
               loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
+              referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
         </div>
