@@ -30,7 +30,12 @@ const Footer = () => {
             </div>
             {/* second div  */}
             <div className="col-span-2">
+<<<<<<< HEAD
               <p className="text-lg font-bold text-white pb-[17px] leading-[29px]">
+=======
+              <p className="flex items-center justify-start gap-[10px] 5xl:gap-[16px] text-lg font-bold text-white pb-[17px] leading-[29px]">
+              <Image src="/assets/glitz/icons/clock.png" alt="clock icon" width={24} height={24}/>
+>>>>>>> 499c20827ee17fe29b85527025d4082a85ced69e
                 Hours of Operations:
               </p>
               <ul className="text-white">
@@ -55,7 +60,12 @@ const Footer = () => {
             {/* third div  */}
             <div className="col-span-2">
               <div className="">
+<<<<<<< HEAD
                 <p className="text-lg font-bold text-white pb-[17px] leading-[29px]">
+=======
+                <p className="flex items-center justify-start gap-[10px] 5xl:gap-[16px] text-lg font-bold text-white pb-[17px] leading-[29px]">
+                <Image src="/assets/glitz/icons/setting.png" alt="setting icon" width={24} height={24}/>
+>>>>>>> 499c20827ee17fe29b85527025d4082a85ced69e
                   Our Services
                 </p>
                 <ul>
@@ -166,7 +176,12 @@ const Footer = () => {
           </div>
           {/* second div  */}
           <div className="pt-[28px] px-[30px]">
+<<<<<<< HEAD
           <p className="text-lg text-center font-bold text-white pb-[17px] leading-[29px]">
+=======
+          <p className="flex items-center justify-center gap-[10px] 5xl:gap-[16px] text-lg text-center font-bold text-white pb-[17px] leading-[29px]">
+                <Image src="/assets/glitz/icons/clock.png" alt="clock icon" width={24} height={24}/>
+>>>>>>> 499c20827ee17fe29b85527025d4082a85ced69e
                 Hours of Operations:
               </p>
               <ul className="text-white">
@@ -191,7 +206,12 @@ const Footer = () => {
           {/* third div  */}
           <div className="pt-[28px] px-[30px]">
           <div className="">
+<<<<<<< HEAD
                 <p className="text-lg text-center font-bold text-white pb-[17px] leading-[29px]">
+=======
+                <p className="flex items-center justify-center gap-[10px] 5xl:gap-[16px] text-lg text-center font-bold text-white pb-[17px] leading-[29px]">
+                <Image src="/assets/glitz/icons/setting.png" alt="setting icon" width={24} height={24}/>
+>>>>>>> 499c20827ee17fe29b85527025d4082a85ced69e
                   Our Services
                 </p>
                 <ul>

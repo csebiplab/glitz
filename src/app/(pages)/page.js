@@ -1,12 +1,13 @@
-import Homepage from '@/components/__shared_one_time/HomePage/Homepage';
+
+import HomePage from '@/components/__shared_one_time/HomePage/HomePage';
 import React from 'react';
 
-const Home = () => {
+const page = () => {
   return (
     <div>
-      <Homepage/>
+      <HomePage />
     </div>
   );
 };
 
-export default Home;
+export default page;
