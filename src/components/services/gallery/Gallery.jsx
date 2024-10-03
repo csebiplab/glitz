@@ -1,8 +1,8 @@
 import React from "react";
-import ContactUs from "../../__shared_one_time/HomePage/ContactUs/ContactUs";
-import ServicesArea from "../../__shared_one_time/HomePage/ServicesArea/ServicesArea";
 import GalleryBanner from "./GalleryBanner/GalleryBanner";
 import OurWork from "./OurWork/OurWork";
+import ContactUs from "@/components/__shared_one_time/HomePage/ContactUs/ContactUs";
+import ServicesArea from "@/components/__shared_one_time/HomePage/ServicesArea/ServicesArea";
 
 const Gallery = () => {
   return (

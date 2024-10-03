@@ -1,9 +1,9 @@
 import React from "react";
-import ContactUs from "../../__shared_one_time/HomePage/ContactUs/ContactUs";
-import ServicesArea from "../../__shared_one_time/HomePage/ServicesArea/ServicesArea";
 import AboutBanner from "./AboutBanner/AboutBanner";
 import AboutOur from "./AboutOur/AboutOur";
 import Dream from "./Dream/Dream";
+import ServicesArea from "@/components/__shared_one_time/HomePage/ServicesArea/ServicesArea";
+import ContactUs from "@/components/__shared_one_time/HomePage/ContactUs/ContactUs";
 
 const AboutUs = () => {
   return (
