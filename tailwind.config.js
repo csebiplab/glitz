@@ -54,6 +54,7 @@ module.exports = withMT({
                     200: "#0C1C3C",
                     300: "#898989",
                     400: "#F5F4F0",
+                    500: "#006D2E",
                 },
                 info: {
                     DEFAULT: "#33475B",
@@ -68,6 +69,9 @@ module.exports = withMT({
                     50: "#404040",
                     100: "#4A4A4A",
                     200: "#555555",
+                    300: "#A3A3A3",
+                    400: "#727272",
+                    500: "#2069C8",
                 },
                 warning: {
                     DEFAULT: "#FBCC21",
