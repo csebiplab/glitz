@@ -1,6 +1,6 @@
 import React from "react";
-import ContactUs from "../home/ContactUs/ContactUs";
-import ServicesArea from "../home/ServicesArea/ServicesArea";
+import ContactUs from "../../__shared_one_time/HomePage/ContactUs/ContactUs";
+import ServicesArea from "../../__shared_one_time/HomePage/ServicesArea/ServicesArea";
 import GalleryBanner from "./GalleryBanner/GalleryBanner";
 import OurWork from "./OurWork/OurWork";
 

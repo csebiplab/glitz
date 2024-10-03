@@ -1,0 +1,20 @@
+/* .contactUs_cart_bg{
+    fill: #F5F4F0;
+stroke-width: 0.5px;
+stroke: #505050;
+filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.25));
+} */
+.contactUs_cart_bg{
+    border-radius: 8px;
+    border: 1px solid #905C4C;
+}
+
+.input_bg{
+    border-radius: 6px;
+    background: rgba(144, 92, 76, 0.15);
+    box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.25);
+}
+.contact_btn{
+    border-radius: 8px;
+border: 1px solid #905C4C;
+}

@@ -76,7 +76,7 @@ const FlooringContractors = () => {
                   alt="flooring image"
                   width={104}
                   height={104}
-                  className="absolute left-0 right-0 -top-14 w-[104px] h-[104px] mx-auto border-[2px] border-primary p-[5px] rounded-full"
+                  className="absolute left-0 right-0 -top-14 w-[104px] h-[104px] mx-auto border-[2px] border-primary p-[5px] rounded-full bg-secondary-400"
                 />
                 <p className="text-[25px] font-bold text-center text-black pt-[65px]">
                   {data.title}
@@ -101,7 +101,7 @@ const FlooringContractors = () => {
                   alt="flooring image"
                   width={104}
                   height={104}
-                  className="absolute left-0 right-0 -top-14 w-[104px] h-[104px] mx-auto border-[2px] border-primary p-[5px] rounded-full"
+                  className="absolute left-0 right-0 -top-14 w-[104px] h-[104px] mx-auto border-[2px] border-primary p-[5px] rounded-full bg-secondary-400"
                 />
                 <p className="text-[25px] font-bold text-center text-black pt-[65px]">
                   {data.title}
@@ -146,7 +146,7 @@ const FlooringContractors = () => {
                 alt="flooring image"
                 width={104}
                 height={104}
-                className="absolute left-0 right-0 -top-14 w-[104px] h-[104px] mx-auto border-[2px] border-primary p-[5px] rounded-full"
+                className="absolute left-0 right-0 -top-14 w-[104px] h-[104px] mx-auto border-[2px] border-primary p-[5px] rounded-full bg-secondary-400"
               />
               <p className="text-[25px] font-bold text-center text-black pt-[65px]">
                 Add Rooms

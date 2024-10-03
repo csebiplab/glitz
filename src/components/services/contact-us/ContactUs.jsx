@@ -1,6 +1,6 @@
 import React from "react";
-import ServicesArea from "../home/ServicesArea/ServicesArea";
-import ContactUs from "../home/ContactUs/ContactUs";
+import ServicesArea from "../../__shared_one_time/HomePage/ServicesArea/ServicesArea";
+import ContactUs from "../../__shared_one_time/HomePage/ContactUs/ContactUs";
 import ContactBanner from "./ContactBanner/ContactBanner";
 
 const ContactUsPage = () => {
