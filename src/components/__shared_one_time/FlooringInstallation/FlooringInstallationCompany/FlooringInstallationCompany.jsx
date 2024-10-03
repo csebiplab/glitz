@@ -3,7 +3,7 @@ import { headingIconText } from "@/utils/heading-text";
 import Image from "next/image";
 import React from "react";
 
-const FlooringInstallation = () => {
+const FlooringInstallationCompany = () => {
   return (
     <div>
       <div className="container padding__all">
@@ -37,4 +37,4 @@ const FlooringInstallation = () => {
   );
 };
 
-export default FlooringInstallation;
+export default FlooringInstallationCompany;
