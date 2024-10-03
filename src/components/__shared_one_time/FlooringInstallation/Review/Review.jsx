@@ -17,15 +17,15 @@ import { Swiper, SwiperSlide } from "swiper/react";
 const breakpoints = {
   0: {
     slidesPerView: 1,
-    spaceBetween: 65,
+    spaceBetween: 20,
   },
   768: {
     slidesPerView: 2,
-    spaceBetween: 65,
+    spaceBetween: 20,
   },
   1024: {
     slidesPerView: 2,
-    spaceBetween: 65,
+    spaceBetween: 20,
   },
 };
 
@@ -151,7 +151,7 @@ const Review = () => {
               </div>
 
               {/* review data  */}
-              <div className="pt-[50px] pb-[30px]">
+              <div className="pt-[15px] pb-[20px]">
                 {/* ==================== swiper slider ================ */}
                 <Swiper
                   className="brand__bg border-2 border-gray-200 shadow-lg"
