@@ -25,13 +25,8 @@ import "./NavHeader.css";
 const our_service_menu_items = {
   interior: [
     {
-<<<<<<< HEAD
-      title: "Swimming Pool Contractors in Toronto",
-      route: "/swimming-pool-contractors-in-toronto",
-=======
       title: "Flooring Installation",
       route: "/flooring-installation",
->>>>>>> 499c20827ee17fe29b85527025d4082a85ced69e
     },
   ],
 };
@@ -88,11 +83,7 @@ function OurServiceManu() {
             </ListItem>
           </div>
         </MenuHandler>
-<<<<<<< HEAD
-        <MenuList className="hidden max-w-[100vw] w-screen lg:block border-0 outline-0 bg-gray-100">
-=======
         <MenuList className="hidden max-w-[100vw] w-screen lg:block border-0 outline-0 bg-gray-100 -mt-1">
->>>>>>> 499c20827ee17fe29b85527025d4082a85ced69e
           <div className="container grid grid-cols-3 gap-y-2">
             <div>
               <h3 className="mb-1 text-primary-600 font-semibold">Interior</h3>
@@ -131,11 +122,7 @@ function NavList() {
     <List className="mt-4 mb-6 p-0 lg:mt-0 lg:mb-0 lg:flex-row md:items-center border-0 outline-none">
       <Typography
         as={Link}
-<<<<<<< HEAD
-        href="/home"
-=======
         href="/"
->>>>>>> 499c20827ee17fe29b85527025d4082a85ced69e
         variant="small"
         color="blue-gray"
         className="font-medium rounded-full text-sm lg:text-sm xl:text-base 2xl:text-lg"
@@ -249,11 +236,7 @@ export function NavHeader() {
                   alt="nav logo"
                   width={258}
                   height={166}
-<<<<<<< HEAD
-                  className="w-[200px] 5xl:w-[258px] h-[120px] 5xl:h-[166px]"
-=======
                   className="w-[200px] 5xl:w-[258px] h-[100px] 5xl:h-[120px]"
->>>>>>> 499c20827ee17fe29b85527025d4082a85ced69e
                 />
                 <span className="sr-only">Home</span>
               </Link>
@@ -267,15 +250,9 @@ export function NavHeader() {
                         <Image
                           src="/assets/glitz/icons/phone_icon.png"
                           alt="phone icon"
-<<<<<<< HEAD
-                          width={45}
-                          height={45}
-                          className="w-[35px] h-[35px] 5xl:w-[45px] 5xl:h-[45px]"
-=======
                           width={35}
                           height={35}
                           className="w-[25px] h-[25px] 5xl:w-[35px] 5xl:h-[35px]"
->>>>>>> 499c20827ee17fe29b85527025d4082a85ced69e
                         />{" "}
                         <Link
                           className="text-lg 2xl:text-[20px] 5xl:text-[25px] font-bold text-black leading-normal"
@@ -290,40 +267,25 @@ export function NavHeader() {
                       <Image
                         src="/assets/glitz/icons/google_map.png"
                         alt="map icon"
-<<<<<<< HEAD
-                        width={45}
-                        height={45}
-                        className="w-[35px] h-[35px] 5xl:w-[45px] 5xl:h-[45px]"
-=======
                         width={35}
                         height={35}
                         className="w-[25px] h-[25px] 5xl:w-[35px] 5xl:h-[35px]"
->>>>>>> 499c20827ee17fe29b85527025d4082a85ced69e
                       />
                       <div>
                         <p className="text-sm font-normal text-black leading-normal">
                           Location
                         </p>
-<<<<<<< HEAD
-                        <p className="text-[15px] 2xl:text-base 5xl:text-lg font-bold text-black leading-normal pt-[3px] 5xl:pt-[5px]">
-                          16726 Huffmeister Road, D400, Cypress, Tx 77429
-=======
                         <p className="text-sm 5xl:text-base font-bold text-black leading-normal pt-[3px] 5xl:pt-[5px]">
-                          <Link href="location : 16726 Huffmeister Road, D400, Cypress, Tx 77429">16726 Huffmeister Road, D400, Cypress, Tx 77429</Link>
-                          
->>>>>>> 499c20827ee17fe29b85527025d4082a85ced69e
+                          <Link href="location : 16726 Huffmeister Road, D400, Cypress, Tx 77429">
+                            16726 Huffmeister Road, D400, Cypress, Tx 77429
+                          </Link>
                         </p>
                       </div>
                     </div>
 
                     <div>
-<<<<<<< HEAD
-                      <button className="flex items-center gap-[5px] text-base 5xl:text-lg font-bold text-primary leading-normal pt-[17px] pb-[14px] px-[17px] border-[2px] border-secondary rounded-[6px]">
-                        Get Free Quote{" "}
-=======
                       <button className="flex items-center gap-[5px] text-sm 5xl:text-base font-bold text-primary leading-normal py-[8px] px-[14px] border-[2px] border-secondary rounded-[6px]">
                         <Link href="tel : (281) 758-5450">Get Free Quote</Link>
->>>>>>> 499c20827ee17fe29b85527025d4082a85ced69e
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="18"
@@ -355,19 +317,17 @@ export function NavHeader() {
             hideOnScroll ? "hidden" : ""
           }`}
         >
-<<<<<<< HEAD
-          <div className="bg-secondary py-[10px]">
-            <p className="text-lg font-bold text-white leading-normal text-center">FLOORS NOW, PAY OVER TIME</p>
-            <p className="text-sm font-bold text-white leading-normal text-center pb-[10px]">Convenient monthly payments to fit your budget1</p>
-            <div className="flex justify-center items-center">
-            <button className="text-base font-bold leading-normal text-white py-[10px] px-[8px] rounded-[6px] border-[2px] border-white">View Financing Option</button>
-=======
           <div className="bg-secondary py-[6px]">
-            <p className="text-lg font-bold text-white leading-normal text-center">FLOORS NOW, PAY OVER TIME</p>
-            <p className="text-sm font-bold text-white leading-normal text-center pb-[10px]">Convenient monthly payments to fit your budget1</p>
+            <p className="text-lg font-bold text-white leading-normal text-center">
+              FLOORS NOW, PAY OVER TIME
+            </p>
+            <p className="text-sm font-bold text-white leading-normal text-center pb-[10px]">
+              Convenient monthly payments to fit your budget1
+            </p>
             <div className="flex justify-center items-center">
-            <button className="text-base font-bold leading-normal text-white p-[8px] rounded-[6px] border-[2px] border-white">View Financing Option</button>
->>>>>>> 499c20827ee17fe29b85527025d4082a85ced69e
+              <button className="text-base font-bold leading-normal text-white p-[8px] rounded-[6px] border-[2px] border-white">
+                View Financing Option
+              </button>
             </div>
           </div>
         </div>
@@ -379,11 +339,7 @@ export function NavHeader() {
               alt="nav logo"
               width={142}
               height={91}
-<<<<<<< HEAD
-              className="w-[142px] h-[91px]"
-=======
               className="w-[142px] h-[80px]"
->>>>>>> 499c20827ee17fe29b85527025d4082a85ced69e
             />
           </div>
 
@@ -419,7 +375,7 @@ export function NavHeader() {
         className="p-4 overflow-y-auto pb-24 !z-[1000000000000000000] bg-secondary-400"
       >
         <div className="mb-6 flex items-center justify-between ">
-          <Typography variant="p" color="blue-gray">
+          <Typography variant="paragraph" color="blue-gray">
             Glitz Floors & More
           </Typography>
           <IconButton
