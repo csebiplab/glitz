@@ -2,7 +2,6 @@ import React from 'react';
 import AboutUs from './AboutUs/AboutUs';
 import Installation from './Installation/Installation';
 import ResidentialCommercial from './ResidentialCommercial/ResidentialCommercial';
-import FlooringInstallation from './FlooringInstallation/FlooringInstallation';
 import BestFlooring from './BestFlooring/BestFlooring';
 import TrustUs from './TrustUs/TrustUs';
 import FloorsNow from './FloorsNow/FloorsNow';
@@ -18,6 +17,8 @@ import HomeBanner from './HomeBanner/HomeBanner';
 import WorkingProcess from './WorkingProcess/WorkingProcess';
 import FlooringContractors from './FlooringContractors/FlooringContractors';
 import ContactUs from './ContactUs/ContactUs';
+import Review from './Review/Review';
+import FlooringInstallationCompany from './FlooringInstallationCompany/FlooringInstallationCompany';
 
 const FlooringInstallationServices = () => {
     return (
@@ -44,7 +45,7 @@ const FlooringInstallationServices = () => {
             </section>
             
             <section>
-                <FlooringInstallation/>
+                <FlooringInstallationCompany/>
             </section>
 
             <section>
@@ -65,6 +66,10 @@ const FlooringInstallationServices = () => {
 
             <section>
                 <ProjectGallery/>
+            </section>
+            
+            <section>
+                <Review/>
             </section>
 
             <section>
