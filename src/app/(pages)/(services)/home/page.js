@@ -1,10 +1,10 @@
-import AboutUs from '@/components/services/about-us/AboutUs';
+import Home from '@/components/services/home/Home';
 import React from 'react';
 
 const page = () => {
     return (
         <div>
-            <AboutUs />
+            <Home/>
         </div>
     );
 };

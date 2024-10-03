@@ -276,8 +276,9 @@ export function NavHeader() {
                           Location
                         </p>
                         <p className="text-sm 5xl:text-base font-bold text-black leading-normal pt-[3px] 5xl:pt-[5px]">
-                          <Link href="location : 16726 Huffmeister Road, D400, Cypress, Tx 77429">16726 Huffmeister Road, D400, Cypress, Tx 77429</Link>
-                          
+                          <Link href="location : 16726 Huffmeister Road, D400, Cypress, Tx 77429">
+                            16726 Huffmeister Road, D400, Cypress, Tx 77429
+                          </Link>
                         </p>
                       </div>
                     </div>
@@ -317,10 +318,16 @@ export function NavHeader() {
           }`}
         >
           <div className="bg-secondary py-[6px]">
-            <p className="text-lg font-bold text-white leading-normal text-center">FLOORS NOW, PAY OVER TIME</p>
-            <p className="text-sm font-bold text-white leading-normal text-center pb-[10px]">Convenient monthly payments to fit your budget1</p>
+            <p className="text-lg font-bold text-white leading-normal text-center">
+              FLOORS NOW, PAY OVER TIME
+            </p>
+            <p className="text-sm font-bold text-white leading-normal text-center pb-[10px]">
+              Convenient monthly payments to fit your budget1
+            </p>
             <div className="flex justify-center items-center">
-            <button className="text-base font-bold leading-normal text-white p-[8px] rounded-[6px] border-[2px] border-white">View Financing Option</button>
+              <button className="text-base font-bold leading-normal text-white p-[8px] rounded-[6px] border-[2px] border-white">
+                View Financing Option
+              </button>
             </div>
           </div>
         </div>
@@ -368,7 +375,7 @@ export function NavHeader() {
         className="p-4 overflow-y-auto pb-24 !z-[1000000000000000000] bg-secondary-400"
       >
         <div className="mb-6 flex items-center justify-between ">
-          <Typography variant="p" color="blue-gray">
+          <Typography variant="paragraph" color="blue-gray">
             Glitz Floors & More
           </Typography>
           <IconButton

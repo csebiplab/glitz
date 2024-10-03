@@ -100,8 +100,8 @@ module.exports = withMT({
             fontFamily: {
                 naomi: ['var(--font-naomi)'],
                 lucida: ['var(--font-lucidaGrande)'],
-              },
-              
+            },
+
         },
     },
     plugins: [
