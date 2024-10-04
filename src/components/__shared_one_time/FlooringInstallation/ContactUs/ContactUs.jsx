@@ -76,13 +76,14 @@ const ContactUs = () => {
                   Best Floor Installation Company in TX
                   </p>
                   <Image
-                    src="/assets/glitz/socials/contact_logo.png"
+                    // src="/assets/glitz/socials/contact_logo.png"
+                    src="/assets/glitz/logo/nav_logo.png"
                     alt="contact us logo"
                     width={258}
                     height={166}
                     className="py-[15px] xl:py-[20px] 5xl:py-[25px]"
                   />
-                  <p className="text-[20px] 5xl:text-[25px] font-bold leading-normal text-primary text-center md:text-left">Glitz Floors & More</p>
+                  <p className="text-[25px] font-bold leading-normal text-primary text-center md:text-left">Glitz Floors & More</p>
                 </div>
               </div>
               <div className="md:col-span-3 flex items-center">
@@ -113,7 +114,7 @@ const ContactUs = () => {
                           Your Email <sup>*</sup>
                         </label>
                         <input
-                          className="w-full input_bg py-[13px] pl-[16px] placeholder:text-black placeholder:text-sm placeholder:font-normal"
+                          className="w-full input_bg py-[13px] pl-[16px] placeholder:text-black placeholder:text-xs md:text-sm placeholder:font-normal"
                           type="email"
                           placeholder="info.example@gmail.com"
                         />
@@ -144,7 +145,7 @@ const ContactUs = () => {
                         <input
                           className="w-full input_bg py-[13px] pl-[16px] placeholder:text-black placeholder:text-sm placeholder:font-normal"
                           type="number"
-                          placeholder="+88 01764912536"
+                          placeholder="(281) 758-5450"
                         />
                       </div>
                     </div>
