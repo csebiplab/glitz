@@ -79,8 +79,8 @@ const Brand = () => {
             <SwiperSlide
               className={`px-[30px] md:px-0 py-[15px] !w-full !h-auto !md:h-full`}
             >
-              <div className="w-full !flex items-center gap-6 5xl:gap-16">
-                <div className="pl-6 5xl:pl-14">
+              <div className="w-full !flex items-center gap-5 5xl:gap-16">
+                <div className="pl-5 5xl:pl-14">
                   <p className="text-xs 5xl:text-sm text-secondary font-bold leading-normal pb-[7px]">Verifying Review From Trusted Site: </p>
                   <Image
                     src="/assets/glitz/icons/five_star.png"
@@ -132,7 +132,7 @@ const Brand = () => {
                     alt="brand image"
                     height={31}
                     width={196}
-                    className="w-auto h-[31px] pr-4"
+                    className="w-auto h-[31px] pr-3"
                   />
                 </div>
               </div>

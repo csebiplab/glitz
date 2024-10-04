@@ -126,8 +126,8 @@ const Footer = () => {
                     width={21}
                     height={21}
                   />
-                  <Link className="text-white" href="tel : +1 281-758-5450">
-                    +1 281-758-5450
+                  <Link className="text-white" href="tel : (281) 758-5450">
+                  (281) 758-5450
                   </Link>
                 </li>
                 <li className="flex items-center gap-[24px] text-base 5xl:text-lg font-normal leading-[29px]">
@@ -156,7 +156,7 @@ const Footer = () => {
         {/* footer bottom  */}
         <div className="bg-primary py-[17px] container flex justify-between items-center">
           <div className="flex items-center gap-[15px]">
-            <p className="text-base font-semibold text-white">
+            <p className="text-sm 5xl:text-base font-semibold text-white">
               WEBSITE DESIGN AND SEO BY :-
             </p>
             <Image
@@ -167,15 +167,15 @@ const Footer = () => {
             />
           </div>
           <div>
-            <p className="text-base font-medium text-white">
+            <p className="text-sm 5xl:text-base font-medium text-white">
               © All Copyright 2024 by GLITZ FLOORS & MORE
             </p>
           </div>
           <div className="flex items-center justify-between gap-[5px]">
-            <p className="text-base font-medium text-white">
+            <p className="text-sm 5xl:text-base font-medium text-white pr-4">
               Terms & Condition
             </p>
-            <p className="text-base font-medium text-white">Privacy Policy</p>
+            <p className="text-sm 5xl:text-base font-medium text-white">Privacy Policy</p>
           </div>
         </div>
       </div>
@@ -294,8 +294,8 @@ const Footer = () => {
                   width={21}
                   height={21}
                 />
-                <Link className="text-white" href="tel : +1 281-758-5450">
-                  +1 281-758-5450
+                <Link className="text-white" href="tel : (281) 758-5450">
+                (281) 758-5450
                 </Link>
               </li>
               <li className="flex justify-center items-center gap-[24px] text-base 5xl:text-lg font-normal leading-[29px]">
