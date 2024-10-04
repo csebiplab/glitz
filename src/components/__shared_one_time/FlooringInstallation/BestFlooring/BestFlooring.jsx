@@ -45,9 +45,9 @@ const BestFlooring = () => {
                 elegance of your home or upgrading a commercial space, our
                 commitment to quality and attention to detail set us apart.
               </p>
-              <div className="flex justify-start items-center gap-[30px] 5xl:gap-[35px] pt-[20px] xl:pt-[30px] 5xl:pt-[40px]">
+              <div className="flex justify-start items-center gap-[25px] 5xl:gap-[35px] pt-[20px] xl:pt-[30px] 5xl:pt-[40px]">
                 <div className="">
-                  <button className="flex items-center gap-[5px] text-base md:text-lg font-bold md:font-normal text-primary leading-normal best_flooring_btn_bg px-[15px] md:px-[30px] 5xl:px-[35px] py-[17px]">
+                  <button className="flex items-center gap-[5px] text-base md:text-lg font-bold md:font-normal text-primary leading-normal best_flooring_btn_bg px-[10px] md:px-[30px] 5xl:px-[35px] py-[14px] md:py-[17px]">
                     Contact Us{" "}
                     <svg
                       xmlns="http://www.w3.org/2000/svg"

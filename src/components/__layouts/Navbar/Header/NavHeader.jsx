@@ -21,6 +21,9 @@ import React, { useState, useEffect } from "react";
 import UpperNavbar from "./UpperNavbar";
 import "./NavHeader.css";
 
+import { LuPhoneCall } from "react-icons/lu";
+import { FaMapMarkerAlt } from "react-icons/fa";
+
 // our services nav menu
 const our_service_menu_items = {
   interior: [
@@ -232,7 +235,7 @@ export function NavHeader() {
             <div className="flex items-center gap-[5px] text-blue-gray-900">
               <Link href="/" aria-label="Home">
                 <Image
-                  src="/assets/glitz/icons/nav_brand.png"
+                  src="/assets/glitz/logo/nav_logo.png"
                   alt="nav logo"
                   width={258}
                   height={166}
@@ -247,13 +250,14 @@ export function NavHeader() {
                     <div>
                       <button className="flex items-center gap-[8px] 5xl:gap-[18px]">
                         {" "}
-                        <Image
+                        {/* <Image
                           src="/assets/glitz/icons/phone_icon.png"
                           alt="phone icon"
                           width={35}
                           height={35}
                           className="w-[25px] h-[25px] 5xl:w-[35px] 5xl:h-[35px]"
-                        />{" "}
+                        />{" "} */}
+                        <LuPhoneCall className="w-[25px] h-[25px] 5xl:w-[35px] 5xl:h-[35px] text-primary"/>
                         <Link
                           className="text-lg 2xl:text-[20px] 5xl:text-[25px] font-bold text-black leading-normal"
                           href="tel : (281) 758-5450"
@@ -264,13 +268,14 @@ export function NavHeader() {
                     </div>
                     {/* second div  */}
                     <div className="flex items-center gap-[8px] 5xl:gap-[15px]">
-                      <Image
+                      {/* <Image
                         src="/assets/glitz/icons/google_map.png"
                         alt="map icon"
                         width={35}
                         height={35}
                         className="w-[25px] h-[25px] 5xl:w-[35px] 5xl:h-[35px]"
-                      />
+                      /> */}
+                      <FaMapMarkerAlt className="w-[25px] h-[25px] 5xl:w-[35px] 5xl:h-[35px] text-primary" />
                       <div>
                         <p className="text-sm font-normal text-black leading-normal">
                           Location
@@ -335,7 +340,7 @@ export function NavHeader() {
         <div className="w-full bg__color !bg-secondary-400 flex justify-between items-center px-[20px] sm:px-[30px] pb-[6px]">
           <div className="block md:hidden">
             <Image
-              src="/assets/glitz/images/sm_nab_logo.png"
+              src="/assets/glitz/logo/nav_logo.png"
               alt="nav logo"
               width={142}
               height={91}

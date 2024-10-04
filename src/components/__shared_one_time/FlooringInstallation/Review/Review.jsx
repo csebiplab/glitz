@@ -91,8 +91,8 @@ const Review = () => {
           </h2>
         </div>
         <div>
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-[35px]">
-            <div className="md:col-span-1">
+          <div className=" grid grid-cols-1 md:grid-cols-4 gap-[35px]">
+            <div className="hidden md:block md:col-span-1">
               <Image
                 src="/assets/glitz/images/glitz_floor_map.png"
                 alt="glitz floor map"
@@ -100,8 +100,9 @@ const Review = () => {
                 height={655}
               />
             </div>
-            <div className="md:col-span-3 right__side__bg py-[15px] px-[30px]">
-              <div className="flex items-center justify-between">
+            <div className="md:col-span-3 right__side__bg py-[30px] md:py-[15px] px-[7px] md:px-[30px]">
+              {/* medium device  */}
+              <div className="hidden md:block flex items-center justify-between">
                 {/* left side  */}
                 <div>
                   {/* first div  */}
@@ -149,6 +150,55 @@ const Review = () => {
                   </button>
                 </div>
               </div>
+              {/* small device  */}
+              <div className=" block md:hidden flex flex-col items-center justify-between">
+                {/* left side  */}
+                <div>
+                  {/* first div  */}
+                  <div className="flex items-center gap-[10px]">
+                    <Image
+                      src="/assets/glitz/icons/google.png"
+                      alt="google logo"
+                      width={198}
+                      height={67}
+                      className="w-[198px] h-[67px]"
+                    />
+                    <p className="text-[35px] font-normal text-black leading-normal">
+                      {" "}
+                      Rating
+                    </p>
+                  </div>
+                  {/* second div  */}
+                  <div className="flex items-center gap-[15px] pt-[7px]">
+                    <p className="text-[25px] font-normal text-black leading-normal">
+                      5.0
+                    </p>
+                    <Image
+                      src="/assets/glitz/icons/orange_five_star.png"
+                      alt="five star icon"
+                      width={152}
+                      height={23}
+                      className="w-[152px] h-[23px]"
+                    />
+                    <p className="text-base font-bold text-dark-300 leading-normal">
+                      70 Reviews
+                    </p>
+                  </div>
+                </div>
+                {/* right side  */}
+                <div className="py-[30px]">
+                  <button className="btn__bg_review text-lg font-normal text-white leading-normal py-[15px] px-[51px]">
+                    <Link
+                      className="text-white"
+                      href="https://www.google.com/maps/place/Glitz+Floors+%26+More/@29.9959279,-95.6764372,18z/data=!4m6!3m5!1s0x8640d57b61c6fd8d:0x2ba2182f0ab40249!8m2!3d29.9953107!4d-95.6768084!16s%2Fg%2F11ks0hzyn5?entry=ttu&g_ep=EgoyMDI0MDkzMC4wIKXMDSoASAFQAw%3D%3D"
+                      rel="nofollow"
+                      target="_blank"
+                    >
+                      Write a Review
+                    </Link>
+                  </button>
+                </div>
+              </div>
 
               {/* review data  */}
               <div className="pt-[15px] pb-[20px]">
@@ -171,7 +221,7 @@ const Review = () => {
                   {reviewData.map((data) => (
                     <SwiperSlide
                       key={data.id}
-                      className={`px-[30px] md:px-0 py-[15px] !h-auto !md:h-full`}
+                      className={` px-[12px] md:px-[30px] md:px-0 py-[15px] !h-auto !md:h-full`}
                     >
                       <div className="px-2">
                         <div className="flex items-center gap-[10px]">
@@ -209,49 +259,12 @@ const Review = () => {
                     </SwiperSlide>
                   ))}
                 </Swiper>
-                {/* {reviewData?.map((data) => {
-                  return (
-                    <div key={data.id}>
-                      <div>
-                        <div className="flex items-center gap-[10px]">
-                          <p className="bg-secondary-500 py-[3px] px-[15px] rounded-[50px] text-white text-[25px] font-normal text-white leading-normal">{data.sort_name}</p>
-                          <div>
-                            <p>{data.name}</p>
-                            <div className="flex items-center gap-[10px]">
-                              <Image
-                                src={data.star}
-                                alt="star icon"
-                                width={102}
-                                height={15}
-                              />
-                              <p>{data.date}</p>
-                            </div>
-                          </div>
-                        </div>
-
-                        <p>{data.review}</p>
-                        <div className="flex items-center gap-[5px]">
-                          <Image
-                            src={data.g}
-                            alt="google icon"
-                            width={41}
-                            height={41}
-                          />
-                          <div>
-                            <p>{data.post}</p>
-                            <p>{data.google}</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  );
-                })} */}
               </div>
 
               {/* iframe part  */}
               <div>
                 <iframe
-                  className="w-[650px] 5xl:w-[854px] h-[241px] mx-auto"
+                  className="w-[351px] md:w-[650px] 5xl:w-[854px] h-[232px] md:h-[241px] mx-auto"
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3455.447120258608!2d-95.67938332584252!3d29.995315320899294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640d57b61c6fd8d%3A0x2ba2182f0ab40249!2sGlitz%20Floors%20%26%20More!5e0!3m2!1sen!2sbd!4v1727966194157!5m2!1sen!2sbd"
                   width="854"
                   height="241"

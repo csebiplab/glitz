@@ -171,7 +171,7 @@ const FlooringContractors = () => {
               </p>
               <div className="flex justify-between items-center pt-[35px]">
               <div className="">
-              <button className="text-lg font-normal text-primary flooring_btn_bg p-[17px]">Get Free Quote</button>
+              <button className="text-lg font-normal text-primary flooring_btn_bg p-[10px] md:p-[17px]">Get Free Quote</button>
               </div>
               <p className="text-lg font-bold text-black leading-normal">Or</p>
               <Image

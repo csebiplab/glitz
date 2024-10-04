@@ -17,7 +17,8 @@ const Footer = () => {
             {/* first div  */}
             <div className="col-span-2">
               <Image
-                src="/assets/glitz/icons/footer_brand_logo.png"
+                // src="/assets/glitz/icons/footer_brand_logo.png"
+                src="/assets/glitz/logo/nav_logo.png"
                 alt="footer logo"
                 width={144}
                 height={148}
@@ -185,15 +186,16 @@ const Footer = () => {
           {/* first div  */}
           <div className="pt-[45px] px-[30px]">
             <Image
-              src="/assets/glitz/icons/footer_brand_logo.png"
+              // src="/assets/glitz/icons/footer_brand_logo.png"
+              src="/assets/glitz/logo/nav_logo.png"
               alt="footer logo"
               width={144}
               height={148}
               className="w-[144px] h-[148px] mx-auto pb-[22px]"
             />
-            <p className="text-black text-lg font-bold pb-[5px] text-center">
+            {/* <p className="text-black text-lg font-bold pb-[5px] text-center">
               GLITZ FLOORS & MORE
-            </p>
+            </p> */}
             <p className="text-lg font-bold text-white leading-[30px] text-center">
               If you're in the Cypress area and looking for expert flooring and
               remodeling services, contact us today.
