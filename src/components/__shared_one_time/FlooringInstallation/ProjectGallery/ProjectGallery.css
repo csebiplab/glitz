@@ -1,4 +1,4 @@
 .btn__bg{
     border-radius: 6px;
-    border: 1.5px solid #1F1D20;
+    border: 1.5px solid #1F1D20 !important;
 }

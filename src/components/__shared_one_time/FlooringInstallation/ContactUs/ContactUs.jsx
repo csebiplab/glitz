@@ -44,8 +44,8 @@ const ContactUs = () => {
                       height={29}
                     />
 
-                    <a className="text-primary" href="tel:+1 281-758-5450">
-                    +1 281-758-5450
+                    <a className="text-primary" href="tel:(281) 758-5450">
+                    (281) 758-5450
                     </a>
                   </p>
                   <p className="flex items-center justify-center md:justify-start gap-[15px] text-base 5xl:text-lg text-primary font-normal">

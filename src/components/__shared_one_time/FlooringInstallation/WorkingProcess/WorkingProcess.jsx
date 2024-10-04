@@ -76,8 +76,8 @@ const WorkingProcess = () => {
           })}
         </div>
         {/* second div  */}
-        <div className="flex flex-col xl:flex-row gap-[60px] 5xl:gap-[75px] pt-[60px] 5xl:pt-[75px]">
-        <div className="w-full xl:w-1/3 relative">
+        <div className="flex flex-col xl:flex-row pt-[60px] 5xl:pt-[75px]">
+        <div className="w-full xl:w-1/3 relative mr-[25px] md:mr-[50px] 5xl:mr-[75px]">
           <Image
             src="/assets/glitz/working/working7.png"
             alt="working image"
@@ -93,7 +93,7 @@ const WorkingProcess = () => {
           </p>
           <div className="absolute bottom-0 w-full h-[2px] bg-secondary-300" />
         </div>
-        <div className="w-full xl:w-1/3">
+        <div className="w-full xl:w-1/3 ">
         <Image
             src="/assets/glitz/working/working.png"
             alt="working image"
@@ -102,7 +102,7 @@ const WorkingProcess = () => {
             className="w-[400px] h-[351px] mx-auto"
           />
         </div>
-        <div className="w-full xl:w-1/3">
+        <div className="w-full xl:w-1/3 bg-secondary-700 pl-[25px] md:pl-[50px] 5xl:pl-[75px]">
             <Image
             src="/assets/glitz/working/working_logo.png"
             alt="working logo image"
