@@ -5,6 +5,6 @@
 }
 .btn__bg_services{
     border-radius: 8px;
-    border: 1.5px solid #DDD;
+    border: 1.5px solid #DDD !important;
     background: #F2FCFF;
 }

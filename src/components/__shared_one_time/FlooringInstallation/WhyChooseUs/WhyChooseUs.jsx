@@ -127,8 +127,8 @@ const WhyChooseUs = () => {
               </div>
             </div>
             <div className="border-2 my-6 md:my-0 cart2">
-              <p className="flex items-center gap-[10px] title-bg2 text-center 2xl:py-[15px] py-[14px] text-black text-base md:text-lg font-bold">
-              <Image className="pl-[5px]" src="/assets/glitz/logo/why_chose_us_logo.png" alt="bland logo" width={80} height={80}/>
+              <p className="flex items-center gap-[5px] 5xl:gap-[10px] title-bg2 text-center 2xl:py-[15px] py-[14px] text-black text-base md:text-lg font-bold">
+              <Image className="pl-[3px] 5xl:pl-[5px]" src="/assets/glitz/logo/why_chose_us_logo.png" alt="bland logo" width={80} height={80}/>
               Our Flooring Company
               </p>
               <div className="grid grid-rows-8 3xl:py-[35px] py-[25px] px-[20px] 2xl:text-[16px] lg:text-sm xs:text-[9px]">
