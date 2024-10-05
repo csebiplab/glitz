@@ -239,7 +239,7 @@ export function NavHeader() {
                   alt="nav logo"
                   width={258}
                   height={166}
-                  className="w-[200px] 5xl:w-[258px] h-[100px] 5xl:h-[120px]"
+                  className="w-full"
                 />
                 <span className="sr-only">Home</span>
               </Link>
@@ -344,7 +344,7 @@ export function NavHeader() {
               alt="nav logo"
               width={142}
               height={91}
-              className="w-[142px] h-[80px]"
+              className="w-full"
             />
           </div>
 
