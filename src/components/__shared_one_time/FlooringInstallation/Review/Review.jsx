@@ -32,12 +32,12 @@ const breakpoints = {
 const reviewData = [
   {
     id: 1,
-    sort_name: "L",
-    name: "Lauren McKinley",
+    sort_name: "S",
+    name: "Steven Norris",
     star: "/assets/glitz/icons/orange_small_start.png",
-    date: "02 August 2024",
+    date: "31 August 2024",
     review:
-      "Karim and his team are absolutely phenomenal. They were the perfect crew to work with to modernize our 90s home. They put in new floors and completed painting throughout the house.  Their professionalism is top-notch.",
+      "I can't say enough about Glitz Floors and More. From start to finish Zaid, our salesman, was great. He was informative, proactive, helpful, attentive, caring, and patient - Never pushy.",
     g: "/assets/glitz/icons/g.png",
     post: "Posted on",
     google: "Google",
@@ -56,24 +56,72 @@ const reviewData = [
   },
   {
     id: 3,
-    sort_name: "L",
-    name: "Lauren McKinley",
+    sort_name: "S",
+    name: "Suchithra Nagarajan",
     star: "/assets/glitz/icons/orange_small_start.png",
-    date: "02 August 2024",
+    date: "February 11",
     review:
-      "Karim and his team are absolutely phenomenal. They were the perfect crew to work with to modernize our 90s home. They put in new floors and completed painting throughout the house.  Their professionalism is top-notch.",
+      "We had our entire downstairs flooring redone with Glitz Floors and More. We also had the walls of the kitchen, dining room and study painted. We had them sand and paint the kitchen cabinets and also replace the hinges and knobs.",
     g: "/assets/glitz/icons/g.png",
     post: "Posted on",
     google: "Google",
   },
   {
     id: 4,
-    sort_name: "L",
-    name: "Lauren McKinley",
+    sort_name: "M",
+    name: "Michele Lawson",
     star: "/assets/glitz/icons/orange_small_start.png",
-    date: "02 August 2024",
+    date: "February 11",
     review:
-      "Karim and his team are absolutely phenomenal. They were the perfect crew to work with to modernize our 90s home. They put in new floors and completed painting throughout the house.  Their professionalism is top-notch.",
+      "I highly recommend Glitz Floors and More!! I removed the carpet and replaced it with luxury vinyl flooring and had my room painted..  Mr Karim was so nice and his guys did an awesome job!!!",
+    g: "/assets/glitz/icons/g.png",
+    post: "Posted on",
+    google: "Google",
+  },
+  {
+    id: 5,
+    sort_name: "M",
+    name: "Michele Lawson",
+    star: "/assets/glitz/icons/orange_small_start.png",
+    date: "February 11",
+    review:
+      "I highly recommend Glitz Floors and More!! I removed the carpet and replaced it with luxury vinyl flooring and had my room painted..  Mr Karim was so nice and his guys did an awesome job!!!",
+    g: "/assets/glitz/icons/g.png",
+    post: "Posted on",
+    google: "Google",
+  },
+  {
+    id: 6,
+    sort_name: "L",
+    name: "Laura Gonzalez",
+    star: "/assets/glitz/icons/orange_small_start.png",
+    date: "February 11",
+    review:
+      "What an amazing transformation! Glitz Floors & More did a wonderful job transforming our dingy, stinky carpet into beautiful vinyl flooring that looks so classy now! We've been wanting to make this transformation for years and have been",
+    g: "/assets/glitz/icons/g.png",
+    post: "Posted on",
+    google: "Google",
+  },
+  {
+    id: 7,
+    sort_name: "J",
+    name: "Jaymi Bertone",
+    star: "/assets/glitz/icons/orange_small_start.png",
+    date: "February 11",
+    review:
+      "Glitz Floor and More remodeled two of my upstairs bathrooms (a bathtub to shower conversion and a Jack and Jill rehab). Karim was instrumental in the design which was extremely helpful.  The team was professional.",
+    g: "/assets/glitz/icons/g.png",
+    post: "Posted on",
+    google: "Google",
+  },
+  {
+    id: 8,
+    sort_name: "S",
+    name: "Suchithra Nagarajan",
+    star: "/assets/glitz/icons/orange_small_start.png",
+    date: "February 11",
+    review:
+      "We had our entire downstairs flooring redone with Glitz Floors and More. We also had the walls of the kitchen, dining room and study painted. We had them sand and paint the kitchen cabinets and also replace the hinges and knobs.",
     g: "/assets/glitz/icons/g.png",
     post: "Posted on",
     google: "Google",
@@ -102,56 +150,59 @@ const Review = () => {
             </div>
             <div className="md:col-span-3 right__side__bg py-[30px] md:py-[15px] px-[7px] md:px-[30px]">
               {/* medium device  */}
-              <div className="hidden md:block flex items-center justify-between">
-                {/* left side  */}
-                <div>
-                  {/* first div  */}
-                  <div className="flex items-center gap-[10px]">
-                    <Image
-                      src="/assets/glitz/icons/google.png"
-                      alt="google logo"
-                      width={198}
-                      height={67}
-                      className="w-[198px] h-[67px]"
-                    />
-                    <p className="text-[35px] font-normal text-black leading-normal">
-                      {" "}
-                      Rating
-                    </p>
+              <div className="hidden md:block">
+                <div className="flex items-center justify-between">
+                  {/* left side  */}
+                  <div>
+                    {/* first div  */}
+                    <div className="flex items-center gap-[10px]">
+                      <Image
+                        src="/assets/glitz/icons/google.png"
+                        alt="google logo"
+                        width={198}
+                        height={67}
+                        className="w-[198px] h-[67px]"
+                      />
+                      <p className="text-[35px] font-normal text-black leading-normal">
+                        {" "}
+                        Rating
+                      </p>
+                    </div>
+                    {/* second div  */}
+                    <div className="flex items-center gap-[15px] pt-[7px]">
+                      <p className="text-[25px] font-normal text-black leading-normal">
+                        5.0
+                      </p>
+                      <Image
+                        src="/assets/glitz/icons/orange_five_star.png"
+                        alt="five star icon"
+                        width={152}
+                        height={23}
+                        className="w-[152px] h-[23px]"
+                      />
+                      <p className="text-base font-bold text-dark-300 leading-normal">
+                        70 Reviews
+                      </p>
+                    </div>
                   </div>
-                  {/* second div  */}
-                  <div className="flex items-center gap-[15px] pt-[7px]">
-                    <p className="text-[25px] font-normal text-black leading-normal">
-                      5.0
-                    </p>
-                    <Image
-                      src="/assets/glitz/icons/orange_five_star.png"
-                      alt="five star icon"
-                      width={152}
-                      height={23}
-                      className="w-[152px] h-[23px]"
-                    />
-                    <p className="text-base font-bold text-dark-300 leading-normal">
-                      70 Reviews
-                    </p>
+                  {/* right side  */}
+                  <div>
+                    <button className="btn__bg_review text-lg font-normal text-white leading-normal py-[15px] px-[51px]">
+                      <Link
+                        className="text-white"
+                        href="https://www.google.com/maps/place/Glitz+Floors+%26+More/@29.9959279,-95.6764372,18z/data=!4m6!3m5!1s0x8640d57b61c6fd8d:0x2ba2182f0ab40249!8m2!3d29.9953107!4d-95.6768084!16s%2Fg%2F11ks0hzyn5?entry=ttu&g_ep=EgoyMDI0MDkzMC4wIKXMDSoASAFQAw%3D%3D"
+                        rel="nofollow"
+                        target="_blank"
+                      >
+                        Write a Review
+                      </Link>
+                    </button>
                   </div>
-                </div>
-                {/* right side  */}
-                <div>
-                  <button className="btn__bg_review text-lg font-normal text-white leading-normal py-[15px] px-[51px]">
-                    <Link
-                      className="text-white"
-                      href="https://www.google.com/maps/place/Glitz+Floors+%26+More/@29.9959279,-95.6764372,18z/data=!4m6!3m5!1s0x8640d57b61c6fd8d:0x2ba2182f0ab40249!8m2!3d29.9953107!4d-95.6768084!16s%2Fg%2F11ks0hzyn5?entry=ttu&g_ep=EgoyMDI0MDkzMC4wIKXMDSoASAFQAw%3D%3D"
-                      rel="nofollow"
-                      target="_blank"
-                    >
-                      Write a Review
-                    </Link>
-                  </button>
                 </div>
               </div>
+
               {/* small device  */}
-              <div className=" block md:hidden flex flex-col items-center justify-between">
+              <div className="block md:hidden flex flex-col items-center justify-between">
                 {/* left side  */}
                 <div>
                   {/* first div  */}
@@ -221,7 +272,7 @@ const Review = () => {
                   {reviewData.map((data) => (
                     <SwiperSlide
                       key={data.id}
-                      className={` px-[12px] md:px-[30px] md:px-0 py-[15px] !h-auto !md:h-full`}
+                      className={` px-[12px] md:px-[20px] md:px-0 py-[15px] !h-auto !md:h-full`}
                     >
                       <div className="px-2">
                         <div className="flex items-center gap-[10px]">
@@ -229,7 +280,9 @@ const Review = () => {
                             {data.sort_name}
                           </p>
                           <div>
-                            <p className="text-lg font-bold text-black leading-normal">{data.name}</p>
+                            <p className="text-lg font-bold text-black leading-normal">
+                              {data.name}
+                            </p>
                             <div className="flex items-center gap-[10px]">
                               <Image
                                 src={data.star}
@@ -237,12 +290,16 @@ const Review = () => {
                                 width={102}
                                 height={15}
                               />
-                              <p className="text-xs text-dark-300 font-bold leading-normal">{data.date}</p>
+                              <p className="text-xs text-dark-300 font-bold leading-normal">
+                                {data.date}
+                              </p>
                             </div>
                           </div>
                         </div>
 
-                        <p className="py-[15px] text-base font-normal text-black leading-normal">{data.review}</p>
+                        <p className="py-[15px] text-base font-normal text-black leading-normal">
+                          {data.review}
+                        </p>
                         <div className="flex items-center gap-[5px]">
                           <Image
                             src={data.g}
@@ -251,8 +308,12 @@ const Review = () => {
                             height={41}
                           />
                           <div>
-                            <p className="text-sm font-normal text-dark-400 leading-normal">{data.post}</p>
-                            <p className="text-lg font-normal text-dark-500 leading-normal">{data.google}</p>
+                            <p className="text-sm font-normal text-dark-400 leading-normal">
+                              {data.post}
+                            </p>
+                            <p className="text-lg font-normal text-dark-500 leading-normal">
+                              {data.google}
+                            </p>
                           </div>
                         </div>
                       </div>
@@ -270,7 +331,7 @@ const Review = () => {
                   height="241"
                   allowFullscreen=""
                   loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade"
+                  referrerPolicy="no-referrer-when-downgrade"
                 ></iframe>
               </div>
             </div>

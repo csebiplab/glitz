@@ -87,7 +87,7 @@ const Brand = () => {
                     alt="brand image"
                     height={25}
                     width={165}
-                    className="w-auto h-[25px]"
+                    className="w-[165px] h-[25px]"
                   />
                 </div>
                 <div>
@@ -96,7 +96,7 @@ const Brand = () => {
                     alt="brand image"
                     height={82}
                     width={82}
-                    className="w-auto h-[82px]"
+                    className="w-[82px] h-[82px] transition-all ease-in-out duration-300 hover:scale-110"
                   />
                 </div>
                 <div>
@@ -105,7 +105,7 @@ const Brand = () => {
                     alt="brand image"
                     height={78}
                     width={117}
-                    className="w-auto h-[78px] "
+                    className="w-[117px] h-[78px] transition-all ease-in-out duration-300 hover:scale-110"
                   />
                 </div>
                 <div>
@@ -114,7 +114,7 @@ const Brand = () => {
                     alt="brand image"
                     height={78}
                     width={138}
-                    className="w-auto h-[78px] "
+                    className="w-[138px] h-[78px] transition-all ease-in-out duration-300 hover:scale-110"
                   />
                 </div>
                 <div>
@@ -123,7 +123,7 @@ const Brand = () => {
                     alt="brand image"
                     height={78}
                     width={140}
-                    className="w-auto h-[78px] "
+                    className="w-[140px] h-[78px] transition-all ease-in-out duration-300 hover:scale-110"
                   />
                 </div>
                 <div>
@@ -132,7 +132,7 @@ const Brand = () => {
                     alt="brand image"
                     height={31}
                     width={196}
-                    className="w-auto h-[31px] pr-3"
+                    className="w-auto h-[31px] pr-3 transition-all ease-in-out duration-300 hover:scale-110"
                   />
                 </div>
               </div>
@@ -168,7 +168,7 @@ const Brand = () => {
                     alt="brand image"
                     height={25}
                     width={165}
-                    className="w-auto h-[25px] mx-auto"
+                    className="w-auto h-[25px] mx-auto "
                   />
                 </div>
                 <div className="flex justify-between items-center">
@@ -177,43 +177,16 @@ const Brand = () => {
                     alt="brand image"
                     height={82}
                     width={82}
-                    className="w-auto h-[82px]"
+                    className="w-auto h-[82px] transition-all ease-in-out duration-300 hover:scale-110"
                   />
                   <Image
                     src="/assets/glitz/brands/yelp.png"
                     alt="brand image"
                     height={78}
                     width={117}
-                    className="w-auto h-[78px] "
+                    className="w-auto h-[78px] transition-all ease-in-out duration-300 hover:scale-110"
                   />
                 </div>
-                {/* <div>
-                  <Image
-                    src="/assets/glitz/brands/google.png"
-                    alt="brand image"
-                    height={78}
-                    width={138}
-                    className="w-auto h-[78px] "
-                  />
-                </div>
-                <div>
-                  <Image
-                    src="/assets/glitz/brands/facebook.png"
-                    alt="brand image"
-                    height={78}
-                    width={140}
-                    className="w-auto h-[78px] "
-                  />
-                </div>
-                <div>
-                  <Image
-                    src="/assets/glitz/brands/next.png"
-                    alt="brand image"
-                    height={31}
-                    width={196}
-                    className="w-auto h-[31px] pr-4"
-                  />
-                </div> */}
               </div>
             </SwiperSlide>
           </Swiper>

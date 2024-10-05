@@ -33,20 +33,7 @@ const servicesData = [
     title: "Luxury Vinyl Planks Flooring Installation",
     desc: "Elevate your interiors with the sleek and sophisticated appeal of luxury vinyl planks from Glitz Floors & More. Combining the elegance of natural materials with advanced durability, luxury vinyl planks are an ideal choice for high-traffic areas and spaces prone to moisture. With realistic textures and rich visuals that replicate wood or stone, they offer both beauty and resilience. Easy to install and maintain, these planks are resistant to scratches, stains, and water, making them perfect for both residential and commercial applications. Enjoy the perfect blend of style",
     link: "Know About Vinyl Planks Flooring Installation",
-  },
-  // {
-  //   id: 5,
-  //   img: "/assets/glitz/images/services5.png",
-  //   title: "Carpet Flooring Installation",
-  //   desc: "Enhance comfort and warmth in any space with carpet flooring from Glitz Floors & More. Our extensive range of carpet options offers a variety of textures, colors, and patterns to suit your style and needs. Ideal for bedrooms, living areas, and office spaces, carpet flooring provides a soft underfoot feel and excellent sound insulation. You can find the perfect carpet to match your lifestyle with options ranging from plush and cozy to durable and stain-resistant. Our professional installation ensures a smooth, seamless finish, while our high-quality materials guarantee.",
-  //   link: "Know About Carpet Flooring Installation",
-  // },
-  // {
-  //     id : 6,
-  //     title : "Ready to Get Started? ",
-  //     desc : "Thinking about upgrading your home's flooring? Schedule a free in-home estimate with our expert team and get personalized advice tailored to your needs. We bring samples directly to you, so you can see how different flooring options will look in your space. Our hassle-free process ensures that you get the perfect floor at the right price. Don't wait—schedule your free in-home estimate today and take the first step toward transforming your home!",
-  //     link : "ISchedule Now"
-  // }
+  }
 ];
 
 const Services = () => {
@@ -138,7 +125,7 @@ const Services = () => {
             </div>
           <div className="cart__bg py-[50px] md:py-0">
               <div className="text-center px-[12px] h-full flex flex-col justify-center">
-                <p className="text-[25px] xl:text-[22px] 5xl:text-[25px] font-bold text-black pt-[17px] pb-[5px]">
+                <p className="text-[30px] font-bold text-black pb-[5px]">
                 Ready to Get Started? 
                 </p>
                 <p className="text-lg font-normal text-secondary-200">
