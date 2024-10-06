@@ -46,6 +46,7 @@ module.exports = withMT({
                     500: "#54042C",
                     600: "#54042C",
                     700: "#54042C",
+                    800: "#F6F5F1",
                 },
                 secondary: {
                     DEFAULT: "#1F1D20",
