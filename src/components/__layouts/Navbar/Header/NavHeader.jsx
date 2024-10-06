@@ -86,13 +86,17 @@ function OurServiceManu() {
             </ListItem>
           </div>
         </MenuHandler>
-        <MenuList className="hidden max-w-[100vw] w-screen lg:block border-0 outline-0 bg-gray-100 -mt-1">
-          <div className="container grid grid-cols-3 gap-y-2">
-            <div>
-              <h3 className="mb-1 text-primary-600 font-semibold">Interior</h3>
-              <ul>
-                <li>{renderItems(our_service_menu_items.interior)}</li>
+
+        <MenuList className="!p-0 hidden max-w-[300px] w-full lg:block outline-0 bg-gray-100 -mt-4">
+          <div className="!p-0 !border-none !outline-none w-full">
+            <div className="w-full p-4">
+              <h3 className="mb-1 text-primary-600 text-lg font-semibold text-left border-b-[1.5px] border-primary">Services</h3>
+              <div>
+              <ul className="w-full flex justify-start list-disc marker:text-black px-4">
+                <li className="text-base font-normal text-black">{renderItems(our_service_menu_items.interior)}</li>
               </ul>
+              </div>
+              
             </div>
           </div>
         </MenuList>
@@ -102,7 +106,7 @@ function OurServiceManu() {
             <div className="block lg:hidden">
               <Collapse open={isMobileMenuOpen}>
                 <h4 className="text-primary-600 mb-1 font-semibold">
-                  Interior
+                Services
                 </h4>
                 <ul>
                   <li>{renderItems(our_service_menu_items.interior)}</li>
@@ -250,13 +254,6 @@ export function NavHeader() {
                     <div>
                       <button className="flex items-center gap-[8px] 5xl:gap-[18px]">
                         {" "}
-                        {/* <Image
-                          src="/assets/glitz/icons/phone_icon.png"
-                          alt="phone icon"
-                          width={35}
-                          height={35}
-                          className="w-[25px] h-[25px] 5xl:w-[35px] 5xl:h-[35px]"
-                        />{" "} */}
                         <LuPhoneCall className="w-[25px] h-[25px] 5xl:w-[35px] 5xl:h-[35px] text-primary"/>
                         <Link
                           className="text-lg 2xl:text-[20px] 5xl:text-[25px] font-bold text-black leading-normal"
@@ -268,13 +265,6 @@ export function NavHeader() {
                     </div>
                     {/* second div  */}
                     <div className="flex items-center gap-[8px] 5xl:gap-[15px]">
-                      {/* <Image
-                        src="/assets/glitz/icons/google_map.png"
-                        alt="map icon"
-                        width={35}
-                        height={35}
-                        className="w-[25px] h-[25px] 5xl:w-[35px] 5xl:h-[35px]"
-                      /> */}
                       <FaMapMarkerAlt className="w-[25px] h-[25px] 5xl:w-[35px] 5xl:h-[35px] text-primary" />
                       <div>
                         <p className="text-sm font-normal text-black leading-normal">
