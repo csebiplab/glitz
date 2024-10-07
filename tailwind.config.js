@@ -101,8 +101,8 @@ module.exports = withMT({
                 'foreground': 'var(--foreground)',
             }),
             fontFamily: {
-                naomi: ['var(--font-naomi)'],
-                lucida: ['var(--font-lucidaGrande)'],
+                palatino: ['var(--font-palatinolinotype)', 'serif'],
+                mobotoSlab: ['var(--font-mobotoSlab)', 'sans-serif'],
             },
 
         },

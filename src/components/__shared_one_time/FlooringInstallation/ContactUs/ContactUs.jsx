@@ -18,8 +18,8 @@ const ContactUs = () => {
           <div className="container ">
             <div className="grid grid-cols-1 md:grid-cols-6 gap-[30px]">
               <div className="md:col-span-3 flex items-center">
-                <div className="contactUs_cart_bg py-[27px] xl:py-[35px] 5xl:py-[58px] px-[43px]">
-                  <p className="text-[25px] md:text-[26px] lg:text-[29px] xl:text-[32px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[41px] 5xl:text-[44px] font-bold text-primary leading-normal pb-[17px] text-center md:text-left">
+                <div className="contactUs_cart_bg py-[20px] xl:py-[25px] 5xl:py-[40px] px-[43px]">
+                  <p className="text-[25px] md:text-[26px] lg:text-[29px] xl:text-[32px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[41px] 5xl:text-[44px] font-bold text-primary leading-normal pb-[14px] text-center md:text-left">
                     Contact Us
                   </p>
                   <p className="flex items-center justify-center md:justify-start gap-[15px] text-base 5xl:text-lg font-normal text-primary">
@@ -36,7 +36,7 @@ const ContactUs = () => {
                       16726 Huffmeister Rd D400, Cypress, TX 77429, United States
                     </a>
                   </p>
-                  <p className="flex items-center justify-center md:justify-start gap-[15px] text-base 5xl:text-lg font-normal text-primary py-[22px] 5xl:py-[32px]">
+                  <p className="flex items-center justify-center md:justify-start gap-[15px] text-base 5xl:text-lg font-normal text-primary py-[15px] 5xl:py-[25px]">
                     <Image
                       src="/assets/glitz/socials/phone.png"
                       alt="phone icon"
@@ -60,7 +60,7 @@ const ContactUs = () => {
                     </a>
                   </p>
 
-                  <div className="flex justify-center md:justify-start items-center gap-[50px] pt-[30px] pb-[35px] 5xl:pb-[55px]">
+                  <div className="flex justify-center md:justify-start items-center gap-[50px] pt-[20px] pb-[20px] 5xl:pb-[30px]">
                     {socialIcon.map((icon, index) => (
                       <div key={index} className="">
                         <Image
@@ -76,12 +76,11 @@ const ContactUs = () => {
                   Best Floor Installation Company in TX
                   </p>
                   <Image
-                    // src="/assets/glitz/socials/contact_logo.png"
                     src="/assets/glitz/logo/nav_logo.png"
                     alt="contact us logo"
                     width={258}
                     height={166}
-                    className="py-[15px] xl:py-[20px] 5xl:py-[25px]"
+                    className="py-[15px] xl:py-[15px] 5xl:py-[20px]"
                   />
                   <p className="text-[25px] font-bold leading-normal text-primary text-center md:text-left">Glitz Floors & More</p>
                 </div>

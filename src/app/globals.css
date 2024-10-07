@@ -5,16 +5,18 @@
 /* * {
   @apply text-dark;
 } */
+
 body {
-  @apply font-lucida bg-[#F5F4F0] overflow-x-hidden;
+  @apply font-palatino bg-[#FFF9E7] overflow-x-hidden;
 }
 
 .font-family-primary {
-  @apply  font-lucida;
+  @apply  font-palatino;
 }
 .font-family-secondary {
-  @apply font-naomi;
+  @apply font-mobotoSlab;
 }
+
 
 footer * {
   @apply text-white;
