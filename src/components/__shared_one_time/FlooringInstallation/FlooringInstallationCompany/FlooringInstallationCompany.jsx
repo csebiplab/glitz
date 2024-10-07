@@ -15,10 +15,10 @@ const FlooringInstallationCompany = () => {
               />
             </div>
             <div>
-              <h2 className="text-[25px] md:text-[26px] lg:text-[29px] xl:text-[32px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[41px]  5xl:text-[44px] font-bold text-secondary leading-normal pt-[10px] pb-[5px] text-center xl:text-left">
+              <h2 className="font-family-primary text-[25px] md:text-[26px] lg:text-[29px] xl:text-[32px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[41px]  5xl:text-[44px] font-bold text-secondary leading-normal pt-[10px] pb-[5px] text-center xl:text-left">
               Cypress Flooring Installation Company
               </h2>
-              <p className="text-lg font-normal text-secondary-50 text-center xl:text-left">
+              <p className="font-family-secondary text-lg font-normal text-secondary-50 text-center xl:text-left">
               As the leading Cypress flooring installation company, Glitz Floors & More is dedicated to providing exceptional service and outstanding results. We specialize in a wide range of flooring options, including hardwood, laminate, tile, and luxury vinyl, tailored to meet both aesthetic and functional needs. Our team of skilled professionals ensures precise installation, transforming your space with attention to detail and expertise. Whether you're renovating your home or updating a commercial property, we work closely with you to deliver a flawless finish that enhances the beauty and durability of your floors. At Glitz Floors & More, we pride ourselves on our commitment to customer satisfaction and quality craftsmanship, making us the top choice for flooring installation in Cypress.
               </p>
             </div>

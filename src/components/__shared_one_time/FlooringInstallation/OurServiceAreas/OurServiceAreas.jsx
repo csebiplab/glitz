@@ -63,7 +63,7 @@ const OurServiceAreas = () => {
               />
 
             <div>
-              <h2 className="text-[25px] md:text-[26px] lg:text-[29px] xl:text-[32px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[41px]  5xl:text-[44px] font-bold text-secondary leading-normal pt-[10px] pb-[25px] text-center">
+              <h2 className="font-family-primary text-[25px] md:text-[26px] lg:text-[29px] xl:text-[32px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[41px]  5xl:text-[44px] font-bold text-secondary leading-normal pt-[10px] pb-[25px] text-center">
               Glitz Floors & More Service Areas
               </h2>
             </div>
@@ -112,7 +112,7 @@ const OurServiceAreas = () => {
                             Visit Map
                           </button>
                         </div>
-                        <p className="text-base py-4 px-10 bg-primary text-center lg:text-[18px] absolute bottom-0 left-0 right-0 text-white rounded-b-2xl ">
+                        <p className="font-family-secondary text-base py-4 px-10 bg-primary text-center lg:text-[18px] absolute bottom-0 left-0 right-0 text-white rounded-b-2xl ">
                           {loc?.location}
                         </p>
                       </div>
