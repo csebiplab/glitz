@@ -41,10 +41,10 @@ const Services = () => {
     <div className="container padding__top swimmingPoolContractor__bg">
       <div className="flex flex-col items-center justify-center">
         <HeadingIcon text={headingIconText.services__headingIconText} />
-        <h2 className="text-[32px] md:text-[34px] lg:text-4xl xl:text-[38px] 3xl:text-[40px] 5xl:text-[42px] font-bold text-black text-center pt-[5px]">
+        <h2 className="font-family-primary text-[32px] md:text-[34px] lg:text-4xl xl:text-[38px] 3xl:text-[40px] 5xl:text-[42px] font-bold text-black text-center pt-[5px]">
           Services We Provide
         </h2>
-        <p className="text-lg font-normal text-black pt-[10px] text-center pb-[35px]">
+        <p className="font-family-secondary text-lg font-normal text-black pt-[10px] text-center pb-[35px]">
           At Glitz Floors & More, we specialize in transforming spaces with
           exceptional flooring solutions tailored to your unique needs. Our
           comprehensive range of services ensures that every aspect of your
@@ -63,13 +63,13 @@ const Services = () => {
                 height={263}
               />
               <div className="text-center px-[12px]">
-                <p className="text-[25px] xl:text-[22px] 5xl:text-[25px] font-bold text-black pt-[17px] pb-[5px]">
+                <p className="font-family-primary text-[25px] xl:text-[22px] 5xl:text-[25px] font-bold text-black pt-[17px] pb-[5px]">
                   {data.title}
                 </p>
-                <p className="text-lg font-normal text-secondary-200">
+                <p className="font-family-secondary text-lg font-normal text-secondary-200">
                   {data.desc}
                 </p>
-                <p className="flex items-center justify-center gap-[5px] text-[13px] md:text-base 5xl:text-lg font-bold text-primary pb-[13px] pt-[30px]">
+                <p className="font-family-primary flex items-center justify-center gap-[5px] text-[13px] md:text-base 5xl:text-lg font-bold text-primary pb-[13px] pt-[30px]">
                   {data.link}{" "}
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -100,13 +100,13 @@ const Services = () => {
                 height={263}
               />
               <div className="text-center px-[12px]">
-                <p className="text-[25px] xl:text-[22px] 5xl:text-[25px] font-bold text-black pt-[17px] pb-[5px]">
+                <p className="font-family-primary text-[25px] xl:text-[22px] 5xl:text-[25px] font-bold text-black pt-[17px] pb-[5px]">
                 Carpet Flooring Installation
                 </p>
-                <p className="text-lg font-normal text-secondary-200">
+                <p className="font-family-secondary text-lg font-normal text-secondary-200">
                 Enhance comfort and warmth in any space with carpet flooring from Glitz Floors & More. Our extensive range of carpet options offers a variety of textures, colors, and patterns to suit your style and needs. Ideal for bedrooms, living areas, and office spaces, carpet flooring provides a soft underfoot feel and excellent sound insulation. You can find the perfect carpet to match your lifestyle with options ranging from plush and cozy to durable and stain-resistant. Our professional installation ensures a smooth, seamless finish, while our high-quality materials guarantee.
                 </p>
-                <p className="flex items-center justify-center gap-[5px] text-sm md:text-base 5xl:text-lg font-bold text-primary pb-[13px] pt-[30px]">
+                <p className="font-family-primary flex items-center justify-center gap-[5px] text-sm md:text-base 5xl:text-lg font-bold text-primary pb-[13px] pt-[30px]">
                 Know About Carpet Flooring Installation
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -125,14 +125,14 @@ const Services = () => {
             </div>
           <div className="cart__bg py-[50px] md:py-0">
               <div className="text-center px-[12px] h-full flex flex-col justify-center">
-                <p className="text-[30px] font-bold text-black pb-[5px]">
+                <p className="font-family-primary text-[30px] font-bold text-black pb-[5px]">
                 Ready to Get Started? 
                 </p>
-                <p className="text-lg font-normal text-secondary-200">
+                <p className="font-family-secondary text-lg font-normal text-secondary-200">
                 Thinking about upgrading your home's flooring? Schedule a free in-home estimate with our expert team and get personalized advice tailored to your needs. We bring samples directly to you, so you can see how different flooring options will look in your space. Our hassle-free process ensures that you get the perfect floor at the right price. Don't wait—schedule your free in-home estimate today and take the first step toward transforming your home!
                 </p>
                 <div className="pt-[25px] md:pt-[35px] 5xl:pt-[55px]">
-                  <button className="btn__bg_services  text-lg font-normal text-primary leading-normal py-[15px] px-[60px]">Schedule Now </button>
+                  <button className="font-family-primary btn__bg_services  text-lg font-normal text-primary leading-normal py-[15px] px-[60px]">Schedule Now </button>
                 </div>
               </div>
             </div>

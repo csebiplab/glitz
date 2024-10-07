@@ -6,7 +6,7 @@ const ContactUs = () => {
   return (
     <div>
       <div className="full__section_l_p pr-3 md:pr-0">
-        <div className="grid grid-cols-1 md:grid-cols-7 gap-[60px] md:gap-[150px]">
+        <div className="grid grid-cols-1 md:grid-cols-7 gap-[100px] 5xl:gap-[150px]">
           <div className="md:col-span-3">
             <p className="text-[25px] xl:text-[27px] 5xl:text-[30px] font-bold text-center md:text-left text-balck pb-[25px] 5xl:pb-[44px]">
               Contact Us for a Free Estimate

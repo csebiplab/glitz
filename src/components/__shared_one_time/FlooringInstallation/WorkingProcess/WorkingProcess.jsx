@@ -49,7 +49,7 @@ const WorkingProcess = () => {
       <div className="container padding__top">
         <div className="flex flex-col items-center justify-center">
           <HeadingIcon text={headingIconText.workingProcess__headingIconText} />
-          <h2 className="text-[25px] md:text-[26px] lg:text-[29px] xl:text-[32px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[41px] 5xl:text-[44px] font-bold text-secondary leading-normal text-center pt-[10px] pb-[25px]">
+          <h2 className="font-family-primary text-[25px] md:text-[26px] lg:text-[29px] xl:text-[32px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[41px] 5xl:text-[44px] font-bold text-secondary leading-normal text-center pt-[10px] pb-[25px]">
             Working Process of Our Flooring Installers
           </h2>
         </div>
@@ -64,10 +64,10 @@ const WorkingProcess = () => {
                   height={129}
                   className="w-[129px] h-[129px] mx-auto"
                 />
-                <p className="text-[25px] xl:text-[22px] 5xl:text-[25px] font-bold text-secondary text-center leading-9 pt-[12px] pb-[5px]">
+                <p className="font-family-primary text-[25px] xl:text-[22px] 5xl:text-[25px] font-bold text-secondary text-center leading-9 pt-[12px] pb-[5px]">
                   {data.title}
                 </p>
-                <p className="text-lg font-light text-black text-center pb-[25px]">
+                <p className="font-family-secondary text-lg font-light text-black text-center pb-[25px]">
                   {data.desc}
                 </p>
                 <div className="absolute bottom-0 w-full h-[2px] bg-secondary-300" />
@@ -85,10 +85,10 @@ const WorkingProcess = () => {
             height={129}
             className="w-[129px] h-[129px] mx-auto"
           />
-          <p className="text-[25px] xl:text-[22px] 5xl:text-[25px] font-bold text-secondary text-center leading-9 pt-[12px] pb-[5px]">
+          <p className="font-family-primary text-[25px] xl:text-[22px] 5xl:text-[25px] font-bold text-secondary text-center leading-9 pt-[12px] pb-[5px]">
           Customer Satisfaction
           </p>
-          <p className="text-lg font-light text-black text-center pb-[25px]">
+          <p className="font-family-secondary text-lg font-light text-black text-center pb-[25px]">
           We follow up with you to ensure you're completely satisfied with the results and address any questions or concerns you may have.
           </p>
           <div className="absolute bottom-0 w-full h-[2px] bg-secondary-300" />
@@ -119,8 +119,8 @@ const WorkingProcess = () => {
             className="w-[145px] h-[9px] mx-auto"
           />
           </div>
-          <p className="text-lg font-bold text-balck text-center">Get Expert Project Consultancy Services for Free</p>
-          <p className="text-sm font-normal text-black text-center pt-[5px] pb-[15px]">Our free consultancy service is here to help! Whether you're developing a new idea, improving an existing one, or facing specific challenges, our team of experts is ready to offer tailored solutions.</p>
+          <p className="font-family-primary text-lg font-bold text-balck text-center">Get Expert Project Consultancy Services for Free</p>
+          <p className="font-family-secondary text-sm font-normal text-black text-center pt-[5px] pb-[15px]">Our free consultancy service is here to help! Whether you're developing a new idea, improving an existing one, or facing specific challenges, our team of experts is ready to offer tailored solutions.</p>
           <Image
             src="/assets/glitz/working/working_btn.png"
             alt="working btn image"

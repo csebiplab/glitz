@@ -24,10 +24,10 @@ const BestFlooring = () => {
               />
             </div>
             <div className="">
-              <h2 className="text-[25px] md:text-[26px] lg:text-[29px] xl:text-[32px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[41px]  5xl:text-[44px] font-bold text-secondary leading-normal pt-[10px] pb-[5px] text-center xl:text-left">
+              <h2 className="font-family-primary text-[25px] md:text-[26px] lg:text-[29px] xl:text-[32px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[41px]  5xl:text-[44px] font-bold text-secondary leading-normal pt-[10px] pb-[5px] text-center xl:text-left">
                 Best Flooring in Cypress
               </h2>
-              <p className="text-lg font-normal text-secondary-50 text-center xl:text-left">
+              <p className="font-family-secondary text-lg font-normal text-secondary-50 text-center xl:text-left">
                 We offer an extensive range of high-quality flooring options to
                 suit any style and budget, including elegant hardwood, durable
                 laminate, versatile tile, and luxurious vinyl. Our team is
@@ -47,7 +47,7 @@ const BestFlooring = () => {
               </p>
               <div className="flex justify-start items-center gap-[25px] 5xl:gap-[35px] pt-[20px] xl:pt-[30px] 5xl:pt-[40px]">
                 <div className="">
-                  <button className="flex items-center gap-[5px] text-base md:text-lg font-bold md:font-normal text-primary leading-normal best_flooring_btn_bg px-[10px] md:px-[30px] 5xl:px-[35px] py-[14px] md:py-[17px]">
+                  <button className="font-family-primary flex items-center gap-[5px] text-base md:text-lg font-bold md:font-normal text-primary leading-normal best_flooring_btn_bg px-[10px] md:px-[30px] 5xl:px-[35px] py-[14px] md:py-[17px]">
                     Contact Us{" "}
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -63,7 +63,7 @@ const BestFlooring = () => {
                     </svg>
                   </button>
                 </div>
-                <p className="text-base font-bold text-black leading-normal">
+                <p className="font-family-primary text-base font-bold text-black leading-normal">
                   Or
                 </p>
                 <Image

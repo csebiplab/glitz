@@ -5,18 +5,19 @@ import "../globals.css";
 import RoutingProgressBar from "@/components/common/RoutingProgressBar";
 import Footer from "@/components/__layouts/Footers/Footer";
 import ScrollToTopComponent from "@/components/common/ScrollToTop";
-// import { Lucida_Grande, Naomi } from "../font";
 import { NavHeader } from "@/components/__layouts/Navbar/Header/NavHeader";
+import { Palatino_Linotype } from "../font";
 
-const mobotoSlab = Montserrat({ subsets: ["latin"] });
+const montserrat = Montserrat({ subsets: ["latin"] });
 
 
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      {/* <body className={`${Lucida_Grande.variable} ${Naomi.variable}`}> */}
-      <body className={mobotoSlab.className}>
+      <body className={`${Palatino_Linotype.variable} ${montserrat.className}`}>
+      
+
         <Suspense>
           <RoutingProgressBar />
         </Suspense>

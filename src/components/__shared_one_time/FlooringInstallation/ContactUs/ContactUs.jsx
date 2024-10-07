@@ -18,11 +18,11 @@ const ContactUs = () => {
           <div className="container ">
             <div className="grid grid-cols-1 md:grid-cols-6 gap-[30px]">
               <div className="md:col-span-3 flex items-center">
-                <div className="contactUs_cart_bg py-[27px] xl:py-[35px] 5xl:py-[58px] px-[43px]">
-                  <p className="text-[25px] md:text-[26px] lg:text-[29px] xl:text-[32px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[41px] 5xl:text-[44px] font-bold text-primary leading-normal pb-[17px] text-center md:text-left">
+                <div className="contactUs_cart_bg py-[20px] xl:py-[25px] 5xl:py-[40px] px-[43px]">
+                  <p className="font-family-primary text-[25px] md:text-[26px] lg:text-[29px] xl:text-[32px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[41px] 5xl:text-[44px] font-bold text-primary leading-normal pb-[14px] text-center md:text-left">
                     Contact Us
                   </p>
-                  <p className="flex items-center justify-center md:justify-start gap-[15px] text-base 5xl:text-lg font-normal text-primary">
+                  <p className="font-family-secondary flex items-center justify-center md:justify-start gap-[15px] text-base 5xl:text-lg font-normal text-primary">
                     <Image
                       src="/assets/glitz/socials/map.png"
                       alt="map icon"
@@ -36,7 +36,7 @@ const ContactUs = () => {
                       16726 Huffmeister Rd D400, Cypress, TX 77429, United States
                     </a>
                   </p>
-                  <p className="flex items-center justify-center md:justify-start gap-[15px] text-base 5xl:text-lg font-normal text-primary py-[22px] 5xl:py-[32px]">
+                  <p className="font-family-secondary flex items-center justify-center md:justify-start gap-[15px] text-base 5xl:text-lg font-normal text-primary py-[15px] 5xl:py-[25px]">
                     <Image
                       src="/assets/glitz/socials/phone.png"
                       alt="phone icon"
@@ -48,7 +48,7 @@ const ContactUs = () => {
                     (281) 758-5450
                     </a>
                   </p>
-                  <p className="flex items-center justify-center md:justify-start gap-[15px] text-base 5xl:text-lg text-primary font-normal">
+                  <p className="font-family-secondary flex items-center justify-center md:justify-start gap-[15px] text-base 5xl:text-lg text-primary font-normal">
                     <Image
                       src="/assets/glitz/socials/mail.png"
                       alt="email icon"
@@ -60,7 +60,7 @@ const ContactUs = () => {
                     </a>
                   </p>
 
-                  <div className="flex justify-center md:justify-start items-center gap-[50px] pt-[30px] pb-[35px] 5xl:pb-[55px]">
+                  <div className="flex justify-center md:justify-start items-center gap-[50px] pt-[20px] pb-[20px] 5xl:pb-[30px]">
                     {socialIcon.map((icon, index) => (
                       <div key={index} className="">
                         <Image
@@ -72,30 +72,29 @@ const ContactUs = () => {
                       </div>
                     ))}
                   </div>
-                  <p className="text-[20px] 5xl:text-[25px] font-bold leading-normal text-primary text-center md:text-left">
+                  <p className="font-family-secondary text-[20px] 5xl:text-[25px] font-bold leading-normal text-primary text-center md:text-left">
                   Best Floor Installation Company in TX
                   </p>
                   <Image
-                    // src="/assets/glitz/socials/contact_logo.png"
                     src="/assets/glitz/logo/nav_logo.png"
                     alt="contact us logo"
                     width={258}
                     height={166}
-                    className="py-[15px] xl:py-[20px] 5xl:py-[25px]"
+                    className="py-[15px] xl:py-[15px] 5xl:py-[20px]"
                   />
-                  <p className="text-[25px] font-bold leading-normal text-primary text-center md:text-left">Glitz Floors & More</p>
+                  <p className="font-family-secondary text-[25px] font-bold leading-normal text-primary text-center md:text-left">Glitz Floors & More</p>
                 </div>
               </div>
               <div className="md:col-span-3 flex items-center">
                 <div>
-                  <h5 className="text-[25px] md:text-[26px] lg:text-[29px] xl:text-[32px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[41px] 5xl:text-[44px] font-bold text-black leading-normal pb-[15px] text-center md:text-left">
+                  <h5 className="font-family-primary text-[25px] md:text-[26px] lg:text-[29px] xl:text-[32px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[41px] 5xl:text-[44px] font-bold text-black leading-normal pb-[15px] text-center md:text-left">
                     Give Us Feedback
                   </h5>
                   <form className="">
                     <div className="w-full flex justify-between items-center gap-[20px]">
                       <div className="w-1/2">
                         <label
-                          className="text-lg font-normal text-black leading-normal"
+                          className="font-family-secondary text-lg font-normal text-black leading-normal"
                           htmlFor="name"
                         >
                           Your Name <sup>*</sup>
@@ -108,7 +107,7 @@ const ContactUs = () => {
                       </div>
                       <div className="w-1/2">
                         <label
-                          className="text-lg font-normal text-black leading-normal"
+                          className="font-family-secondary text-lg font-normal text-black leading-normal"
                           htmlFor="email"
                         >
                           Your Email <sup>*</sup>
@@ -124,7 +123,7 @@ const ContactUs = () => {
                     <div className="w-full flex items-center gap-[20px] py-[25px]">
                       <div className="w-1/2">
                         <label
-                          className="text-lg font-normal text-black leading-normal"
+                          className="font-family-secondary text-lg font-normal text-black leading-normal"
                           htmlFor="subject"
                         >
                           Subject <sup>*</sup>
@@ -137,7 +136,7 @@ const ContactUs = () => {
                       </div>
                       <div className="w-1/2">
                         <label
-                          className="text-lg font-normal text-black leading-normal"
+                          className="font-family-secondary text-lg font-normal text-black leading-normal"
                           htmlFor="phone"
                         >
                           Your Phone <sup>*</sup>
@@ -152,7 +151,7 @@ const ContactUs = () => {
 
                     <div className="w-full pb-[35px]">
                       <label
-                        className="text-lg font-normal text-black leading-normal"
+                        className="font-family-secondary text-lg font-normal text-black leading-normal"
                         htmlFor="message"
                       >
                         Message <sup>*</sup>
@@ -164,7 +163,7 @@ const ContactUs = () => {
                       ></textarea>
                     </div>
                     <div className="flex justify-center md:justify-start pb-[28px] md:pb-0">
-                      <button className="contact_btn text-primary flex items-center gap-[10px] text-lg font-bold leading-normal py-[7px] px-[33px]">
+                      <button className="font-family-primary contact_btn text-primary flex items-center gap-[10px] text-lg font-bold leading-normal py-[7px] px-[33px]">
                         Submit{" "}
                         <Image src="/assets/glitz/socials/submit.png" alt="submit icon" width={17} height={14}/>
                       </button>

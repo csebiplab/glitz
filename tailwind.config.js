@@ -46,6 +46,7 @@ module.exports = withMT({
                     500: "#54042C",
                     600: "#54042C",
                     700: "#54042C",
+                    800: "#F6F5F1",
                 },
                 secondary: {
                     DEFAULT: "#1F1D20",
@@ -100,8 +101,8 @@ module.exports = withMT({
                 'foreground': 'var(--foreground)',
             }),
             fontFamily: {
-                naomi: ['var(--font-naomi)'],
-                lucida: ['var(--font-lucidaGrande)'],
+                palatino: ['var(--font-palatinolinotype)', 'serif'],
+                mobotoSlab: ['var(--font-mobotoSlab)', 'sans-serif'],
             },
 
         },
