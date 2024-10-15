@@ -1,24 +1,24 @@
-import React from 'react';
-import HomeBanner from './HomeBanner/HomeBanner';
-import Flooring from './Flooring/Flooring';
-import Gallery from './Gallery/Gallery';
-import YourDream from './YourDream/YourDream';
-import ContactUs from './ContactUs/ContactUs';
-import ServicesArea from './ServicesArea/ServicesArea';
+import React from "react";
+import HomeBanner from "./HomeBanner/HomeBanner";
+import Flooring from "./Flooring/Flooring";
+import Gallery from "./Gallery/Gallery";
+import YourDream from "./YourDream/YourDream";
+import ContactUs from "./ContactUs/ContactUs";
+import ServicesArea from "./ServicesArea/ServicesArea";
 
 const HomePage = () => {
   return (
-    <div>
+    <div className="custom-container">
       <section>
-        <HomeBanner/>
+        <HomeBanner />
       </section>
 
       <section>
-        <Flooring/>
+        <Flooring />
       </section>
 
       <section>
-        <Gallery/>
+        <Gallery />
       </section>
 
       <section>

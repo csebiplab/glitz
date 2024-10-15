@@ -66,7 +66,7 @@ function OurServiceManu() {
             role="button"
           >
             <ListItem
-              className="font-family-primary flex items-center text-base 5xl:text-lg text-black font-bold leading-normal px-1 lg:px-4 2xl:px-6 -mt-[9px]"
+              className="font-family-secondary flex items-center text-base 5xl:text-lg text-white font-bold leading-normal -mt-[9px]"
               selected={isMenuOpen || isMobileMenuOpen}
               onClick={() => setIsMobileMenuOpen((cur) => !cur)}
             >
@@ -90,10 +90,10 @@ function OurServiceManu() {
         <MenuList className="!p-0 hidden max-w-[300px] w-full lg:block outline-0 bg-gray-100 -mt-4">
           <div className="!p-0 !border-none !outline-none w-full">
             <div className="w-full p-4">
-              <h3 className="font-family-primary mb-1 text-primary-600 text-lg font-semibold text-left border-b-[1.5px] border-primary">Services</h3>
+              <h3 className="font-family-secondary mb-1 text-primary-600 text-lg font-semibold text-left border-b-[1.5px] border-primary">Services</h3>
               <div>
               <ul className="w-full flex justify-start list-disc marker:text-black px-4">
-                <li className="font-family-primary text-base font-normal text-black">{renderItems(our_service_menu_items.interior)}</li>
+                <li className="font-family-secondary text-base font-normal text-black">{renderItems(our_service_menu_items.interior)}</li>
               </ul>
               </div>
               
@@ -105,11 +105,11 @@ function OurServiceManu() {
           <>
             <div className="block lg:hidden">
               <Collapse open={isMobileMenuOpen}>
-                <h4 className="font-family-primary text-primary-600 mb-1 font-semibold">
+                <h4 className="font-family-secondary text-primary-600 mb-1 font-semibold">
                 Services
                 </h4>
                 <ul>
-                  <li className="font-family-primary">{renderItems(our_service_menu_items.interior)}</li>
+                  <li className="font-family-secondary">{renderItems(our_service_menu_items.interior)}</li>
                 </ul>
                 <hr className="my-1" />
               </Collapse>
@@ -123,10 +123,11 @@ function OurServiceManu() {
   );
 }
 
+// px-1 lg:px-4 2xl:px-6 
 // our services nav list end
 function NavList() {
   return (
-    <List className="mt-4 mb-6 p-0 lg:mt-0 lg:mb-0 lg:flex-row md:items-center border-0 outline-none">
+    <List className="my-[11px] p-0 lg:mt-0 lg:mb-0 lg:flex-row md:items-center justify-between px-[20px] 5xl:px-[24px] border-0 outline-none">
       <Typography
         as={Link}
         href="/"
@@ -134,7 +135,7 @@ function NavList() {
         color="blue-gray"
         className="font-medium rounded-full text-sm lg:text-sm xl:text-base 2xl:text-lg"
       >
-        <ListItem className="font-family-primary flex items-start md:items-center text-base 5xl:text-lg text-black font-bold leading-normal px-1 lg:px-4 2xl:px-6">
+        <ListItem className="font-family-secondary flex items-start md:items-center text-base 5xl:text-lg text-white font-bold leading-normal">
           Home
         </ListItem>
       </Typography>
@@ -146,7 +147,7 @@ function NavList() {
         color="blue-gray"
         className="font-medium rounded-full text-sm md:text-sm xl:text-base 2xl:text-lg"
       >
-        <ListItem className="font-family-primary flex items-start md:items-center text-base 5xl:text-lg text-black font-bold leading-normal px-1 lg:px-4 2xl:px-6">
+        <ListItem className="font-family-secondary flex items-start md:items-center text-base 5xl:text-lg text-white font-bold leading-normal">
           About
         </ListItem>
       </Typography>
@@ -157,7 +158,7 @@ function NavList() {
         color="blue-gray"
         className="font-medium rounded-full text-sm md:text-sm xl:text-base 2xl:text-lg"
       >
-        <ListItem className="font-family-primary flex items-start md:items-center text-base 5xl:text-lg text-black font-bold leading-normal px-1 lg:px-4 2xl:px-6">
+        <ListItem className="font-family-secondary flex items-start md:items-center text-base 5xl:text-lg text-white font-bold leading-normal">
           Gallery
         </ListItem>
       </Typography>
@@ -169,7 +170,7 @@ function NavList() {
         color="blue-gray"
         className="font-medium rounded-full text-sm md:text-sm xl:text-base 2xl:text-lg"
       >
-        <ListItem className="font-family-primary flex items-start md:items-center text-base 5xl:text-lg text-black font-bold leading-normal px-1 lg:px-4 2xl:px-6">
+        <ListItem className="font-family-secondary flex items-start md:items-center text-base 5xl:text-lg text-white font-bold leading-normal">
           Kitchen Remodeling
         </ListItem>
       </Typography>
@@ -180,7 +181,7 @@ function NavList() {
         color="blue-gray"
         className="font-medium rounded-full text-sm md:text-sm xl:text-base 2xl:text-lg"
       >
-        <ListItem className="font-family-primary flex items-start md:items-center  text-base 5xl:text-lg text-black font-bold leading-normal px-1 lg:px-4 2xl:px-6">
+        <ListItem className="font-family-secondary flex items-start md:items-center  text-base 5xl:text-lg text-white font-bold leading-normal">
           Bathroom Remodeling
         </ListItem>
       </Typography>
@@ -196,7 +197,7 @@ function NavList() {
         color="blue-gray"
         className="font-medium rounded-full text-sm md:text-sm xl:text-base 2xl:text-lg"
       >
-        <ListItem className="font-family-primary flex items-start md:items-center text-base 5xl:text-lg text-black font-bold leading-normal px-1 lg:px-4 2xl:px-6">
+        <ListItem className="font-family-secondary flex items-start md:items-center text-base 5xl:text-lg text-white font-bold leading-normal ">
           Contact Us
         </ListItem>
       </Typography>
@@ -249,14 +250,21 @@ export function NavHeader() {
               </Link>
               {/* bottom navbar  */}
               <div className="w-full flex flex-col justify-between pl-[4px]">
-                <div className="">
+                <div className="pt-[6px]">
                   <div className=" flex justify-between items-center">
                     <div>
-                      <button className="flex items-center gap-[8px] 5xl:gap-[18px]">
+                      <button className="flex items-center gap-[3px] 5xl:gap-[8px]">
                         {" "}
-                        <LuPhoneCall className="w-[25px] h-[25px] 5xl:w-[35px] 5xl:h-[35px] text-primary"/>
+                        <Image
+                          src="/assets/glitz/icons/nav_phone.png"
+                          alt="phone icon"
+                          width={45}
+                          height={45}
+                          className="w-[45px] h-[45px] icon__bg p-1"
+                        />
+                        {/* <LuPhoneCall className="w-[25px] h-[25px] 5xl:w-[35px] 5xl:h-[35px] text-primary"/> */}
                         <Link
-                          className="font-family-primary text-lg 2xl:text-[20px] 5xl:text-[25px] font-bold text-black leading-normal"
+                          className="font-family-secondary text-lg 2xl:text-[20px] 5xl:text-[25px] font-bold text-black leading-normal"
                           href="tel : (281) 758-5450"
                         >
                           (281) 758-5450
@@ -264,13 +272,20 @@ export function NavHeader() {
                       </button>
                     </div>
                     {/* second div  */}
-                    <div className="flex items-center gap-[8px] 5xl:gap-[15px]">
-                      <FaMapMarkerAlt className="w-[25px] h-[25px] 5xl:w-[35px] 5xl:h-[35px] text-primary" />
+                    <div className="flex items-center gap-[3px] 5xl:gap-[8px]">
+                      {/* <FaMapMarkerAlt className="w-[25px] h-[25px] 5xl:w-[35px] 5xl:h-[35px] text-primary" /> */}
+                      <Image
+                        src="/assets/glitz/icons/nav_map.png"
+                        alt="phone icon"
+                        width={45}
+                        height={45}
+                        className="w-[45px] h-[45px] icon__bg p-1"
+                      />
                       <div>
-                        <p className="font-family-primary text-sm font-normal text-black leading-normal">
+                        <p className="font-family-secondary text-sm font-normal text-black leading-normal">
                           Location
                         </p>
-                        <p className="font-family-primary text-sm 5xl:text-base font-bold text-black leading-normal pt-[3px] 5xl:pt-[5px]">
+                        <p className="font-family-secondary text-sm 5xl:text-base font-bold text-black leading-normal pt-[3px] 5xl:pt-[5px]">
                           <Link href="location : 16726 Huffmeister Road, D400, Cypress, Tx 77429">
                             16726 Huffmeister Road, D400, Cypress, Tx 77429
                           </Link>
@@ -279,7 +294,7 @@ export function NavHeader() {
                     </div>
 
                     <div>
-                      <button className="font-family-primary flex items-center gap-[5px] text-sm 5xl:text-base font-bold text-primary leading-normal py-[8px] px-[14px] border-[2px] border-secondary rounded-[6px]">
+                      <button className="font-family-secondary flex items-center gap-[5px] text-sm 5xl:text-base font-bold text-primary leading-normal py-[8px] px-[14px] border-[2px] border-secondary rounded-[6px]">
                         <Link href="tel : (281) 758-5450">Get Free Quote</Link>
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -297,8 +312,8 @@ export function NavHeader() {
                     </div>
                   </div>
                 </div>
-                <div className="hidden lg:block">
-                  <NavList />
+                <div className="hidden lg:block nav__bg mt-[9px]">
+                  <NavList className=""/>
                 </div>
               </div>
             </div>
@@ -313,14 +328,14 @@ export function NavHeader() {
           }`}
         >
           <div className="bg-secondary py-[6px]">
-            <p className="font-family-primary text-lg font-bold text-white leading-normal text-center">
+            <p className="font-family-secondary text-lg font-bold text-white leading-normal text-center">
               FLOORS NOW, PAY OVER TIME
             </p>
-            <p className="font-family-primary text-sm font-bold text-white leading-normal text-center pb-[10px]">
+            <p className="font-family-secondary text-sm font-bold text-white leading-normal text-center pb-[10px]">
               Convenient monthly payments to fit your budget1
             </p>
             <div className="flex justify-center items-center">
-              <button className="font-family-primary text-base font-bold leading-normal text-white p-[8px] rounded-[6px] border-[2px] border-white">
+              <button className="font-family-secondary text-base font-bold leading-normal text-white p-[8px] rounded-[6px] border-[2px] border-white">
                 View Financing Option
               </button>
             </div>
@@ -369,7 +384,7 @@ export function NavHeader() {
         onClose={() => setOpenNav(false)}
         className="p-4 overflow-y-auto pb-24 !z-[1000000000000000000] bg-secondary-400"
       >
-        <div className="font-family-primary mb-6 flex items-center justify-between ">
+        <div className="font-family-secondary mb-6 flex items-center justify-between ">
           <Typography variant="paragraph" color="blue-gray">
             Glitz Floors & More
           </Typography>
