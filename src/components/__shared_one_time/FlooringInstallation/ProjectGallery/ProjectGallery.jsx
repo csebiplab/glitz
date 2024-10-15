@@ -56,7 +56,7 @@ const ProjectGallery = () => {
           <div className="flex flex-col justify-center items-center">
             <HeadingIcon text={headingIconText.gallery__headingIconText} />
             <div className="pb-5">
-              <h2 className="font-family-primary text-black text-[32px] md:text-[33px] xl:text-[34px] 2xl:text-[36px] 3xl:text-[38px]4xl:text-[40px] 5xl:text-[42px] font-bold text-center">
+              <h2 className="font-family-secondary text-black text-[32px] md:text-[33px] xl:text-[34px] 2xl:text-[36px] 3xl:text-[38px]4xl:text-[40px] 5xl:text-[42px] font-bold text-center">
                 Gallery of Our Past Projects
               </h2>
             </div>
@@ -85,7 +85,7 @@ const ProjectGallery = () => {
                 <button
                   aria-label="See More"
                   onClick={handleLoadMore}
-                  className="font-family-primary btn__bg flex items-center justify-center gap-[5px] text-sm font-bold py-[16px] px-[41px] bg-secondary-700 text-primary"
+                  className="font-family-secondary btn__bg flex items-center justify-center gap-[5px] text-sm font-bold py-[16px] px-[41px] bg-secondary-700 text-primary"
                 >
                   See More
                   <svg

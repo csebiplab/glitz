@@ -69,7 +69,7 @@ const Brand = () => {
             >
               <div className="w-full !flex items-center gap-5 5xl:gap-16">
                 <div className="pl-5 5xl:pl-14">
-                  <p className="font-family-primary text-sm 5xl:text-lg text-secondary font-bold leading-normal pb-[7px]">
+                  <p className="font-family-secondary text-sm 5xl:text-lg text-secondary font-bold leading-normal pb-[7px]">
                     Verifying Review From Trusted Site:{" "}
                   </p>
                   <Image
@@ -133,7 +133,7 @@ const Brand = () => {
         <div className="block md:hidden">
           <div className="brand__bg py-[19px] border-2 border-red-500" >
             <div className="">
-              <p className="font-family-primary text-base text-secondary text-center font-bold leading-normal pb-[7px]">
+              <p className="font-family-secondary text-base text-secondary text-center font-bold leading-normal pb-[7px]">
                 Verifying Review From Trusted Site:{" "}
               </p>
               <Image
