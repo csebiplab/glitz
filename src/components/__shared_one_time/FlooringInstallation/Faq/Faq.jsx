@@ -84,7 +84,7 @@ const Faq = () => {
               />
 
                   <div>
-                    <h2 className="font-family-primary text-[25px] md:text-[26px] lg:text-[29px] xl:text-[32px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[41px] 5xl:text-[44px] font-bold text-secondary leading-normal pt-[10px] pb-[25px] text-center md:text-left">
+                    <h2 className="font-family-secondary text-[25px] md:text-[26px] lg:text-[29px] xl:text-[32px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[41px] 5xl:text-[44px] font-bold text-secondary leading-normal pt-[10px] pb-[25px] text-center md:text-left">
                     Flooring Installation <br/>
                     Frequently Asked Questions (FAQ)
                     </h2>

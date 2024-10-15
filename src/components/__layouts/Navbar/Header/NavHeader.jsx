@@ -249,7 +249,7 @@ export function NavHeader() {
                 <span className="sr-only">Home</span>
               </Link>
               {/* bottom navbar  */}
-              <div className="w-full flex flex-col justify-between pl-[4px]">
+              <div className="w-full flex flex-col justify-between pl-[8px]">
                 <div className="pt-[6px]">
                   <div className=" flex justify-between items-center">
                     <div>
