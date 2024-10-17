@@ -329,7 +329,7 @@ const Review = () => {
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3455.447120258608!2d-95.67938332584252!3d29.995315320899294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640d57b61c6fd8d%3A0x2ba2182f0ab40249!2sGlitz%20Floors%20%26%20More!5e0!3m2!1sen!2sbd!4v1727966194157!5m2!1sen!2sbd"
                   width="854"
                   height="241"
-                  allowFullscreen=""
+                  allowFullScreen=""
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
                 ></iframe>

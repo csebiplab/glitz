@@ -102,7 +102,7 @@ const Footer = () => {
             {/* fourth div  */}
             <div className="col-span-2">
               <ul className="font-family-secondary">
-                <li className="flex items-center gap-[12px] 5xl:gap-[24px] text-base 5xl:text-lg font-normal leading-[29px]">
+                <li className="flex items-start gap-[12px] 5xl:gap-[24px] text-base 5xl:text-lg font-normal leading-[29px]">
                   <Image
                     src="/assets/glitz/icons/m.png"
                     alt="map icon"
@@ -111,11 +111,11 @@ const Footer = () => {
                   />
                   <Link
                     className="text-black"
-                    href="location : 16726 Huffmeister Rd D400, Cypress, TX 77429, United States"
+                    href="location:16726 Huffmeister Rd D400, Cypress, TX 77429, United States"
                   >
-                    16726 Huffmeister Rd <br className="hidden 5xl:block" />{" "}
-                    D400, Cypress, TX 77429, <br className="hidden 5xl:block" />{" "}
-                    United States
+                    16726 Huffmeister Rd <br className="hidden xl:block" />{" "}
+                    D400, Cypress, TX <br className="hidden xl:block" /> 
+                    77429, United States
                   </Link>
                 </li>
                 <li className="flex items-center gap-[12px] 5xl:gap-[24px] text-base 5xl:text-lg font-normal leading-[29px] py-[25px] 5xl:py-[27px]">
@@ -125,7 +125,7 @@ const Footer = () => {
                     width={24}
                     height={24}
                   />
-                  <Link className="text-black" href="tel : (281) 758-5450">
+                  <Link className="text-black" href="tel:(281) 758-5450">
                   (281) 758-5450
                   </Link>
                 </li>
@@ -138,7 +138,7 @@ const Footer = () => {
                   />
                   <Link
                     className="text-black"
-                    href="mail : info@glitzfloors&more.us"
+                    href="mail:info@glitzfloors&more.us"
                   >
                     info@glitzfloors&more.us
                   </Link>
@@ -191,7 +191,7 @@ const Footer = () => {
               alt="footer logo"
               width={144}
               height={148}
-              className="w-full"
+              className="w-1/2 mx-auto"
             />
             <p className="font-family-primary text-lg font-normal text-black leading-[30px] text-center pt-2">
               If you're in the Cypress area and looking for expert flooring and
@@ -277,7 +277,7 @@ const Footer = () => {
                 />
                 <Link
                   className="text-black"
-                  href="location : 16726 Huffmeister Rd D400, Cypress, TX 77429, United States"
+                  href="location:16726 Huffmeister Rd D400, Cypress, TX 77429, United States"
                 >
                   16726 Huffmeister Rd <br className="hidden 5xl:block" /> D400,
                   Cypress, TX 77429, <br className="hidden 5xl:block" /> United
@@ -291,7 +291,7 @@ const Footer = () => {
                   width={21}
                   height={21}
                 />
-                <Link className="text-black" href="tel : (281) 758-5450">
+                <Link className="text-black" href="tel:(281) 758-5450">
                 (281) 758-5450
                 </Link>
               </li>
@@ -304,7 +304,7 @@ const Footer = () => {
                 />
                 <Link
                   className="text-black"
-                  href="mail : info@glitzfloors&more.us"
+                  href="mail:info@glitzfloors&more.us"
                 >
                   info@glitzfloors&more.us
                 </Link>
