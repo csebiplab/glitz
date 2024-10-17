@@ -39,7 +39,7 @@ const HomeBanner = () => {
         <div className="md:flex items-center relative">
           <div className="w-full md:w-[50%]">
             <div className="py-14 md:py-0 px-4 md:pl-0">
-              <h1 className="font-family-primary leading-normal text-[38px] md:text-[40px] lg:text-[42px] xl:text-[44px] 2xl:text-[46px] 3xl:text-[48px] 4xl:text-[49px] 5xl:text-[50px] font-bold text-left text-secondary ">
+              <h1 className="font-family-secondary leading-normal text-[38px] md:text-[40px] lg:text-[42px] xl:text-[44px] 2xl:text-[46px] 3xl:text-[48px] 4xl:text-[49px] 5xl:text-[50px] font-bold text-left text-secondary ">
                 Remodeling & <br />
                 Flooring Installation <br />
                 in Cypress, TX
@@ -51,7 +51,7 @@ const HomeBanner = () => {
               </p>
               <a href="tel:(281) 758-5450">
                 <div className="">
-                  <button className="font-family-primary text-lg font-normal text-primary btn_bg p-[17px]">
+                  <button className="font-family-secondary text-lg font-normal text-primary btn_bg p-[17px]">
                     Get Free Quote
                   </button>
                 </div>

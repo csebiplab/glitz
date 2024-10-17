@@ -19,7 +19,7 @@ const ContactUs = () => {
             <div className="grid grid-cols-1 md:grid-cols-6 gap-[30px]">
               <div className="md:col-span-3 flex items-center">
                 <div className="contactUs_cart_bg py-[20px] xl:py-[25px] 5xl:py-[40px] px-[43px]">
-                  <p className="font-family-primary text-[25px] md:text-[26px] lg:text-[29px] xl:text-[32px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[41px] 5xl:text-[44px] font-bold text-primary leading-normal pb-[14px] text-center md:text-left">
+                  <p className="font-family-secondary text-[25px] md:text-[26px] lg:text-[29px] xl:text-[32px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[41px] 5xl:text-[44px] font-bold text-primary leading-normal pb-[14px] text-center md:text-left">
                     Contact Us
                   </p>
                   <p className="font-family-secondary flex items-center justify-center md:justify-start gap-[15px] text-base 5xl:text-lg font-normal text-primary">
@@ -87,7 +87,7 @@ const ContactUs = () => {
               </div>
               <div className="md:col-span-3 flex items-center">
                 <div>
-                  <h5 className="font-family-primary text-[25px] md:text-[26px] lg:text-[29px] xl:text-[32px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[41px] 5xl:text-[44px] font-bold text-black leading-normal pb-[15px] text-center md:text-left">
+                  <h5 className="font-family-secondary text-[25px] md:text-[26px] lg:text-[29px] xl:text-[32px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[41px] 5xl:text-[44px] font-bold text-black leading-normal pb-[15px] text-center md:text-left">
                     Give Us Feedback
                   </h5>
                   <form className="">
@@ -163,7 +163,7 @@ const ContactUs = () => {
                       ></textarea>
                     </div>
                     <div className="flex justify-center md:justify-start pb-[28px] md:pb-0">
-                      <button className="font-family-primary contact_btn text-primary flex items-center gap-[10px] text-lg font-bold leading-normal py-[7px] px-[33px]">
+                      <button className="font-family-secondary contact_btn text-primary flex items-center gap-[10px] text-lg font-bold leading-normal py-[7px] px-[33px]">
                         Submit{" "}
                         <Image src="/assets/glitz/socials/submit.png" alt="submit icon" width={17} height={14}/>
                       </button>

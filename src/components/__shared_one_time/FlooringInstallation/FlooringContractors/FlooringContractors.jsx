@@ -53,7 +53,7 @@ const FlooringContractors = () => {
           <HeadingIcon
             text={headingIconText.flooringContractors__headingIconText}
           />
-          <h2 className="font-family-primary text-[25px] md:text-[26px] lg:text-[29px] xl:text-[32px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[41px] 5xl:text-[44px] font-bold text-secondary leading-normal text-center pt-[10px] pb-[5px]">
+          <h2 className="font-family-secondary text-[25px] md:text-[26px] lg:text-[29px] xl:text-[32px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[41px] 5xl:text-[44px] font-bold text-secondary leading-normal text-center pt-[10px] pb-[5px]">
             Our Flooring Contractors Also Offer
           </h2>
           <p className="font-family-secondary text-lg font-normal text-center text-secondary">
@@ -78,7 +78,7 @@ const FlooringContractors = () => {
                   height={104}
                   className="absolute left-0 right-0 -top-14 w-[104px] h-[104px] mx-auto border-[2px] border-primary p-[5px] rounded-full bg-secondary-400"
                 />
-                <p className="font-family-primary text-[25px] font-bold text-center text-black pt-[65px]">
+                <p className="font-family-secondary text-[25px] font-bold text-center text-black pt-[65px]">
                   {data.title}
                 </p>
                 <p className="font-family-secondary text-lg font-normal text-center pt-[5px]">
@@ -103,7 +103,7 @@ const FlooringContractors = () => {
                   height={104}
                   className="absolute left-0 right-0 -top-14 w-[104px] h-[104px] mx-auto border-[2px] border-primary p-[5px] rounded-full bg-secondary-400"
                 />
-                <p className="font-family-primary text-[25px] font-bold text-center text-black pt-[65px]">
+                <p className="font-family-secondary text-[25px] font-bold text-center text-black pt-[65px]">
                   {data.title}
                 </p>
                 <p className="font-family-secondary text-lg font-normal text-center pt-[5px]">
@@ -124,7 +124,7 @@ const FlooringContractors = () => {
                 height={104}
                 className="absolute left-0 right-0 -top-14 w-[104px] h-[104px] mx-auto border-[2px] border-primary p-[5px] rounded-full bg-secondary-400"
               />
-              <p className="font-family-primary text-[25px] font-bold text-center text-black pt-[65px]">
+              <p className="font-family-secondary text-[25px] font-bold text-center text-black pt-[65px]">
                 Shower Glass Installation
               </p>
               <p className="font-family-secondary text-lg font-normal text-center pt-[5px]">
@@ -148,7 +148,7 @@ const FlooringContractors = () => {
                 height={104}
                 className="absolute left-0 right-0 -top-14 w-[104px] h-[104px] mx-auto border-[2px] border-primary p-[5px] rounded-full bg-secondary-400"
               />
-              <p className="font-family-primary text-[25px] font-bold text-center text-black pt-[65px]">
+              <p className="font-family-secondary text-[25px] font-bold text-center text-black pt-[65px]">
                 Add Rooms
               </p>
               <p className="font-family-secondary text-lg font-normal text-center pt-[5px]">
@@ -165,15 +165,15 @@ const FlooringContractors = () => {
           </div>
           <div className="w-full xl:w-1/3 h-full">
             <div className="cart_bg px-[11px] pb-[25px]">
-              <p className="font-family-primary text-[25px] font-bold text-center text-black pt-[65px]">
+              <p className="font-family-secondary text-[25px] font-bold text-center text-black pt-[65px]">
                 Have a project in mind? <br />
                 Contact us!
               </p>
               <div className="flex justify-between items-center pt-[35px]">
               <div className="">
-              <button className="font-family-primary text-lg font-normal text-primary flooring_btn_bg p-[10px] md:p-[15px]">Get Free Quote</button>
+              <button className="font-family-secondary text-lg font-normal text-primary flooring_btn_bg p-[10px] md:p-[15px]">Get Free Quote</button>
               </div>
-              <p className="font-family-primary text-lg font-bold text-black leading-normal">Or</p>
+              <p className="font-family-secondary text-lg font-bold text-black leading-normal">Or</p>
               <Image
                 src="/assets/glitz/flooring/flooring_btn.png"
                 alt="flooring btn image"
