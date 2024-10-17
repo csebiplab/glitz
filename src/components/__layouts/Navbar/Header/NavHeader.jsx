@@ -278,7 +278,7 @@ export function NavHeader() {
                         />
                         <Link
                           className="font-family-secondary text-lg 2xl:text-[20px] 5xl:text-[25px] font-bold text-black leading-normal"
-                          href="tel : (281) 758-5450"
+                          href="tel:(281) 758-5450"
                         >
                           (281) 758-5450
                         </Link>
@@ -298,7 +298,7 @@ export function NavHeader() {
                           Location
                         </p>
                         <p className="font-family-secondary text-sm 5xl:text-base font-bold text-black leading-normal pt-[3px] 5xl:pt-[5px]">
-                          <Link href="location : 16726 Huffmeister Road, D400, Cypress, Tx 77429">
+                          <Link href="location:16726 Huffmeister Road, D400, Cypress, Tx 77429">
                             16726 Huffmeister Road, D400, Cypress, Tx 77429
                           </Link>
                         </p>
@@ -307,7 +307,7 @@ export function NavHeader() {
 
                     <div>
                       <button className="font-family-secondary flex items-center gap-[5px] text-sm 5xl:text-base font-bold text-primary leading-normal py-[8px] px-[14px] border-[1.5px] border-secondary rounded-[6px]">
-                        <Link className="text-primary" href="tel : (281) 758-5450">Get Free Quote</Link>
+                        <Link className="text-primary" href="tel:(281) 758-5450">Get Free Quote</Link>
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="18"
@@ -356,7 +356,7 @@ export function NavHeader() {
               alt="nav logo"
               width={142}
               height={91}
-              className="w-full"
+              className="w-2/3"
             />
           </div>
 
