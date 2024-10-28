@@ -6,8 +6,9 @@
   @apply text-dark;
 } */
 
+  /* @apply font-palatino bg-[#FFF9E7] overflow-x-hidden; */
 body {
-  @apply font-palatino bg-[#FFF9E7] overflow-x-hidden;
+  @apply font-palatino bg-[#F5F4F0] overflow-x-hidden;
 }
 
 .font-family-primary {

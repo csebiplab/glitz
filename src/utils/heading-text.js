@@ -13,5 +13,8 @@ export const headingIconText = {
     whyChooseUs__headingIconText : "Why Choose Us",
     faq__headingIconText : "FAQ",
     servicesArea__headingIconText : "Services Area",
-    
+    startYourProject__headingIconText : "Start Your Project With Us",
+    howWeDesign__headingIconText : "How We Design",
+    costComparison__headingIconText : "Cost Comparison",
+
 }

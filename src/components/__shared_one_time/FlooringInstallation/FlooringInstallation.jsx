@@ -19,6 +19,8 @@ import FlooringContractors from './FlooringContractors/FlooringContractors';
 import ContactUs from './ContactUs/ContactUs';
 import Review from './Review/Review';
 import FlooringInstallationCompany from './FlooringInstallationCompany/FlooringInstallationCompany';
+import StartYourProject from './StartYourProject/StartYourProject';
+import HowWeDesign from './HowWeDesign/HowWeDesign';
 
 const FlooringInstallationServices = () => {
     return (
@@ -65,6 +67,10 @@ const FlooringInstallationServices = () => {
             </section>
 
             <section>
+                <HowWeDesign/>
+            </section>
+
+            <section>
                 <ProjectGallery/>
             </section>
             
@@ -90,6 +96,10 @@ const FlooringInstallationServices = () => {
 
             <section>
                 <Faq/>
+            </section>
+
+            <section>
+                <StartYourProject/>
             </section>
 
             <section>
