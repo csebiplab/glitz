@@ -40,19 +40,16 @@ const BathroomRemodelInCypressBanner = () => {
           <div className="w-full md:w-[50%]">
             <div className="py-14 md:py-0 px-4 md:pl-0">
               <h1 className="font-family-secondary leading-normal text-[38px] md:text-[40px] lg:text-[42px] xl:text-[44px] 2xl:text-[46px] 3xl:text-[48px] 4xl:text-[49px] 5xl:text-[50px] font-bold text-left text-secondary ">
-                Remodeling & <br />
-                Flooring Installation <br />
-                in Cypress, TX
+              Bathroom Remodel <br/> in Cypress, TX
               </h1>
               <p className="font-family-secondary leading-9 text-lg font-normal text-black pt-[5px] pb-[35px]">
-                Glitz Floors & More provides professional{" "}
-                <b>remodeling and flooring</b> installation in Cypress, TX,
-                delivering exceptional results for every project.
+              Glitz Floors & More offers <strong>premier bathroom remodel </strong> <br/>
+              in Cypress, TX, for modern elegance and comfort.
               </p>
               <a href="tel:(281) 758-5450">
                 <div className="">
                   <button className="font-family-secondary text-lg font-normal text-primary btn_bg p-[17px]">
-                    Get Free Quote
+                  Get Free Quote
                   </button>
                 </div>
               </a>
