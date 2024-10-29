@@ -22,6 +22,20 @@ export const headingIconText = {
     // bathroom remodel page 
     aboutUs__headingIconText : "About Us",
     contractors__headingIconText : "Contractors",
+    experienced__headingIconText : "Experienced",
+    equippedAdnExpert__headingIconText : "Equipped and Expert",
+    elevating__headingIconText : "Elevating",
+    benefits__headingIconText : "Benefits",
+    gallery__headingIconText : "Gallery",
+    process__headingIconText : "Process",
+    services__headingIconText : "Services",
+    review__headingIconText : "Review",
+    cost__headingIconText : "Cost",
+    considerationAndLimiting__headingIconText : "Consideration and Limiting",
+    whyChoose__headingIconText : "Why Choose",
+    bathroomInstallers__headingIconText : "Bathroom Installers",
+    faq__headingIconText : "FAQ",
+    servicesArea__headingIconText : "Services Area",
 
 
 }

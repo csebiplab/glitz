@@ -128,14 +128,14 @@ const reviewData = [
   },
 ];
 
-const Review = () => {
+const Review = ({titleHeading= "empty"}) => {
   return (
     <div>
       <div className="container padding__top">
         <div className="flex flex-col justify-center items-center pb-[25px]">
           <HeadingIcon text={headingIconText.review__headingIconText} />
           <h2 className="font-family-secondary text-[25px] md:text-[26px] lg:text-[29px] xl:text-[32px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[41px]  5xl:text-[44px] font-bold text-secondary leading-normal pt-[10px] pb-[5px] text-center">
-            Reviews for Our Flooring Installation
+            {titleHeading}
           </h2>
         </div>
         <div>

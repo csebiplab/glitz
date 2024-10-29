@@ -21,6 +21,7 @@ import Review from './Review/Review';
 import FlooringInstallationCompany from './FlooringInstallationCompany/FlooringInstallationCompany';
 import StartYourProject from './StartYourProject/StartYourProject';
 import HowWeDesign from './HowWeDesign/HowWeDesign';
+import { titleHeadingTexts } from '@/utils/title-heading-text';
 
 const FlooringInstallationServices = () => {
     return (
@@ -75,7 +76,7 @@ const FlooringInstallationServices = () => {
             </section>
             
             <section>
-                <Review/>
+                <Review titleHeading={ titleHeadingTexts.flooringInstallationReviewText} />
             </section>
 
             <section>
