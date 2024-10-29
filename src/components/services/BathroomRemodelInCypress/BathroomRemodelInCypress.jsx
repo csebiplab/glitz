@@ -10,6 +10,8 @@ import OurServiceAreas from '@/components/__shared_one_time/FlooringInstallation
 import Review from '@/components/__shared_one_time/FlooringInstallation/Review/Review';
 import { titleHeadingTexts } from '@/utils/title-heading-text';
 import WhyChoose from './WhyChoose/WhyChoose';
+import Faq from './Faq/Faq';
+import BathroomInstallers from './BathroomInstallers/BathroomInstallers';
 
 const BathroomRemodelInCypress = () => {
     return (
@@ -37,6 +39,14 @@ const BathroomRemodelInCypress = () => {
 
             <section>
                 <WhyChoose />
+            </section>
+
+            <section>
+                <BathroomInstallers />
+            </section>
+
+            <section>
+                <Faq />
             </section>
 
             <section>
