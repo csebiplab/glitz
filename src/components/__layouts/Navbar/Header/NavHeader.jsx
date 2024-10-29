@@ -30,7 +30,7 @@ const our_service_menu_items = {
     },
     {
       title: "Bathroom Remodel in Cypress, TX",
-      route: "/bathroom-remodel",
+      route: "/bathroom-remodel-in-cypress-tx",
     },
   ],
 };

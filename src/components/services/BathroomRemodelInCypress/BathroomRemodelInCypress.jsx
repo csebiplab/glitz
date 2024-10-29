@@ -15,6 +15,8 @@ import BathroomInstallers from './BathroomInstallers/BathroomInstallers';
 import Experienced from './Experienced/Experienced';
 import EquippedAndExpert from './EquippedAndExpert/EquippedAndExpert';
 import Elevating from './Elevating/Elevating';
+import Benefits from './Benefits/Benefits';
+import Process from './Process/Process';
 
 const BathroomRemodelInCypress = () => {
     return (
@@ -45,6 +47,14 @@ const BathroomRemodelInCypress = () => {
 
             <section>
                 <Elevating />
+            </section>
+
+            <section>
+                <Benefits />
+            </section>
+
+            <section>
+                <Process />
             </section>
 
 
