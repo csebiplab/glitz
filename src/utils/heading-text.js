@@ -1,4 +1,6 @@
 export const headingIconText = {
+
+    // flooring installation page 
     aboutUs__headingIconText : "About Us",
     installation__headingIconText : "#1 Installation",
     residentialAndCommercial__headingIconText : "Residential & Commercial",
@@ -16,5 +18,10 @@ export const headingIconText = {
     startYourProject__headingIconText : "Start Your Project With Us",
     howWeDesign__headingIconText : "How We Design",
     costComparison__headingIconText : "Cost Comparison",
+
+    // bathroom remodel page 
+    aboutUs__headingIconText : "About Us",
+    contractors__headingIconText : "Contractors",
+
 
 }

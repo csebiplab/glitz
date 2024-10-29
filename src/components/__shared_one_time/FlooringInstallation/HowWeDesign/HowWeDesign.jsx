@@ -51,7 +51,7 @@ const HowWeDesign = () => {
             {
                 howWeDesginData?.map((data)=>{
                     return <div key={data.id} className="how_we_cart___bg pt-[14px] pb-[21px] px-2">
-                        <p className="text-[25px] text-center font-bold text-black leading-normal">{data.title}</p>
+                        <p className="text-[22px] 5xl:text-[25px] text-center font-bold text-black leading-normal">{data.title}</p>
                         <p className="text-lg font-normal text-black leading-[35px] text-center">{data.desc}</p>
                     </div>
                 })
