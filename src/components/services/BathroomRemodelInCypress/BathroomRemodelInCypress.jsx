@@ -12,6 +12,9 @@ import { titleHeadingTexts } from '@/utils/title-heading-text';
 import WhyChoose from './WhyChoose/WhyChoose';
 import Faq from './Faq/Faq';
 import BathroomInstallers from './BathroomInstallers/BathroomInstallers';
+import Experienced from './Experienced/Experienced';
+import EquippedAndExpert from './EquippedAndExpert/EquippedAndExpert';
+import Elevating from './Elevating/Elevating';
 
 const BathroomRemodelInCypress = () => {
     return (
@@ -30,6 +33,18 @@ const BathroomRemodelInCypress = () => {
 
             <section>
                 <Contractors/>
+            </section>
+
+            <section>
+                <Experienced/>
+            </section>
+
+            <section>
+                <EquippedAndExpert />
+            </section>
+
+            <section>
+                <Elevating />
             </section>
 
 
