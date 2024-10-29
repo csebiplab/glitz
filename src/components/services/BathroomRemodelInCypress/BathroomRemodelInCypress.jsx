@@ -17,6 +17,10 @@ import EquippedAndExpert from './EquippedAndExpert/EquippedAndExpert';
 import Elevating from './Elevating/Elevating';
 import Benefits from './Benefits/Benefits';
 import Process from './Process/Process';
+import Services from './Services/Services';
+import ConsiderationAndLimiting from './ConsiderationAndLimiting/ConsiderationAndLimiting';
+import Gallery from './Gallery/Gallery';
+import Cost from './Cost/Cost';
 
 const BathroomRemodelInCypress = () => {
     return (
@@ -54,12 +58,27 @@ const BathroomRemodelInCypress = () => {
             </section>
 
             <section>
+                <Gallery />
+            </section>
+
+            <section>
                 <Process />
             </section>
 
-
+            <section>
+                <Services />
+            </section>
+            
             <section>
                 <Review titleHeading={ titleHeadingTexts.bathroomRemodelReviewText} />
+            </section>
+
+            <section>
+                <Cost />
+            </section>
+
+            <section>
+                <ConsiderationAndLimiting />
             </section>
 
             <section>
