@@ -75,8 +75,8 @@ const Services = () => {
                 servicesData?.map((data)=>{
                     return <div key={data.id} className="">
                         <Image className="rounded-t-[16px]" src={data.img} alt="services image" width={660} height={335}/>
-                        <div className="servicesCart___bg py-[16px] px-[8px] h-[720px] 2xl:h-[600px]">
-                        <p className="text-[22px] 5xl:text-[25px] text-center font-bold text-black leading-normal">{data.title}</p>
+                        <div className="servicesCart___bg py-[16px] px-[8px] h-auto md:h-[720px] 2xl:h-[600px]">
+                        <h3 className="text-[22px] 5xl:text-[25px] text-center font-bold text-black leading-normal">{data.title}</h3>
                         <p className="text-lg font-normal text-black leading-[35px] text-center">{data.desc}</p>
                         </div>
                         

@@ -108,7 +108,7 @@ const FlooringInstallationServices = () => {
             </section>
 
             <section>
-                <ContactUs/>
+                <ContactUs  contactUsTitle={titleHeadingTexts.flooringInstallationContactUsText}/>
             </section>
 
             <section>
