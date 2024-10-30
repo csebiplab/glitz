@@ -190,7 +190,7 @@ function NavList() {
       </Typography>
       <Typography
         as={Link}
-        href="/"
+        href="/bathroom-remodel-in-cypress-tx"
         variant="small"
         color="blue-gray"
         className="font-medium rounded-full text-sm md:text-sm xl:text-base 2xl:text-lg"

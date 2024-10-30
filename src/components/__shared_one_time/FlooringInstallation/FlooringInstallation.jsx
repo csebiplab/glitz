@@ -22,6 +22,7 @@ import FlooringInstallationCompany from './FlooringInstallationCompany/FlooringI
 import StartYourProject from './StartYourProject/StartYourProject';
 import HowWeDesign from './HowWeDesign/HowWeDesign';
 import { titleHeadingTexts } from '@/utils/title-heading-text';
+import CostComparison from './CostComparison/CostComparison';
 
 const FlooringInstallationServices = () => {
     return (
@@ -65,6 +66,10 @@ const FlooringInstallationServices = () => {
 
             <section>
                 <FlooringContractors/>
+            </section>
+
+            <section>
+                <CostComparison />
             </section>
 
             <section>

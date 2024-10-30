@@ -84,7 +84,7 @@ const Gallery = () => {
         </div>
         {/* swiper slider button */}
         <div className="md:col-span-1 h-full flex justify-center items-center">
-          <SwiperNavButtons swiper={swiper1} />
+          <SwiperNavButtons swiper={swiper1}/>
         </div>
         <div className="md:col-span-4">
           {/* Swiper Slider 2 */}
