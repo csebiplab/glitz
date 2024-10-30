@@ -98,7 +98,7 @@ const BathroomRemodelInCypress = () => {
             </section>
 
             <section>
-                <ContactUs />
+                <ContactUs contactUsTitle={titleHeadingTexts.bathroomRemodelContactUsText}/>
             </section>
 
             <section>

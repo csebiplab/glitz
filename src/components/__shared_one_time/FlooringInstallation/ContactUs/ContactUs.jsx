@@ -10,7 +10,7 @@ const socialIcon = [
   "/assets/glitz/socials/l.png",
 ];
 
-const ContactUs = () => {
+const ContactUs = ({contactUsTitle = "empty"}) => {
   return (
     <div className=" ">
       <div className="padding__top ">
@@ -73,7 +73,7 @@ const ContactUs = () => {
                     ))}
                   </div>
                   <p className="font-family-secondary text-[20px] 5xl:text-[25px] font-bold leading-normal text-primary text-center md:text-left">
-                  Best Floor Installation Company in TX
+                  {contactUsTitle}
                   </p>
                   <Image
                     src="/assets/glitz/logo/nav_logo.png"
