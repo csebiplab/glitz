@@ -67,7 +67,7 @@ const Brand = () => {
             <SwiperSlide
               className={`px-[30px] md:px-0 py-[15px] !w-full !h-auto !md:h-full`}
             >
-              <div className="w-full !flex items-center gap-5 5xl:gap-16">
+              <div className="w-full !flex items-center gap-4 5xl:gap-16">
                 <div className="pl-5 5xl:pl-14">
                   <p className="font-family-secondary text-sm 5xl:text-lg text-secondary font-bold leading-normal pb-[7px]">
                     Verifying Review From Trusted Site:{" "}

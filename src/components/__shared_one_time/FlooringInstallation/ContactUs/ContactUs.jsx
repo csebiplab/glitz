@@ -87,9 +87,9 @@ const ContactUs = ({contactUsTitle = "empty"}) => {
               </div>
               <div className="md:col-span-3 flex items-center">
                 <div>
-                  <h5 className="font-family-secondary text-[25px] md:text-[26px] lg:text-[29px] xl:text-[32px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[41px] 5xl:text-[44px] font-bold text-black leading-normal pb-[15px] text-center md:text-left">
+                  <p className="font-family-secondary text-[25px] md:text-[26px] lg:text-[29px] xl:text-[32px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[41px] 5xl:text-[44px] font-bold text-black leading-normal pb-[15px] text-center md:text-left">
                     Give Us Feedback
-                  </h5>
+                  </p>
                   <form className="">
                     <div className="w-full flex justify-between items-center gap-[20px]">
                       <div className="w-1/2">

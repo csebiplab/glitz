@@ -124,7 +124,7 @@ const Cost = () => {
                     color="blue-gray"
                     className="font-bold leading-none text-lg font-bold text-black "
                   >
-                    <h3 className="text-[20px] font-bold text-black text-center">{head}</h3>
+                    <p className="text-[20px] font-bold text-black text-center">{head}</p>
                   </Typography>
                 </th>
               ))}
@@ -141,7 +141,7 @@ const Cost = () => {
                       color="blue-gray"
                       className="font-bold"
                     >
-                      <h4 className="text-center pt-[10px] text-lg font-bold text-black">{title}</h4>
+                      <p className="text-center pt-[10px] text-lg font-bold text-black">{title}</p>
                     </Typography>
                   </td>
                   <td className="py-[4px] px-[17px] cart__bg">
