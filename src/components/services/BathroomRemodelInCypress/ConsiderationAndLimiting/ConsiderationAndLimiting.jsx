@@ -11,8 +11,8 @@ const considerationAndLimitingData = [
     title: "Budget",
     desc: (
         <>
-            <p> <strong>Cost Estimation:</strong> Determine a realistic budget that includes materials, labor, permits, and a contingency for unexpected expenses.</p>
-            <p> <strong>Prioritization:</strong>  Decide which elements of the remodel are essential and which can be postponed if necessary.</p>
+            <span> <strong>Cost Estimation:</strong> Determine a realistic budget that includes materials, labor, permits, and a contingency for unexpected expenses.</span>
+            <span> <strong>Prioritization:</strong>  Decide which elements of the remodel are essential and which can be postponed if necessary.</span>
         </>
     ),
   },
@@ -22,8 +22,8 @@ const considerationAndLimitingData = [
     title: "Space and Layout",
     desc: (
         <>
-            <p> <strong>Existing Space:</strong> Evaluate the current layout and dimensions of your bathroom to understand what changes are feasible.</p>
-            <p> <strong>Flow and Functionality:</strong> Consider how the new layout will affect the overall flow and usability of the space. Ensure that fixtures and furniture do not obstruct movement.</p>
+            <span> <strong>Existing Space:</strong> Evaluate the current layout and dimensions of your bathroom to understand what changes are feasible.</span>
+            <span> <strong>Flow and Functionality:</strong> Consider how the new layout will affect the overall flow and usability of the space. Ensure that fixtures and furniture do not obstruct movement.</span>
         </>
     ),
   },
@@ -33,8 +33,8 @@ const considerationAndLimitingData = [
     title: "Permits and Regulations",
     desc: (
         <>
-            <p> <strong>Local Codes: </strong> Check local building codes and regulations that may require permits for plumbing, electrical work, or structural changes.</p>
-            <p> <strong>HOA Guidelines: </strong>  If you live in a community with a homeowners association, ensure your plans comply with their guidelines.</p>
+            <span> <strong>Local Codes: </strong> Check local building codes and regulations that may require permits for plumbing, electrical work, or structural changes.</span>
+            <span> <strong>HOA Guidelines: </strong>  If you live in a community with a homeowners association, ensure your plans comply with their guidelines.</span>
         </>
     ),
   },
@@ -44,8 +44,8 @@ const considerationAndLimitingData = [
     title: "Plumbing & Electric Consider",
     desc: (
         <>
-            <p> <strong>Existing Systems:</strong> Assess the condition and location of current plumbing and electrical systems. Moving these can significantly increase costs.</p>
-            <p> <strong>Upgrades Needed:</strong> Consider whether your current plumbing or electrical systems need upgrades to meet modern standards.</p>
+            <span> <strong>Existing Systems:</strong> Assess the condition and location of current plumbing and electrical systems. Moving these can significantly increase costs.</span>
+            <span> <strong>Upgrades Needed:</strong> Consider whether your current plumbing or electrical systems need upgrades to meet modern standards.</span>
         </>
     ),
   },
@@ -55,8 +55,8 @@ const considerationAndLimitingData = [
     title: "Material Selection",
     desc: (
         <>
-            <p> <strong>Durability and Maintenance:</strong> Choose materials that can withstand the high moisture levels in a bathroom.</p>
-            <p> <strong>Style and aesthetics:</strong>  Ensure selected materials align with your design vision while being functional for a bathroom environment.</p>
+            <span> <strong>Durability and Maintenance:</strong> Choose materials that can withstand the high moisture levels in a bathroom.</span>
+            <span> <strong>Style and aesthetics:</strong>  Ensure selected materials align with your design vision while being functional for a bathroom environment.</span>
         </>
     ),
   },
@@ -66,8 +66,8 @@ const considerationAndLimitingData = [
     title: "Timeline",
     desc: (
         <>
-            <p> <strong>Project Duration:</strong> Understand that remodeling a bathroom can take anywhere from a few days to several weeks, depending on the extent of the work.</p>
-            <p> <strong>Disruption:</strong> Consider how the remodel will impact your daily routine and plan accordingly.</p>
+            <span> <strong>Project Duration:</strong> Understand that remodeling a bathroom can take anywhere from a few days to several weeks, depending on the extent of the work.</span>
+            <span> <strong>Disruption:</strong> Consider how the remodel will impact your daily routine and plan accordingly.</span>
         </>
     ),
   },
@@ -77,8 +77,8 @@ const considerationAndLimitingData = [
     title: "Aesthetic Preferences",
     desc: (
         <>
-            <p> <strong>Design Cohesion:</strong> Ensure that the bathroom design aligns with the overall aesthetic of your home. This includes color schemes, fixtures, and finishes.</p>
-            <p> <strong>Trends vs. Timelessness:</strong> Balance current design trends with timeless features to avoid needing another remodel in a few years.</p>
+            <span> <strong>Design Cohesion:</strong> Ensure that the bathroom design aligns with the overall aesthetic of your home. This includes color schemes, fixtures, and finishes.</span>
+            <span> <strong>Trends vs. Timelessness:</strong> Balance current design trends with timeless features to avoid needing another remodel in a few years.</span>
         </>
     ),
   },
@@ -88,7 +88,7 @@ const considerationAndLimitingData = [
     title: "Accessibility Needs",
     desc: (
         <>
-            <p> <strong>Future-Proofing:</strong> Consider whether to incorporate universal design elements for improved accessibility, especially if you plan to age in place or accommodate family members with disabilities.</p>
+            <span> <strong>Future-Proofing:</strong> Consider whether to incorporate universal design elements for improved accessibility, especially if you plan to age in place or accommodate family members with disabilities.</span>
         </>
     ),
   },
@@ -98,8 +98,8 @@ const considerationAndLimitingData = [
     title: "Environmental factors",
     desc: (
         <>
-            <p> <strong>Energy Efficiency:</strong> Consider energy-efficient fixtures and appliances to reduce water and electricity consumption.</p>
-            <p> <strong>Sustainable Materials:</strong> Explore eco-friendly materials and practices to minimize the environmental impact of your remodel.</p>
+            <span> <strong>Energy Efficiency:</strong> Consider energy-efficient fixtures and appliances to reduce water and electricity consumption.</span>
+            <span> <strong>Sustainable Materials:</strong> Explore eco-friendly materials and practices to minimize the environmental impact of your remodel.</span>
         </>
     ),
   },
