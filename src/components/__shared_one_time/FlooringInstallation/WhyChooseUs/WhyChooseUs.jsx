@@ -103,9 +103,9 @@ const WhyChooseUs = () => {
               </p>
               <div className="grid grid-rows-8 3xl:py-[35px] py-[20px] px-[20px] 2xl:text-[16px] lg:text-sm xs:text-[9px]">
                 {usualPool?.map((usual) => (
-                  <>
+                  <div key={usual?.id}>
                   <div
-                    key={usual?.id}
+                  
                     className="flex gap-4 items-center leading-none"
                   >
                     <Image
@@ -120,7 +120,7 @@ const WhyChooseUs = () => {
                     </p>
                   </div>
                   <div className="w-full h-[1px] bg-secondary-100 my-[16px] 5xl:my-[22px]"/>
-                  </>
+                  </div>
                   
                   
                 ))}
@@ -133,9 +133,9 @@ const WhyChooseUs = () => {
               </p>
               <div className="grid grid-rows-8 3xl:py-[35px] py-[25px] px-[20px] 2xl:text-[16px] lg:text-sm xs:text-[9px]">
                 {easyPool.map((usual) => (
-                  <>
+                  <div key={usual?.id}>
                   <div
-                    key={usual?.id}
+                    
                     className="flex gap-4 items-center leading-none  "
                   >
                     <Image
@@ -150,7 +150,7 @@ const WhyChooseUs = () => {
                     </p>
                   </div>
                   <div className="w-full h-[1px] bg-secondary-100 my-[16px] 5xl:my-[22px]"/>
-                  </>
+                  </div>
                   
                 ))}
               </div>

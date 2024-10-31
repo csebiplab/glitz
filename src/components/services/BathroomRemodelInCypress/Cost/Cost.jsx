@@ -21,17 +21,17 @@ const TABLE_ROWS = [
     title : "Cost",
     vinyl: (
       <>
-        <p>$5,000-$10,000</p>
+        <span>$5,000-$10,000</span>
       </>
     ),
     fiberglass: (
       <>
-        <p>$10,000 - $25,000</p>
+        <span>$10,000 - $25,000</span>
       </>
     ),
     concrete: (
       <>
-        <p>$25,000- $50,000+</p>
+        <span>$25,000- $50,000+</span>
       </>
     )
   },
@@ -78,20 +78,20 @@ const TABLE_ROWS = [
     title : "Additional Costs to Consider",
     vinyl: (
       <>
-        <p className="font-bold">Labor costs</p>
-        <p>Labor costs typically account for <strong>20- <br/> 30%</strong> of the total bath remodeling <br/> budget. Hiring licensed contractors can <br/> ensure quality work but may increase <br/> overall costs.</p>
+        <span className="font-bold">Labor costs</span>
+        <span>Labor costs typically account for <strong>20- <br/> 30%</strong> of the total bath remodeling <br/> budget. Hiring licensed contractors can <br/> ensure quality work but may increase <br/> overall costs.</span>
       </>
     ),
     fiberglass: (
       <>
-        <p className="font-bold">Permits and Inspections</p>
-        <p>Depending on the scope of the <br/> remodel, you may need permits, which <br/> can range from <strong>$100 to $500.</strong></p>
+        <span className="font-bold">Permits and Inspections</span>
+        <span>Depending on the scope of the <br/> remodel, you may need permits, which <br/> can range from <strong>$100 to $500.</strong></span>
       </>
     ),
     concrete: (
       <>
-        <p className="font-bold">Unexpected Repairs</p>
-        <p>Budget for potential issues that may <br/> arise during the remodel, such as <br/> plumbing or electrical upgrades, which <br/> can add <strong>$1,000</strong> or more.</p>
+        <span className="font-bold">Unexpected Repairs</span>
+        <span>Budget for potential issues that may <br/> arise during the remodel, such as <br/> plumbing or electrical upgrades, which <br/> can add <strong>$1,000</strong> or more.</span>
       </>
     )
   },
@@ -122,9 +122,9 @@ const Cost = () => {
                   <Typography
                     variant="small"
                     color="blue-gray"
-                    className="font-bold leading-none text-lg font-bold text-black "
+                    className="leading-none text-lg font-bold text-black "
                   >
-                    <p className="text-[20px] font-bold text-black text-center">{head}</p>
+                    <span className="text-[20px] font-bold text-black text-center">{head}</span>
                   </Typography>
                 </th>
               ))}
@@ -141,32 +141,29 @@ const Cost = () => {
                       color="blue-gray"
                       className="font-bold"
                     >
-                      <p className="text-center pt-[10px] text-lg font-bold text-black">{title}</p>
+                      <span className="text-center pt-[10px] text-lg font-bold text-black">{title}</span>
                     </Typography>
                   </td>
                   <td className="py-[4px] px-[17px] cart__bg">
-                    <Typography
-                      variant="small"
-                      className={`font-normal text-gray-600 text-base 5xl:text-lg font-normal text-black ${id === 2 ? "text-left" : "text-center"}`}
+                    <div
+                      className={`text-base 5xl:text-lg font-normal text-black ${id === 2 ? "text-left" : "text-center"}`}
                     >
                       {vinyl}
-                    </Typography>
+                    </div>
                   </td>
                   <td className="py-[4px] px-[17px] cart__bg">
-                    <Typography
-                      variant="small"
-                      className={`font-normal text-gray-600 text-base 5xl:text-lg font-normal text-black ${id === 2 ? "text-left" : "text-center"}`}
+                    <div
+                      className={`text-base 5xl:text-lg font-normal text-black ${id === 2 ? "text-left" : "text-center"}`}
                     >
                       {fiberglass}
-                    </Typography>
+                    </div>
                   </td>
                   <td className="py-[4px] px-[17px] cart__bg">
-                    <Typography
-                      variant="small"
-                      className={`font-normal text-gray-600 text-base 5xl:text-lg font-normal text-black ${id === 2 ? "text-left" : "text-center"}`}
+                    <div
+                      className={`text-base 5xl:text-lg font-normal text-black ${id === 2 ? "text-left" : "text-center"}`}
                     >
                       {concrete}
-                    </Typography>
+                    </div>
                   </td>
                 </tr>
                 
