@@ -11,6 +11,12 @@ import Review from '@/components/__shared_one_time/FlooringInstallation/Review/R
 import AboutUs from './AboutUs/AboutUs';
 import Experienced from './Experienced/Experienced';
 import Elevating from './Elevating/Elevating';
+import Trust from './Trust/Trust';
+import Professional from './Professional/Professional';
+import FreshNewLook from './FreshNewLook/FreshNewLook';
+import Revitalize from './Revitalize/Revitalize';
+import WorkWithUs from './WorkWithUs/WorkWithUs';
+import OutdoorKitchen from './OutdoorKitchen/OutdoorKitchen';
 
 const KitchenRemodelInCypress = () => {
     return (
@@ -36,9 +42,33 @@ const KitchenRemodelInCypress = () => {
             </section>
 
             <section>
+                <Trust />
+            </section>
+
+            <section>
+                <Professional />
+            </section>
+
+            <section>
+                <OutdoorKitchen />
+            </section>
+
+            <section>
                 <Review titleHeading={ titleHeadingTexts.bathroomRemodelReviewText} />
             </section>
 
+
+            <section>
+                <Revitalize />
+            </section>
+
+            <section>
+                <WorkWithUs />
+            </section>
+
+            <section>
+                <FreshNewLook />
+            </section>
 
             <section>
                 <Faq />
