@@ -200,9 +200,9 @@ const Faq = () => {
           <HeadingIcon text={headingIconText.faq__headingIconText} />
 
           <div>
-            <h2 className="font-family-secondary text-[25px] md:text-[26px] lg:text-[29px] xl:text-[32px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[41px] 5xl:text-[44px] font-bold text-secondary leading-normal text-center">
+            <h3 className="font-family-secondary text-[25px] md:text-[26px] lg:text-[29px] xl:text-[32px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[41px] 5xl:text-[44px] font-bold text-secondary leading-normal text-center">
             FAQ of Kitchen Remodeling Services
-            </h2>
+            </h3>
             <p className="text-lg font-normal text-secondary-50 text-center leading-[40px]">If you have any more questions or need further assistance, please don't hesitate to reach out. We look forward to helping you create the kitchen of your dreams!</p>
           </div>
         </div>

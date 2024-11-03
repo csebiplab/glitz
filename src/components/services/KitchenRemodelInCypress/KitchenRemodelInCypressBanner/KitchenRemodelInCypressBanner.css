@@ -1,23 +1,25 @@
 /* Hero section */
-.hero__section__markham {
-    height: auto;
-    /* background-image: url("/assets/poolInstallationCompanyInMarkham/hero-section.jpg");
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat; */
-  }
-  
-  .hero__right__markham {
-    width: 50%;
-    height : 100%;
-  }
-  
-  .hero__right__markham .hero-main-image {
-    width: 100%;
-    object-fit: cover;
-  }
-  
-  .hero_btn {
-    background: #9C7066;
-  }
-  
+.hero-section {
+  /* width: 100%;
+  height: auto;
+  background-image: url("/assets/roofing_contractor/hero_section.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat; */
+  background: #F2FCFF;
+  box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.25);
+}
+
+.hero-right {
+  width: 50%;
+}
+
+.hero-right .hero-main-image {
+  width: 100%;
+  object-fit: cover;
+}
+
+.btn_bg{
+  border-radius: 6px;
+  border: 1.5px solid #1F1D20;
+}

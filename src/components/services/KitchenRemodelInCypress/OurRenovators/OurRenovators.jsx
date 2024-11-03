@@ -64,7 +64,7 @@ const OurRenovators = () => {
       <div className="container padding__top">
         <div className="flex flex-col items-center justify-center">
           <HeadingIcon
-            text={headingIconText.outdoorKitchen__headingIconText}
+            text={headingIconText.doesAndDoNot__headingIconText}
           />
           <h2 className="font-family-secondary text-[25px] md:text-[26px] lg:text-[29px] xl:text-[32px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[41px] 5xl:text-[44px] font-bold text-secondary leading-normal text-center pb-[5px]">
           Our Renovators Do's and Don't
@@ -76,7 +76,7 @@ const OurRenovators = () => {
 
         {/* Our Renovators Do's part  */}
         <div className="flex justify-center items-center my-[25px]">
-            <buttton className="text-[22px] 5xl:text-[25px] font-bold leading-normal text-white text-center bg-primary rounded-[50px] py-[14px] 5xl:py-[17px] px-[140px] 5xl:px-[170px]">Our Renovators Do's</buttton>
+            <buttton className="text-[22px] 5xl:text-[25px] font-bold leading-normal text-white text-center bg-primary rounded-[50px] py-[14px] 5xl:py-[17px] px-[50px] lg:px-[140px] 5xl:px-[170px]">Our Renovators Do's</buttton>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-[15px]">
             {
@@ -91,7 +91,7 @@ const OurRenovators = () => {
 
         {/* Our Renovators Don’ts part  */}
         <div className="flex justify-center items-center my-[25px]">
-            <buttton className="text-[22px] 5xl:text-[25px] font-bold leading-normal text-white text-center bg-primary rounded-[50px] py-[14px] 5xl:py-[17px] px-[140px] 5xl:px-[170px]">Our Renovators Don'ts</buttton>
+            <buttton className="text-[22px] 5xl:text-[25px] font-bold leading-normal text-white text-center bg-primary rounded-[50px] py-[14px] 5xl:py-[17px] px-[50px] lg:px-[140px] 5xl:px-[170px]">Our Renovators Don'ts</buttton>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-[15px]">
             {
