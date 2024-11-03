@@ -118,7 +118,7 @@ const Cost = () => {
           <thead>
             <tr>
               {TABLE_HEAD?.map((head) => (
-                <th key={head} className="p-4 pt-10 cart__bg">
+                <th key={head} className="p-4 pt-10 cart__bg text-center">
                   <Typography
                     variant="small"
                     color="blue-gray"
@@ -134,7 +134,7 @@ const Cost = () => {
             {TABLE_ROWS?.map(({id, number, img, title, vinyl, fiberglass, concrete}) => {
               return (
                 <tr key={id}>
-                  <td className="p-4 cart__bg">
+                  <td className="p-4 cart__bg text-center">
                     <Image className="w-[46px] h-[46px] mx-auto" src={img} alt="time" width={46} height={46}/>
                     <Typography
                       variant="small"
