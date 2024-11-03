@@ -19,6 +19,10 @@ import WorkWithUs from './WorkWithUs/WorkWithUs';
 import OutdoorKitchen from './OutdoorKitchen/OutdoorKitchen';
 import WhyChoose from './WhyChoose/WhyChoose';
 import Innovative from './Innovative/Innovative';
+import Cost from './Cost/Cost';
+import Services from './Services/Services';
+import Gallery from './Gallery/Gallery';
+import OurRenovators from './OurRenovators/OurRenovators';
 
 const KitchenRemodelInCypress = () => {
     return (
@@ -52,11 +56,27 @@ const KitchenRemodelInCypress = () => {
             </section>
 
             <section>
+                <OurRenovators />
+            </section>
+
+            <section>
+                <Gallery />
+            </section>
+
+            <section>
+                <Services />
+            </section>
+
+            <section>
                 <OutdoorKitchen />
             </section>
 
             <section>
                 <Innovative />
+            </section>
+            
+            <section>
+                <Cost />
             </section>
 
             <section>
