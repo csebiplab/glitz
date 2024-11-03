@@ -80,7 +80,7 @@ const KitchenRemodelInCypress = () => {
             </section>
 
             <section>
-                <Review titleHeading={ titleHeadingTexts.bathroomRemodelReviewText} />
+                <Review titleHeading={ titleHeadingTexts.kitchenRemodelReviewText} />
             </section>
 
             <section>
@@ -108,7 +108,7 @@ const KitchenRemodelInCypress = () => {
             </section>
 
             <section>
-                <ContactUs contactUsTitle={titleHeadingTexts.bathroomRemodelContactUsText}/>
+                <ContactUs contactUsTitle={titleHeadingTexts.kitchenRemodelContactUsText}/>
             </section>
 
             <section>

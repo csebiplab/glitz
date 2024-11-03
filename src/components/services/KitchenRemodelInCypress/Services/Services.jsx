@@ -3,42 +3,90 @@ import HeadingIcon from "@/components/__ui/HeadingIcon";
 import { headingIconText } from "@/utils/heading-text";
 import Image from "next/image";
 
-const processData = [
+const servicesData = [
   {
     id: 1,
-    img: "/assets/glitz/bathroomRemodel/process1.png",
-    title: "Consultation & Design Plan",
-    desc: "Our process starts with a detailed consultation to understand your vision, needs, and budget. We help you select high-quality materials, fixtures, and design elements that align with your style. Our design experts work closely with you to develop a tailored plan"
+    img: "/assets/glitz/kitchenRemodel/services/services1.png",
+    title: "Design Consultation",
+    desc: "Personalized design sessions to capture your vision and create a functional layout tailored to your lifestyle."
   },
   {
     id: 2,
-    img: "/assets/glitz/bathroomRemodel/process2.png",
-    title: "Project Preparation",
-    desc: "Before starting the remodel, we handle all necessary permits and inspections to ensure a smooth, compliant process. We prepare the space by protecting surrounding areas to minimize disruption and keep your home clean and organized throughout the project",
+    img: "/assets/glitz/kitchenRemodel/services/services2.png",
+    title: "Custom Cabinetry",
+    desc: "A variety of cabinetry options, including custom solutions, to maximize storage and enhance your kitchen's aesthetics."
   },
   {
     id: 3,
-    img: "/assets/glitz/bathroomRemodel/process3.png",
-    title: "Demolition & site prepare",
-    desc: "Once prepared, our team handles the demolition of existing structures safely and efficiently. We remove old fixtures, flooring, and outdated elements, ensuring a clean slate for your new bathroom design."
+    img: "/assets/glitz/kitchenRemodel/services/services3.png",
+    title: "Countertop Installation",
+    desc: "Expert installation of high-quality materials like granite, quartz, and marble, ensuring durability and style."
   },
   {
     id: 4,
-    img: "/assets/glitz/bathroomRemodel/process4.png",
-    title: "Structural & Plumbing",
-    desc: "Glitz Floors & More prioritizes quality, so we upgrade necessary plumbing, wiring, and structural elements to meet modern standards and support your new fixtures and layout. Our skilled professionals ensure that each installation is built to last.",
+    img: "/assets/glitz/kitchenRemodel/services/services4.png",
+    title: "Flooring Solutions",
+    desc: "Options include tile, hardwood, laminate, and vinyl to provide a beautiful and durable foundation for your kitchen."
   },
   {
     id: 5,
-    img: "/assets/glitz/bathroomRemodel/process5.png",
-    title: "Install & finish touches",
-    desc: "With a strong foundation, we install all new components, from flooring and tiles to vanities and lighting. Our team handles every detail, ensuring your bathroom remodel is flawless and precisely to your specifications.",
+    img: "/assets/glitz/kitchenRemodel/services/services5.png",
+    title: "Lighting Design",
+    desc: "Comprehensive lighting solutions, including ambient, task, and accent lighting, create the perfect atmosphere."
   },
   {
     id: 6,
-    img: "/assets/glitz/bathroomRemodel/process6.png",
-    title: "Final Walk & Quality Check",
-    desc: "After completing the remodel, we conduct a thorough quality check and a walkthrough with you to ensure everything meets your satisfaction. We address any final touches to ensure your bathroom is ready for years of comfort and beauty.",
+    img: "/assets/glitz/kitchenRemodel/services/services6.png",
+    title: "Plumbing & Electrical Work",
+    desc: "Licensed professionals to handle all plumbing and electrical updates, ensuring safety and compliance"
+  },
+  {
+    id: 7,
+    img: "/assets/glitz/kitchenRemodel/services/services7.png",
+    title: "Backsplash Installation",
+    desc: "Stylish backsplash options in various materials and designs enhance the visual appeal of your kitchen."
+  },
+  {
+    id: 8,
+    img: "/assets/glitz/kitchenRemodel/services/services8.png",
+    title: "Appliance & Installation",
+    desc: "Guidance in choosing modern, energy-efficient appliances, along with professional installation."
+  },
+  {
+    id: 9,
+    img: "/assets/glitz/kitchenRemodel/services/services9.png",
+    title: "Finishing Touches",
+    desc: "Attention to detail with hardware selection, paint colors, and decorative elements that tie your design together."
+  },
+  {
+    id: 10,
+    img: "/assets/glitz/kitchenRemodel/services/services10.png",
+    title: "Project Management",
+    desc: "Comprehensive project oversight to ensure timely completion and clear communication throughout"
+  },
+  {
+    id: 11,
+    img: "/assets/glitz/kitchenRemodel/services/services11.png",
+    title: "Open Concept Designs",
+    desc: "Expert guidance on creating open layouts that enhance flow and connectivity between your kitchen"
+  },
+  {
+    id: 12,
+    img: "/assets/glitz/kitchenRemodel/services/services12.png",
+    title: "Space Optimize Solutions",
+    desc: "Innovative storage solutions, including pull-out shelves, lazy Susans, and custom drawers, to maximize efficiency."
+  },
+  {
+    id: 13,
+    img: "/assets/glitz/kitchenRemodel/services/services13.png",
+    title: "Eco-Friendly Options",
+    desc: "Sustainable materials and energy-efficient appliances for those looking to reduce their environmental impact."
+  },
+  {
+    id: 14,
+    img: "/assets/glitz/kitchenRemodel/services/services14.png",
+    title: "Accessibility Modifications",
+    desc: "Custom solutions to ensure your kitchen is accessible and functional for everyone, regardless of mobility challenges."
   },
 ];
 
@@ -47,13 +95,16 @@ const Services = () => {
     <div>
       <div className="container padding__top">
         <div className="flex flex-col items-center justify-center">
-          <HeadingIcon text={headingIconText.process__headingIconText} />
-          <h2 className="font-family-secondary text-[25px] md:text-[26px] lg:text-[29px] xl:text-[32px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[41px] 5xl:text-[44px] font-bold text-secondary leading-normal text-center pt-[10px] pb-[25px]">
-          Streamlined Process of Bathroom Remodel Project
+          <HeadingIcon text={headingIconText.services__headingIconText} />
+          <h2 className="font-family-secondary text-[25px] md:text-[26px] lg:text-[29px] xl:text-[32px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[41px] 5xl:text-[44px] font-bold text-secondary leading-normal text-center pt-[10px]">
+          Comprehensive Kitchen Remodeling Services
           </h2>
+          <p className="font-family-secondary text-lg font-normal text-center text-secondary">
+          At Glitz Floors & More, we offer a wide array of comprehensive kitchen remodeling services to meet all your needs. Our services include:  With our extensive range of services, Glitz Floors & More is dedicated to making your kitchen remodel a seamless and rewarding experience. Let us help you create a beautiful, functional space that reflects your style and meets your needs!
+          </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-[60px] 5xl:gap-[75px]">
-          {processData?.map((data) => {
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-[60px] 5xl:gap-[75px] mt-[25px]">
+          {servicesData?.map((data) => {
             return (
               <div key={data.id} className="relative">
                 <Image
@@ -63,7 +114,7 @@ const Services = () => {
                   height={129}
                   className="w-[129px] h-[129px] mx-auto"
                 />
-                <p className="font-family-secondary text-[25px] xl:text-[22px] 5xl:text-[25px] font-bold text-secondary text-center leading-9 pt-[12px] pb-[5px]">
+                <p className="font-family-secondary text-[22px] 5xl:text-[25px] font-bold text-secondary text-center leading-9 pt-[12px] pb-[5px]">
                   {data.title}
                 </p>
                 <p className="font-family-secondary text-lg font-light text-black text-center pb-[25px]">

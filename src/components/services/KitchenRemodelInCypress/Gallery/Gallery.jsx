@@ -46,7 +46,7 @@ const Gallery = () => {
       <div className="flex flex-col items-center justify-center">
         <HeadingIcon text={headingIconText.gallery__headingIconText} />
         <h2 className="font-family-secondary text-[25px] md:text-[26px] lg:text-[29px] xl:text-[32px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[41px] 5xl:text-[44px] font-bold text-secondary leading-normal text-center pt-[10px] pb-[25px]">
-          Gallery Of Bathroom Remodel in Cypress, TX
+        Gallery Of Kitchen Remodel in Cypress, TX
         </h2>
       </div>
       {/* gallery image */}
