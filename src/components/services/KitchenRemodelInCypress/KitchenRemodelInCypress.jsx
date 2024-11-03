@@ -17,6 +17,7 @@ import FreshNewLook from './FreshNewLook/FreshNewLook';
 import Revitalize from './Revitalize/Revitalize';
 import WorkWithUs from './WorkWithUs/WorkWithUs';
 import OutdoorKitchen from './OutdoorKitchen/OutdoorKitchen';
+import WhyChoose from './WhyChoose/WhyChoose';
 
 const KitchenRemodelInCypress = () => {
     return (
@@ -57,6 +58,9 @@ const KitchenRemodelInCypress = () => {
                 <Review titleHeading={ titleHeadingTexts.bathroomRemodelReviewText} />
             </section>
 
+            <section>
+                <WhyChoose />
+            </section>
 
             <section>
                 <Revitalize />
