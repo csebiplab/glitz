@@ -18,6 +18,7 @@ import Revitalize from './Revitalize/Revitalize';
 import WorkWithUs from './WorkWithUs/WorkWithUs';
 import OutdoorKitchen from './OutdoorKitchen/OutdoorKitchen';
 import WhyChoose from './WhyChoose/WhyChoose';
+import Innovative from './Innovative/Innovative';
 
 const KitchenRemodelInCypress = () => {
     return (
@@ -52,6 +53,10 @@ const KitchenRemodelInCypress = () => {
 
             <section>
                 <OutdoorKitchen />
+            </section>
+
+            <section>
+                <Innovative />
             </section>
 
             <section>
