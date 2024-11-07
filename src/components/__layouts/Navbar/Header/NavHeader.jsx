@@ -32,6 +32,10 @@ const our_service_menu_items = {
       title: "Bathroom Remodel in Cypress, TX",
       route: "/bathroom-remodel-in-cypress-tx",
     },
+    {
+      title: "Kitchen Remodel in Cypress",
+      route: "/kitchen-remodel-in-cypress",
+    },
   ],
 };
 
@@ -177,7 +181,7 @@ function NavList() {
 
       <Typography
         as={Link}
-        href="/"
+        href="/kitchen-remodel-in-cypress"
         variant="small"
         color="blue-gray"
         className="font-medium rounded-full text-sm md:text-sm xl:text-base 2xl:text-lg"
