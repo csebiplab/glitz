@@ -173,7 +173,7 @@ const Review = () => {
                     <button className="btn__bg_review text-lg font-normal text-white leading-normal py-[15px] px-[51px]">
                       <Link
                         className="font-family-secondary text-white"
-                        href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2879.3609083991623!2d-79.49393322442658!3d43.806872771095186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b2e8c97ed514d%3A0xcc49d389c7b5d8b5!2s163%20Bowes%20Rd%2C%20Concord%2C%20ON%20L4K%201H3%2C%20Canada!5e0!3m2!1sen!2sbd!4v1731687155797!5m2!1sen!2sbd"
+                        href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3455.447281997168!2d-95.679383325182!3d29.99531067494835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640d57b61c6fd8d%3A0x2ba2182f0ab40249!2sGlitz%20Floors%20%26%20More!5e0!3m2!1sen!2sbd!4v1732205338949!5m2!1sen!2sbd"
                         rel="nofollow"
                         target="_blank"
                       >
@@ -224,7 +224,7 @@ const Review = () => {
                   <button className="btn__bg_review text-lg font-normal text-white leading-normal py-[15px] px-[51px]">
                     <Link
                       className="font-family-secondary text-white"
-                      href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2879.3609083991623!2d-79.49393322442658!3d43.806872771095186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b2e8c97ed514d%3A0xcc49d389c7b5d8b5!2s163%20Bowes%20Rd%2C%20Concord%2C%20ON%20L4K%201H3%2C%20Canada!5e0!3m2!1sen!2sbd!4v1731687155797!5m2!1sen!2sbd"
+                      href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3455.447281997168!2d-95.679383325182!3d29.99531067494835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640d57b61c6fd8d%3A0x2ba2182f0ab40249!2sGlitz%20Floors%20%26%20More!5e0!3m2!1sen!2sbd!4v1732205338949!5m2!1sen!2sbd"
                       rel="nofollow"
                       target="_blank"
                     >
@@ -309,7 +309,7 @@ const Review = () => {
               <div>
                 <iframe
                   className="w-full h-[232px] md:h-[241px] mx-auto"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2879.3609083991623!2d-79.49393322442658!3d43.806872771095186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b2e8c97ed514d%3A0xcc49d389c7b5d8b5!2s163%20Bowes%20Rd%2C%20Concord%2C%20ON%20L4K%201H3%2C%20Canada!5e0!3m2!1sen!2sbd!4v1731687155797!5m2!1sen!2sbd"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3455.447281997168!2d-95.679383325182!3d29.99531067494835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640d57b61c6fd8d%3A0x2ba2182f0ab40249!2sGlitz%20Floors%20%26%20More!5e0!3m2!1sen!2sbd!4v1732205338949!5m2!1sen!2sbd"
                   width="854"
                   height="241"
                   allowFullScreen=""

@@ -3,6 +3,7 @@ import Banner from "./Banner/Banner";
 import Brand from "../../FlooringInstallation/Brand/Brand";
 import ProjectGallery from "./ProjectGallery/ProjectGallery";
 import Review from "./Review/Review";
+import ContactUs from "./ContactUs/ContactUs";
 
 const OnlyHomePage = () => {
   return (
@@ -21,6 +22,10 @@ const OnlyHomePage = () => {
 
       <section>
         <Review />
+      </section>
+
+      <section>
+        <ContactUs />
       </section>
     </div>
   );
