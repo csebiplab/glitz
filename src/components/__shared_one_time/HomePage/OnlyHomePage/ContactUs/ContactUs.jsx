@@ -293,41 +293,41 @@ const ContactUs = () => {
             Get Free Professional Consultation
           </h2>
           <div className="mt-[22px]">
-              <ul>
-                <li className="flex items-center gap-[15px] text-base font-normal text-black leading-normal">
-                  {" "}
-                  <Image
-                    src="/assets/glitz/newHomePage/icons/map.png"
-                    alt="map icon"
-                    width={28}
-                    height={28}
-                  />{" "}
-                  <Link href="location:163 Bowes rd, Toronto">
-                    163 Bowes rd, Toronto
-                  </Link>
-                </li>
-                <li className="flex items-center gap-[15px] text-base font-normal text-black leading-normal py-[34px]">
-                  <Image
-                    src="/assets/glitz/newHomePage/icons/phone.png"
-                    alt="phone icon"
-                    width={28}
-                    height={28}
-                  />
-                  <Link href="tel:647-449-9512">647-449-9512</Link>
-                </li>
-                <li className="flex items-center gap-[15px] text-base font-normal text-black leading-normal">
-                  <Image
-                    src="/assets/glitz/newHomePage/icons/email.png"
-                    alt="email icon"
-                    width={28}
-                    height={28}
-                  />
-                  <Link href="mailto:basement Renovation@gmail.com">
-                    basement Renovation@gmail.com
-                  </Link>
-                </li>
-              </ul>
-            </div>
+            <ul>
+              <li className="flex items-center gap-[15px] text-base font-normal text-black leading-normal">
+                {" "}
+                <Image
+                  src="/assets/glitz/newHomePage/icons/map.png"
+                  alt="map icon"
+                  width={28}
+                  height={28}
+                />{" "}
+                <Link href="location:163 Bowes rd, Toronto">
+                  163 Bowes rd, Toronto
+                </Link>
+              </li>
+              <li className="flex items-center gap-[15px] text-base font-normal text-black leading-normal py-[34px]">
+                <Image
+                  src="/assets/glitz/newHomePage/icons/phone.png"
+                  alt="phone icon"
+                  width={28}
+                  height={28}
+                />
+                <Link href="tel:647-449-9512">647-449-9512</Link>
+              </li>
+              <li className="flex items-center gap-[15px] text-base font-normal text-black leading-normal">
+                <Image
+                  src="/assets/glitz/newHomePage/icons/email.png"
+                  alt="email icon"
+                  width={28}
+                  height={28}
+                />
+                <Link href="mailto:basement Renovation@gmail.com">
+                  basement Renovation@gmail.com
+                </Link>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>

@@ -4,6 +4,7 @@ import Brand from "../../FlooringInstallation/Brand/Brand";
 import ProjectGallery from "./ProjectGallery/ProjectGallery";
 import Review from "./Review/Review";
 import ContactUs from "./ContactUs/ContactUs";
+import Location from "./Location/Location";
 
 const OnlyHomePage = () => {
   return (
@@ -26,6 +27,10 @@ const OnlyHomePage = () => {
 
       <section>
         <ContactUs />
+      </section>
+
+      <section>
+        <Location />
       </section>
     </div>
   );
