@@ -4,8 +4,8 @@ import Link from "next/link";
 
 const Banner = () => {
   return (
-    <div className="banner__bg py-[62px] md:py-[75px] lg:py-[88px] xl:py-[101px] 2xl:py-[114px] 3xl:py-[127px] 4xl:py-[140px] 5xl:py-[158px]">
-      <div className="container h-full flex flex-col items-start justify-center">
+    <div className="banner__bg container py-[62px] md:py-[75px] lg:py-[88px] xl:py-[101px] 2xl:py-[114px] 3xl:py-[127px] 4xl:py-[140px] 5xl:py-[158px]">
+      <div className=" h-full flex flex-col items-start justify-center">
         <h1 className="text-[30px] md:text-[33px] lg:text-[36px] xl:text-[39px] 2xl:text-[41px] 3xl:text-[44px] 4xl:text-[47px] 5xl:text-[50px] font-extrabold italic text-white leading-normal">
           Refresh Your Home <br />
           This Summer

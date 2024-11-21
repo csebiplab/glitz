@@ -1,6 +1,6 @@
 "use client";
-import HeadingIcon from "@/components/ui/HeadingIcon";
-import { headingIconText } from "@/utils/heading-text";
+import HeadingIcon from '@/components/__ui/HeadingIcon';
+import { headingIconText } from '@/utils/heading-text';
 
 import Image from "next/image";
 import React from "react";
@@ -34,11 +34,11 @@ const reviewData = [
     id: 1,
     sort_name: "S",
     name: "Steven Norris",
-    star: "/assets/primeBasementHomePage/orange_small_start.png",
+    star: "/assets/glitz/newHomePage/orange_small_start.png",
     date: "31 August 2024",
     review:
       "I can't say enough about Glitz Floors and More. From start to finish Zaid, our salesman, was great. He was informative, proactive, helpful, attentive, caring, and patient - Never pushy.",
-    g: "/assets/primeBasementHomePage/g.png",
+    g: "/assets/glitz/newHomePage/g.png",
     post: "Posted on",
     google: "Google",
   },
@@ -46,62 +46,64 @@ const reviewData = [
     id: 2,
     sort_name: "L",
     name: "Lauren McKinley",
-    star: "/assets/primeBasementHomePage/orange_small_start.png",
-    date: "02 August 2024",
+    star: "/assets/glitz/newHomePage/orange_small_start.png",
+    date: "31 August 2024",
     review:
       "Karim and his team are absolutely phenomenal. They were the perfect crew to work with to modernize our 90s home. They put in new floors and completed painting throughout the house.  Their professionalism is top-notch.",
-    g: "/assets/primeBasementHomePage/g.png",
+    g: "/assets/glitz/newHomePage/g.png",
     post: "Posted on",
     google: "Google",
   },
   {
     id: 3,
     sort_name: "S",
-    name: "Steven Norris",
-    star: "/assets/primeBasementHomePage/orange_small_start.png",
+    name: "Suchithra Nagarajan",
+    star: "/assets/glitz/newHomePage/orange_small_start.png",
     date: "31 August 2024",
     review:
-      "I can't say enough about Glitz Floors and More. From start to finish Zaid, our salesman, was great. He was informative, proactive, helpful, attentive, caring, and patient - Never pushy.",
-    g: "/assets/primeBasementHomePage/g.png",
+      "We had our entire downstairs flooring redone with Glitz Floors and More. We also had the walls of the kitchen, dining room and study painted. We had them sand and paint the kitchen cabinets and also replace the hinges and knobs.",
+    g: "/assets/glitz/newHomePage/g.png",
     post: "Posted on",
     google: "Google",
   },
+  
   {
     id: 4,
-    sort_name: "L",
-    name: "Lauren McKinley",
-    star: "/assets/primeBasementHomePage/orange_small_start.png",
-    date: "02 August 2024",
+    sort_name: "S",
+    name: "Steven Norris",
+    star: "/assets/glitz/newHomePage/orange_small_start.png",
+    date: "31 August 2024",
     review:
-      "Karim and his team are absolutely phenomenal. They were the perfect crew to work with to modernize our 90s home. They put in new floors and completed painting throughout the house.  Their professionalism is top-notch.",
-    g: "/assets/primeBasementHomePage/g.png",
+      "I can't say enough about Glitz Floors and More. From start to finish Zaid, our salesman, was great. He was informative, proactive, helpful, attentive, caring, and patient - Never pushy.",
+    g: "/assets/glitz/newHomePage/g.png",
     post: "Posted on",
     google: "Google",
   },
   {
     id: 5,
-    sort_name: "S",
-    name: "Steven Norris",
-    star: "/assets/primeBasementHomePage/orange_small_start.png",
+    sort_name: "L",
+    name: "Lauren McKinley",
+    star: "/assets/glitz/newHomePage/orange_small_start.png",
     date: "31 August 2024",
     review:
-      "I can't say enough about Glitz Floors and More. From start to finish Zaid, our salesman, was great. He was informative, proactive, helpful, attentive, caring, and patient - Never pushy.",
-    g: "/assets/primeBasementHomePage/g.png",
+      "Karim and his team are absolutely phenomenal. They were the perfect crew to work with to modernize our 90s home. They put in new floors and completed painting throughout the house.  Their professionalism is top-notch.",
+    g: "/assets/glitz/newHomePage/g.png",
     post: "Posted on",
     google: "Google",
   },
   {
     id: 6,
-    sort_name: "L",
-    name: "Lauren McKinley",
-    star: "/assets/primeBasementHomePage/orange_small_start.png",
-    date: "02 August 2024",
+    sort_name: "S",
+    name: "Suchithra Nagarajan",
+    star: "/assets/glitz/newHomePage/orange_small_start.png",
+    date: "31 August 2024",
     review:
-      "Karim and his team are absolutely phenomenal. They were the perfect crew to work with to modernize our 90s home. They put in new floors and completed painting throughout the house.  Their professionalism is top-notch.",
-    g: "/assets/primeBasementHomePage/g.png",
+      "We had our entire downstairs flooring redone with Glitz Floors and More. We also had the walls of the kitchen, dining room and study painted. We had them sand and paint the kitchen cabinets and also replace the hinges and knobs.",
+    g: "/assets/glitz/newHomePage/g.png",
     post: "Posted on",
     google: "Google",
   },
+  
 ];
 
 const Review = () => {
@@ -113,9 +115,9 @@ const Review = () => {
         className="container padding__top"
       >
         <div className="flex flex-col justify-center items-center pb-[25px]">
-          <HeadingIcon text={headingIconText.review__IconText} />
+        <HeadingIcon text={headingIconText.review__headingIconText}/>
           <h2 className="text-[25px] md:text-[27px] lg:text-[30px] xl:text-[33px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[40px] 5xl:tex-[42px] font-bold text-black text-center leading-normal">
-            Reviews For Basement Renovation
+          Glitz Floors & More Review
           </h2>
         </div>
         <div>
@@ -138,7 +140,7 @@ const Review = () => {
                     {/* first div  */}
                     <div className="flex items-center gap-[10px]">
                       <Image
-                        src="/assets/primeBasementHomePage/google.png"
+                        src="/assets/glitz/newHomePage/google.png"
                         alt="google logo"
                         width={198}
                         height={67}
@@ -155,7 +157,7 @@ const Review = () => {
                         5.0
                       </p>
                       <Image
-                        src="/assets/primeBasementHomePage/orange_five_star.png"
+                        src="/assets/glitz/newHomePage/orange_five_star.png"
                         alt="five star icon"
                         width={152}
                         height={23}
@@ -189,7 +191,7 @@ const Review = () => {
                   {/* first div  */}
                   <div className="flex items-center gap-[10px]">
                     <Image
-                      src="/assets/primeBasementHomePage/google.png"
+                      src="/assets/glitz/newHomePage/google.png"
                       alt="google logo"
                       width={198}
                       height={67}
@@ -253,7 +255,7 @@ const Review = () => {
                   {reviewData.map((data) => (
                     <SwiperSlide
                       key={data.id}
-                      className={` px-[12px] md:px-[20px] md:px-0 py-[15px] !h-auto !md:h-full`}
+                      className={` px-[12px] md:pl-[20px] py-[15px] !h-auto !md:h-full`}
                     >
                       <div className="px-2">
                         <div className="flex items-center gap-[10px]">
