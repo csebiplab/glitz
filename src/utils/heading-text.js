@@ -1,5 +1,16 @@
 export const headingIconText = {
 
+    // home page 
+    aboutUs__headingIconText : "About Us",
+    services__headingIconText : "Services",
+    yourDream__headingIconText : "You Dream It... We Create It",
+    floorNow__headingIconText : "Floor Now, Pay Over Time",
+    gallery__headingIconText : "Gallery",
+    review__headingIconText : "Review",
+    services__headingIconText : "Services",
+    contactNow__headingIconText : "Connect Now",
+
+
     // flooring installation page 
     aboutUs__headingIconText : "About Us",
     installation__headingIconText : "#1 Installation",
