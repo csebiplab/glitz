@@ -26,10 +26,10 @@ const Banner = () => {
               viewBox="0 0 11 11"
               fill="none"
             >
-              <g clip-path="url(#clip0_335_4982)">
+              <g clipPath="url(#clip0_335_4982)">
                 <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
+                  fillRule="evenodd"
+                  clipRule="evenodd"
                   d="M1.88144 2.02197V2.784H4.74339H7.60534L4.36249 6.027L1.11963 9.26999L1.66007 9.81046L2.2005 10.3508L5.4435 7.10801L8.68649 3.86515V6.7271V9.58905H9.44851H10.2105V5.4245V1.25995H6.04599H1.88144V2.02197Z"
                   fill="#0F59A5"
                 />

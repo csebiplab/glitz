@@ -107,7 +107,7 @@ const ServicesArea = () => {
                   style={{ border: 0, width: "100%" }}
                   allowfullscreen={false}
                   loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade"
+                  referrerPolicy="no-referrer-when-downgrade"
                 ></iframe>
                 <button className="w-full py-[12px] location__btn__bg text-base font-bold leading-normal text-white">
                   {location?.name}
