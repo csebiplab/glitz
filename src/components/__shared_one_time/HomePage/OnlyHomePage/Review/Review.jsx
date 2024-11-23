@@ -208,7 +208,7 @@ const Review = () => {
                       5.0
                     </p>
                     <Image
-                      src="/assets/primeBasementHomePage/orange_five_star.png"
+                      src="/assets/glitz/newHomePage/orange_five_star.png"
                       alt="five star icon"
                       width={152}
                       height={23}

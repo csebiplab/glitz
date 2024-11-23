@@ -5,6 +5,7 @@ import ProjectGallery from "./ProjectGallery/ProjectGallery";
 import Review from "./Review/Review";
 import ContactUs from "./ContactUs/ContactUs";
 import Location from "./Location/Location";
+import YourDream from "./YourDream/YourDream";
 
 const OnlyHomePage = () => {
   return (
@@ -15,6 +16,10 @@ const OnlyHomePage = () => {
 
       <section>
         <Brand />
+      </section>
+
+      <section>
+        <YourDream />
       </section>
 
       <section>
