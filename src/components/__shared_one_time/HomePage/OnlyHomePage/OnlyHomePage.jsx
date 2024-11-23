@@ -6,6 +6,8 @@ import Review from "./Review/Review";
 import ContactUs from "./ContactUs/ContactUs";
 import Location from "./Location/Location";
 import YourDream from "./YourDream/YourDream";
+import AboutUs from "./AboutUs/AboutUs";
+import FloorNow from "./FloorNow/FloorNow";
 
 const OnlyHomePage = () => {
   return (
@@ -19,7 +21,15 @@ const OnlyHomePage = () => {
       </section>
 
       <section>
+        <AboutUs />
+      </section>
+
+      <section>
         <YourDream />
+      </section>
+
+      <section>
+        <FloorNow />
       </section>
 
       <section>
