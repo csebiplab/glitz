@@ -8,6 +8,8 @@ import Location from "./Location/Location";
 import YourDream from "./YourDream/YourDream";
 import AboutUs from "./AboutUs/AboutUs";
 import FloorNow from "./FloorNow/FloorNow";
+import NewFloor from "./NewFloor/NewFloor";
+import VisualizeYourRoom from "./VisualizeYourRoom/VisualizeYourRoom";
 
 const OnlyHomePage = () => {
   return (
@@ -25,11 +27,19 @@ const OnlyHomePage = () => {
       </section>
 
       <section>
+        <NewFloor />
+      </section>
+
+      <section>
         <YourDream />
       </section>
 
       <section>
         <FloorNow />
+      </section>
+
+      <section>
+        <VisualizeYourRoom />
       </section>
 
       <section>
