@@ -10,6 +10,7 @@ import AboutUs from "./AboutUs/AboutUs";
 import FloorNow from "./FloorNow/FloorNow";
 import NewFloor from "./NewFloor/NewFloor";
 import VisualizeYourRoom from "./VisualizeYourRoom/VisualizeYourRoom";
+import ServicesArea from "./ServicesArea/ServicesArea";
 
 const OnlyHomePage = () => {
   return (
@@ -48,6 +49,10 @@ const OnlyHomePage = () => {
 
       <section>
         <Review />
+      </section>
+
+      <section>
+        <ServicesArea />
       </section>
 
       <section>

@@ -7,7 +7,7 @@ export const headingIconText = {
     floorNow__headingIconText : "Floor Now, Pay Over Time",
     gallery__headingIconText : "Gallery",
     review__headingIconText : "Review",
-    services__headingIconText : "Services",
+    services__headingIconText : "Services Areas",
     contactNow__headingIconText : "Connect Now",
 
 
