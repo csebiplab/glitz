@@ -1,0 +1,22 @@
+.contact__cart__bg{
+    border-radius: 10px;
+    background: #996B00;
+}
+
+.input_bg{
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.contact__us__bg{
+    background-image: url("/assets/glitz/newHomePage/contact__us__bg.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.contact_form__submit{
+    border-radius: 99px;
+    background: #005799;
+}
