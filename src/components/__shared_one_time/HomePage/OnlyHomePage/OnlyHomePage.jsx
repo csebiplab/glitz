@@ -11,7 +11,7 @@ import FloorNow from "./FloorNow/FloorNow";
 import NewFloor from "./NewFloor/NewFloor";
 import VisualizeYourRoom from "./VisualizeYourRoom/VisualizeYourRoom";
 import ServicesArea from "./ServicesArea/ServicesArea";
-import TimeDisplay from "./TimeDisplay/TimeDisplay";
+import Services from "./Services/Services";
 
 const OnlyHomePage = () => {
   return (
@@ -33,6 +33,10 @@ const OnlyHomePage = () => {
       </section>
 
       <section>
+        <Services />
+      </section>
+
+      <section>
         <YourDream />
       </section>
 
@@ -46,10 +50,6 @@ const OnlyHomePage = () => {
 
       <section>
         <ProjectGallery />
-      </section>
-
-      <section>
-        <TimeDisplay />
       </section>
 
       <section>
