@@ -105,7 +105,7 @@ const ServicesArea = () => {
                   width="300"
                   height="190"
                   style={{ border: 0, width: "100%" }}
-                  allowfullscreen={false}
+                  allowFullScreen={false}
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
                 ></iframe>

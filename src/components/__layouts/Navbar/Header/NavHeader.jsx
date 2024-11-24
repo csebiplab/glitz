@@ -39,6 +39,13 @@ const our_service_menu_items = {
   ],
 };
 
+const socialIcons = [
+  "/assets/glitz/newHomePage/icons/instragram.png",
+  "/assets/glitz/newHomePage/icons/youtube.png",
+  "/assets/glitz/newHomePage/icons/linkedin.png",
+  "/assets/glitz/newHomePage/icons/facebook.png",
+]
+
 function OurServiceManu() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false);
@@ -276,65 +283,36 @@ export function NavHeader() {
               <div className=" w-full flex flex-col justify-between pl-[8px]">
                 <div className="pt-[6px]">
                   <div className=" flex justify-between items-center">
+                    <div className="flex items-center gap-[10px]">
+                      <p className="text-[20px] font-bold text-white leading-[40px]">Follow Us on:</p>
+                      <div className="flex items-center gap-[10px]">
+                        {
+                          socialIcons?.map((icon, index)=>{
+                            return <div key={index}>
+                              <Image src={icon} alt="social icon" width={34} height={34}/>
+                            </div>
+                          })
+                        }
+                      </div>
+                    </div>
+                    
+
                     <div>
                       <button className="flex items-center gap-[3px] 5xl:gap-[8px]">
                         {" "}
                         <Image
-                          src="/assets/glitz/icons/nav_phone.png"
+                          src="/assets/glitz/newHomePage/icons/nav_phone.png"
                           alt="phone icon"
-                          width={45}
-                          height={45}
-                          className="w-[45px] h-[45px] icon__bg p-1"
+                          width={21}
+                          height={21}
+                          className="w-[31px] h-[31px] icon__bg p-1"
                         />
                         <Link
-                          className="font-family-secondary text-lg 2xl:text-[20px] 5xl:text-[25px] font-bold text-black leading-normal"
-                          href="tel:(281) 758-5450"
+                          className="font-family-secondary text-lg 2xl:text-[20px] 5xl:text-[25px] font-bold text-white leading-normal"
+                          href="tel:(346) 445-6343"
                         >
-                          (281) 758-5450
+                          (346) 445-6343
                         </Link>
-                      </button>
-                    </div>
-                    {/* second div  */}
-                    <div className="flex items-center gap-[3px] 5xl:gap-[8px]">
-                      <Image
-                        src="/assets/glitz/icons/nav_map.png"
-                        alt="phone icon"
-                        width={45}
-                        height={45}
-                        className="w-[45px] h-[45px] icon__bg p-1"
-                      />
-                      <div>
-                        <p className="font-family-secondary text-sm font-normal text-black leading-normal">
-                          Location
-                        </p>
-                        <p className="font-family-secondary text-sm 5xl:text-base font-bold text-black leading-normal pt-[3px] 5xl:pt-[5px]">
-                          <Link href="location:16726 Huffmeister Road, D400, Cypress, Tx 77429">
-                            16726 Huffmeister Road, D400, Cypress, Tx 77429
-                          </Link>
-                        </p>
-                      </div>
-                    </div>
-
-                    <div>
-                      <button className="font-family-secondary flex items-center gap-[5px] text-sm 5xl:text-base font-bold text-primary leading-normal py-[8px] px-[14px] border-[1.5px] border-secondary rounded-[6px]">
-                        <Link
-                          className="text-primary"
-                          href="tel:(281) 758-5450"
-                        >
-                          Get Free Quote
-                        </Link>
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="18"
-                          height="12"
-                          viewBox="0 0 18 12"
-                          fill="none"
-                        >
-                          <path
-                            d="M1 5.25C0.585786 5.25 0.25 5.58579 0.25 6C0.25 6.41421 0.585786 6.75 1 6.75L1 5.25ZM17.5303 6.53033C17.8232 6.23744 17.8232 5.76256 17.5303 5.46967L12.7574 0.696699C12.4645 0.403806 11.9896 0.403806 11.6967 0.696699C11.4038 0.989593 11.4038 1.46447 11.6967 1.75736L15.9393 6L11.6967 10.2426C11.4038 10.5355 11.4038 11.0104 11.6967 11.3033C11.9896 11.5962 12.4645 11.5962 12.7574 11.3033L17.5303 6.53033ZM1 6.75L17 6.75V5.25L1 5.25L1 6.75Z"
-                            fill="#905C4C"
-                          />
-                        </svg>
                       </button>
                     </div>
                   </div>
