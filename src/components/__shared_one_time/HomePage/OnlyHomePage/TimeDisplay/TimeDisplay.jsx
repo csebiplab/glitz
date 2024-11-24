@@ -1,25 +1,23 @@
 "use client";
 import { useState, useEffect } from "react";
-import Image from "next/image";
 
 const slideData = [
-  <div className="flex justify-center items-center gap-2">
-    <Image
-      src="/assets/glitz/icons/info.png"
-      alt="info icon"
-      width={18}
-      height={18}
-    />
-    <span>0% Interest Financing Available</span>
-  </div>,
+  "0% Interest Financing Available",
   "Ask About 0% Interest Financing with Synchrony Bank",
   "FLOORS NOW, PAY OVER TIME",
-  "Convenient monthly payments to fit your budget",
+  "Convenient monthly payments to fit your budget"
 ];
 
-const UpperNavbar = () => {
+const TimeDisplay = () => {
+  const [currentTime, setCurrentTime] = useState(new Date());
   const [currentSlideIndex, setCurrentSlideIndex] = useState(0);
+
   useEffect(() => {
+    // Update time every second
+    const timeIntervalId = setInterval(() => {
+      setCurrentTime(new Date());
+    }, 1000);
+
     // Change slide every second
     const slideIntervalId = setInterval(() => {
       setCurrentSlideIndex((prevIndex) => (prevIndex + 1) % slideData.length);
@@ -27,16 +25,19 @@ const UpperNavbar = () => {
 
     // Cleanup intervals on component unmount
     return () => {
+      clearInterval(timeIntervalId);
       clearInterval(slideIntervalId);
     };
   }, []);
+
   return (
-    <div className="container hidden md:block bg-dark-700 py-[4px]">
-      <div className="text-center text-base font-bold text-black leading-normal">
-        {slideData[currentSlideIndex]}
-      </div>
+    <div style={{ textAlign: "center", marginTop: "20px" }}>
+      <h1>Current Time</h1>
+      <p>{currentTime.toLocaleTimeString()}</p>
+      <h2>Slide Text</h2>
+      <p>{slideData[currentSlideIndex]}</p>
     </div>
   );
 };
 
-export default UpperNavbar;
+export default TimeDisplay;

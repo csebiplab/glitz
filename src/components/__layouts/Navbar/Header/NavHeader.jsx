@@ -257,21 +257,23 @@ export function NavHeader() {
     <>
       <UpperNavbar />
       <header className="sticky top-0 z-50">
-        <div className="hidden md:block custom-container main__nav">
-          <Navbar className="container rounded-none py-0 shadow-none max-w-full">
-            <div className="flex items-center gap-[5px] text-blue-gray-900">
-              <Link href="/" aria-label="Home">
-                <Image
-                  src="/assets/glitz/logo/nav_logo.png"
-                  alt="nav logo"
-                  width={258}
-                  height={166}
-                  className="w-full"
-                />
-                <span className="sr-only">Home</span>
-              </Link>
+        <div className="hidden md:block custom-container ">
+          <Navbar className="container main__nav rounded-none py-0 shadow-none max-w-full">
+            <div className="flex items-center gap-[5px]">
+              <div className="">
+                <Link href="/" aria-label="Home">
+                  <Image
+                    src="/assets/glitz/logo/why_chose_us_logo.png"
+                    alt="nav logo"
+                    width={258}
+                    height={166}
+                    className="w-full h-full"
+                  />
+                  <span className="sr-only">Home</span>
+                </Link>
+              </div>
               {/* bottom navbar  */}
-              <div className="w-full flex flex-col justify-between pl-[8px]">
+              <div className=" w-full flex flex-col justify-between pl-[8px]">
                 <div className="pt-[6px]">
                   <div className=" flex justify-between items-center">
                     <div>
@@ -315,7 +317,12 @@ export function NavHeader() {
 
                     <div>
                       <button className="font-family-secondary flex items-center gap-[5px] text-sm 5xl:text-base font-bold text-primary leading-normal py-[8px] px-[14px] border-[1.5px] border-secondary rounded-[6px]">
-                        <Link className="text-primary" href="tel:(281) 758-5450">Get Free Quote</Link>
+                        <Link
+                          className="text-primary"
+                          href="tel:(281) 758-5450"
+                        >
+                          Get Free Quote
+                        </Link>
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="18"
@@ -470,7 +477,9 @@ export function NavHeader() {
 
           <div className="w-full flex justify-start">
             <button className="font-family-secondary flex items-center gap-[5px] text-sm 5xl:text-base font-bold text-primary leading-normal py-[8px] px-[14px] border-[1.5px] border-secondary rounded-[6px]">
-              <Link className="text-primary" href="tel:(281) 758-5450">Get Free Quote</Link>
+              <Link className="text-primary" href="tel:(281) 758-5450">
+                Get Free Quote
+              </Link>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="18"
