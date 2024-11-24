@@ -144,13 +144,13 @@ function OurServiceManu() {
 // our services nav list end
 function NavList() {
   return (
-    <List className="my-[11px] p-0 lg:mt-0 lg:mb-0 lg:flex-row md:items-center justify-between px-[20px] 5xl:px-[24px] border-0 outline-none ">
+    <List className="my-[11px] p-0 lg:mt-0 lg:mb-0 lg:flex-row md:items-center justify-between px-[20px] 5xl:px-[24px] border-0 outline-none">
       <Typography
         as={Link}
         href="/"
         variant="small"
         color="blue-gray"
-        className="font-medium rounded-full text-sm lg:text-sm xl:text-base 2xl:text-lg "
+        className="font-medium rounded-full text-sm lg:text-sm xl:text-base 2xl:text-lg"
       >
         <div className="border-b border-black">
           <ListItem className="font-family-secondary flex items-start md:items-center text-lg md:text-base 5xl:text-lg text-black md:text-white font-bold leading-normal">
@@ -225,7 +225,7 @@ function NavList() {
         className="font-medium rounded-full text-sm md:text-sm xl:text-base 2xl:text-lg"
       >
         <div className="border-y border-black">
-          <ListItem className="font-family-secondary flex items-start md:items-center  text-lg md:text-base 5xl:text-lg text-black md:text-white font-bold leading-normal ">
+          <ListItem className="font-family-secondary flex items-start md:items-center text-lg md:text-base 5xl:text-lg text-black md:text-white font-bold leading-normal ">
             Contact Us
           </ListItem>
         </div>
@@ -280,8 +280,8 @@ export function NavHeader() {
                 </Link>
               </div>
               {/* bottom navbar  */}
-              <div className=" w-full flex flex-col justify-between pl-[8px]">
-                <div className="pt-[6px]">
+              <div className="w-full flex flex-col justify-between pl-[8px]">
+                <div className="pt-[2px]">
                   <div className=" flex justify-between items-center">
                     <div className="flex items-center gap-[10px]">
                       <p className="text-[20px] font-bold text-white leading-[40px]">Follow Us on:</p>
@@ -317,7 +317,7 @@ export function NavHeader() {
                     </div>
                   </div>
                 </div>
-                <div className="hidden lg:block nav__bg mt-[9px]">
+                <div className="hidden lg:block nav__bg mt-[1px]">
                   <NavList className="" />
                 </div>
               </div>
@@ -342,7 +342,7 @@ export function NavHeader() {
           </div>
         </div>
 
-        <div className="w-full bg__color !bg-secondary-400 flex justify-between items-center px-[20px] sm:px-[30px] pb-[6px]">
+        <div className="w-full bg__color !bg-secondary-400 flex justify-between items-center px-[20px] sm:px-[30px]">
           <div className="block md:hidden">
             <Image
               src="/assets/glitz/logo/nav_logo.png"

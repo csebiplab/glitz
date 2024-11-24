@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import HeadingIcon from "@/components/__ui/HeadingIcon";
 import { headingIconText } from "@/utils/heading-text";
 import Image from "next/image";
@@ -10,21 +10,23 @@ const serviceSlides = [
   "/assets/glitz/newHomePage/services/service3.png",
   "/assets/glitz/newHomePage/services/service4.png",
   "/assets/glitz/newHomePage/services/service5.png",
-]
+];
 
 const Services = () => {
   const [currentSlideIndex, setCurrentSlideIndex] = useState(0);
 
-  useEffect(()=>{
-    const slideIntervalId = setInterval(()=>{
-      setCurrentSlideIndex((prevIndex) => (prevIndex + 1) % serviceSlides.length);
+  useEffect(() => {
+    const slideIntervalId = setInterval(() => {
+      setCurrentSlideIndex(
+        (prevIndex) => (prevIndex + 1) % serviceSlides.length
+      );
     }, 2000);
-    return ()=>{
-      clearInterval(slideIntervalId)
-    }
-  },[])
+    return () => {
+      clearInterval(slideIntervalId);
+    };
+  }, []);
   return (
-    <div className="padding__top">
+    <div className="padding__top custom-container">
       <div className="flex justify-center items-center">
         <HeadingIcon text={headingIconText.services__headingIconText} />
       </div>
@@ -32,7 +34,12 @@ const Services = () => {
         What Services We Offer
       </h2>
       <div className="mt-[15px]">
-      <Image src={serviceSlides[currentSlideIndex]} alt="services image" width={1920} height={604}/>
+        <Image
+          src={serviceSlides[currentSlideIndex]}
+          alt="services image"
+          width={1920}
+          height={604}
+        />
       </div>
     </div>
   );

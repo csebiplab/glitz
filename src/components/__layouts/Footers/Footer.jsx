@@ -155,7 +155,7 @@ const Footer = () => {
           </div>
         </div>
         {/* footer bottom  */}
-        <div className="bg-primary py-[17px] container flex justify-between items-center">
+        <div className="bg-secondary-800 py-[17px] container flex justify-between items-center">
           <div className="flex items-center gap-[15px]">
             <p className="font-family-primary text-sm 5xl:text-base font-semibold text-white">
               WEBSITE DESIGN AND SEO BY :-
