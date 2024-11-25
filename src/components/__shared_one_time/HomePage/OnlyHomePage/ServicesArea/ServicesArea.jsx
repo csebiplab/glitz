@@ -1,5 +1,4 @@
 "use client";
-import HeadingIcon from "@/components/__ui/HeadingIcon";
 import { headingIconText } from "@/utils/heading-text";
 import "./ServicesArea.css";
 
@@ -7,6 +6,7 @@ import "swiper/css";
 import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { useRef } from "react";
+import NewHeadingIcon from "@/components/__ui/NewHeadingIcon";
 
 const breakpoints = {
   0: {
@@ -75,7 +75,7 @@ const ServicesArea = () => {
   return (
     <div className="container padding__top">
       <div className="flex flex-col justify-center items-center pb-[25px]">
-        <HeadingIcon text={headingIconText.services__headingIconText} />
+        <NewHeadingIcon text={headingIconText.services__headingIconText} />
         <h2 className="text-[25px] md:text-[27px] lg:text-[30px] xl:text-[33px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[40px] 5xl:tex-[42px] font-bold text-black text-center leading-normal">
           Glitz Floors & More Service Are
         </h2>

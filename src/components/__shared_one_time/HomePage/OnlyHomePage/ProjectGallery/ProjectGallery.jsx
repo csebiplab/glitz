@@ -7,8 +7,8 @@ import "swiper/css";
 import "swiper/css/autoplay";
 import "swiper/css/effect-coverflow";
 import "swiper/css/grid";
-import HeadingIcon from '@/components/__ui/HeadingIcon';
 import { headingIconText } from '@/utils/heading-text';
+import NewHeadingIcon from "@/components/__ui/NewHeadingIcon";
 
 const galImgs = [
   "/assets/glitz/newHomePage/gallery/gallery1.png",
@@ -56,7 +56,7 @@ const ProjectGallery = () => {
       <div data-aos="zoom-in" className="custom-container padding__top">
         <div className="container">
           <div className="flex flex-col justify-center items-center">
-          <HeadingIcon text={headingIconText.gallery__headingIconText}/>
+          <NewHeadingIcon text={headingIconText.gallery__headingIconText}/>
             <div className="">
               <h2 className="text-[25px] md:text-[27px] lg:text-[30px] xl:text-[33px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[40px] 5xl:tex-[42px] font-bold text-black text-center leading-normal">
               Glitz Floors & More Gallery

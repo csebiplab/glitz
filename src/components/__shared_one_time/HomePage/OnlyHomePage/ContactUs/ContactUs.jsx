@@ -2,8 +2,8 @@ import Image from "next/image";
 import React from "react";
 import "./ContactUs.css";
 import Link from "next/link";
-import HeadingIcon from "@/components/__ui/HeadingIcon";
 import { headingIconText } from "@/utils/heading-text";
+import NewHeadingIcon from "@/components/__ui/NewHeadingIcon";
 
 const ContactUs = () => {
   return (
@@ -124,7 +124,7 @@ const ContactUs = () => {
 
           <div className="md:col-span-3 flex flex-col items-start justify-center">
             <div className="flex justify-center md:justify-start items-center ">
-              <HeadingIcon text={headingIconText.contactNow__headingIconText} />
+              <NewHeadingIcon text={headingIconText.contactNow__headingIconText} />
             </div>
             <h2 className="text-[25px] md:text-[27px] lg:text-[30px] xl:text-[33px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[40px] 5xl:tex-[42px] font-bold text-black text-center md:text-left leading-normal">
               Get Free Professional Consultation
@@ -287,7 +287,7 @@ const ContactUs = () => {
         {/* content part  */}
         <div className=" flex flex-col items-start justify-center mt-[25px]">
           <div className="flex justify-center md:justify-start items-center ">
-            <HeadingIcon text={headingIconText.contactNow__headingIconText} />
+            <NewHeadingIcon text={headingIconText.contactNow__headingIconText} />
           </div>
           <h2 className="text-[25px] md:text-[27px] lg:text-[30px] xl:text-[33px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[40px] 5xl:tex-[42px] font-bold text-black text-center md:text-left leading-normal">
             Get Free Professional Consultation
