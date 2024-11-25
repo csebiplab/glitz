@@ -11,6 +11,8 @@ import FloorNow from "./FloorNow/FloorNow";
 import NewFloor from "./NewFloor/NewFloor";
 import VisualizeYourRoom from "./VisualizeYourRoom/VisualizeYourRoom";
 import ServicesArea from "./ServicesArea/ServicesArea";
+import Services from "./Services/Services";
+import RemodelingServices from "./RemodelingServices/RemodelingServices";
 
 const OnlyHomePage = () => {
   return (
@@ -24,11 +26,19 @@ const OnlyHomePage = () => {
       </section>
 
       <section>
+        <RemodelingServices />
+      </section>
+
+      <section>
         <AboutUs />
       </section>
 
       <section>
         <NewFloor />
+      </section>
+
+      <section>
+        <Services />
       </section>
 
       <section>
