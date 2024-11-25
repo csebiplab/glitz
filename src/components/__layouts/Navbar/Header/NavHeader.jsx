@@ -270,7 +270,7 @@ export function NavHeader() {
               <div className="">
                 <Link href="/" aria-label="Home">
                   <Image
-                    src="/assets/glitz/logo/why_chose_us_logo.png"
+                    src="/assets/glitz/newHomePage/nav_logo_glitz.png"
                     alt="nav logo"
                     width={258}
                     height={166}

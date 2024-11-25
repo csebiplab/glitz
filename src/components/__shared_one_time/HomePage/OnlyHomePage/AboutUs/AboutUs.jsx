@@ -1,8 +1,8 @@
-import HeadingIcon from "@/components/__ui/HeadingIcon";
 import { headingIconText } from "@/utils/heading-text";
 import Image from "next/image";
 import React from "react";
 import "./AboutUs.css";
+import NewHeadingIcon from "@/components/__ui/NewHeadingIcon";
 
 const AboutUs = () => {
   return (
@@ -10,7 +10,7 @@ const AboutUs = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-[21px]">
         <div className="md:col-span-1">
           <div className="flex justify-center md:justify-start items-center">
-            <HeadingIcon text={headingIconText.aboutUs__headingIconText} />
+            <NewHeadingIcon text={headingIconText.aboutUs__headingIconText}/>
           </div>
           <h2 className="text-[25px] md:text-[27px] lg:text-[30px] xl:text-[33px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[40px] 5xl:tex-[42px] font-bold text-black text-center md:text-left leading-normal">
           Crafting Beautiful Spaces with Quality and Care

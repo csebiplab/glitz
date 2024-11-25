@@ -1,4 +1,4 @@
-import HeadingIcon from "@/components/__ui/HeadingIcon";
+import NewHeadingIcon from "@/components/__ui/NewHeadingIcon";
 import { headingIconText } from "@/utils/heading-text";
 import Image from "next/image";
 import React from "react";
@@ -9,7 +9,7 @@ const YourDream = () => {
       <div className="grid grid-cols-1 md:grid-cols-5 gap-[21px]">
         <div className="md:col-span-3">
           <div className="flex justify-center md:justify-start items-center">
-            <HeadingIcon text={headingIconText.yourDream__headingIconText} />
+            <NewHeadingIcon text={headingIconText.yourDream__headingIconText} />
           </div>
           <h2 className="text-[25px] md:text-[27px] lg:text-[30px] xl:text-[33px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[40px] 5xl:tex-[42px] font-bold text-black text-center md:text-left leading-normal">
           Your Trusted Flooring and Remodeling Experts in Cypress, TX
