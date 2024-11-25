@@ -25,7 +25,7 @@ const RemodelingServices = () => {
     if (showKitchenOverlay) {
       kitchenTimer = setTimeout(() => {
         setShowKitchenOverlay(false);
-      }, 1000);
+      }, 3000);
     }
     return () => clearTimeout(kitchenTimer);
   }, [showKitchenOverlay]);
@@ -64,7 +64,7 @@ const RemodelingServices = () => {
           </div>
 
           {/* Overlay Content */}
-          {showBathroomOverlay && (
+          {/* {showBathroomOverlay && (
             <div className="w-1/2 absolute inset-0 bg-black/90 text-white p-6 flex flex-col justify-center">
               <h2 className="text-2xl font-bold mb-4">Bathroom Remodeling</h2>
               <p className="mb-6">
@@ -72,7 +72,15 @@ const RemodelingServices = () => {
                 relaxing sanctuary that combines style and comfort.
               </p>
             </div>
-          )}
+          )} */}
+          {/* Overlay Content */}
+          <div className={`w-1/2 absolute inset-0 bg-black/90 text-white p-6  ${showBathroomOverlay ? "flex flex-col justify-center " : "hidden"}`}>
+              <h2 className="text-2xl font-bold mb-4">Bathroom Remodeling</h2>
+              <p className="mb-6">
+                Your bathroom should be more than just functional—it should be a
+                relaxing sanctuary that combines style and comfort.
+              </p>
+            </div>
         </div>
         <div className="md:col-span-1">
           <div className="relative">

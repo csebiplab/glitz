@@ -23,7 +23,7 @@ const UpperNavbar = () => {
     // Change slide every second
     const slideIntervalId = setInterval(() => {
       setCurrentSlideIndex((prevIndex) => (prevIndex + 1) % slideData.length);
-    }, 1000);
+    }, 4000);
 
     // Cleanup intervals on component unmount
     return () => {
