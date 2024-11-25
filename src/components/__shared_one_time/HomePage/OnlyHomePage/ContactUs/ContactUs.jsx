@@ -9,8 +9,9 @@ const ContactUs = () => {
   return (
     <div data-aos="zoom-in" className="padding__top">
       {/* large device  */}
-      <div className="hidden md:block full__section_r_p pl-3 md:pl-0 contact__us__bg">
-        <div className="grid grid-cols-1 grid-cols-8 gap-[30px] 5xl:gap-[55px]">
+      <div className="hidden md:block ">
+        <div className="full__section_r_p pl-3 md:pl-0 contact__us__bg">
+        <div className="grid grid-cols-1 grid-cols-8 gap-[30px] 5xl:gap-[55px] ">
           <div className="md:col-span-3">
             <Image
               src="/assets/glitz/newHomePage/giveUsFeedback.png"
@@ -166,6 +167,7 @@ const ContactUs = () => {
               </ul>
             </div>
           </div>
+        </div>
         </div>
       </div>
 

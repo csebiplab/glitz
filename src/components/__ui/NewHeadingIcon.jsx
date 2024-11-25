@@ -14,8 +14,8 @@ const NewHeadingIcon = ({ text = "empty text" }) => {
         <path
           d="M1 1L70.0646 1"
           stroke="#040273"
-          stroke-width="2"
-          stroke-linecap="round"
+          strokeWidth="2"
+          strokeLinecap="round"
         />
       </svg>
     </div>
