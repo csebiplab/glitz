@@ -1,6 +1,6 @@
 .main__nav {
   background: #996B00;
-  box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.25);
+  /* box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.25); */
 }
 
 .btn__bg{
@@ -9,12 +9,13 @@
 }
 
 .bg__color{
-  box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.25);
+  background: #996B00;
+  /* box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.25); */
 }
 .nav__bg{
   border-radius: 50px;
   background: #005799;
-  box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.25);
+  /* box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.25); */
 }
 
 .icon__bg{

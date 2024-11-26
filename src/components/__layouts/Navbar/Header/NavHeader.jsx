@@ -266,11 +266,12 @@ export function NavHeader() {
       <header className="sticky top-0 z-50">
         <div className="hidden md:block custom-container ">
           <Navbar className="container main__nav rounded-none py-0 shadow-none max-w-full pb-[6px]">
-            <div className="flex items-center gap-[5px]">
+            <div className="flex justify-between items-center gap-[5px]">
               <div className="">
                 <Link href="/" aria-label="Home">
                   <Image
-                    src="/assets/glitz/newHomePage/nav__logo__glitz.png"
+                    // src="/assets/glitz/newHomePage/nav__logo__glitz.png"
+                    src="/assets/glitz/newHomePage/nav/nav__logo__glitz.png"
                     alt="nav logo"
                     width={258}
                     height={166}
@@ -339,17 +340,19 @@ export function NavHeader() {
             <p className="font-family-secondary text-sm font-bold text-white leading-normal text-center">
               Convenient monthly payments to fit your budget1
             </p>
+            
           </div>
+          
         </div>
 
-        <div className="w-full bg__color !bg-secondary-400 flex justify-between items-center px-[20px] sm:px-[30px]">
-          <div className="block md:hidden">
+        <div className="w-full bg__color py-[5px] md:py-0 flex justify-between items-center px-[20px] sm:px-[30px]">
+          <div className="block md:hidden w-1/2">
             <Image
-              src="/assets/glitz/logo/nav_logo.png"
+              src="/assets/glitz/newHomePage/nav/nav__logo__glitz.png"
               alt="nav logo"
               width={142}
               height={91}
-              className="w-2/3"
+              className="w-full"
             />
           </div>
 
@@ -364,11 +367,11 @@ export function NavHeader() {
                 <XMarkIcon className="h-10 w-10" strokeWidth={2} />
               ) : (
                 <Image
-                  src="/assets/glitz/icons/menu_icon.png"
-                  width={33}
-                  height={33}
+                  src="/assets/glitz/newHomePage/icons/menu_icon.png"
+                  width={35}
+                  height={29}
                   alt="Menu"
-                  className="w-[33px] h-[33px]"
+                  className="w-[35px] h-[29px]"
                 />
               )}
             </IconButton>
