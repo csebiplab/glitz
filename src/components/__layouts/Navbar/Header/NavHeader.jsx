@@ -333,7 +333,7 @@ export function NavHeader() {
             hideOnScroll ? "hidden" : ""
           }`}
         >
-          <div className="bg-secondary py-[6px]">
+          {/* <div className="bg-secondary py-[6px]">
             <p className="font-family-secondary text-lg font-bold text-white leading-normal text-center">
               FLOORS NOW, PAY OVER TIME
             </p>
@@ -341,12 +341,12 @@ export function NavHeader() {
               Convenient monthly payments to fit your budget1
             </p>
             
-          </div>
+          </div> */}
           
         </div>
 
-        <div className="w-full bg__color py-[5px] md:py-0 flex justify-between items-center px-[20px] sm:px-[30px]">
-          <div className="block md:hidden w-1/2">
+        <div className="block md:hidden w-full bg__color py-[5px] md:py-0 flex justify-between items-center px-[20px] sm:px-[30px] -mt-1">
+          <div className=" w-1/2">
             <Image
               src="/assets/glitz/newHomePage/nav/nav__logo__glitz.png"
               alt="nav logo"
@@ -356,7 +356,7 @@ export function NavHeader() {
             />
           </div>
 
-          <div className="block md:hidden">
+          <div className="">
             <IconButton
               variant="text"
               color="blue-gray"

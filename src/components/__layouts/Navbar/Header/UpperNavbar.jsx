@@ -31,8 +31,8 @@ const UpperNavbar = () => {
     };
   }, []);
   return (
-    <div className="container hidden md:block bg-dark-700 py-[4px]">
-      <div className="text-center text-base font-bold text-black leading-normal">
+    <div className="container bg-dark-700 py-[4px]">
+      <div className="text-center text-sm md:text-base font-bold text-black leading-normal">
         {slideData[currentSlideIndex]}
       </div>
     </div>
