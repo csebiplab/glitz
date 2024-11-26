@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import "./visualizeYourRoom.css";
+import "./VisualizeYourRoom.css";
 
 const VisualizeYourRoom = () => {
   return (
