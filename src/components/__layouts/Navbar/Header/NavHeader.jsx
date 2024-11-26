@@ -78,7 +78,7 @@ function OurServiceManu() {
             role="button"
           >
             <ListItem
-              className="font-family-secondary flex items-center  text-lg md:text-base 5xl:text-lg text-black md:text-white font-bold leading-normal -mt-[9px]"
+              className="hover:bg-transparent hover:text-white py-1 font-family-secondary flex items-center  text-lg md:text-base 5xl:text-lg text-black md:text-white font-bold leading-normal -mt-[9px]"
               selected={isMenuOpen || isMobileMenuOpen}
               onClick={() => setIsMobileMenuOpen((cur) => !cur)}
             >
@@ -152,8 +152,8 @@ function NavList() {
         color="blue-gray"
         className="font-medium rounded-full text-sm lg:text-sm xl:text-base 2xl:text-lg"
       >
-        <div className="border-b border-black">
-          <ListItem className="font-family-secondary flex items-start md:items-center text-lg md:text-base 5xl:text-lg text-black md:text-white font-bold leading-normal">
+        <div >
+          <ListItem className="hover:bg-transparent hover:text-white py-1 font-family-secondary flex items-start md:items-center text-lg md:text-base 5xl:text-lg text-black md:text-white font-bold leading-normal">
             Home
           </ListItem>
         </div>
@@ -166,8 +166,8 @@ function NavList() {
         color="blue-gray"
         className="font-medium rounded-full text-sm md:text-sm xl:text-base 2xl:text-lg"
       >
-        <div className="border-b border-black">
-          <ListItem className="font-family-secondary flex items-start md:items-center text-lg md:text-base 5xl:text-lg text-black md:text-white font-bold leading-normal">
+        <div >
+          <ListItem className="hover:bg-transparent hover:text-white py-1 font-family-secondary flex items-start md:items-center text-lg md:text-base 5xl:text-lg text-black md:text-white font-bold leading-normal">
             About
           </ListItem>
         </div>
@@ -179,8 +179,8 @@ function NavList() {
         color="blue-gray"
         className="font-medium rounded-full text-sm md:text-sm xl:text-base 2xl:text-lg"
       >
-        <div className="border-b border-black">
-          <ListItem className="font-family-secondary flex items-start md:items-center  text-lg md:text-base 5xl:text-lg text-black md:text-white font-bold leading-normal">
+        <div >
+          <ListItem className="hover:bg-transparent hover:text-white py-1 font-family-secondary flex items-start md:items-center  text-lg md:text-base 5xl:text-lg text-black md:text-white font-bold leading-normal">
             Gallery
           </ListItem>
         </div>
@@ -193,8 +193,8 @@ function NavList() {
         color="blue-gray"
         className="font-medium rounded-full text-sm md:text-sm xl:text-base 2xl:text-lg"
       >
-        <div className="border-b border-black">
-          <ListItem className="font-family-secondary flex items-start md:items-center  text-lg md:text-base 5xl:text-lg text-black md:text-white font-bold leading-normal">
+        <div >
+          <ListItem className="hover:bg-transparent hover:text-white py-1 font-family-secondary flex items-start md:items-center  text-lg md:text-base 5xl:text-lg text-black md:text-white font-bold leading-normal">
             Kitchen Remodeling
           </ListItem>
         </div>
@@ -206,8 +206,8 @@ function NavList() {
         color="blue-gray"
         className="font-medium rounded-full text-sm md:text-sm xl:text-base 2xl:text-lg"
       >
-        <div className="border-b border-black">
-          <ListItem className="font-family-secondary flex items-start md:items-center  text-lg md:text-base 5xl:text-lg text-black md:text-white font-bold leading-normal">
+        <div >
+          <ListItem className="hover:bg-transparent hover:text-white py-1 font-family-secondary flex items-start md:items-center  text-lg md:text-base 5xl:text-lg text-black md:text-white font-bold leading-normal">
             Bathroom Remodeling
           </ListItem>
         </div>
@@ -224,8 +224,8 @@ function NavList() {
         color="blue-gray"
         className="font-medium rounded-full text-sm md:text-sm xl:text-base 2xl:text-lg"
       >
-        <div className="border-y border-black">
-          <ListItem className="font-family-secondary flex items-start md:items-center text-lg md:text-base 5xl:text-lg text-black md:text-white font-bold leading-normal ">
+        <div>
+          <ListItem className="hover:bg-transparent hover:text-white py-1 font-family-secondary flex items-start md:items-center text-lg md:text-base 5xl:text-lg text-black md:text-white font-bold leading-normal ">
             Contact Us
           </ListItem>
         </div>
@@ -265,12 +265,13 @@ export function NavHeader() {
       <UpperNavbar />
       <header className="sticky top-0 z-50">
         <div className="hidden md:block custom-container ">
-          <Navbar className="container main__nav rounded-none py-0 shadow-none max-w-full">
-            <div className="flex items-center gap-[5px]">
+          <Navbar className="container main__nav rounded-none py-0 shadow-none max-w-full pb-[6px]">
+            <div className="flex justify-between items-center gap-[5px]">
               <div className="">
                 <Link href="/" aria-label="Home">
                   <Image
-                    src="/assets/glitz/newHomePage/nav_logo_glitz.png"
+                    // src="/assets/glitz/newHomePage/nav__logo__glitz.png"
+                    src="/assets/glitz/newHomePage/nav/nav__logo__glitz.png"
                     alt="nav logo"
                     width={258}
                     height={166}
@@ -284,12 +285,12 @@ export function NavHeader() {
                 <div className="pt-[2px]">
                   <div className=" flex justify-between items-center">
                     <div className="flex items-center gap-[10px]">
-                      <p className="text-[20px] font-bold text-white leading-[40px]">Follow Us on:</p>
+                      <p className="text-lg font-bold text-white leading-[40px]">Follow Us on:</p>
                       <div className="flex items-center gap-[10px]">
                         {
                           socialIcons?.map((icon, index)=>{
                             return <div key={index}>
-                              <Image src={icon} alt="social icon" width={34} height={34}/>
+                              <Image src={icon} alt="social icon" width={30} height={30}/>
                             </div>
                           })
                         }
@@ -305,10 +306,10 @@ export function NavHeader() {
                           alt="phone icon"
                           width={21}
                           height={21}
-                          className="w-[31px] h-[31px] icon__bg p-1"
+                          className="w-[27px] h-[27px] icon__bg p-1"
                         />
                         <Link
-                          className="font-family-secondary text-lg 2xl:text-[20px] 5xl:text-[25px] font-bold text-white leading-normal"
+                          className="font-family-secondary text-lg font-bold text-white leading-normal"
                           href="tel:(346) 445-6343"
                         >
                           (346) 445-6343
@@ -332,28 +333,30 @@ export function NavHeader() {
             hideOnScroll ? "hidden" : ""
           }`}
         >
-          <div className="bg-secondary py-[6px]">
+          {/* <div className="bg-secondary py-[6px]">
             <p className="font-family-secondary text-lg font-bold text-white leading-normal text-center">
               FLOORS NOW, PAY OVER TIME
             </p>
             <p className="font-family-secondary text-sm font-bold text-white leading-normal text-center">
               Convenient monthly payments to fit your budget1
             </p>
-          </div>
+            
+          </div> */}
+          
         </div>
 
-        <div className="w-full bg__color !bg-secondary-400 flex justify-between items-center px-[20px] sm:px-[30px]">
-          <div className="block md:hidden">
+        <div className="block md:hidden w-full bg__color py-[5px] md:py-0 flex justify-between items-center px-[20px] sm:px-[30px] -mt-1">
+          <div className=" w-1/2">
             <Image
-              src="/assets/glitz/logo/nav_logo.png"
+              src="/assets/glitz/newHomePage/nav/nav__logo__glitz.png"
               alt="nav logo"
               width={142}
               height={91}
-              className="w-2/3"
+              className="w-full"
             />
           </div>
 
-          <div className="block md:hidden">
+          <div className="">
             <IconButton
               variant="text"
               color="blue-gray"
@@ -364,11 +367,11 @@ export function NavHeader() {
                 <XMarkIcon className="h-10 w-10" strokeWidth={2} />
               ) : (
                 <Image
-                  src="/assets/glitz/icons/menu_icon.png"
-                  width={33}
-                  height={33}
+                  src="/assets/glitz/newHomePage/icons/menu_icon.png"
+                  width={35}
+                  height={29}
                   alt="Menu"
-                  className="w-[33px] h-[33px]"
+                  className="w-[35px] h-[29px]"
                 />
               )}
             </IconButton>

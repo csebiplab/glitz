@@ -87,21 +87,9 @@ const ProjectGallery = () => {
                 <button
                   aria-label="See More"
                   onClick={handleLoadMore}
-                  className="w-2/3 flex items-center justify-center gap-2 text-base font-bold px-[41px] py-[15px] bg-primary-700 text-white rounded-[8px]"
+                  className="w-2/3 flex items-center justify-center gap-2 text-base font-bold px-[41px] py-[15px] bg-primary-50 text-white rounded-[99px]"
                 >
                   See More
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="22"
-                    height="12"
-                    viewBox="0 0 22 12"
-                    fill="none"
-                  >
-                    <path
-                      d="M1 5.22461C0.585786 5.22461 0.25 5.5604 0.25 5.97461C0.25 6.38882 0.585786 6.72461 1 6.72461V5.22461ZM21.5303 6.50494C21.8232 6.21205 21.8232 5.73717 21.5303 5.44428L16.7574 0.671309C16.4645 0.378415 15.9896 0.378415 15.6967 0.671309C15.4038 0.964202 15.4038 1.43908 15.6967 1.73197L19.9393 5.97461L15.6967 10.2172C15.4038 10.5101 15.4038 10.985 15.6967 11.2779C15.9896 11.5708 16.4645 11.5708 16.7574 11.2779L21.5303 6.50494ZM1 6.72461H21V5.22461H1V6.72461Z"
-                      fill="white"
-                    />
-                  </svg>
                 </button>
               </div>
             )}

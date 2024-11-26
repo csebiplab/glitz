@@ -333,7 +333,7 @@ const Footer = () => {
             </div>
           </div>
           {/* footer bottom  */}
-          <div className="flex items-center justify-around pt-[21px] pb-[19px] bg-primary mt-[34px]">
+          <div className="flex items-center justify-around pt-[21px] pb-[19px] bg-secondary-800 mt-[34px]">
             <p className="font-family-primary text-xs font-semibold text-whtie">
               WEBSITE DESIGN AND SEO BY :-
             </p>

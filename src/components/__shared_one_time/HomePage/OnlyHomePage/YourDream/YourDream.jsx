@@ -7,7 +7,7 @@ const YourDream = () => {
   return (
     <div className="container padding__top">
       <div className="grid grid-cols-1 md:grid-cols-5 gap-[21px]">
-        <div className="md:col-span-3">
+        <div className="order-2 md:order-1 md:col-span-3">
           <div className="flex justify-center md:justify-start items-center">
             <NewHeadingIcon text={headingIconText.yourDream__headingIconText} />
           </div>
@@ -27,7 +27,7 @@ const YourDream = () => {
             your complete satisfaction.
           </p>
         </div>
-        <div className="md:col-span-2">
+        <div className="order-1 md:order-2 md:col-span-2">
           <Image
             src="/assets/glitz/newHomePage/yourDream.png"
             alt="your dream"
