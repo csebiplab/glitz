@@ -143,45 +143,45 @@ const RemodelingServices = () => {
       {/* small device  */}
       <div className="block md:hidden">
         {/* Bathroom Remodel */}
-          <div className="relative">
-            {/* Image */}
-            <Image
-              src="/assets/glitz/newHomePage/bathroomRemodel.png"
-              alt="bathroom remodel"
-              width={660}
-              height={442}
-              className="w-full object-cover"
-            />
+        <div className="relative">
+          {/* Image */}
+          <Image
+            src="/assets/glitz/newHomePage/bathroomRemodel.png"
+            alt="bathroom remodel"
+            width={660}
+            height={442}
+            className="w-full object-cover"
+          />
 
-            {/* Overlay Button */}
-            <div className="absolute inset-x-0 bottom-0 bg-black/40 py-3 text-center">
-              <button
-                className="w-full flex justify-center items-center gap-[21px] text-yellow-400 font-bold text-lg"
-                onClick={() => setShowBathroomOverlay(true)}
-              >
-                Bathroom Remodeling{" "}
-                <span className="" onClick={() => setShowBathroomOverlay(true)}>
-                  <Image
-                    src="/assets/glitz/newHomePage/icons/remodeling_arrow_icon.png"
-                    alt="arrow icon"
-                    width={32}
-                    height={32}
-                  />
-                </span>
-              </button>
-            </div>
-
-            {/* Overlay Content */}
-            {showBathroomOverlay && (
-              <div className=" absolute inset-0 bg-black/90 text-white p-4 flex flex-col justify-center">
-                <h2 className="text-xl font-bold mb-3">Bathroom Remodeling</h2>
-                <p>
-                  Your bathroom should be more than just functional—it should be
-                  a relaxing sanctuary that combines style and comfort.
-                </p>
-              </div>
-            )}
+          {/* Overlay Button */}
+          <div className="absolute inset-x-0 bottom-0 bg-black/40 py-3 text-center">
+            <button
+              className="w-full flex justify-center items-center gap-[21px] text-yellow-400 font-bold text-lg"
+              onClick={() => setShowBathroomOverlay(true)}
+            >
+              Bathroom Remodeling{" "}
+              <span className="" onClick={() => setShowBathroomOverlay(true)}>
+                <Image
+                  src="/assets/glitz/newHomePage/icons/remodeling_arrow_icon.png"
+                  alt="arrow icon"
+                  width={32}
+                  height={32}
+                />
+              </span>
+            </button>
           </div>
+
+          {/* Overlay Content */}
+          {showBathroomOverlay && (
+            <div className=" absolute inset-0 bg-black/90 text-white p-4 flex flex-col justify-center">
+              <h2 className="text-xl font-bold mb-3">Bathroom Remodeling</h2>
+              <p>
+                Your bathroom should be more than just functional—it should be a
+                relaxing sanctuary that combines style and comfort.
+              </p>
+            </div>
+          )}
+        </div>
         <div className="mt-[25px]">
           {/* Kitchen Remodel */}
           <div className="relative">
