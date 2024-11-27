@@ -4,6 +4,7 @@ const NewHeadingIcon = ({ text = "empty text" }) => {
   return (
     <div>
       <p className="text-black text-base font-light leading-normal">{text}</p>
+      <div className="flex justify-center items-center">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="72"
@@ -18,6 +19,7 @@ const NewHeadingIcon = ({ text = "empty text" }) => {
           strokeLinecap="round"
         />
       </svg>
+      </div>
     </div>
   );
 };

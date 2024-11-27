@@ -21,6 +21,12 @@ import React, { useState, useEffect } from "react";
 import UpperNavbar from "./UpperNavbar";
 import "./NavHeader.css";
 
+import { FaYoutube } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
+import { LuPhoneCall } from "react-icons/lu";
+
 // our services nav menu
 const our_service_menu_items = {
   interior: [
@@ -39,12 +45,6 @@ const our_service_menu_items = {
   ],
 };
 
-const socialIcons = [
-  "/assets/glitz/newHomePage/icons/instragram.png",
-  "/assets/glitz/newHomePage/icons/youtube.png",
-  "/assets/glitz/newHomePage/icons/linkedin.png",
-  "/assets/glitz/newHomePage/icons/facebook.png",
-]
 
 function OurServiceManu() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -152,7 +152,7 @@ function NavList() {
         color="blue-gray"
         className="font-medium rounded-full text-sm lg:text-sm xl:text-base 2xl:text-lg"
       >
-        <div >
+        <div>
           <ListItem className="hover:bg-transparent hover:text-white py-1 font-family-secondary flex items-start md:items-center text-lg md:text-base 5xl:text-lg text-black md:text-white font-bold leading-normal">
             Home
           </ListItem>
@@ -166,7 +166,7 @@ function NavList() {
         color="blue-gray"
         className="font-medium rounded-full text-sm md:text-sm xl:text-base 2xl:text-lg"
       >
-        <div >
+        <div>
           <ListItem className="hover:bg-transparent hover:text-white py-1 font-family-secondary flex items-start md:items-center text-lg md:text-base 5xl:text-lg text-black md:text-white font-bold leading-normal">
             About
           </ListItem>
@@ -179,7 +179,7 @@ function NavList() {
         color="blue-gray"
         className="font-medium rounded-full text-sm md:text-sm xl:text-base 2xl:text-lg"
       >
-        <div >
+        <div>
           <ListItem className="hover:bg-transparent hover:text-white py-1 font-family-secondary flex items-start md:items-center  text-lg md:text-base 5xl:text-lg text-black md:text-white font-bold leading-normal">
             Gallery
           </ListItem>
@@ -193,7 +193,7 @@ function NavList() {
         color="blue-gray"
         className="font-medium rounded-full text-sm md:text-sm xl:text-base 2xl:text-lg"
       >
-        <div >
+        <div>
           <ListItem className="hover:bg-transparent hover:text-white py-1 font-family-secondary flex items-start md:items-center  text-lg md:text-base 5xl:text-lg text-black md:text-white font-bold leading-normal">
             Kitchen Remodeling
           </ListItem>
@@ -206,7 +206,7 @@ function NavList() {
         color="blue-gray"
         className="font-medium rounded-full text-sm md:text-sm xl:text-base 2xl:text-lg"
       >
-        <div >
+        <div>
           <ListItem className="hover:bg-transparent hover:text-white py-1 font-family-secondary flex items-start md:items-center  text-lg md:text-base 5xl:text-lg text-black md:text-white font-bold leading-normal">
             Bathroom Remodeling
           </ListItem>
@@ -266,7 +266,7 @@ export function NavHeader() {
       <header className="sticky top-0 z-50">
         <div className="hidden md:block custom-container ">
           <Navbar className="container main__nav rounded-none py-0 shadow-none max-w-full pb-[6px]">
-            <div className="flex justify-between items-center gap-[5px]">
+            <div className="flex justify-between items-center gap-[30px]">
               <div className="">
                 <Link href="/" aria-label="Home">
                   <Image
@@ -285,29 +285,30 @@ export function NavHeader() {
                 <div className="pt-[2px]">
                   <div className=" flex justify-between items-center">
                     <div className="flex items-center gap-[10px]">
-                      <p className="text-lg font-bold text-white leading-[40px]">Follow Us on:</p>
-                      <div className="flex items-center gap-[10px]">
-                        {
-                          socialIcons?.map((icon, index)=>{
-                            return <div key={index}>
-                              <Image src={icon} alt="social icon" width={30} height={30}/>
-                            </div>
-                          })
-                        }
+                      <p className="text-lg font-bold text-white leading-[40px]">
+                        Follow Us on:
+                      </p>
+                      <div className="flex items-center gap-3">
+                      <div className="bg-primary-50 p-2 rounded-full">
+                        <FaYoutube className="w-[18px] h-[18px] text-white" />
+                      </div>
+                      <div className="bg-primary-50 p-2 rounded-full">
+                        <FaInstagram className="w-[18px] h-[18px] text-white" />
+                      </div>
+                      <div className="bg-primary-50 p-2 rounded-full">
+                        <FaLinkedin className="w-[18px] h-[18px] text-white" />
+                      </div>
+                      <div className="bg-primary-50 p-2 rounded-full">
+                        <FaFacebook className="w-[18px] h-[18px] text-white" />
+                      </div>
                       </div>
                     </div>
-                    
 
                     <div>
-                      <button className="flex items-center gap-[3px] 5xl:gap-[8px]">
-                        {" "}
-                        <Image
-                          src="/assets/glitz/newHomePage/icons/nav_phone.png"
-                          alt="phone icon"
-                          width={21}
-                          height={21}
-                          className="w-[27px] h-[27px] icon__bg p-1"
-                        />
+                      <button className="flex items-center gap-[8px] 5xl:gap-[12px]">
+                        <div className="bg-primary-50 p-2 rounded-lg">
+                          <LuPhoneCall className="w-[18px] h-[18px] text-white"/>
+                        </div>
                         <Link
                           className="font-family-secondary text-lg font-bold text-white leading-normal"
                           href="tel:(346) 445-6343"
@@ -342,7 +343,6 @@ export function NavHeader() {
             </p>
             
           </div> */}
-          
         </div>
 
         <div className="block md:hidden w-full bg__color py-[5px] md:py-0 flex justify-between items-center px-[20px] sm:px-[30px] -mt-1">
