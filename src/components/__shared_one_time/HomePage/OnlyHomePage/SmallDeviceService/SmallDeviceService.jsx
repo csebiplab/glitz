@@ -6,27 +6,27 @@ const serviceSlides = [
   {
     image: "/assets/glitz/newHomePage/services/service1.png",
     title: "Flooring Installations",
-    description: "We provide expert flooring solutions tailored to your needs.",
+    description: "Transform any room with expertly installed flooring, available in a range of materials like hardwood, vinyl, and tile for lasting style and durability.",
   },
   {
     image: "/assets/glitz/newHomePage/services/service2.png",
     title: "Kitchen Remodeling",
-    description: "Transform your kitchen with custom designs and remodeling.",
+    description: "Upgrade your kitchen with beautiful, functional designs and high-quality finishes to create a space you'll love to cook and gather in.",
   },
   {
     image: "/assets/glitz/newHomePage/services/service3.png",
     title: "Bathroom Remodeling",
-    description: "Bring elegance and functionality to your bathroom.",
+    description: "From sleek tile to modern fixtures, we bring elegance and functionality to your bathroom with expertly crafted remodeling solutions.",
   },
   {
     image: "/assets/glitz/newHomePage/services/service4.png",
     title: "Interior Painting",
-    description: "Professional painting services for a fresh, vibrant interior.",
+    description: "Refresh your home's look with professional interior painting that brings color, warmth, and style to every room.",
   },
   {
     image: "/assets/glitz/newHomePage/services/service5.png",
     title: "Interior Remodeling",
-    description: "Innovative remodeling solutions to elevate your living space.",
+    description: "Reimagine your living spaces with our comprehensive interior remodeling services, designed to elevate your home's style and comfort.",
   },
 ];
 
@@ -66,13 +66,13 @@ const SmallDeviceService = () => {
         />
 
         {/* Tooltip on Hover */}
-        <div className="absolute inset-0 bg-black/70 flex flex-col justify-center items-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+        <div className="h-1/2 absolute mt-[23%] inset-0 bg-black/70 flex flex-col justify-center items-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
           <h3 className="font-bold text-lg mb-2">{currentSlide.title}</h3>
-          <p className="text-sm">{currentSlide.description}</p>
+          <p className="text-sm text-center px-6">{currentSlide.description}</p>
         </div>
 
         {/* Service Button */}
-        <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-black/80 text-white py-3 px-5 rounded-lg text-center shadow-md w-11/12 sm:w-auto">
+        <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 bg-black/80 text-white py-3 px-5 rounded-lg text-center shadow-md w-11/12 sm:w-auto">
           <span className="font-bold">{currentSlide.title}</span>
         </div>
       </div>

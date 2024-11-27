@@ -4,32 +4,33 @@ import { headingIconText } from "@/utils/heading-text";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import SmallDeviceService from "../SmallDeviceService/SmallDeviceService";
+import { FaArrowRightLong } from "react-icons/fa6";
 
 const serviceSlides = [
   {
     image: "/assets/glitz/newHomePage/services/service1.png",
     title: "Flooring Installations",
-    description: "We provide expert flooring solutions tailored to your needs.",
+    description: "Transform any room with expertly installed flooring, available in a range of materials like hardwood, vinyl, and tile for lasting style and durability.",
   },
   {
     image: "/assets/glitz/newHomePage/services/service2.png",
     title: "Kitchen Remodeling",
-    description: "Transform your kitchen with custom designs and remodeling.",
+    description: "Upgrade your kitchen with beautiful, functional designs and high-quality finishes to create a space you'll love to cook and gather in.",
   },
   {
     image: "/assets/glitz/newHomePage/services/service3.png",
     title: "Bathroom Remodeling",
-    description: "Bring elegance and functionality to your bathroom.",
+    description: "From sleek tile to modern fixtures, we bring elegance and functionality to your bathroom with expertly crafted remodeling solutions.",
   },
   {
     image: "/assets/glitz/newHomePage/services/service4.png",
     title: "Interior Painting",
-    description: "Professional painting services for a fresh, vibrant interior.",
+    description: "Refresh your home's look with professional interior painting that brings color, warmth, and style to every room.",
   },
   {
     image: "/assets/glitz/newHomePage/services/service5.png",
     title: "Interior Remodeling",
-    description: "Innovative remodeling solutions to elevate your living space.",
+    description: "Reimagine your living spaces with our comprehensive interior remodeling services, designed to elevate your home's style and comfort.",
   },
 ];
 
@@ -77,16 +78,17 @@ const Services = () => {
               onMouseLeave={() => setHoveredButtonIndex(null)}
             >
               <p
-                className={`font-bold text-lg ${
+                className={`flex items-center gap-2 font-bold text-lg ${
                   hoveredButtonIndex === index ? "text-yellow-400" : "text-white"
-                } transition-colors duration-300`}
+                } group transition-colors duration-300`}
               >
-                {slide.title}
+                {slide.title} <FaArrowRightLong className="hidden group-hover:block"/>
               </p>
 
               {/* Tooltip */}
               {hoveredButtonIndex === index && (
-                <div className="w-full absolute bottom-[110%] left-1/2 transform -translate-x-1/2 bg-black/80 text-white text-sm rounded-md px-4 py-2 shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10">
+                <div className="group w-full absolute bottom-[110%] left-1/2 transform -translate-x-1/2 bg-black/80 text-white text-base 5xl:text-lg font-normal leading-normal rounded-md px-4 py-2 shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10">
+                  <span className="text-[20px] font-bold leading-normal group-hover:text-yellow-400">{slide.title}</span> <br/>
                   {slide.description}
                 </div>
               )}

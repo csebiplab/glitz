@@ -40,7 +40,7 @@ const ContactUs = () => {
                       Your Name <sup className="text-white">*</sup>
                     </label>
                     <input
-                      className="contact-form__input w-full mt-[10px] py-[13px] pl-[16px] placeholder:text-dark-600 placeholder:text-sm placeholder:font-normal placeholder:leading-normal rounded-[8px]"
+                      className="input_bg w-full mt-[10px] py-[13px] pl-[16px] placeholder:text-dark-600 placeholder:text-sm placeholder:font-normal placeholder:leading-normal rounded-[8px]"
                       type="text"
                       id="name"
                       placeholder="Robot Fox"
@@ -55,7 +55,7 @@ const ContactUs = () => {
                       Your Email <sup className="text-white">*</sup>
                     </label>
                     <input
-                      className="contact-form__input w-full mt-[10px] py-[13px] pl-[16px] placeholder:text-dark-600 placeholder:text-sm placeholder:font-normal placeholder:leading-normal rounded-[8px]"
+                      className="input_bg w-full mt-[10px] py-[13px] pl-[16px] placeholder:text-dark-600 placeholder:text-sm placeholder:font-normal placeholder:leading-normal rounded-[8px]"
                       type="email"
                       id="email"
                       placeholder="info@example.com"
@@ -73,7 +73,7 @@ const ContactUs = () => {
                       Subject <sup className="text-white">*</sup>
                     </label>
                     <input
-                      className="contact-form__input w-full mt-[10px] py-[13px] pl-[16px] placeholder:text-dark-600 placeholder:text-sm placeholder:font-normal placeholder:leading-normal rounded-[8px]"
+                      className="input_bg w-full mt-[10px] py-[13px] pl-[16px] placeholder:text-dark-600 placeholder:text-sm placeholder:font-normal placeholder:leading-normal rounded-[8px]"
                       type="text"
                       id="subject"
                       placeholder="Subject"
@@ -88,7 +88,7 @@ const ContactUs = () => {
                       Your Phone <sup className="text-white">*</sup>
                     </label>
                     <input
-                      className="contact-form__input w-full mt-[10px] py-[13px] pl-[16px] placeholder:text-dark-600 placeholder:text-sm placeholder:font-normal placeholder:leading-normal rounded-[8px]"
+                      className="input_bg w-full mt-[10px] py-[13px] pl-[16px] placeholder:text-dark-600 placeholder:text-sm placeholder:font-normal placeholder:leading-normal rounded-[8px]"
                       type="tel"
                       id="phone"
                       placeholder="647-449-9512"
@@ -106,7 +106,7 @@ const ContactUs = () => {
                     Message <sup className="text-white">*</sup>
                   </label>
                   <textarea
-                    className="contact-form__textarea w-full mt-[10px] py-[13px] pl-[16px] placeholder:text-dark-600 placeholder:text-sm placeholder:font-normal placeholder:leading-normal rounded-[8px]"
+                    className="input_bg w-full mt-[10px] py-[13px] pl-[16px] placeholder:text-dark-600 placeholder:text-sm placeholder:font-normal placeholder:leading-normal rounded-[8px]"
                     id="message"
                     name="message"
                     placeholder="Write Message"
@@ -184,18 +184,17 @@ const ContactUs = () => {
           />
         </div>
         {/* form part  */}
-        <div className="-mt-[20px] ml-[20px] mr-[30px]">
-          <div className="md:col-span-2 contact__cart__bg h-[581px]">
+        <div className="-mt-[20px] ml-[25px] mr-[25px]">
+          <div className="md:col-span-2 contact__cart__bg h-[740px]">
             <div className="h-full flex flex-col justify-center px-[16px] 5xl:px-[22px]">
               <p className="text-base font-normal text-white leading-normal">
                 Our Contact Information
               </p>
-              <p className="text-[25px] md:text-[27px] lg:text-[30px] xl:text-[33px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[40px] 5xl:tex-[42px] font-bold text-white text-left leading-normal pb-[24px]">
+              <p className="text-[25px] md:text-[27px] lg:text-[30px] xl:text-[33px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[40px] 5xl:tex-[42px] font-bold text-white text-left leading-normal pb-[14px]">
                 Give Us Feedback
               </p>
               <form className="contact-form">
-                <div className="contact-form__row w-full flex justify-between items-center gap-[20px]">
-                  <div className="contact-form__field w-1/2">
+              <div className="contact-form__field w-full">
                     <label
                       className="contact-form__label text-base font-normal text-white leading-normal"
                       htmlFor="name"
@@ -203,14 +202,14 @@ const ContactUs = () => {
                       Your Name <sup className="text-white">*</sup>
                     </label>
                     <input
-                      className="contact-form__input w-full mt-[10px] py-[13px] pl-[16px] placeholder:text-dark-600 placeholder:text-sm placeholder:font-normal placeholder:leading-normal"
+                      className="input_bg w-full mt-[10px] py-[13px] pl-[16px] placeholder:text-dark-600 placeholder:text-sm placeholder:font-normal placeholder:leading-normal "
                       type="text"
                       id="name"
                       placeholder="Robot Fox"
                       required
                     />
                   </div>
-                  <div className="contact-form__field w-1/2">
+                  <div className="contact-form__field w-full my-3">
                     <label
                       className="contact-form__label text-base font-normal text-white leading-normal"
                       htmlFor="email"
@@ -218,17 +217,14 @@ const ContactUs = () => {
                       Your Email <sup className="text-white">*</sup>
                     </label>
                     <input
-                      className="contact-form__input w-full mt-[10px] py-[13px] pl-[16px] placeholder:text-dark-600 placeholder:text-sm placeholder:font-normal placeholder:leading-normal"
+                      className="input_bg w-full mt-[10px] py-[13px] pl-[16px] placeholder:text-dark-600 placeholder:text-sm placeholder:font-normal placeholder:leading-normal"
                       type="email"
                       id="email"
                       placeholder="info@example.com"
                       required
                     />
                   </div>
-                </div>
-
-                <div className="contact-form__row w-full flex items-center gap-[20px] py-[25px]">
-                  <div className="contact-form__field w-1/2">
+                  <div className="contact-form__field w-full">
                     <label
                       className="contact-form__label text-base font-normal text-white leading-normal"
                       htmlFor="subject"
@@ -236,14 +232,14 @@ const ContactUs = () => {
                       Subject <sup className="text-white">*</sup>
                     </label>
                     <input
-                      className="contact-form__input w-full mt-[10px] py-[13px] pl-[16px] placeholder:text-dark-600 placeholder:text-sm placeholder:font-normal placeholder:leading-normal"
+                      className="input_bg w-full mt-[10px] py-[13px] pl-[16px] placeholder:text-dark-600 placeholder:text-sm placeholder:font-normal placeholder:leading-normal"
                       type="text"
                       id="subject"
                       placeholder="Subject"
                       required
                     />
                   </div>
-                  <div className="contact-form__field w-1/2">
+                  <div className="contact-form__field w-full my-3">
                     <label
                       className="contact-form__label text-base font-normal text-white leading-normal"
                       htmlFor="phone"
@@ -251,7 +247,7 @@ const ContactUs = () => {
                       Your Phone <sup className="text-white">*</sup>
                     </label>
                     <input
-                      className="contact-form__input w-full mt-[10px] py-[13px] pl-[16px] placeholder:text-dark-600 placeholder:text-sm placeholder:font-normal placeholder:leading-normal"
+                      className="input_bg w-full mt-[10px] py-[13px] pl-[16px] placeholder:text-dark-600 placeholder:text-sm placeholder:font-normal placeholder:leading-normal"
                       type="tel"
                       id="phone"
                       placeholder="647-449-9512"
@@ -259,7 +255,6 @@ const ContactUs = () => {
                       required
                     />
                   </div>
-                </div>
 
                 <div className="contact-form__field w-full pb-[35px]">
                   <label
@@ -269,7 +264,7 @@ const ContactUs = () => {
                     Message <sup className="text-white">*</sup>
                   </label>
                   <textarea
-                    className="contact-form__textarea w-full mt-[10px] py-[13px] pl-[16px] placeholder:text-dark-600 placeholder:text-sm placeholder:font-normal placeholder:leading-normal"
+                    className="input_bg w-full mt-[10px] py-[13px] pl-[16px] placeholder:text-dark-600 placeholder:text-sm placeholder:font-normal placeholder:leading-normal"
                     id="message"
                     name="message"
                     placeholder="Write Message"
