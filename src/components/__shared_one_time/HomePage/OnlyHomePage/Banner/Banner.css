@@ -1,5 +1,14 @@
+/* large device  */
 .banner__bg{
     background-image: url("/assets/glitz/newHomePage/hero__section.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+/* small device  */
+.small__banner__bg{
+    background-image: url("/assets/glitz/newHomePage/small_banner.png");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
