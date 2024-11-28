@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+// css file 
 import "./VisualizeYourRoom.css";
 
 const VisualizeYourRoom = () => {

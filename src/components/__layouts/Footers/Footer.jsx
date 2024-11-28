@@ -20,13 +20,13 @@ const Footer = () => {
             {/* first div  */}
             <div className="col-span-2">
               <Image
-                src="/assets/glitz/logo/nav_logo.png"
+                src="/assets/glitz/newHomePage/nav/glitz_nav_logo.png"
                 alt="footer logo"
                 width={144}
                 height={148}
                 className="w-full"
               />
-              <p className="font-family-primary text-base 5xl:text-lg font-normal text-black text-left leading-[30px]">
+              <p className="mt-2 font-family-primary text-base 5xl:text-lg font-normal text-black text-left leading-[30px]">
                 If you're in the Cypress area and looking for expert flooring
                 and remodeling services, contact us today.
               </p>
@@ -187,7 +187,8 @@ const Footer = () => {
           {/* first div  */}
           <div className="pt-[35px] px-[30px]">
             <Image
-              src="/assets/glitz/logo/nav_logo.png"
+              // src="/assets/glitz/logo/nav_logo.png"
+              src="/assets/glitz/newHomePage/nav/glitz_nav_logo.png"
               alt="footer logo"
               width={144}
               height={148}

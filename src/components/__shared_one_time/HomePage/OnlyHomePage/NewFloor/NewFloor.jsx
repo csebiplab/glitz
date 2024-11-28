@@ -21,7 +21,7 @@ const NewFloor = () => {
             height={260}
           />
         </div>
-        <div className="full__section_r_p md:col-span-1 bg-secondary-800 flex justify-center items-center py-[25px] md:py-1">
+        <div className="md:full__section_r_p md:col-span-1 bg-secondary-800 flex justify-center items-center py-[25px] md:py-1">
           <p className="text-[24px] font-normal text-white leading-normal pl-[18px] 3xl:pl-[24px]">
             You Dream It... We Create It
           </p>
