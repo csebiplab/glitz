@@ -9,7 +9,7 @@ import YourDream from "./YourDream/YourDream";
 import AboutUs from "./AboutUs/AboutUs";
 import FloorNow from "./FloorNow/FloorNow";
 import NewFloor from "./NewFloor/NewFloor";
-// import VisualizeYourRoom from "./VisualizeYourRoom/VisualizeYourRoom";
+import VisualizeYourRoom from "./VisualizeYourRoom/VisualizeYourRoom";
 import ServicesArea from "./ServicesArea/ServicesArea";
 import Services from "./Services/Services";
 import RemodelingServices from "./RemodelingServices/RemodelingServices";
@@ -49,9 +49,9 @@ const OnlyHomePage = () => {
         <FloorNow />
       </section>
 
-      {/* <section>
+      <section>
         <VisualizeYourRoom />
-      </section> */}
+      </section>
 
       <section>
         <ProjectGallery />
