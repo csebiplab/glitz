@@ -129,9 +129,9 @@ const Brand = () => {
           </Swiper>
         </div>
         {/* small device start  */}
-        <div className="block md:hidden">
+        {/* <div className="block md:hidden">
           <div className="w-full flex items-center gap-[12px] brand__bg py-[10px]" >
-            <div className="w-2/5 flex flex-col justify-start items-start pl-2">
+            <div className="w-1/2 flex flex-col justify-start items-start pl-2">
               <p className="font-family-secondary text-base text-secondary text-left font-bold leading-normal pb-[7px]">
                 Verifying Review <br/> From Trusted Site :{" "}
               </p>
@@ -145,7 +145,7 @@ const Brand = () => {
               />
               </div>
             </div>
-            <div className="w-3/5">
+            <div className="w-1/2">
             <marquee className="w-full" behavior="slide" direction="left" scrollamount="5">
             <Swiper
               className=""
@@ -181,15 +181,15 @@ const Brand = () => {
           </marquee>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* test part  */}
-        {/* <div className="block md:hidden">
-          <div className="brand__bg py-[10px]" >
+        <div className="block md:hidden">
+          <div className="brand__bg pt-[10px] pb-[2px]" >
             <div className="flex flex-col justify-center items-center">
-              <p className="font-family-secondary text-base text-secondary text-center font-bold leading-normal pb-[7px]">
+              <p className="font-family-secondary text-sm sm:text-base text-secondary text-center font-bold leading-normal pb-[7px]">
                 Verifying Review From Trusted Site:{" "}
               </p>
-              <div className="w-1/3 ">
+              <div className="w-1/5 ">
               <Image
                 src="/assets/glitz/icons/five_star.png"
                 alt="brand image"
@@ -217,7 +217,7 @@ const Brand = () => {
               {slideData.map((slideInfo, index) => (
                 <SwiperSlide key={index} className={`px-[20px] !h-auto !md:h-full`}>
                   <div className="h-full flex items-center">
-                    <div className="w-[62px] h-[62px] bg-white flex items-center">
+                    <div className="w-[72px] h-[72px] bg-white flex items-center">
                     <Image
                       src={slideInfo}
                       alt="brand image"
@@ -231,7 +231,7 @@ const Brand = () => {
               ))}
             </Swiper>
           </div>
-        </div> */}
+        </div>
 
       </div>
     </div>
