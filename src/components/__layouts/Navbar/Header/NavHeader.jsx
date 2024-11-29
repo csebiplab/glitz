@@ -347,7 +347,7 @@ export function NavHeader() {
           }`}
         ></div>
 
-        <div className="block md:hidden w-full bg__color py-[5px] md:py-0 flex justify-between items-center px-[20px] sm:px-[30px] -mt-1">
+        <div className="block md:hidden w-full bg__color py-[5px] md:py-0 flex justify-between items-center px-[16px] sm:px-[30px] -mt-1">
           <div className=" w-1/3">
             <Image
               src="/assets/glitz/newHomePage/nav/nav__logo__glitz.png"
@@ -357,13 +357,13 @@ export function NavHeader() {
               className="w-full"
             />
           </div>
-          <div className="ml-4">
+          <div className="ml-2">
             <button className="flex items-center gap-[4px]">
               <div className="bg-primary-50 p-2 rounded-lg">
-                <LuPhoneCall className="w-[18px] h-[18px] text-white" />
+                <LuPhoneCall className="w-[13px] h-[13px] text-white" />
               </div>
               <Link
-                className="font-family-secondary text-lg font-bold text-white leading-normal"
+                className="font-family-secondary text-sm font-bold text-white leading-normal"
                 href="tel:(346) 445-6343"
               >
                 (346) 445-6343
@@ -381,7 +381,7 @@ export function NavHeader() {
               {openNav ? (
                 <XMarkIcon className="h-10 w-10" strokeWidth={2} />
               ) : (
-                <IoMenuSharp className="text-white w-[36px] h-[36px]" />
+                <IoMenuSharp className="text-white w-[30px] h-[30px]" />
               )}
             </IconButton>
           </div>
