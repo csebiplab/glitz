@@ -36,7 +36,7 @@ const RemodelingServices = () => {
       {/* large device  */}
       <div className="hidden md:block">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-[30px]">
-          <div className="md:col-span-1">
+          <div data-aos="fade-right" className="md:col-span-1">
             <div className="relative">
               {/* Main Image */}
               <Image
@@ -93,7 +93,7 @@ const RemodelingServices = () => {
               </div>
             </div>
           </div>
-          <div className="md:col-span-1">
+          <div data-aos="fade-left" className="md:col-span-1">
             <div className="relative">
               {/* Main Image */}
               <Image
@@ -144,7 +144,7 @@ const RemodelingServices = () => {
       {/* small device  */}
       <div className="block md:hidden">
         {/* Bathroom Remodel */}
-        <div className="relative">
+        <div data-aos="fade-right" className="relative">
           {/* Image */}
           <Image
             src="/assets/glitz/newHomePage/bathroomRemodel.png"
@@ -185,7 +185,7 @@ const RemodelingServices = () => {
         </div>
         <div className="mt-[25px]">
           {/* Kitchen Remodel */}
-          <div className="relative">
+          <div data-aos="fade-left" className="relative">
             {/* Image */}
             <Image
               src="/assets/glitz/newHomePage/kitchenRemodel.png"

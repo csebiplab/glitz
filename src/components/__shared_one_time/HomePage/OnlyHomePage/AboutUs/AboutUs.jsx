@@ -8,7 +8,7 @@ const AboutUs = () => {
   return (
     <div className="container padding__top">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-[21px]">
-        <div className="md:col-span-1">
+        <div data-aos="fade-right" className="md:col-span-1">
           <div className="flex justify-start items-center">
             <NewHeadingIcon text={headingIconText.aboutUs__headingIconText} />
           </div>
@@ -53,7 +53,7 @@ const AboutUs = () => {
             </div>
           </div>
         </div>
-        <div className="md:col-span-1">
+        <div data-aos="fade-left" className="md:col-span-1">
           <Image
             src="/assets/glitz/newHomePage/aboutUs.png"
             alt="about us"
