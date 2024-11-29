@@ -50,7 +50,7 @@ const Services = () => {
   }, []);
 
   return (
-    <div className="padding__top custom-container relative">
+    <div data-aos="fade-up" className="padding__top custom-container relative">
       <div className="flex justify-center items-center">
         <NewHeadingIcon text={headingIconText.services__headingIconText} />
       </div>
