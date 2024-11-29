@@ -4,7 +4,7 @@ import React from "react";
 const NewFloor = () => {
   return (
     <div className="custom-container padding__top">
-      <div className="grid grid-cols-1 md:grid-cols-3 mt-[10px]">
+      <div data-aos="zoom-in" className="grid grid-cols-1 md:grid-cols-3 mt-[10px]">
         <div className="full__section_l_p md:col-span-1 bg-secondary-800 flex justify-center items-center">
           <p className="text-[24px] text-center md:text-left font-normal text-white leading-normal pr-[30px] 3xl:pr-[40px] py-4 md:py-2">
             Get new floors with{" "}

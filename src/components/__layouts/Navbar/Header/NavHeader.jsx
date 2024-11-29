@@ -145,106 +145,103 @@ function OurServiceManu() {
 function NavList() {
   return (
     <List className="my-[11px] p-0 lg:mt-0 lg:mb-0 lg:flex-row md:items-center justify-between px-0 md:px-[20px] 5xl:px-[24px] border-0 outline-none ">
-      <div className="border-b border-black">
-      <Typography
-        as={Link}
-        href="/"
-        variant="small"
-        color="blue-gray"
-        className=" font-medium rounded-full text-sm lg:text-sm xl:text-base 2xl:text-lg"
-      >
-        <div>
-          <ListItem className="px-0 hover:bg-transparent hover:text-white py-1 font-family-secondary flex items-start md:items-center text-lg md:text-base 5xl:text-lg text-black md:text-white font-bold leading-normal">
-            Home
-          </ListItem>
-        </div>
-      </Typography>
+      <div className="border-b border-black md:border-0">
+        <Typography
+          as={Link}
+          href="/"
+          variant="small"
+          color="blue-gray"
+          className=" font-medium rounded-full text-sm lg:text-sm xl:text-base 2xl:text-lg"
+        >
+          <div>
+            <ListItem className="px-0 hover:bg-transparent hover:text-white py-1 font-family-secondary flex items-start md:items-center text-lg md:text-base 5xl:text-lg text-black md:text-white font-bold leading-normal">
+              Home
+            </ListItem>
+          </div>
+        </Typography>
       </div>
 
-      <div className="border-b border-black">
-      <Typography
-        as={Link}
-        href="/about-us"
-        variant="small"
-        color="blue-gray"
-        className="font-medium rounded-full text-sm md:text-sm xl:text-base 2xl:text-lg"
-      >
-        <ListItem className="px-0 hover:bg-transparent hover:text-white py-1 font-family-secondary flex items-start md:items-center text-lg md:text-base 5xl:text-lg text-black md:text-white font-bold leading-normal">
+      <div className="border-b border-black md:border-0">
+        <Typography
+          as={Link}
+          href="/about-us"
+          variant="small"
+          color="blue-gray"
+          className="font-medium rounded-full text-sm md:text-sm xl:text-base 2xl:text-lg"
+        >
+          <ListItem className="px-0 hover:bg-transparent hover:text-white py-1 font-family-secondary flex items-start md:items-center text-lg md:text-base 5xl:text-lg text-black md:text-white font-bold leading-normal">
             About
           </ListItem>
-      </Typography>
-          </div>
-      
-      <div className="border-b border-black">
-      <Typography
-        as={Link}
-        href="/gallery"
-        variant="small"
-        color="blue-gray"
-        className="font-medium rounded-full text-sm md:text-sm xl:text-base 2xl:text-lg"
-      >
-        <div>
-          <ListItem className="px-0 hover:bg-transparent hover:text-white py-1 font-family-secondary flex items-start md:items-center  text-lg md:text-base 5xl:text-lg text-black md:text-white font-bold leading-normal">
-            Gallery
-          </ListItem>
-        </div>
-      </Typography>
-        </div>
-      
-      <div className="border-b border-black">
-      <Typography
-        as={Link}
-        href="/kitchen-remodel-in-cypress"
-        variant="small"
-        color="blue-gray"
-        className="font-medium rounded-full text-sm md:text-sm xl:text-base 2xl:text-lg"
-      >
-        <div>
-          <ListItem className="px-0 hover:bg-transparent hover:text-white py-1 font-family-secondary flex items-start md:items-center  text-lg md:text-base 5xl:text-lg text-black md:text-white font-bold leading-normal">
-            Kitchen Remodeling
-          </ListItem>
-        </div>
-      </Typography>
-        </div>
+        </Typography>
+      </div>
 
-      
-      <div className="border-b border-black">
-      <Typography
-        as={Link}
-        href="/bathroom-remodel-in-cypress-tx"
-        variant="small"
-        color="blue-gray"
-        className="font-medium rounded-full text-sm md:text-sm xl:text-base 2xl:text-lg"
-      >
-        <div>
-          <ListItem className="px-0 hover:bg-transparent hover:text-white py-1 font-family-secondary flex items-start md:items-center  text-lg md:text-base 5xl:text-lg text-black md:text-white font-bold leading-normal">
-            Bathroom Remodeling
-          </ListItem>
-        </div>
-      </Typography>
-        </div>
-      
+      <div className="border-b border-black md:border-0">
+        <Typography
+          as={Link}
+          href="/gallery"
+          variant="small"
+          color="blue-gray"
+          className="font-medium rounded-full text-sm md:text-sm xl:text-base 2xl:text-lg"
+        >
+          <div>
+            <ListItem className="px-0 hover:bg-transparent hover:text-white py-1 font-family-secondary flex items-start md:items-center  text-lg md:text-base 5xl:text-lg text-black md:text-white font-bold leading-normal">
+              Gallery
+            </ListItem>
+          </div>
+        </Typography>
+      </div>
+
+      <div className="border-b border-black md:border-0">
+        <Typography
+          as={Link}
+          href="/kitchen-remodel-in-cypress"
+          variant="small"
+          color="blue-gray"
+          className="font-medium rounded-full text-sm md:text-sm xl:text-base 2xl:text-lg"
+        >
+          <div>
+            <ListItem className="px-0 hover:bg-transparent hover:text-white py-1 font-family-secondary flex items-start md:items-center  text-lg md:text-base 5xl:text-lg text-black md:text-white font-bold leading-normal">
+              Kitchen Remodeling
+            </ListItem>
+          </div>
+        </Typography>
+      </div>
+
+      <div className="border-b border-black md:border-0">
+        <Typography
+          as={Link}
+          href="/bathroom-remodel-in-cypress-tx"
+          variant="small"
+          color="blue-gray"
+          className="font-medium rounded-full text-sm md:text-sm xl:text-base 2xl:text-lg"
+        >
+          <div>
+            <ListItem className="px-0 hover:bg-transparent hover:text-white py-1 font-family-secondary flex items-start md:items-center  text-lg md:text-base 5xl:text-lg text-black md:text-white font-bold leading-normal">
+              Bathroom Remodeling
+            </ListItem>
+          </div>
+        </Typography>
+      </div>
 
       <div className="mt-[6px]">
         <OurServiceManu />
       </div>
 
-      <div className="border-y border-black">
-      <Typography
-        as={Link}
-        href="/contact-us"
-        variant="small"
-        color="blue-gray"
-        className="font-medium rounded-full text-sm md:text-sm xl:text-base 2xl:text-lg"
-      >
-        <div>
-          <ListItem className="px-0 hover:bg-transparent hover:text-white py-1 font-family-secondary flex items-start md:items-center text-lg md:text-base 5xl:text-lg text-black md:text-white font-bold leading-normal ">
-            Contact Us
-          </ListItem>
-        </div>
-      </Typography>
-        </div>
-      
+      <div className="border-y border-black md:border-0">
+        <Typography
+          as={Link}
+          href="/contact-us"
+          variant="small"
+          color="blue-gray"
+          className="font-medium rounded-full text-sm md:text-sm xl:text-base 2xl:text-lg"
+        >
+          <div>
+            <ListItem className="px-0 hover:bg-transparent hover:text-white py-1 font-family-secondary flex items-start md:items-center text-lg md:text-base 5xl:text-lg text-black md:text-white font-bold leading-normal ">
+              Contact Us
+            </ListItem>
+          </div>
+        </Typography>
+      </div>
     </List>
   );
 }
@@ -282,7 +279,7 @@ export function NavHeader() {
         <div className="hidden md:block custom-container ">
           <Navbar className="container main__nav rounded-none py-0 shadow-none max-w-full pb-[6px]">
             <div className="flex justify-between items-center gap-[30px]">
-              <div className="">
+              <div className="w-1/5">
                 <Link href="/" aria-label="Home">
                   <Image
                     // src="/assets/glitz/newHomePage/nav__logo__glitz.png"
@@ -348,11 +345,10 @@ export function NavHeader() {
           className={`block md:hidden pt-1 bg-secondary-400 ${
             hideOnScroll ? "hidden" : ""
           }`}
-        >
-        </div>
+        ></div>
 
         <div className="block md:hidden w-full bg__color py-[5px] md:py-0 flex justify-between items-center px-[20px] sm:px-[30px] -mt-1">
-          <div className=" w-1/4">
+          <div className=" w-1/3">
             <Image
               src="/assets/glitz/newHomePage/nav/nav__logo__glitz.png"
               alt="nav logo"
@@ -360,6 +356,19 @@ export function NavHeader() {
               height={91}
               className="w-full"
             />
+          </div>
+          <div className="ml-4">
+            <button className="flex items-center gap-[4px]">
+              <div className="bg-primary-50 p-2 rounded-lg">
+                <LuPhoneCall className="w-[18px] h-[18px] text-white" />
+              </div>
+              <Link
+                className="font-family-secondary text-lg font-bold text-white leading-normal"
+                href="tel:(346) 445-6343"
+              >
+                (346) 445-6343
+              </Link>
+            </button>
           </div>
 
           <div className="">
@@ -372,7 +381,7 @@ export function NavHeader() {
               {openNav ? (
                 <XMarkIcon className="h-10 w-10" strokeWidth={2} />
               ) : (
-                <IoMenuSharp className="text-primary-50 w-[35px] h-[35px]"/>
+                <IoMenuSharp className="text-white w-[36px] h-[36px]" />
               )}
             </IconButton>
           </div>
@@ -416,28 +425,28 @@ export function NavHeader() {
           </IconButton>
         </div> */}
         <div className="mb-4">
-            <Image
-              src="/assets/glitz/newHomePage/nav/glitz_nav_logo.png"
-              alt="nav logo"
-              width={142}
-              height={91}
-              className="w-full"
-            />
-          </div>
+          <Image
+            src="/assets/glitz/newHomePage/black_glitz_logo.png"
+            alt="nav logo"
+            width={142}
+            height={91}
+            className="w-full"
+          />
+        </div>
         <NavList />
         <div className="mt-8">
-                      <button className="flex items-center gap-[8px] 5xl:gap-[12px]">
-                        <div className="bg-primary-50 p-2 rounded-lg">
-                          <LuPhoneCall className="w-[18px] h-[18px] text-white" />
-                        </div>
-                        <Link
-                          className="font-family-secondary text-lg font-bold text-black leading-normal"
-                          href="tel:(346) 445-6343"
-                        >
-                          (346) 445-6343
-                        </Link>
-                      </button>
-                    </div>
+          <button className="flex items-center gap-[8px] 5xl:gap-[12px]">
+            <div className="bg-primary-50 p-2 rounded-lg">
+              <LuPhoneCall className="w-[18px] h-[18px] text-white" />
+            </div>
+            <Link
+              className="font-family-secondary text-lg font-bold text-black leading-normal"
+              href="tel:(346) 445-6343"
+            >
+              (346) 445-6343
+            </Link>
+          </button>
+        </div>
       </Drawer>
     </>
   );

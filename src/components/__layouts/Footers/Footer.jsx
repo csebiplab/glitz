@@ -20,7 +20,7 @@ const Footer = () => {
             {/* first div  */}
             <div className="col-span-2">
               <Image
-                src="/assets/glitz/newHomePage/nav/glitz_nav_logo.png"
+                src="/assets/glitz/newHomePage/black_glitz_logo.png"
                 alt="footer logo"
                 width={144}
                 height={148}
@@ -188,7 +188,7 @@ const Footer = () => {
           <div className="pt-[35px] px-[30px]">
             <Image
               // src="/assets/glitz/logo/nav_logo.png"
-              src="/assets/glitz/newHomePage/nav/glitz_nav_logo.png"
+              src="/assets/glitz/newHomePage/black_glitz_logo.png"
               alt="footer logo"
               width={144}
               height={148}

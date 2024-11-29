@@ -7,16 +7,16 @@ const VisualizeYourRoom = () => {
   return (
     <div className="container padding__top">
       <div className="grid grid-cols-1 md:grid-cols-2">
-        <div className="md:col-span-1">
+        <div data-aos="fade-right" className="md:col-span-1">
           <Image
             src="/assets/glitz/newHomePage/visualizeYourRoom.png"
             alt="visualizeYourRoom"
             width={595}
             height={551}
-            className="h-full"
+            className="w-full h-full"
           />
         </div>
-        <div className="md:col-span-1 visualizeYourRoom__bg px-[24px] 3xl:px-[30px] 5xl:pl-[34px] py-[22px] md:py-[26px] lg:py-[30px] xl:py-[34px] 2xl:py-[38px] 3xl:py-[42px] 4xl:py-[45px] 5xl:py-[48px] flex flex-col justify-center md:justify-start">
+        <div data-aos="fade-left" className="md:col-span-1 visualizeYourRoom__bg px-[24px] 3xl:px-[30px] 5xl:pl-[34px] py-[22px] md:py-[26px] lg:py-[30px] xl:py-[34px] 2xl:py-[38px] 3xl:py-[42px] 4xl:py-[45px] 5xl:py-[48px] flex flex-col justify-center md:justify-start">
           <h2 className="text-[25px] md:text-[27px] lg:text-[30px] xl:text-[33px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[40px] 5xl:tex-[42px] font-bold text-white text-center md:text-left leading-normal">
             How to Visualize Your Room's Floor Plan Easily
           </h2>
