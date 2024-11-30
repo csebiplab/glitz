@@ -91,7 +91,7 @@ const ContactUs = () => {
                       className="input_bg w-full mt-[10px] py-[13px] pl-[16px] placeholder:text-dark-600 placeholder:text-sm placeholder:font-normal placeholder:leading-normal rounded-[8px]"
                       type="tel"
                       id="phone"
-                      placeholder="647-449-9512"
+                      placeholder="(281) 758-5450"
                       pattern="^\+?\d{1,14}$"
                       required
                     />
@@ -140,8 +140,8 @@ const ContactUs = () => {
                     width={28}
                     height={28}
                   />{" "}
-                  <Link href="location:163 Bowes rd, Toronto">
-                    163 Bowes rd, Toronto
+                  <Link href="location:16726 Huffmeister Rd D400, Cypress, TX 77429, United States">
+                    16726 Huffmeister Rd D400, Cypress, TX 77429, United States
                   </Link>
                 </li>
                 <li className="flex items-center gap-[15px] text-base font-normal text-black leading-normal py-[34px]">
@@ -151,7 +151,7 @@ const ContactUs = () => {
                     width={28}
                     height={28}
                   />
-                  <Link href="tel:647-449-9512">647-449-9512</Link>
+                  <Link href="tel:(281) 758-5450">(281) 758-5450</Link>
                 </li>
                 <li className="flex items-center gap-[15px] text-base font-normal text-black leading-normal">
                   <Image
@@ -160,8 +160,8 @@ const ContactUs = () => {
                     width={28}
                     height={28}
                   />
-                  <Link href="mailto:basement Renovation@gmail.com">
-                    basement Renovation@gmail.com
+                  <Link href="mailto:info@glitzfloors&more.us">
+                    info@glitzfloors&more.us
                   </Link>
                 </li>
               </ul>
@@ -250,7 +250,7 @@ const ContactUs = () => {
                       className="input_bg w-full mt-[10px] py-[13px] pl-[16px] placeholder:text-dark-600 placeholder:text-sm placeholder:font-normal placeholder:leading-normal"
                       type="tel"
                       id="phone"
-                      placeholder="647-449-9512"
+                      placeholder="(281) 758-5450"
                       pattern="^\+?\d{1,14}$"
                       required
                     />
@@ -299,8 +299,8 @@ const ContactUs = () => {
                   width={28}
                   height={28}
                 />{" "}
-                <Link href="location:163 Bowes rd, Toronto">
-                  163 Bowes rd, Toronto
+                <Link href="location:16726 Huffmeister Rd D400, Cypress, TX 77429, United States">
+                  16726 Huffmeister Rd D400, Cypress, TX 77429, United States
                 </Link>
               </li>
               <li className="flex items-center gap-[15px] text-base font-normal text-black leading-normal py-[34px]">
@@ -310,7 +310,7 @@ const ContactUs = () => {
                   width={28}
                   height={28}
                 />
-                <Link href="tel:647-449-9512">647-449-9512</Link>
+                <Link href="tel:(281) 758-5450">(281) 758-5450</Link>
               </li>
               <li className="flex items-center gap-[15px] text-base font-normal text-black leading-normal">
                 <Image
@@ -319,8 +319,8 @@ const ContactUs = () => {
                   width={28}
                   height={28}
                 />
-                <Link href="mailto:basement Renovation@gmail.com">
-                  basement Renovation@gmail.com
+                <Link href="mailto:info@glitzfloors&more.us">
+                  info@glitzfloors&more.us
                 </Link>
               </li>
             </ul>

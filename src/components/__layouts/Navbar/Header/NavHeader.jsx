@@ -78,7 +78,7 @@ function OurServiceManu() {
             role="button"
           >
             <ListItem
-              className="px-0 hover:bg-transparent hover:text-white py-1 font-family-secondary flex items-center  text-lg md:text-base 5xl:text-lg text-black md:text-white font-bold leading-normal -mt-[9px]"
+              className="px-0 hover:bg-transparent hover:text-white py-1 font-family-secondary flex items-center  text-lg md:text-base 5xl:text-lg text-black md:text-white font-bold leading-normal -mt-[7px]"
               selected={isMenuOpen || isMobileMenuOpen}
               onClick={() => setIsMobileMenuOpen((cur) => !cur)}
             >
@@ -144,7 +144,7 @@ function OurServiceManu() {
 // our services nav list end
 function NavList() {
   return (
-    <List className="my-[11px] p-0 lg:mt-0 lg:mb-0 lg:flex-row md:items-center justify-between px-0 md:px-[20px] 5xl:px-[24px] border-0 outline-none ">
+    <List className="my-[11px] p-0 lg:mt-0 lg:mb-0 lg:flex-row md:items-center justify-between px-0 md:px-[20px] border-0 outline-none ">
       <div className="border-b border-black md:border-0">
         <Typography
           as={Link}
@@ -278,7 +278,7 @@ export function NavHeader() {
       <header className="sticky top-0 z-50">
         <div className="hidden md:block custom-container ">
           <Navbar className="container main__nav rounded-none py-0 shadow-none max-w-full pb-[6px]">
-            <div className="flex justify-between items-center gap-[30px]">
+            <div className="flex justify-between items-center gap-[30px] 5xl:gap-[50px]">
               <div className="w-1/5">
                 <Link href="/" aria-label="Home">
                   <Image
@@ -302,16 +302,24 @@ export function NavHeader() {
                       </p>
                       <div className="flex items-center gap-3">
                         <div className="bg-primary-50 p-2 rounded-full">
-                          <FaYoutube className="w-[18px] h-[18px] text-white" />
+                          <Link href="" target="_blank" rel="nofollow">
+                            <FaYoutube className="w-[16px] h-[16px] text-white" />
+                          </Link>
                         </div>
                         <div className="bg-primary-50 p-2 rounded-full">
-                          <FaInstagram className="w-[18px] h-[18px] text-white" />
+                          <Link href="https://www.instagram.com/glitz.floors.and.more/?fbclid=IwAR3YJkB2MW6Wi5tPbL4jMuORAz5g7iV8Qa55RUhn-q9lihiMgr5v7ZRvN6A" target="_blank" rel="nofollow">
+                            <FaInstagram className="w-[16px] h-[16px] text-white" />
+                          </Link>
                         </div>
                         <div className="bg-primary-50 p-2 rounded-full">
-                          <FaLinkedin className="w-[18px] h-[18px] text-white" />
+                          <Link href="" target="_blank" rel="nofollow">
+                            <FaLinkedin className="w-[16px] h-[16px] text-white" />
+                          </Link>
                         </div>
                         <div className="bg-primary-50 p-2 rounded-full">
-                          <FaFacebook className="w-[18px] h-[18px] text-white" />
+                          <Link href="https://www.facebook.com/p/Glitz-Floors-More-100095651767067/" target="_blank" rel="nofollow">
+                            <FaFacebook className="w-[16px] h-[16px] text-white" />
+                          </Link>
                         </div>
                       </div>
                     </div>

@@ -68,7 +68,7 @@ const Brand = () => {
             >
               <div className="w-full !flex items-center gap-4 5xl:gap-16">
                 <div className="pl-5 5xl:pl-14">
-                  <p className="font-family-secondary text-sm 5xl:text-lg text-secondary font-bold leading-normal pb-[7px]">
+                  <p className="font-family-secondary text-sm 5xl:text-[15px] text-secondary font-bold leading-normal pb-[7px]">
                     Verifying Review From Trusted Site:{" "}
                   </p>
                   <Image
@@ -76,7 +76,7 @@ const Brand = () => {
                     alt="brand image"
                     height={25}
                     width={165}
-                    className="w-[165px] h-[25px]"
+                    className="w-auto h-auto"
                   />
                 </div>
                 <div>

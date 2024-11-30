@@ -163,9 +163,6 @@ const Review = () => {
                         height={23}
                         className="w-[152px] h-[23px]"
                       />
-                      <p className="font-family-secondary text-base font-bold text-dark-300 leading-normal">
-                        70 Reviews
-                      </p>
                     </div>
                   </div>
                   {/* right side  */}
@@ -214,9 +211,6 @@ const Review = () => {
                       height={23}
                       className="w-[152px] h-[23px]"
                     />
-                    <p className="font-family-secondary text-base font-bold text-dark-300 leading-normal">
-                      70 Reviews
-                    </p>
                   </div>
                 </div>
                 {/* right side  */}

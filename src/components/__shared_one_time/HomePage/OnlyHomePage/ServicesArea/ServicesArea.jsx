@@ -110,11 +110,23 @@ const ServicesArea = () => {
                   referrerPolicy="no-referrer-when-downgrade"
                 ></iframe>
                 <button className="flex items-center justify-center w-full py-[12px] location__btn__bg text-base font-bold leading-normal text-white">
-                <svg className="" xmlns="http://www.w3.org/2000/svg" width="25" height="23" viewBox="0 0 25 23" fill="none">
-  <path d="M25 22H1V-7.15256e-07" stroke="white" stroke-width="2"/>
-</svg>
+                  <svg
+                    className="-mr-4 mt-1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="25"
+                    height="23"
+                    viewBox="0 0 25 23"
+                    fill="none"
+                  >
+                    <path
+                      d="M25 22H1V-7.15256e-07"
+                      stroke="white"
+                      stroke-width="2"
+                    />
+                  </svg>
                   {location?.name}{" "}
                   <svg
+                    className="-ml-4"
                     xmlns="http://www.w3.org/2000/svg"
                     width="25"
                     height="23"

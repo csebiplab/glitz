@@ -7,14 +7,11 @@ const AosSetup = () => {
     useEffect(()=>{
         AOS.init({
             once: true,
-            duration: 1200,
+            duration: 1000,
         });
     },[])
-    return (
-        <div>
-            
-        </div>
-    );
+    return <>
+    </>
 };
 
 export default AosSetup;
