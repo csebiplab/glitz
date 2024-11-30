@@ -195,7 +195,7 @@ const Brand = () => {
                 alt="brand image"
                 height={20}
                 width={165}
-                className="w-auto h-[20px] mx-auto "
+                className="w-auto h-auto mx-auto "
               />
               </div>
             </div>
@@ -216,7 +216,7 @@ const Brand = () => {
               
               {slideData.map((slideInfo, index) => (
                 <SwiperSlide key={index} className={`px-[20px] !h-auto !md:h-full`}>
-                  <div className="h-full flex items-center">
+                  <div className="h-full flex justify-center items-center">
                     <div className="w-[72px] h-[72px] bg-white flex items-center">
                     <Image
                       src={slideInfo}
