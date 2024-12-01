@@ -82,9 +82,9 @@ const Services = () => {
                   hoveredButtonIndex === index ? "text-yellow-400" : "text-white"
                 } group transition-colors duration-300`}
               >
-                <svg className="-mr-8" xmlns="http://www.w3.org/2000/svg" width="40" height="35" viewBox="0 0 40 35" fill="none"> <path d="M39.5 34H1V0" stroke="white" stroke-width="2"/> </svg> 
+                <svg className="-mr-8" xmlns="http://www.w3.org/2000/svg" width="40" height="35" viewBox="0 0 40 35" fill="none"> <path d="M39.5 34H1V0" stroke="white" strokeWidth="2"/> </svg> 
                 {slide.title} <FaArrowRightLong className="hidden group-hover:block"/> 
-                <svg className="-ml-8" xmlns="http://www.w3.org/2000/svg" width="40" height="35" viewBox="0 0 40 35" fill="none"> <path d="M0.5 1H39V35" stroke="white" stroke-width="2"/> </svg>
+                <svg className="-ml-8" xmlns="http://www.w3.org/2000/svg" width="40" height="35" viewBox="0 0 40 35" fill="none"> <path d="M0.5 1H39V35" stroke="white" strokeWidth="2"/> </svg>
               </p>
 
               {/* Tooltip */}

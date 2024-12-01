@@ -34,7 +34,7 @@ const NewFloor = () => {
               viewBox="0 0 40 36"
               fill="none"
             >
-              <path d="M39.5 34.5H1V0.5" stroke="white" stroke-width="2" />
+              <path d="M39.5 34.5H1V0.5" stroke="white" strokeWidth="2" />
             </svg>{" "}
             You Dream It... We Create It{" "}
             <svg
@@ -45,7 +45,7 @@ const NewFloor = () => {
               viewBox="0 0 40 36"
               fill="none"
             >
-              <path d="M0 1.5H38.5V35.5" stroke="white" stroke-width="2" />
+              <path d="M0 1.5H38.5V35.5" stroke="white" strokeWidth="2" />
             </svg>
           </p>
         </div>

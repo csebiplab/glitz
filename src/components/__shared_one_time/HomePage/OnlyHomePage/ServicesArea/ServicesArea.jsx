@@ -121,7 +121,7 @@ const ServicesArea = () => {
                     <path
                       d="M25 22H1V-7.15256e-07"
                       stroke="white"
-                      stroke-width="2"
+                      strokeWidth="2"
                     />
                   </svg>
                   {location?.name}{" "}
@@ -133,7 +133,7 @@ const ServicesArea = () => {
                     viewBox="0 0 25 23"
                     fill="none"
                   >
-                    <path d="M0 1H24V23" stroke="white" stroke-width="2" />
+                    <path d="M0 1H24V23" stroke="white" strokeWidth="2" />
                   </svg>
                 </button>
               </SwiperSlide>
