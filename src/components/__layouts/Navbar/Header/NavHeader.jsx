@@ -1,5 +1,5 @@
 "use client";
-
+import {usePathname} from "next/navigation";
 import { ChevronDownIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import {
   Button,
@@ -47,6 +47,7 @@ const our_service_menu_items = {
 };
 
 function OurServiceManu() {
+  const pathName = usePathname();
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false);
   const renderItems = (data = []) => {
@@ -78,7 +79,7 @@ function OurServiceManu() {
             role="button"
           >
             <ListItem
-              className="px-0 hover:bg-transparent hover:text-white py-1 font-family-secondary flex items-center  text-lg md:text-base 5xl:text-lg text-black md:text-white font-bold leading-normal -mt-[7px]"
+              className={`${pathName === "/" ? "bg-secondary-900 rounded-[8px]" : "drawer_nav_bg"}px-0 hover:text-white md:py-1 font-family-secondary flex items-center text-lg md:text-base 5xl:text-lg text-white font-bold leading-normal -mt-[7px] hover:bg-secondary-900 py-[6px] pl-[11px] md:pl-0`}
               selected={isMenuOpen || isMobileMenuOpen}
               onClick={() => setIsMobileMenuOpen((cur) => !cur)}
             >
@@ -142,10 +143,13 @@ function OurServiceManu() {
 
 // px-1 lg:px-4 2xl:px-6
 // our services nav list end
+
 function NavList() {
+  const pathName = usePathname();
+  console.log(pathName, "kkkkk")
   return (
     <List className="my-[11px] p-0 lg:mt-0 lg:mb-0 lg:flex-row md:items-center justify-between px-0 md:px-[20px] border-0 outline-none ">
-      <div className="border-b border-black md:border-0">
+      <div className="">
         <Typography
           as={Link}
           href="/"
@@ -153,15 +157,16 @@ function NavList() {
           color="blue-gray"
           className=" font-medium rounded-full text-sm lg:text-sm xl:text-base 2xl:text-lg"
         >
-          <div>
-            <ListItem className="px-0 hover:bg-transparent hover:text-white py-1 font-family-secondary flex items-start md:items-center text-lg md:text-base 5xl:text-lg text-black md:text-white font-bold leading-normal">
+          <div >
+            <ListItem className={`${pathName === "/" ? "bg-secondary-900 rounded-[8px]" : "drawer_nav_bg"} px-0 hover:text-white md:py-1 font-family-secondary flex items-start md:items-center text-lg md:text-base 5xl:text-lg text-white font-bold leading-normal hover:bg-secondary-900 py-[6px] pl-[11px] md:pl-0`}>
+            {/* active:bg-secondary-900 active:bg-opacity-100 */}
               Home
             </ListItem>
           </div>
         </Typography>
       </div>
 
-      <div className="border-b border-black md:border-0">
+      <div className="my-[2px] md:my-0">
         <Typography
           as={Link}
           href="/about-us"
@@ -169,13 +174,13 @@ function NavList() {
           color="blue-gray"
           className="font-medium rounded-full text-sm md:text-sm xl:text-base 2xl:text-lg"
         >
-          <ListItem className="px-0 hover:bg-transparent hover:text-white py-1 font-family-secondary flex items-start md:items-center text-lg md:text-base 5xl:text-lg text-black md:text-white font-bold leading-normal">
+          <div className={`${pathName === "/about-us" ? "bg-secondary-900  rounded-[8px]" : "drawer_nav_bg"} px-0 hover:text-white md:py-1 font-family-secondary flex items-start md:items-center text-lg md:text-base 5xl:text-lg text-white font-bold leading-normal hover:bg-secondary-900 py-[6px] pl-[11px] md:pl-0`}>
             About
-          </ListItem>
+          </div>
         </Typography>
       </div>
 
-      <div className="border-b border-black md:border-0">
+      <div className="">
         <Typography
           as={Link}
           href="/gallery"
@@ -184,14 +189,14 @@ function NavList() {
           className="font-medium rounded-full text-sm md:text-sm xl:text-base 2xl:text-lg"
         >
           <div>
-            <ListItem className="px-0 hover:bg-transparent hover:text-white py-1 font-family-secondary flex items-start md:items-center  text-lg md:text-base 5xl:text-lg text-black md:text-white font-bold leading-normal">
+            <div className={`${pathName === "/gallery" ? "bg-secondary-900  rounded-[8px]" : "drawer_nav_bg"} px-0 hover:text-white md:py-1 font-family-secondary flex items-start md:items-center text-lg md:text-base 5xl:text-lg text-white font-bold leading-normal hover:bg-secondary-900 py-[6px] pl-[11px] md:pl-0`}>
               Gallery
-            </ListItem>
+            </div>
           </div>
         </Typography>
       </div>
 
-      <div className="border-b border-black md:border-0">
+      <div className="my-[2px] md:my-0">
         <Typography
           as={Link}
           href="/kitchen-remodel-in-cypress"
@@ -200,14 +205,14 @@ function NavList() {
           className="font-medium rounded-full text-sm md:text-sm xl:text-base 2xl:text-lg"
         >
           <div>
-            <ListItem className="px-0 hover:bg-transparent hover:text-white py-1 font-family-secondary flex items-start md:items-center  text-lg md:text-base 5xl:text-lg text-black md:text-white font-bold leading-normal">
+            <ListItem className={` ${pathName === "/kitchen-remodel-in-cypress" ? "bg-secondary-900  rounded-[8px]" : "drawer_nav_bg"} px-0 hover:text-white md:py-1 font-family-secondary flex items-start md:items-center  text-lg md:text-base 5xl:text-lg text-white font-bold leading-normal hover:bg-secondary-900 py-[6px] pl-[11px] md:pl-0`}>
               Kitchen Remodeling
             </ListItem>
           </div>
         </Typography>
       </div>
 
-      <div className="border-b border-black md:border-0">
+      <div className="mb-[2px] md:mb-0">
         <Typography
           as={Link}
           href="/bathroom-remodel-in-cypress-tx"
@@ -216,7 +221,7 @@ function NavList() {
           className="font-medium rounded-full text-sm md:text-sm xl:text-base 2xl:text-lg"
         >
           <div>
-            <ListItem className="px-0 hover:bg-transparent hover:text-white py-1 font-family-secondary flex items-start md:items-center  text-lg md:text-base 5xl:text-lg text-black md:text-white font-bold leading-normal">
+            <ListItem className={`${pathName === "/bathroom-remodel-in-cypress-tx" ? "bg-secondary-900 rounded-[8px]" : "drawer_nav_bg"} px-0 hover:text-white md:py-1 font-family-secondary flex items-start md:items-center text-lg md:text-base 5xl:text-lg text-white font-bold leading-normal hover:bg-secondary-900 py-[6px] pl-[11px] md:pl-0`}>
               Bathroom Remodeling
             </ListItem>
           </div>
@@ -227,7 +232,7 @@ function NavList() {
         <OurServiceManu />
       </div>
 
-      <div className="border-y border-black md:border-0">
+      <div className="my-[2px] md:my-0">
         <Typography
           as={Link}
           href="/contact-us"
@@ -236,7 +241,7 @@ function NavList() {
           className="font-medium rounded-full text-sm md:text-sm xl:text-base 2xl:text-lg"
         >
           <div>
-            <ListItem className="px-0 hover:bg-transparent hover:text-white py-1 font-family-secondary flex items-start md:items-center text-lg md:text-base 5xl:text-lg text-black md:text-white font-bold leading-normal ">
+            <ListItem className={`${pathName === "/contact-us" ? "bg-secondary-900 rounded-[8px]" : "drawer_nav_bg"} px-0 hover:text-white md:py-1 font-family-secondary flex items-start md:items-center text-lg md:text-base 5xl:text-lg text-white font-bold leading-normal hover:bg-secondary-900 py-[6px] pl-[11px] md:pl-0`}>
               Contact Us
             </ListItem>
           </div>
@@ -247,6 +252,7 @@ function NavList() {
 }
 
 export function NavHeader() {
+
   const [openNav, setOpenNav] = React.useState(false);
   const [hideOnScroll, setHideOnScroll] = useState(false);
 
@@ -302,7 +308,7 @@ export function NavHeader() {
                       </p>
                       <div className="flex items-center gap-3">
                         <div className="bg-primary-50 p-2 rounded-full">
-                          <Link href="" target="_blank" rel="nofollow">
+                          <Link href="/" target="_blank" rel="nofollow">
                             <FaYoutube className="w-[16px] h-[16px] text-white" />
                           </Link>
                         </div>
@@ -312,7 +318,7 @@ export function NavHeader() {
                           </Link>
                         </div>
                         <div className="bg-primary-50 p-2 rounded-full">
-                          <Link href="" target="_blank" rel="nofollow">
+                          <Link href="/" target="_blank" rel="nofollow">
                             <FaLinkedin className="w-[16px] h-[16px] text-white" />
                           </Link>
                         </div>
@@ -402,7 +408,7 @@ export function NavHeader() {
         placement="left"
         open={openNav}
         onClose={() => setOpenNav(false)}
-        className="p-4 overflow-y-auto pb-24 !z-[1000000000000000000] bg-secondary-400"
+        className="p-4 overflow-y-auto pb-24 !z-[1000000000000000000] bg-secondary-800"
       >
         {/* <div className="font-family-secondary mb-6 flex items-center justify-between ">
           <Typography variant="paragraph" color="blue-gray">
@@ -434,7 +440,7 @@ export function NavHeader() {
         </div> */}
         <div className="mb-4">
           <Image
-            src="/assets/glitz/newHomePage/black_glitz_logo.png"
+            src="/assets/glitz/newHomePage/nav/nav__logo__glitz.png"
             alt="nav logo"
             width={142}
             height={91}
@@ -448,7 +454,7 @@ export function NavHeader() {
               <LuPhoneCall className="w-[18px] h-[18px] text-white" />
             </div>
             <Link
-              className="font-family-secondary text-lg font-bold text-black leading-normal"
+              className="font-family-secondary text-lg font-bold text-white leading-normal"
               href="tel:(346) 445-6343"
             >
               (346) 445-6343

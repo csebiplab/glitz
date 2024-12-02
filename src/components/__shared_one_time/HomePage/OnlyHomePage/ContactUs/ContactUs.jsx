@@ -40,7 +40,7 @@ const ContactUs = () => {
                       Your Name <sup className="text-white">*</sup>
                     </label>
                     <input
-                      className="input_bg w-full mt-[10px] py-[13px] pl-[16px] placeholder:text-dark-600 placeholder:text-sm placeholder:font-normal placeholder:leading-normal rounded-[8px]"
+                      className="input__bg w-full mt-[10px] py-[13px] pl-[16px] placeholder:text-dark-600 placeholder:text-sm placeholder:font-normal placeholder:leading-normal rounded-[8px]"
                       type="text"
                       id="name"
                       placeholder="Robot Fox"
@@ -55,7 +55,7 @@ const ContactUs = () => {
                       Your Email <sup className="text-white">*</sup>
                     </label>
                     <input
-                      className="input_bg w-full mt-[10px] py-[13px] pl-[16px] placeholder:text-dark-600 placeholder:text-sm placeholder:font-normal placeholder:leading-normal rounded-[8px]"
+                      className="input__bg w-full mt-[10px] py-[13px] pl-[16px] placeholder:text-dark-600 placeholder:text-sm placeholder:font-normal placeholder:leading-normal rounded-[8px]"
                       type="email"
                       id="email"
                       placeholder="info@example.com"
@@ -73,7 +73,7 @@ const ContactUs = () => {
                       Subject <sup className="text-white">*</sup>
                     </label>
                     <input
-                      className="input_bg w-full mt-[10px] py-[13px] pl-[16px] placeholder:text-dark-600 placeholder:text-sm placeholder:font-normal placeholder:leading-normal rounded-[8px]"
+                      className="input__bg w-full mt-[10px] py-[13px] pl-[16px] placeholder:text-dark-600 placeholder:text-sm placeholder:font-normal placeholder:leading-normal rounded-[8px]"
                       type="text"
                       id="subject"
                       placeholder="Subject"
@@ -88,7 +88,7 @@ const ContactUs = () => {
                       Your Phone <sup className="text-white">*</sup>
                     </label>
                     <input
-                      className="input_bg w-full mt-[10px] py-[13px] pl-[16px] placeholder:text-dark-600 placeholder:text-sm placeholder:font-normal placeholder:leading-normal rounded-[8px]"
+                      className="input__bg w-full mt-[10px] py-[13px] pl-[16px] placeholder:text-dark-600 placeholder:text-sm placeholder:font-normal placeholder:leading-normal rounded-[8px]"
                       type="tel"
                       id="phone"
                       placeholder="(281) 758-5450"
@@ -106,7 +106,7 @@ const ContactUs = () => {
                     Message <sup className="text-white">*</sup>
                   </label>
                   <textarea
-                    className="input_bg w-full mt-[10px] py-[13px] pl-[16px] placeholder:text-dark-600 placeholder:text-sm placeholder:font-normal placeholder:leading-normal rounded-[8px]"
+                    className="input__bg w-full mt-[10px] py-[13px] pl-[16px] placeholder:text-dark-600 placeholder:text-sm placeholder:font-normal placeholder:leading-normal rounded-[8px]"
                     id="message"
                     name="message"
                     placeholder="Write Message"
@@ -202,7 +202,7 @@ const ContactUs = () => {
                       Your Name <sup className="text-white">*</sup>
                     </label>
                     <input
-                      className="input_bg w-full mt-[10px] py-[13px] pl-[16px] placeholder:text-dark-600 placeholder:text-sm placeholder:font-normal placeholder:leading-normal "
+                      className="input__bg w-full mt-[10px] py-[13px] pl-[16px] placeholder:text-dark-600 placeholder:text-sm placeholder:font-normal placeholder:leading-normal "
                       type="text"
                       id="name"
                       placeholder="Robot Fox"
@@ -217,7 +217,7 @@ const ContactUs = () => {
                       Your Email <sup className="text-white">*</sup>
                     </label>
                     <input
-                      className="input_bg w-full mt-[10px] py-[13px] pl-[16px] placeholder:text-dark-600 placeholder:text-sm placeholder:font-normal placeholder:leading-normal"
+                      className="input__bg w-full mt-[10px] py-[13px] pl-[16px] placeholder:text-dark-600 placeholder:text-sm placeholder:font-normal placeholder:leading-normal"
                       type="email"
                       id="email"
                       placeholder="info@example.com"
@@ -232,7 +232,7 @@ const ContactUs = () => {
                       Subject <sup className="text-white">*</sup>
                     </label>
                     <input
-                      className="input_bg w-full mt-[10px] py-[13px] pl-[16px] placeholder:text-dark-600 placeholder:text-sm placeholder:font-normal placeholder:leading-normal"
+                      className="input__bg w-full mt-[10px] py-[13px] pl-[16px] placeholder:text-dark-600 placeholder:text-sm placeholder:font-normal placeholder:leading-normal"
                       type="text"
                       id="subject"
                       placeholder="Subject"
@@ -247,7 +247,7 @@ const ContactUs = () => {
                       Your Phone <sup className="text-white">*</sup>
                     </label>
                     <input
-                      className="input_bg w-full mt-[10px] py-[13px] pl-[16px] placeholder:text-dark-600 placeholder:text-sm placeholder:font-normal placeholder:leading-normal"
+                      className="input__bg w-full mt-[10px] py-[13px] pl-[16px] placeholder:text-dark-600 placeholder:text-sm placeholder:font-normal placeholder:leading-normal"
                       type="tel"
                       id="phone"
                       placeholder="(281) 758-5450"
@@ -264,7 +264,7 @@ const ContactUs = () => {
                     Message <sup className="text-white">*</sup>
                   </label>
                   <textarea
-                    className="input_bg w-full mt-[10px] py-[13px] pl-[16px] placeholder:text-dark-600 placeholder:text-sm placeholder:font-normal placeholder:leading-normal"
+                    className="input__bg w-full mt-[10px] py-[13px] pl-[16px] placeholder:text-dark-600 placeholder:text-sm placeholder:font-normal placeholder:leading-normal"
                     id="message"
                     name="message"
                     placeholder="Write Message"
@@ -274,7 +274,7 @@ const ContactUs = () => {
 
                 <div className="contact-form__submit flex justify-center">
                   <button className="text-base text-white font-bold leading-normal py-[15px] px-[58px] contact_form__submit">
-                    Submitted
+                  Submitted
                   </button>
                 </div>
               </form>

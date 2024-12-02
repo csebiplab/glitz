@@ -192,15 +192,15 @@ const Review = () => {
                       alt="google logo"
                       width={198}
                       height={67}
-                      className="w-[198px] h-[67px]"
+                      className="w-full"
                     />
-                    <p className="font-family-secondary text-[35px] font-normal text-black leading-normal">
+                    <p className="font-family-secondary text-3xl font-normal text-black leading-normal">
                       {" "}
                       Rating
                     </p>
                   </div>
                   {/* second div  */}
-                  <div className="flex items-center gap-[15px] pt-[7px]">
+                  <div className="flex justify-center items-center gap-[15px] pt-[7px]">
                     <p className="font-family-secondary text-[25px] font-normal text-black leading-normal">
                       5.0
                     </p>
@@ -209,7 +209,7 @@ const Review = () => {
                       alt="five star icon"
                       width={152}
                       height={23}
-                      className="w-[152px] h-[23px]"
+                      className="w-1/2"
                     />
                   </div>
                 </div>

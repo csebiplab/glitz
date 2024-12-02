@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import { Rating } from "@material-tailwind/react";
 
 import "swiper/css";
 import "swiper/css/autoplay";
@@ -35,12 +36,35 @@ const breakpoints = {
 };
 
 const slideData = [
-  "/assets/glitz/newHomePage/brands/facebook.png",
-  "/assets/glitz/newHomePage/brands/google.png",
-  "/assets/glitz/newHomePage/brands/nextdoor.png",
-  "/assets/glitz/newHomePage/brands/soap.png",
-  "/assets/glitz/newHomePage/brands/yelp.png",
+  {
+    id : 1,
+    img : "/assets/glitz/newHomePage/brands/facebook.png",
+  },
+  {
+    id : 2,
+    img : "/assets/glitz/newHomePage/brands/google.png",
+  },
+  {
+    id : 3,
+    img : "/assets/glitz/newHomePage/brands/nextdoor.png",
+  },
+  {
+    id : 4,
+    img : "/assets/glitz/newHomePage/brands/home.png",
+  },
+  {
+    id : 5,
+    img : "/assets/glitz/newHomePage/brands/yelp.png",
+  },
 ];
+
+const dimensions = {
+  1: "w-[140px] h-[78px]",
+  2: "w-[138px] h-[78px]",
+  3: "w-[196px] h-[31px]",
+  4: "w-[82px] h-[82px]",
+  5: "w-[117px] h-[78px]",
+};
 
 const Brand = () => {
   return (
@@ -71,13 +95,15 @@ const Brand = () => {
                   <p className="font-family-secondary text-sm 5xl:text-[15px] text-secondary font-bold leading-normal pb-[7px]">
                     Verifying Review From Trusted Site:{" "}
                   </p>
-                  <Image
+                  {/* <Image
                     src="/assets/glitz/icons/five_star.png"
                     alt="brand image"
                     height={25}
                     width={165}
                     className="w-auto h-auto"
-                  />
+                  /> */}
+                  <Rating value={4} unratedColor="black" ratedColor="black" />
+
                 </div>
                 <div>
                   <Image
@@ -129,62 +155,8 @@ const Brand = () => {
           </Swiper>
         </div>
         {/* small device start  */}
-        {/* <div className="block md:hidden">
-          <div className="w-full flex items-center gap-[12px] brand__bg py-[10px]" >
-            <div className="w-1/2 flex flex-col justify-start items-start pl-2">
-              <p className="font-family-secondary text-base text-secondary text-left font-bold leading-normal pb-[7px]">
-                Verifying Review <br/> From Trusted Site :{" "}
-              </p>
-              <div className="w-1/3">
-              <Image
-                src="/assets/glitz/icons/five_star.png"
-                alt="brand image"
-                height={20}
-                width={165}
-                className="w-auto mx-auto "
-              />
-              </div>
-            </div>
-            <div className="w-1/2">
-            <marquee className="w-full" behavior="slide" direction="left" scrollamount="5">
-            <Swiper
-              className=""
-              modules={[Autoplay]}
-              loop={true}
-              autoplay={{
-                delay: 0,
-                pauseOnMouseEnter: false,
-                disableOnInteraction: false,
-                stopOnLastSlide: false,
-              }}
-              speed={2000}
-              allowTouchMove={false}
-              breakpoints={breakpoints}
-            >
-              
-              {slideData.map((slideInfo, index) => (
-                <SwiperSlide key={index} className={`px-[20px] !h-auto !md:h-full`}>
-                  <div className="h-full flex items-center">
-                    <div className="w-[62px] h-[62px] bg-white flex items-center">
-                    <Image
-                      src={slideInfo}
-                      alt="brand image"
-                      height={62}
-                      width={62}
-                      className="w-full"
-                    />
-                    </div>
-                  </div>
-                </SwiperSlide>
-              ))}
-            </Swiper>
-          </marquee>
-            </div>
-          </div>
-        </div> */}
-        {/* test part  */}
         <div className="block md:hidden">
-          <div className="brand__bg pt-[10px] pb-[2px]" >
+          <div className="brand__bg pt-[8px] pb-[1px]" >
             <div className="flex flex-col justify-center items-center">
               <p className="font-family-secondary text-sm sm:text-base text-secondary text-center font-bold leading-normal pb-[7px]">
                 Verifying Review From Trusted Site:{" "}
@@ -214,16 +186,16 @@ const Brand = () => {
               breakpoints={breakpoints}
             >
               
-              {slideData.map((slideInfo, index) => (
-                <SwiperSlide key={index} className={`px-[20px] !h-auto !md:h-full`}>
+              {slideData.map((slideInfo) => (
+                <SwiperSlide key={slideInfo?.id} className={`px-[20px] !h-auto !md:h-full`}>
                   <div className="h-full flex justify-center items-center">
                     <div className="w-[72px] h-[72px] bg-white flex items-center">
                     <Image
-                      src={slideInfo}
+                      src={slideInfo?.img}
                       alt="brand image"
                       height={62}
                       width={62}
-                      className="w-full"
+                      className={dimensions[slideInfo.id] || "w-[82px] h-[82px]"}
                     />
                     </div>
                   </div>
