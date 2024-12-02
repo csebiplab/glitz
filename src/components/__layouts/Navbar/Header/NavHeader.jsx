@@ -1,5 +1,5 @@
 "use client";
-import {usePathname} from "next/navigation";
+import { usePathname } from "next/navigation";
 import { ChevronDownIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import {
   Button,
@@ -46,19 +46,24 @@ const our_service_menu_items = {
   ],
 };
 
-function OurServiceManu() {
+function OurServiceManu({setIsServiceClick}) {
   const pathName = usePathname();
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false);
   const renderItems = (data = []) => {
     return data?.map(({ route, title }, key) => (
-      <Link href={route} key={key}>
-        <MenuItem className="rounded-md">
-          <Typography color="blue-gray">{title}</Typography>
+      <Link  href={route} key={key}>
+        <MenuItem className={`focus:bg-secondary-900 focus:bg-opacity-100 active:bg-secondary-900 active:bg-opacity-100 hover:bg-secondary-900 text-white font-bold my-2 py-2 px-4 rounded rounded-md`} >
+          <Typography className={` text-white md:text-black`}>{title}</Typography>
         </MenuItem>
       </Link>
     ));
   };
+
+  const serviceMenuHandler = ()=>{
+    setIsMobileMenuOpen((cur) => !cur)
+    setIsServiceClick(true)
+  }
 
   return (
     <>
@@ -72,6 +77,7 @@ function OurServiceManu() {
       >
         <MenuHandler>
           <div
+            onClick={()=> setIsServiceClick(true)}
             className="font-medium text-lg"
             aria-expanded={isMenuOpen}
             aria-haspopup="true"
@@ -79,9 +85,13 @@ function OurServiceManu() {
             role="button"
           >
             <ListItem
-              className={`${pathName === "/" ? "bg-secondary-900 rounded-[8px]" : "drawer_nav_bg"}px-0 hover:text-white md:py-1 font-family-secondary flex items-center text-lg md:text-base 5xl:text-lg text-white font-bold leading-normal -mt-[7px] hover:bg-secondary-900 py-[6px] pl-[11px] md:pl-0`}
+              className={`${
+                pathName === "/kitchen-remodel-in-cypress" || pathName === "/flooring-installation" || pathName === "/bathroom-remodel-in-cypress-tx"
+                  ? "bg-secondary-900 rounded-[8px]"
+                  : "bg-primary-50 rounded-xl"
+              }px-0 hover:text-white md:py-1 font-family-secondary flex items-center text-lg md:text-base 5xl:text-lg text-white font-bold leading-normal -mt-[7px] hover:bg-secondary-900 py-[6px] pl-[11px] md:pl-0`}
               selected={isMenuOpen || isMobileMenuOpen}
-              onClick={() => setIsMobileMenuOpen((cur) => !cur)}
+              onClick={() => serviceMenuHandler() }
             >
               Our Services
               <ChevronDownIcon
@@ -99,6 +109,7 @@ function OurServiceManu() {
             </ListItem>
           </div>
         </MenuHandler>
+        {/* <hr className="my-1" /> */}
 
         <MenuList className="!p-0 hidden max-w-[350px] w-full lg:block outline-0 bg-gray-100 -mt-4">
           <div className="!p-0 !border-none !outline-none w-full">
@@ -121,15 +132,28 @@ function OurServiceManu() {
           <>
             <div className="block lg:hidden">
               <Collapse open={isMobileMenuOpen}>
-                <h4 className="font-family-secondary text-lg text-black my-1 font-semibold border-b border-black">
+                {/* <h4
+                  className={`${
+                    pathName === "/"
+                      ? "bg-secondary-900 rounded-[8px]"
+                      : "drawer_nav_bg"
+                  } font-family-secondary text-lg text-white mt-2 font-semibold border-b border-black hover:bg-secondary-900 py-[6px] pl-[11px] md:pl-0`}
+                >
                   Services
-                </h4>
-                <ul className="list-disc marker:text-black px-4">
-                  <li className="font-family-secondary text-lg text-black font-bold ">
+                </h4> */}
+                <ul className="">
+                  <li
+                    className={`${
+                      pathName === our_service_menu_items.interior
+                        ? "bg-secondary-900 rounded-[8px]"
+                        : "drawer_nav_bg"
+                    } font-family-secondary text-lg text-white font-bold`}
+                  >
                     {renderItems(our_service_menu_items.interior)}
                   </li>
                 </ul>
-                <hr className="my-1" />
+
+                {/* <hr className="my-1" /> */}
               </Collapse>
             </div>
           </>
@@ -146,7 +170,8 @@ function OurServiceManu() {
 
 function NavList() {
   const pathName = usePathname();
-  console.log(pathName, "kkkkk")
+  const [isServiceClick, setIsServiceClick] = useState(false);
+  console.log("dddd",isServiceClick)
   return (
     <List className="my-[11px] p-0 lg:mt-0 lg:mb-0 lg:flex-row md:items-center justify-between px-0 md:px-[20px] border-0 outline-none ">
       <div className="">
@@ -157,9 +182,15 @@ function NavList() {
           color="blue-gray"
           className=" font-medium rounded-full text-sm lg:text-sm xl:text-base 2xl:text-lg"
         >
-          <div >
-            <ListItem className={`${pathName === "/" ? "bg-secondary-900 rounded-[8px]" : "drawer_nav_bg"} px-0 hover:text-white md:py-1 font-family-secondary flex items-start md:items-center text-lg md:text-base 5xl:text-lg text-white font-bold leading-normal hover:bg-secondary-900 py-[6px] pl-[11px] md:pl-0`}>
-            {/* active:bg-secondary-900 active:bg-opacity-100 */}
+          <div>
+            <ListItem
+              className={`${
+                pathName === "/" && !isServiceClick
+                  ? "bg-secondary-900 rounded-[8px]"
+                  : "drawer_nav_bg"
+              } px-0 hover:text-white md:py-1 font-family-secondary flex items-start md:items-center text-lg md:text-base 5xl:text-lg text-white font-bold leading-normal hover:bg-secondary-900 py-[6px] pl-[11px] md:pl-0`}
+            >
+              {/* active:bg-secondary-900 active:bg-opacity-100 */}
               Home
             </ListItem>
           </div>
@@ -174,7 +205,13 @@ function NavList() {
           color="blue-gray"
           className="font-medium rounded-full text-sm md:text-sm xl:text-base 2xl:text-lg"
         >
-          <div className={`${pathName === "/about-us" ? "bg-secondary-900  rounded-[8px]" : "drawer_nav_bg"} px-0 hover:text-white md:py-1 font-family-secondary flex items-start md:items-center text-lg md:text-base 5xl:text-lg text-white font-bold leading-normal hover:bg-secondary-900 py-[6px] pl-[11px] md:pl-0`}>
+          <div
+            className={`${
+              pathName === "/about-us"
+                ? "bg-secondary-900  rounded-[8px]"
+                : "drawer_nav_bg"
+            } px-0 hover:text-white md:py-1 font-family-secondary flex items-start md:items-center text-lg md:text-base 5xl:text-lg text-white font-bold leading-normal hover:bg-secondary-900 py-[6px] pl-[11px] md:pl-0`}
+          >
             About
           </div>
         </Typography>
@@ -189,7 +226,13 @@ function NavList() {
           className="font-medium rounded-full text-sm md:text-sm xl:text-base 2xl:text-lg"
         >
           <div>
-            <div className={`${pathName === "/gallery" ? "bg-secondary-900  rounded-[8px]" : "drawer_nav_bg"} px-0 hover:text-white md:py-1 font-family-secondary flex items-start md:items-center text-lg md:text-base 5xl:text-lg text-white font-bold leading-normal hover:bg-secondary-900 py-[6px] pl-[11px] md:pl-0`}>
+            <div
+              className={`${
+                pathName === "/gallery"
+                  ? "bg-secondary-900  rounded-[8px]"
+                  : "drawer_nav_bg"
+              } px-0 hover:text-white md:py-1 font-family-secondary flex items-start md:items-center text-lg md:text-base 5xl:text-lg text-white font-bold leading-normal hover:bg-secondary-900 py-[6px] pl-[11px] md:pl-0`}
+            >
               Gallery
             </div>
           </div>
@@ -205,7 +248,13 @@ function NavList() {
           className="font-medium rounded-full text-sm md:text-sm xl:text-base 2xl:text-lg"
         >
           <div>
-            <ListItem className={` ${pathName === "/kitchen-remodel-in-cypress" ? "bg-secondary-900  rounded-[8px]" : "drawer_nav_bg"} px-0 hover:text-white md:py-1 font-family-secondary flex items-start md:items-center  text-lg md:text-base 5xl:text-lg text-white font-bold leading-normal hover:bg-secondary-900 py-[6px] pl-[11px] md:pl-0`}>
+            <ListItem
+              className={` ${
+                pathName === "/kitchen-remodel-in-cypress"
+                  ? "bg-secondary-900  rounded-[8px]"
+                  : "drawer_nav_bg"
+              } px-0 hover:text-white md:py-1 font-family-secondary flex items-start md:items-center  text-lg md:text-base 5xl:text-lg text-white font-bold leading-normal hover:bg-secondary-900 py-[6px] pl-[11px] md:pl-0`}
+            >
               Kitchen Remodeling
             </ListItem>
           </div>
@@ -221,7 +270,13 @@ function NavList() {
           className="font-medium rounded-full text-sm md:text-sm xl:text-base 2xl:text-lg"
         >
           <div>
-            <ListItem className={`${pathName === "/bathroom-remodel-in-cypress-tx" ? "bg-secondary-900 rounded-[8px]" : "drawer_nav_bg"} px-0 hover:text-white md:py-1 font-family-secondary flex items-start md:items-center text-lg md:text-base 5xl:text-lg text-white font-bold leading-normal hover:bg-secondary-900 py-[6px] pl-[11px] md:pl-0`}>
+            <ListItem
+              className={`${
+                pathName === "/bathroom-remodel-in-cypress-tx"
+                  ? "bg-secondary-900 rounded-[8px]"
+                  : "drawer_nav_bg"
+              } px-0 hover:text-white md:py-1 font-family-secondary flex items-start md:items-center text-lg md:text-base 5xl:text-lg text-white font-bold leading-normal hover:bg-secondary-900 py-[6px] pl-[11px] md:pl-0`}
+            >
               Bathroom Remodeling
             </ListItem>
           </div>
@@ -229,7 +284,7 @@ function NavList() {
       </div>
 
       <div className="mt-[6px]">
-        <OurServiceManu />
+        <OurServiceManu setIsServiceClick={setIsServiceClick}/>
       </div>
 
       <div className="my-[2px] md:my-0">
@@ -241,7 +296,13 @@ function NavList() {
           className="font-medium rounded-full text-sm md:text-sm xl:text-base 2xl:text-lg"
         >
           <div>
-            <ListItem className={`${pathName === "/contact-us" ? "bg-secondary-900 rounded-[8px]" : "drawer_nav_bg"} px-0 hover:text-white md:py-1 font-family-secondary flex items-start md:items-center text-lg md:text-base 5xl:text-lg text-white font-bold leading-normal hover:bg-secondary-900 py-[6px] pl-[11px] md:pl-0`}>
+            <ListItem
+              className={`${
+                pathName === "/contact-us"
+                  ? "bg-secondary-900 rounded-[8px]"
+                  : "drawer_nav_bg"
+              } px-0 hover:text-white md:py-1 font-family-secondary flex items-start md:items-center text-lg md:text-base 5xl:text-lg text-white font-bold leading-normal hover:bg-secondary-900 py-[6px] pl-[11px] md:pl-0`}
+            >
               Contact Us
             </ListItem>
           </div>
@@ -252,7 +313,6 @@ function NavList() {
 }
 
 export function NavHeader() {
-
   const [openNav, setOpenNav] = React.useState(false);
   const [hideOnScroll, setHideOnScroll] = useState(false);
 
@@ -313,7 +373,11 @@ export function NavHeader() {
                           </Link>
                         </div>
                         <div className="bg-primary-50 p-2 rounded-full">
-                          <Link href="https://www.instagram.com/glitz.floors.and.more/?fbclid=IwAR3YJkB2MW6Wi5tPbL4jMuORAz5g7iV8Qa55RUhn-q9lihiMgr5v7ZRvN6A" target="_blank" rel="nofollow">
+                          <Link
+                            href="https://www.instagram.com/glitz.floors.and.more/?fbclid=IwAR3YJkB2MW6Wi5tPbL4jMuORAz5g7iV8Qa55RUhn-q9lihiMgr5v7ZRvN6A"
+                            target="_blank"
+                            rel="nofollow"
+                          >
                             <FaInstagram className="w-[16px] h-[16px] text-white" />
                           </Link>
                         </div>
@@ -323,7 +387,11 @@ export function NavHeader() {
                           </Link>
                         </div>
                         <div className="bg-primary-50 p-2 rounded-full">
-                          <Link href="https://www.facebook.com/p/Glitz-Floors-More-100095651767067/" target="_blank" rel="nofollow">
+                          <Link
+                            href="https://www.facebook.com/p/Glitz-Floors-More-100095651767067/"
+                            target="_blank"
+                            rel="nofollow"
+                          >
                             <FaFacebook className="w-[16px] h-[16px] text-white" />
                           </Link>
                         </div>

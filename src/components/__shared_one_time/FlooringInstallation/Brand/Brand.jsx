@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import { Rating } from "@material-tailwind/react";
 
 import "swiper/css";
 import "swiper/css/autoplay";
@@ -61,7 +60,7 @@ const slideData = [
 const dimensions = {
   1: "w-[140px] h-[78px]",
   2: "w-[138px] h-[78px]",
-  3: "w-[196px] h-[31px]",
+  3: "w-[196px] h-[28px]",
   4: "w-[82px] h-[82px]",
   5: "w-[117px] h-[78px]",
 };
@@ -95,14 +94,13 @@ const Brand = () => {
                   <p className="font-family-secondary text-sm 5xl:text-[15px] text-secondary font-bold leading-normal pb-[7px]">
                     Verifying Review From Trusted Site:{" "}
                   </p>
-                  {/* <Image
+                  <Image
                     src="/assets/glitz/icons/five_star.png"
                     alt="brand image"
                     height={25}
                     width={165}
                     className="w-auto h-auto"
-                  /> */}
-                  <Rating value={4} unratedColor="black" ratedColor="black" />
+                  />
 
                 </div>
                 <div>
@@ -189,12 +187,12 @@ const Brand = () => {
               {slideData.map((slideInfo) => (
                 <SwiperSlide key={slideInfo?.id} className={`px-[20px] !h-auto !md:h-full`}>
                   <div className="h-full flex justify-center items-center">
-                    <div className="w-[72px] h-[72px] bg-white flex items-center">
+                    <div className="bg-white flex items-center">
                     <Image
                       src={slideInfo?.img}
                       alt="brand image"
-                      height={62}
-                      width={62}
+                      height={82}
+                      width={82}
                       className={dimensions[slideInfo.id] || "w-[82px] h-[82px]"}
                     />
                     </div>

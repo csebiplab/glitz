@@ -192,7 +192,7 @@ const Review = () => {
                       alt="google logo"
                       width={198}
                       height={67}
-                      className="w-full"
+                      className="w-[202px] h-[69px]"
                     />
                     <p className="font-family-secondary text-3xl font-normal text-black leading-normal">
                       {" "}
