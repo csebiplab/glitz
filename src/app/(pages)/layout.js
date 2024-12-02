@@ -1,6 +1,5 @@
 import { Suspense } from "react";
 import { Montserrat } from "next/font/google";
-import "../globals.css";
 import RoutingProgressBar from "@/components/common/RoutingProgressBar";
 import Footer from "@/components/__layouts/Footers/Footer";
 import ScrollToTopComponent from "@/components/common/ScrollToTop";
@@ -9,6 +8,7 @@ import { Palatino_Linotype } from "../font";
 import { headers } from "next/headers";
 import { projectfor } from "@/constants/projectfor";
 import AosSetup from "@/config/AosSetup";
+import "../globals.css";
 
 const montserrat = Montserrat({ subsets: ["latin"] });
 
@@ -31,7 +31,7 @@ export async function generateMetadata() {
     const { title, description, keywords } = data?.data[0] ?? {};
 
     const gglverificationResponse = await fetch(
-      `${apiUrl}/api/site-verification`,
+      `${apiUrl}/api/site-verification?projectFor=${projectfor}`,
       {
         cache: "no-store",
       }
