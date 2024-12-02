@@ -40,7 +40,7 @@ const ContactUs = () => {
                       Your Name <sup className="text-white">*</sup>
                     </label>
                     <input
-                      className="input_bg w-full mt-[10px] py-[13px] pl-[16px] placeholder:text-dark-600 placeholder:text-sm placeholder:font-normal placeholder:leading-normal rounded-[8px]"
+                      className="input__bg w-full mt-[10px] py-[13px] pl-[16px] placeholder:text-dark-600 placeholder:text-sm placeholder:font-normal placeholder:leading-normal rounded-[8px]"
                       type="text"
                       id="name"
                       placeholder="Robot Fox"
@@ -55,7 +55,7 @@ const ContactUs = () => {
                       Your Email <sup className="text-white">*</sup>
                     </label>
                     <input
-                      className="input_bg w-full mt-[10px] py-[13px] pl-[16px] placeholder:text-dark-600 placeholder:text-sm placeholder:font-normal placeholder:leading-normal rounded-[8px]"
+                      className="input__bg w-full mt-[10px] py-[13px] pl-[16px] placeholder:text-dark-600 placeholder:text-sm placeholder:font-normal placeholder:leading-normal rounded-[8px]"
                       type="email"
                       id="email"
                       placeholder="info@example.com"
@@ -73,7 +73,7 @@ const ContactUs = () => {
                       Subject <sup className="text-white">*</sup>
                     </label>
                     <input
-                      className="input_bg w-full mt-[10px] py-[13px] pl-[16px] placeholder:text-dark-600 placeholder:text-sm placeholder:font-normal placeholder:leading-normal rounded-[8px]"
+                      className="input__bg w-full mt-[10px] py-[13px] pl-[16px] placeholder:text-dark-600 placeholder:text-sm placeholder:font-normal placeholder:leading-normal rounded-[8px]"
                       type="text"
                       id="subject"
                       placeholder="Subject"
@@ -88,10 +88,10 @@ const ContactUs = () => {
                       Your Phone <sup className="text-white">*</sup>
                     </label>
                     <input
-                      className="input_bg w-full mt-[10px] py-[13px] pl-[16px] placeholder:text-dark-600 placeholder:text-sm placeholder:font-normal placeholder:leading-normal rounded-[8px]"
+                      className="input__bg w-full mt-[10px] py-[13px] pl-[16px] placeholder:text-dark-600 placeholder:text-sm placeholder:font-normal placeholder:leading-normal rounded-[8px]"
                       type="tel"
                       id="phone"
-                      placeholder="647-449-9512"
+                      placeholder="(281) 758-5450"
                       pattern="^\+?\d{1,14}$"
                       required
                     />
@@ -106,7 +106,7 @@ const ContactUs = () => {
                     Message <sup className="text-white">*</sup>
                   </label>
                   <textarea
-                    className="input_bg w-full mt-[10px] py-[13px] pl-[16px] placeholder:text-dark-600 placeholder:text-sm placeholder:font-normal placeholder:leading-normal rounded-[8px]"
+                    className="input__bg w-full mt-[10px] py-[13px] pl-[16px] placeholder:text-dark-600 placeholder:text-sm placeholder:font-normal placeholder:leading-normal rounded-[8px]"
                     id="message"
                     name="message"
                     placeholder="Write Message"
@@ -140,8 +140,8 @@ const ContactUs = () => {
                     width={28}
                     height={28}
                   />{" "}
-                  <Link href="location:163 Bowes rd, Toronto">
-                    163 Bowes rd, Toronto
+                  <Link href="location:16726 Huffmeister Rd D400, Cypress, TX 77429, United States">
+                    16726 Huffmeister Rd D400, Cypress, TX 77429, United States
                   </Link>
                 </li>
                 <li className="flex items-center gap-[15px] text-base font-normal text-black leading-normal py-[34px]">
@@ -151,7 +151,7 @@ const ContactUs = () => {
                     width={28}
                     height={28}
                   />
-                  <Link href="tel:647-449-9512">647-449-9512</Link>
+                  <Link href="tel:(281) 758-5450">(281) 758-5450</Link>
                 </li>
                 <li className="flex items-center gap-[15px] text-base font-normal text-black leading-normal">
                   <Image
@@ -160,8 +160,8 @@ const ContactUs = () => {
                     width={28}
                     height={28}
                   />
-                  <Link href="mailto:basement Renovation@gmail.com">
-                    basement Renovation@gmail.com
+                  <Link href="mailto:info@glitzfloors&more.us">
+                    info@glitzfloors&more.us
                   </Link>
                 </li>
               </ul>
@@ -202,7 +202,7 @@ const ContactUs = () => {
                       Your Name <sup className="text-white">*</sup>
                     </label>
                     <input
-                      className="input_bg w-full mt-[10px] py-[13px] pl-[16px] placeholder:text-dark-600 placeholder:text-sm placeholder:font-normal placeholder:leading-normal "
+                      className="input__bg w-full mt-[10px] py-[13px] pl-[16px] placeholder:text-dark-600 placeholder:text-sm placeholder:font-normal placeholder:leading-normal "
                       type="text"
                       id="name"
                       placeholder="Robot Fox"
@@ -217,7 +217,7 @@ const ContactUs = () => {
                       Your Email <sup className="text-white">*</sup>
                     </label>
                     <input
-                      className="input_bg w-full mt-[10px] py-[13px] pl-[16px] placeholder:text-dark-600 placeholder:text-sm placeholder:font-normal placeholder:leading-normal"
+                      className="input__bg w-full mt-[10px] py-[13px] pl-[16px] placeholder:text-dark-600 placeholder:text-sm placeholder:font-normal placeholder:leading-normal"
                       type="email"
                       id="email"
                       placeholder="info@example.com"
@@ -232,7 +232,7 @@ const ContactUs = () => {
                       Subject <sup className="text-white">*</sup>
                     </label>
                     <input
-                      className="input_bg w-full mt-[10px] py-[13px] pl-[16px] placeholder:text-dark-600 placeholder:text-sm placeholder:font-normal placeholder:leading-normal"
+                      className="input__bg w-full mt-[10px] py-[13px] pl-[16px] placeholder:text-dark-600 placeholder:text-sm placeholder:font-normal placeholder:leading-normal"
                       type="text"
                       id="subject"
                       placeholder="Subject"
@@ -247,10 +247,10 @@ const ContactUs = () => {
                       Your Phone <sup className="text-white">*</sup>
                     </label>
                     <input
-                      className="input_bg w-full mt-[10px] py-[13px] pl-[16px] placeholder:text-dark-600 placeholder:text-sm placeholder:font-normal placeholder:leading-normal"
+                      className="input__bg w-full mt-[10px] py-[13px] pl-[16px] placeholder:text-dark-600 placeholder:text-sm placeholder:font-normal placeholder:leading-normal"
                       type="tel"
                       id="phone"
-                      placeholder="647-449-9512"
+                      placeholder="(281) 758-5450"
                       pattern="^\+?\d{1,14}$"
                       required
                     />
@@ -264,7 +264,7 @@ const ContactUs = () => {
                     Message <sup className="text-white">*</sup>
                   </label>
                   <textarea
-                    className="input_bg w-full mt-[10px] py-[13px] pl-[16px] placeholder:text-dark-600 placeholder:text-sm placeholder:font-normal placeholder:leading-normal"
+                    className="input__bg w-full mt-[10px] py-[13px] pl-[16px] placeholder:text-dark-600 placeholder:text-sm placeholder:font-normal placeholder:leading-normal"
                     id="message"
                     name="message"
                     placeholder="Write Message"
@@ -274,7 +274,7 @@ const ContactUs = () => {
 
                 <div className="contact-form__submit flex justify-center">
                   <button className="text-base text-white font-bold leading-normal py-[15px] px-[58px] contact_form__submit">
-                    Submitted
+                  Submitted
                   </button>
                 </div>
               </form>
@@ -299,8 +299,8 @@ const ContactUs = () => {
                   width={28}
                   height={28}
                 />{" "}
-                <Link href="location:163 Bowes rd, Toronto">
-                  163 Bowes rd, Toronto
+                <Link href="location:16726 Huffmeister Rd D400, Cypress, TX 77429, United States">
+                  16726 Huffmeister Rd D400, Cypress, TX 77429, United States
                 </Link>
               </li>
               <li className="flex items-center gap-[15px] text-base font-normal text-black leading-normal py-[34px]">
@@ -310,7 +310,7 @@ const ContactUs = () => {
                   width={28}
                   height={28}
                 />
-                <Link href="tel:647-449-9512">647-449-9512</Link>
+                <Link href="tel:(281) 758-5450">(281) 758-5450</Link>
               </li>
               <li className="flex items-center gap-[15px] text-base font-normal text-black leading-normal">
                 <Image
@@ -319,8 +319,8 @@ const ContactUs = () => {
                   width={28}
                   height={28}
                 />
-                <Link href="mailto:basement Renovation@gmail.com">
-                  basement Renovation@gmail.com
+                <Link href="mailto:info@glitzfloors&more.us">
+                  info@glitzfloors&more.us
                 </Link>
               </li>
             </ul>

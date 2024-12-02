@@ -71,7 +71,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${Palatino_Linotype.variable} ${montserrat.className}`}>
-          
+        <main className="overflow-hidden">
           <Suspense>
             <RoutingProgressBar />
           </Suspense>
@@ -84,6 +84,7 @@ export default function RootLayout({ children }) {
             <Footer />
             <ScrollToTopComponent />
           </>
+        </main>
       </body>
     </html>
   );
