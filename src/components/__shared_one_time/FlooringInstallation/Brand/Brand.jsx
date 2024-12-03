@@ -103,6 +103,7 @@ const Brand = () => {
                   />
 
                 </div>
+                <div className="w-full flex justify-between items-center">
                 <div>
                   <Image
                     src="/assets/glitz/brands/soap.png"
@@ -147,6 +148,7 @@ const Brand = () => {
                     width={196}
                     className="w-auto h-[31px] pr-3 transition-all ease-in-out duration-300 hover:scale-110"
                   />
+                </div>
                 </div>
               </div>
             </SwiperSlide>
