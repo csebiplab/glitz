@@ -53,7 +53,7 @@ function OurServiceManu({setIsServiceClick}) {
   const renderItems = (data = []) => {
     return data?.map(({ route, title }, key) => (
       <Link  href={route} key={key}>
-        <MenuItem className={`focus:bg-secondary-900 focus:bg-opacity-100 active:bg-secondary-900 active:bg-opacity-100 hover:text-[#ffb300] hover:bg-transparent text-white font-bold my-2 py-2 px-4 rounded rounded-md`} >
+        <MenuItem className={`focus:bg-primary-50 focus:bg-opacity-100 active:bg-primary-50 active:bg-opacity-100 hover:text-[#ffb300] hover:bg-primary-50 text-white font-bold py-2 px-4 rounded rounded-md`} >
           <Typography className={` text-white hover:text-[#ffb300]`}>{title}</Typography>
         </MenuItem>
       </Link>
@@ -89,7 +89,7 @@ function OurServiceManu({setIsServiceClick}) {
                 pathName === "/kitchen-remodel-in-cypress" || pathName === "/flooring-installation" || pathName === "/bathroom-remodel-in-cypress-tx"
                   ? "text-[#ffb300] hover:underline"
                   : "bg-primary-50 rounded-xl"
-              } font-family-primary font-bold leading-normal -mt-[7px] md:py-1 px-0 py-[6px] pl-[11px] md:pl-0 flex items-center text-[14px] 3xl:text-[15px] 4xl:text-[16px] 5xl:text-[17px] text-white hover:text-[#ffb300] hover:bg-inherit hover:bg-opacity-100 focus:bg-red-500 focus:bg-opacity-0 focus:text-white active:bg-inherit active:bg-opacity-100 bg-inherit`}
+              } font-family-primary font-bold leading-normal -mt-[7px] md:py-1 py-[6px] px-[11px] md:px-0 flex justify-between items-center text-[14px] 3xl:text-[15px] 4xl:text-[16px] 5xl:text-[17px] text-white hover:text-[#ffb300] hover:bg-primary-50 hover:bg-opacity-100 focus:bg-red-500 focus:bg-opacity-0 focus:text-white active:bg-primary-50 active:bg-opacity-100 bg-primary-50`}
               selected={isMenuOpen || isMobileMenuOpen}
               onClick={() => serviceMenuHandler() }
             >
@@ -184,9 +184,8 @@ function NavList() {
                 pathName === "/" && !isServiceClick
                   ? "text-[#ffb300] hover:underline"
                   : "drawer_nav_bg"
-              }  px-0 hover:text-white md:py-1 font-family-primary flex items-start md:items-center  text-[14px] 3xl:text-[15px] 4xl:text-[16px] 5xl:text-[17px] text-white font-bold leading-normal hover:text-[#ffb300] hover:bg-transparent py-[6px] pl-[11px] md:pl-0`}
+              } pl-[11px] md:pl-0 py-[6px] md:py-1 font-family-primary flex items-start md:items-center text-[14px] 3xl:text-[15px] 4xl:text-[16px] 5xl:text-[17px] text-white font-bold leading-normal hover:text-[#ffb300] hover:bg-primary-50 rounded-[8px] `}
             >
-              {/* active:bg-secondary-900 active:bg-opacity-100 */}
               Home
             </ListItem>
           </div>
@@ -204,9 +203,9 @@ function NavList() {
           <div
             className={`${
               pathName === "/about-us"
-                ? "text-[#ffb300] hover:underline"
+                ? "text-[#ffb300] hover:underline "
                 : "drawer_nav_bg"
-            }  px-0 md:py-1 font-family-primary flex items-start md:items-center  text-[14px] 3xl:text-[15px] 4xl:text-[16px] 5xl:text-[17px] text-white font-bold leading-normal hover:text-[#ffb300] hover:bg-transparent py-[6px] pl-[11px] md:pl-0`}
+            } pl-[11px] md:pl-0 py-[6px] md:py-1 font-family-primary flex items-start md:items-center text-[14px] 3xl:text-[15px] 4xl:text-[16px] 5xl:text-[17px] text-white font-bold leading-normal hover:text-[#ffb300] hover:bg-primary-50 rounded-[8px] `}
           >
             About
           </div>
@@ -227,7 +226,7 @@ function NavList() {
                 pathName === "/gallery"
                   ? "text-[#ffb300] hover:underline"
                   : "drawer_nav_bg"
-              } px-0 md:py-1 font-family-primary flex items-start md:items-center  text-[14px] 3xl:text-[15px] 4xl:text-[16px] 5xl:text-[17px] text-white font-bold leading-normal hover:text-[#ffb300] hover:bg-transparent py-[6px] pl-[11px] md:pl-0`}
+              } pl-[11px] md:pl-0 py-[6px] md:py-1 font-family-primary flex items-start md:items-center text-[14px] 3xl:text-[15px] 4xl:text-[16px] 5xl:text-[17px] text-white font-bold leading-normal hover:text-[#ffb300] hover:bg-primary-50 rounded-[8px] `}
             >
               Gallery
             </div>
@@ -249,7 +248,7 @@ function NavList() {
                 pathName === "/kitchen-remodel-in-cypress"
                   ? "text-[#ffb300] hover:underline"
                   : "drawer_nav_bg"
-              } px-0 md:py-1 font-family-primary flex items-start md:items-center  text-[14px] 3xl:text-[15px] 4xl:text-[16px] 5xl:text-[17px] text-white font-bold leading-normal hover:text-[#ffb300] hover:bg-transparent py-[6px] pl-[11px] md:pl-0`}
+              } pl-[11px] md:pl-0 py-[6px] md:py-1 font-family-primary flex items-start md:items-center text-[14px] 3xl:text-[15px] 4xl:text-[16px] 5xl:text-[17px] text-white font-bold leading-normal hover:text-[#ffb300] hover:bg-primary-50 rounded-[8px] `}
             >
               Kitchen Remodeling
             </ListItem>
@@ -271,7 +270,7 @@ function NavList() {
                 pathName === "/bathroom-remodel-in-cypress-tx"
                   ? "text-[#ffb300] hover:underline"
                   : "drawer_nav_bg"
-              } px-0 md:py-1 font-family-primary flex items-start md:items-center  text-[14px] 3xl:text-[15px] 4xl:text-[16px] 5xl:text-[17px] text-white font-bold leading-normal hover:text-[#ffb300] hover:bg-transparent py-[6px] pl-[11px] md:pl-0`}
+              } pl-[11px] md:pl-0 py-[6px] md:py-1 font-family-primary flex items-start md:items-center text-[14px] 3xl:text-[15px] 4xl:text-[16px] 5xl:text-[17px] text-white font-bold leading-normal hover:text-[#ffb300] hover:bg-primary-50 rounded-[8px] `}
             >
               Bathroom Remodeling
             </ListItem>
@@ -297,7 +296,7 @@ function NavList() {
                 pathName === "/contact-us"
                   ? "text-[#ffb300] hover:underline"
                   : "drawer_nav_bg"
-              } px-0 md:py-1 font-family-primary flex items-start md:items-center  text-[14px] 3xl:text-[15px] 4xl:text-[16px] 5xl:text-[17px] text-white font-bold leading-normal hover:text-[#ffb300] hover:bg-transparent py-[6px] pl-[11px] md:pl-0`}
+              } pl-[11px] md:pl-0 py-[6px] md:py-1 font-family-primary flex items-start md:items-center text-[14px] 3xl:text-[15px] 4xl:text-[16px] 5xl:text-[17px] text-white font-bold leading-normal hover:text-[#ffb300] hover:bg-primary-50 rounded-[8px] `}
             >
               Contact Us
             </ListItem>

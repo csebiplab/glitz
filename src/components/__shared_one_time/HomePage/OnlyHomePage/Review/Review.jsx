@@ -146,14 +146,14 @@ const Review = () => {
                         height={67}
                         className="w-[198px] h-[67px]"
                       />
-                      <p className="font-family-secondary text-[35px] font-normal text-black leading-normal">
+                      <p className="font-family-primary text-[35px] font-normal text-black leading-normal">
                         {" "}
                         Rating
                       </p>
                     </div>
                     {/* second div  */}
                     <div className="flex items-center gap-[15px] pt-[7px]">
-                      <p className="font-family-secondary text-[25px] font-normal text-black leading-normal">
+                      <p className="font-family-primary text-[25px] font-normal text-black leading-normal">
                         5.0
                       </p>
                       <Image
@@ -169,7 +169,7 @@ const Review = () => {
                   <div>
                     <button className="btn__bg_review text-lg font-normal text-white leading-normal py-[15px] px-[51px]">
                       <Link
-                        className="font-family-secondary text-white"
+                        className="font-family-primary text-white"
                         href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3455.447281997168!2d-95.679383325182!3d29.99531067494835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640d57b61c6fd8d%3A0x2ba2182f0ab40249!2sGlitz%20Floors%20%26%20More!5e0!3m2!1sen!2sbd!4v1732205338949!5m2!1sen!2sbd"
                         rel="nofollow"
                         target="_blank"
@@ -194,14 +194,14 @@ const Review = () => {
                       height={67}
                       className="w-[202px] h-[69px]"
                     />
-                    <p className="font-family-secondary text-3xl font-normal text-black leading-normal">
+                    <p className="font-family-primary text-3xl font-normal text-black leading-normal">
                       {" "}
                       Rating
                     </p>
                   </div>
                   {/* second div  */}
                   <div className="flex justify-center items-center gap-[15px] pt-[7px]">
-                    <p className="font-family-secondary text-[25px] font-normal text-black leading-normal">
+                    <p className="font-family-primary text-[25px] font-normal text-black leading-normal">
                       5.0
                     </p>
                     <Image
@@ -217,7 +217,7 @@ const Review = () => {
                 <div className="py-[30px]">
                   <button className="btn__bg_review text-lg font-normal text-white leading-normal py-[15px] px-[51px]">
                     <Link
-                      className="font-family-secondary text-white"
+                      className="font-family-primary text-white"
                       href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3455.447281997168!2d-95.679383325182!3d29.99531067494835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640d57b61c6fd8d%3A0x2ba2182f0ab40249!2sGlitz%20Floors%20%26%20More!5e0!3m2!1sen!2sbd!4v1732205338949!5m2!1sen!2sbd"
                       rel="nofollow"
                       target="_blank"
@@ -253,11 +253,11 @@ const Review = () => {
                     >
                       <div className="px-2">
                         <div className="flex items-center gap-[10px]">
-                          <p className="font-family-secondary bg-secondary-500 py-[3px] px-[15px] rounded-[50px] text-white text-[25px] font-normal text-white leading-normal">
+                          <p className="font-family-primary bg-secondary-500 py-[3px] px-[15px] rounded-[50px] text-white text-[25px] font-normal text-white leading-normal">
                             {data.sort_name}
                           </p>
                           <div>
-                            <p className="font-family-secondary text-lg font-bold text-black leading-normal">
+                            <p className="font-family-primary text-lg font-bold text-black leading-normal">
                               {data.name}
                             </p>
                             <div className="flex items-center gap-[10px]">
@@ -267,14 +267,14 @@ const Review = () => {
                                 width={102}
                                 height={15}
                               />
-                              <p className="font-family-secondary text-xs text-dark-300 font-bold leading-normal">
+                              <p className="font-family-primary text-xs text-dark-300 font-bold leading-normal">
                                 {data.date}
                               </p>
                             </div>
                           </div>
                         </div>
 
-                        <p className="font-family-secondary py-[15px] text-base font-normal text-black leading-normal">
+                        <p className="font-family-primary py-[15px] text-base font-normal text-black leading-normal">
                           {data.review}
                         </p>
                         <div className="flex items-center gap-[5px]">
@@ -285,10 +285,10 @@ const Review = () => {
                             height={41}
                           />
                           <div>
-                            <p className="font-family-secondary text-sm font-normal text-dark-400 leading-normal">
+                            <p className="font-family-primary text-sm font-normal text-dark-400 leading-normal">
                               {data.post}
                             </p>
-                            <p className="font-family-secondary text-lg font-normal text-dark-500 leading-normal">
+                            <p className="font-family-primary text-lg font-normal text-dark-500 leading-normal">
                               {data.google}
                             </p>
                           </div>

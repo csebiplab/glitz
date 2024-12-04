@@ -16,7 +16,7 @@ import { IoSettingsSharp } from "react-icons/io5";
 
 const Footer = () => {
   return (
-    <footer className="">
+    <footer className="font-family-primary">
       {/* large device  */}
       <div className="hidden xl:block">
         <div className="footer__bg container py-[40px] 5xl:py-[60px]">
@@ -41,7 +41,7 @@ const Footer = () => {
                 <CiClock2 className="w-[24px] h-[24px]"/>
                 Hours of Operations:
               </p>
-              <ul className="text-white font-family-secondary">
+              <ul className="text-white font-family-primary">
                 <li className="text-base 5xl:text-lg font-normal text-white leading-[27px]">
                   Monday to Thursday
                 </li>
@@ -61,7 +61,7 @@ const Footer = () => {
                   10:00 am - 02:00 p.m.
                 </li>
               </ul>
-              <p className="font-family-secondary text-sm font-normal text-white leading-[21px]">
+              <p className="font-family-primary text-sm font-normal text-white leading-[21px]">
                 * We remain open during statutoryholidays and operate as per our
                 regular hours.
               </p>
@@ -73,7 +73,7 @@ const Footer = () => {
                   <IoSettingsSharp className="w-[24px] h-[24px]"/>
                   Our Services
                 </p>
-                <ul className="font-family-secondary">
+                <ul className="font-family-primary">
                   <li className="text-base 5xl:text-lg font-normal text-white leading-[27px]">
                     &gt; Flooring Installations
                   </li>
@@ -95,7 +95,7 @@ const Footer = () => {
 
             {/* fourth div  */}
             <div className="col-span-2">
-              <ul className="font-family-secondary">
+              <ul className="font-family-primary">
                 <li className="flex items-start gap-[12px] 5xl:gap-[24px] text-base 5xl:text-lg font-normal leading-[29px]">
                   <FaLocationDot className="w-[24px] h-[24px] mt-2"/>
                   <Link
@@ -169,7 +169,7 @@ const Footer = () => {
               alt="footer logo"
               width={144}
               height={148}
-              className="w-1/2 mx-auto"
+              className="w-2/3 mx-auto"
             />
             <p className="font-family-primary text-lg font-normal text-white leading-[30px] text-center pt-2">
               If you're in the Cypress area and looking for expert flooring and
@@ -182,7 +182,7 @@ const Footer = () => {
             <CiClock2 className="w-[24px] h-[24px]"/>
               Hours of Operations:
             </p>
-            <ul className="text-white font-family-secondary">
+            <ul className="text-white font-family-primary">
               <li className="text-base md:text-lg text-center normal text-white leading-[27px]">
                 Monday to Thursday
               </li>
@@ -202,7 +202,7 @@ const Footer = () => {
                 10:00 am - 02:00 p.m.
               </li>
             </ul>
-            <p className="font-family-secondary text-sm font-normal text-center text-white leading-[21px]">
+            <p className="font-family-primary text-sm font-normal text-center text-white leading-[21px]">
               * We remain open during statutoryholidays and operate as per our
               regular hours.
             </p>
@@ -214,7 +214,7 @@ const Footer = () => {
               <IoSettingsSharp className="w-[24px] h-[24px]"/>
                 Our Services
               </p>
-              <ul className="font-family-secondary">
+              <ul className="font-family-primary">
                 <li className="text-base md:text-lg text-center font-normal text-white leading-[27px]">
                   &gt; Flooring Installations
                 </li>
@@ -235,7 +235,7 @@ const Footer = () => {
           </div>
           {/* fourth div  */}
           <div className="pt-[20px] px-[30px]">
-            <ul className="font-family-secondary">
+            <ul className="font-family-primary">
               <li className="flex justify-center items-center gap-[24px] text-base 5xl:text-lg font-normal leading-[29px]">
               <FaLocationDot className="w-[24px] h-[24px] mt-2"/>
                 <Link
