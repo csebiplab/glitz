@@ -10,7 +10,7 @@ const ContactUs = () => {
     <div data-aos="zoom-in" className="padding__top">
       {/* large device  */}
       <div className="hidden md:block ">
-        <div className="full__section_r_p pl-3 md:pl-0 contact__us__bg">
+        <div className="full__section_r_p pl-3 md:pl-0 lg_contact__us__bg">
           <div className="grid grid-cols-1 grid-cols-8 gap-[30px] 5xl:gap-[55px] ">
             <div className="md:col-span-3">
               <Image
@@ -206,9 +206,9 @@ const ContactUs = () => {
           />
         </div>
         {/* form part  */}
-        <div className="-mt-[20px] ml-[25px] mr-[25px]">
-          <div className="md:col-span-2 contact__cart__bg h-[740px]">
-            <div className="h-full flex flex-col justify-center px-[16px] 5xl:px-[22px]">
+        <div className="">
+          <div className="md:col-span-2 contact__cart__bg h-[720px]">
+            <div className="h-full flex flex-col justify-center px-[30px] sm:px-[39px]">
               <p className="text-base font-normal text-white leading-normal">
                 Our Contact Information
               </p>
@@ -304,7 +304,7 @@ const ContactUs = () => {
           </div>
         </div>
         {/* content part  */}
-        <div className=" flex flex-col items-start justify-center mt-[25px]">
+        <div className="sm_contact__us__bg flex flex-col items-start justify-center px-[24px] sm:px-[31px] pt-[25px] pb-[35px]">
           <div className="flex justify-center md:justify-start items-center ">
             {/* <NewHeadingIcon
               text={headingIconText.contactNow__headingIconText}
@@ -329,7 +329,7 @@ const ContactUs = () => {
             </div>
           </div>
           </div>
-          <h2 className="text-[25px] md:text-[27px] lg:text-[30px] xl:text-[33px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[40px] 5xl:tex-[42px] font-bold text-black text-left leading-normal">
+          <h2 className="text-[25px] font-bold text-black text-left leading-normal">
             Get Free Professional Consultation
           </h2>
           <div className="mt-[22px]">
@@ -346,7 +346,7 @@ const ContactUs = () => {
                   16726 Huffmeister Rd D400, Cypress, TX 77429, United States
                 </Link>
               </li>
-              <li className="flex items-center gap-[15px] text-base font-normal text-black leading-normal py-[34px]">
+              <li className="flex items-center gap-[15px] text-base font-normal text-black leading-normal py-[24px]">
                 <Image
                   src="/assets/glitz/newHomePage/icons/phone.png"
                   alt="phone icon"

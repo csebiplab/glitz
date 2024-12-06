@@ -18,17 +18,22 @@ const galImgs = [
   "/assets/glitz/newHomePage/gallery/gallery5.png",
   "/assets/glitz/newHomePage/gallery/gallery6.png",
   "/assets/glitz/newHomePage/gallery/gallery7.png",
+  "/assets/glitz/newHomePage/gallery/gallery8.png",
+  "/assets/glitz/newHomePage/gallery/gallery9.png",
   
 ];
 
 const galImgs2 = [
-  "/assets/glitz/newHomePage/gallery/gallery8.png",
-  "/assets/glitz/newHomePage/gallery/gallery9.png",
+  
   "/assets/glitz/newHomePage/gallery/gallery10.png",
-  "/assets/glitz/newHomePage/gallery/gallery1.png",
-  "/assets/glitz/newHomePage/gallery/gallery2.png",
-  "/assets/glitz/newHomePage/gallery/gallery3.png",
-  "/assets/glitz/newHomePage/gallery/gallery4.png",
+  "/assets/glitz/newHomePage/gallery/gallery11.png",
+  "/assets/glitz/newHomePage/gallery/gallery12.png",
+  "/assets/glitz/newHomePage/gallery/gallery13.png",
+  "/assets/glitz/newHomePage/gallery/gallery14.png",
+  "/assets/glitz/newHomePage/gallery/gallery15.png",
+  "/assets/glitz/newHomePage/gallery/gallery16.png",
+  "/assets/glitz/newHomePage/gallery/gallery17.png",
+  "/assets/glitz/newHomePage/gallery/gallery18.png",
 ];
 
 const ProjectGallery = () => {
