@@ -5,6 +5,9 @@ import Brand from "@/components/__shared_one_time/FlooringInstallation/Brand/Bra
 import Review from "@/components/__shared_one_time/HomePage/OnlyHomePage/Review/Review";
 import ServicesArea from "@/components/__shared_one_time/HomePage/OnlyHomePage/ServicesArea/ServicesArea";
 import Location from "@/components/__shared_one_time/HomePage/OnlyHomePage/Location/Location";
+import ProjectGallery from "@/components/__shared_one_time/HomePage/OnlyHomePage/ProjectGallery/ProjectGallery";
+import ContactUs from "./ContactUs/ContactUs";
+import Faq from "./Faq/Faq";
 
 const VinylFlooringInCypressTX = () => {
   return (
@@ -18,16 +21,24 @@ const VinylFlooringInCypressTX = () => {
       </section>
 
       <section>
+        <ProjectGallery />
+      </section>
+
+      <section>
         <Review />
+      </section>
+
+      <section>
+        <Faq />
       </section>
 
       <section>
         <ServicesArea />
       </section>
 
-      {/* <section>
+      <section>
         <ContactUs />
-      </section> */}
+      </section>
 
       <section>
         <Location />
