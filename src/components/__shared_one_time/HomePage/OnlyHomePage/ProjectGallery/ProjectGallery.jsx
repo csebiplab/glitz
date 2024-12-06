@@ -7,8 +7,8 @@ import "swiper/css";
 import "swiper/css/autoplay";
 import "swiper/css/effect-coverflow";
 import "swiper/css/grid";
-import { headingIconText } from '@/utils/heading-text';
-import NewHeadingIcon from "@/components/__ui/NewHeadingIcon";
+// import { headingIconText } from '@/utils/heading-text';
+// import NewHeadingIcon from "@/components/__ui/NewHeadingIcon";
 
 const galImgs = [
   "/assets/glitz/newHomePage/gallery/gallery1.png",
@@ -56,7 +56,26 @@ const ProjectGallery = () => {
       <div data-aos="zoom-in" className="custom-container padding__top">
         <div className="container">
           <div className="flex flex-col justify-center items-center">
-          <NewHeadingIcon text={headingIconText.gallery__headingIconText}/>
+          {/* <NewHeadingIcon text={headingIconText.gallery__headingIconText}/> */}
+          <div className="w-full flex flex-col items-center justify-center">
+            <p className="text-base text-black font-normal leading-light">Gallery</p>
+            <div className="flex justify-center items-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="72"
+              height="2"
+              viewBox="0 0 72 2"
+              fill="none"
+            >
+              <path
+                d="M1 1L70.0646 1"
+                stroke="#040273"
+                strokeWidth="2"
+                strokeLinecap="round"
+              />
+            </svg>
+            </div>
+          </div>
             <div className="">
               <h2 className="text-[25px] md:text-[27px] lg:text-[30px] xl:text-[33px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[40px] 5xl:tex-[42px] font-bold text-black text-center leading-normal">
               Glitz Floors & More Gallery

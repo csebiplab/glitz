@@ -1,6 +1,6 @@
 "use client";
-import NewHeadingIcon from "@/components/__ui/NewHeadingIcon";
-import { headingIconText } from "@/utils/heading-text";
+// import NewHeadingIcon from "@/components/__ui/NewHeadingIcon";
+// import { headingIconText } from "@/utils/heading-text";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import SmallDeviceService from "../SmallDeviceService/SmallDeviceService";
@@ -51,9 +51,28 @@ const Services = () => {
 
   return (
     <div data-aos="fade-up" className="padding__top custom-container relative">
-      <div className="flex justify-center items-center">
+      {/* <div className="flex justify-center items-center">
         <NewHeadingIcon text={headingIconText.services__headingIconText} />
-      </div>
+      </div> */}
+      <div className="w-full flex flex-col items-center justify-center">
+            <p className="text-black text-base font-light leading-normal">Services</p>
+            <div className="flex justify-center items-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="72"
+              height="2"
+              viewBox="0 0 72 2"
+              fill="none"
+            >
+              <path
+                d="M1 1L70.0646 1"
+                stroke="#040273"
+                strokeWidth="2"
+                strokeLinecap="round"
+              />
+            </svg>
+            </div>
+          </div>
       <h2 className="text-[25px] md:text-[27px] lg:text-[30px] xl:text-[33px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[40px] 5xl:text-[42px] font-bold text-black text-center leading-normal">
         What Services We Offer
       </h2>

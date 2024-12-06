@@ -1,5 +1,5 @@
 "use client";
-import { headingIconText } from '@/utils/heading-text';
+// import { headingIconText } from '@/utils/heading-text';
 
 import Image from "next/image";
 import React from "react";
@@ -12,7 +12,7 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/virtual";
 import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-import NewHeadingIcon from '@/components/__ui/NewHeadingIcon';
+// import NewHeadingIcon from '@/components/__ui/NewHeadingIcon';
 
 const breakpoints = {
   0: {
@@ -115,7 +115,26 @@ const Review = () => {
         className="container padding__top"
       >
         <div className="flex flex-col justify-center items-center pb-[25px]">
-        <NewHeadingIcon text={headingIconText.review__headingIconText}/>
+        {/* <NewHeadingIcon text={headingIconText.review__headingIconText}/> */}
+        <div className="w-full flex flex-col items-center justify-center">
+            <p className="text-base text-black font-normal leading-light">Review</p>
+            <div className="flex justify-center items-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="72"
+              height="2"
+              viewBox="0 0 72 2"
+              fill="none"
+            >
+              <path
+                d="M1 1L70.0646 1"
+                stroke="#040273"
+                strokeWidth="2"
+                strokeLinecap="round"
+              />
+            </svg>
+            </div>
+          </div>
           <h2 className="text-[25px] md:text-[27px] lg:text-[30px] xl:text-[33px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[40px] 5xl:tex-[42px] font-bold text-black text-center leading-normal">
           Glitz Floors & More Review
           </h2>
