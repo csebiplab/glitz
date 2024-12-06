@@ -43,6 +43,10 @@ const our_service_menu_items = {
       title: "Kitchen Remodel in Cypress",
       route: "/kitchen-remodel-in-cypress",
     },
+    {
+      title: "Vinyl Flooring in Cypress, TX",
+      route: "/vinyl-flooring-in-cypress-tx",
+    },
   ],
 };
 

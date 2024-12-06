@@ -69,6 +69,25 @@ export const headingIconText = {
     servicesArea__headingIconText : "Services Area",
     servicesArea__headingIconText : "Services Area",
 
-
+    // Vinyl Flooring In CypressTX page 
+    aboutUs__headingIconText : "About Us",
+    installation__headingIconText : "#1 Installation",
+    blendsStyleAndDurability__headingIconText : "Blends Style and Durability",
+    whyItTheBestChoice__headingIconText : "Why It's the Best Choice",
+    benefits__headingIconText : "Benefits",
+    type__headingIconText : "Type",
+    gallery__headingIconText : "Gallery",
+    workingProcess__headingIconText : "Working Process",
+    repair__headingIconText : "Repair",
+    cleaner__headingIconText : "Cleaner",
+    mistakes__headingIconText : "Mistakes",
+    caring__headingIconText : "Caring",
+    review__headingIconText : "Review",
+    discover__headingIconText : "Discover",
+    youCanTrust__headingIconText : "You Can Trust",
+    faq__headingIconText : "FAQ",
+    services__headingIconText : "Services",
+    connectNow__headingIconText : "Connect Now",
+    connectNow__headingIconText : "Connect Now",
 
 }
