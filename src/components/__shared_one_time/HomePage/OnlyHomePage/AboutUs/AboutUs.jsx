@@ -6,16 +6,16 @@ import NewHeadingIcon from "@/components/__ui/NewHeadingIcon";
 
 const AboutUs = () => {
   return (
-    <div className="container padding__top">
+    <div className="full__section_l_p pr-3 md:pr-0 padding__top">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-[21px]">
         <div data-aos="fade-right" className="md:col-span-1">
           <div className="flex justify-start items-center">
             <NewHeadingIcon text={headingIconText.aboutUs__headingIconText} />
           </div>
-          <h2 className="text-[25px] md:text-[27px] lg:text-[30px] xl:text-[33px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[40px] 5xl:tex-[42px] font-bold text-black text-left leading-normal">
+          <h2 className="text-[25px] md:text-[27px] lg:text-[30px] xl:text-[33px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[40px] 5xl:tex-[42px] font-bold text-black text-left leading-tight">
             Crafting Beautiful Spaces with Quality and Care
           </h2>
-          <p className="text-lg leading-[36px] text-black font-light text-left">
+          <p className="text-base 5xl:text-lg leading-[30px] text-black font-light text-left mt-[10px]">
             At Glitz Floor & More, we believe that every home deserves to shine.
             With years of experience in flooring installations and interior
             remodeling, we bring expertise, quality craftsmanship, and attention
@@ -59,7 +59,7 @@ const AboutUs = () => {
             alt="about us"
             width={921}
             height={595}
-            className="h-full"
+            className="w-full h-[277px] md:h-[480px] 5xl:h-[595px]"
           />
         </div>
       </div>

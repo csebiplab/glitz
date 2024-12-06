@@ -53,8 +53,8 @@ function OurServiceManu({setIsServiceClick}) {
   const renderItems = (data = []) => {
     return data?.map(({ route, title }, key) => (
       <Link  href={route} key={key}>
-        <MenuItem className={`focus:bg-secondary-900 focus:bg-opacity-100 active:bg-secondary-900 active:bg-opacity-100 hover:bg-secondary-900 text-white font-bold my-2 py-2 px-4 rounded rounded-md`} >
-          <Typography className={` text-white md:text-black`}>{title}</Typography>
+        <MenuItem className={`focus:bg-primary-50 focus:bg-opacity-100 active:bg-primary-50 active:bg-opacity-100 hover:text-[#ffb300] hover:bg-primary-50 text-white font-bold py-2 px-4 rounded rounded-md`} >
+          <Typography className={` text-white hover:text-[#ffb300]`}>{title}</Typography>
         </MenuItem>
       </Link>
     ));
@@ -87,9 +87,9 @@ function OurServiceManu({setIsServiceClick}) {
             <ListItem
               className={`${
                 pathName === "/kitchen-remodel-in-cypress" || pathName === "/flooring-installation" || pathName === "/bathroom-remodel-in-cypress-tx"
-                  ? "bg-secondary-900 rounded-[8px]"
+                  ? "text-[#ffb300] hover:underline"
                   : "bg-primary-50 rounded-xl"
-              }px-0 hover:text-white md:py-1 font-family-secondary flex items-center text-lg md:text-base 5xl:text-lg text-white font-bold leading-normal -mt-[7px] hover:bg-secondary-900 py-[6px] pl-[11px] md:pl-0`}
+              } font-family-primary font-bold leading-normal -mt-[7px] md:py-1 py-[6px] px-[11px] md:px-0 flex justify-between items-center text-[14px] 3xl:text-[15px] 4xl:text-[16px] 5xl:text-[17px] text-white hover:text-[#ffb300] hover:bg-primary-50 hover:bg-opacity-100 focus:bg-red-500 focus:bg-opacity-0 focus:text-white active:bg-primary-50 active:bg-opacity-100 bg-primary-50`}
               selected={isMenuOpen || isMobileMenuOpen}
               onClick={() => serviceMenuHandler() }
             >
@@ -111,15 +111,12 @@ function OurServiceManu({setIsServiceClick}) {
         </MenuHandler>
         {/* <hr className="my-1" /> */}
 
-        <MenuList className="!p-0 hidden max-w-[350px] w-full lg:block outline-0 bg-gray-100 -mt-4">
-          <div className="!p-0 !border-none !outline-none w-full">
-            <div className="w-full p-4">
-              <h3 className="font-family-secondary mb-1 text-primary-600 text-lg font-semibold text-left border-b-[1.5px] border-primary">
-                Services
-              </h3>
-              <div>
-                <ul className="w-full flex justify-start list-disc marker:text-black px-4">
-                  <li className="font-family-secondary text-base font-normal text-black">
+        <MenuList className="border-none !p-0 hidden max-w-[350px] w-full lg:block outline-0 bg-gray-100 -mt-4">
+          <div className="!p-0 !outline-none w-full">
+            <div className="bg-primary-50 w-full p-4">
+              <div className="">
+                <ul className="w-full flex justify-start px-4">
+                  <li className="font-family-primary text-base font-normal text-white">
                     {renderItems(our_service_menu_items.interior)}
                   </li>
                 </ul>
@@ -137,7 +134,7 @@ function OurServiceManu({setIsServiceClick}) {
                     pathName === "/"
                       ? "bg-secondary-900 rounded-[8px]"
                       : "drawer_nav_bg"
-                  } font-family-secondary text-lg text-white mt-2 font-semibold border-b border-black hover:bg-secondary-900 py-[6px] pl-[11px] md:pl-0`}
+                  } font-family-primary text-lg text-white mt-2 font-semibold border-b border-black hover:text-[#ffb300] hover:bg-transparent py-[6px] pl-[11px] md:pl-0`}
                 >
                   Services
                 </h4> */}
@@ -147,7 +144,7 @@ function OurServiceManu({setIsServiceClick}) {
                       pathName === our_service_menu_items.interior
                         ? "bg-secondary-900 rounded-[8px]"
                         : "drawer_nav_bg"
-                    } font-family-secondary text-lg text-white font-bold`}
+                    } font-family-primary text-lg text-white font-bold`}
                   >
                     {renderItems(our_service_menu_items.interior)}
                   </li>
@@ -171,26 +168,24 @@ function OurServiceManu({setIsServiceClick}) {
 function NavList() {
   const pathName = usePathname();
   const [isServiceClick, setIsServiceClick] = useState(false);
-  console.log("dddd",isServiceClick)
   return (
-    <List className="my-[11px] p-0 lg:mt-0 lg:mb-0 lg:flex-row md:items-center justify-between px-0 md:px-[20px] border-0 outline-none ">
+    <List className={`font-family-primary my-[11px] p-0 lg:mt-0 lg:mb-0 lg:flex-row md:items-center justify-between px-0 md:px-[20px] border-0 outline-none`}>
       <div className="">
         <Typography
           as={Link}
           href="/"
           variant="small"
           color="blue-gray"
-          className=" font-medium rounded-full text-sm lg:text-sm xl:text-base 2xl:text-lg"
+          className=" font-medium rounded-full text-[14px] 3xl:text-[15px] 4xl:text-[16px] 5xl:text-[17px]"
         >
           <div>
             <ListItem
               className={`${
                 pathName === "/" && !isServiceClick
-                  ? "bg-secondary-900 rounded-[8px]"
+                  ? "text-[#ffb300] hover:underline"
                   : "drawer_nav_bg"
-              } px-0 hover:text-white md:py-1 font-family-secondary flex items-start md:items-center text-lg md:text-base 5xl:text-lg text-white font-bold leading-normal hover:bg-secondary-900 py-[6px] pl-[11px] md:pl-0`}
+              } pl-[11px] md:pl-0 py-[6px] md:py-1 font-family-primary flex items-start md:items-center text-[14px] 3xl:text-[15px] 4xl:text-[16px] 5xl:text-[17px] text-white font-bold leading-normal hover:text-[#ffb300] hover:bg-primary-50 rounded-[8px] `}
             >
-              {/* active:bg-secondary-900 active:bg-opacity-100 */}
               Home
             </ListItem>
           </div>
@@ -203,14 +198,14 @@ function NavList() {
           href="/about-us"
           variant="small"
           color="blue-gray"
-          className="font-medium rounded-full text-sm md:text-sm xl:text-base 2xl:text-lg"
+          className="font-medium rounded-full text-[14px] 3xl:text-[15px] 4xl:text-[16px] 5xl:text-[17px]"
         >
           <div
             className={`${
               pathName === "/about-us"
-                ? "bg-secondary-900  rounded-[8px]"
+                ? "text-[#ffb300] hover:underline "
                 : "drawer_nav_bg"
-            } px-0 hover:text-white md:py-1 font-family-secondary flex items-start md:items-center text-lg md:text-base 5xl:text-lg text-white font-bold leading-normal hover:bg-secondary-900 py-[6px] pl-[11px] md:pl-0`}
+            } pl-[11px] md:pl-0 py-[6px] md:py-1 font-family-primary flex items-start md:items-center text-[14px] 3xl:text-[15px] 4xl:text-[16px] 5xl:text-[17px] text-white font-bold leading-normal hover:text-[#ffb300] hover:bg-primary-50 rounded-[8px] `}
           >
             About
           </div>
@@ -223,15 +218,15 @@ function NavList() {
           href="/gallery"
           variant="small"
           color="blue-gray"
-          className="font-medium rounded-full text-sm md:text-sm xl:text-base 2xl:text-lg"
+          className="font-medium rounded-full  text-[14px] 3xl:text-[15px] 4xl:text-[16px] 5xl:text-[17px]"
         >
           <div>
             <div
               className={`${
                 pathName === "/gallery"
-                  ? "bg-secondary-900  rounded-[8px]"
+                  ? "text-[#ffb300] hover:underline"
                   : "drawer_nav_bg"
-              } px-0 hover:text-white md:py-1 font-family-secondary flex items-start md:items-center text-lg md:text-base 5xl:text-lg text-white font-bold leading-normal hover:bg-secondary-900 py-[6px] pl-[11px] md:pl-0`}
+              } pl-[11px] md:pl-0 py-[6px] md:py-1 font-family-primary flex items-start md:items-center text-[14px] 3xl:text-[15px] 4xl:text-[16px] 5xl:text-[17px] text-white font-bold leading-normal hover:text-[#ffb300] hover:bg-primary-50 rounded-[8px] `}
             >
               Gallery
             </div>
@@ -245,15 +240,15 @@ function NavList() {
           href="/kitchen-remodel-in-cypress"
           variant="small"
           color="blue-gray"
-          className="font-medium rounded-full text-sm md:text-sm xl:text-base 2xl:text-lg"
+          className="font-medium rounded-full  text-[14px] 3xl:text-[15px] 4xl:text-[16px] 5xl:text-[17px]"
         >
           <div>
             <ListItem
               className={` ${
                 pathName === "/kitchen-remodel-in-cypress"
-                  ? "bg-secondary-900  rounded-[8px]"
+                  ? "text-[#ffb300] hover:underline"
                   : "drawer_nav_bg"
-              } px-0 hover:text-white md:py-1 font-family-secondary flex items-start md:items-center  text-lg md:text-base 5xl:text-lg text-white font-bold leading-normal hover:bg-secondary-900 py-[6px] pl-[11px] md:pl-0`}
+              } pl-[11px] md:pl-0 py-[6px] md:py-1 font-family-primary flex items-start md:items-center text-[14px] 3xl:text-[15px] 4xl:text-[16px] 5xl:text-[17px] text-white font-bold leading-normal hover:text-[#ffb300] hover:bg-primary-50 rounded-[8px] `}
             >
               Kitchen Remodeling
             </ListItem>
@@ -267,15 +262,15 @@ function NavList() {
           href="/bathroom-remodel-in-cypress-tx"
           variant="small"
           color="blue-gray"
-          className="font-medium rounded-full text-sm md:text-sm xl:text-base 2xl:text-lg"
+          className="font-medium rounded-full  text-[14px] 3xl:text-[15px] 4xl:text-[16px] 5xl:text-[17px]"
         >
           <div>
             <ListItem
               className={`${
                 pathName === "/bathroom-remodel-in-cypress-tx"
-                  ? "bg-secondary-900 rounded-[8px]"
+                  ? "text-[#ffb300] hover:underline"
                   : "drawer_nav_bg"
-              } px-0 hover:text-white md:py-1 font-family-secondary flex items-start md:items-center text-lg md:text-base 5xl:text-lg text-white font-bold leading-normal hover:bg-secondary-900 py-[6px] pl-[11px] md:pl-0`}
+              } pl-[11px] md:pl-0 py-[6px] md:py-1 font-family-primary flex items-start md:items-center text-[14px] 3xl:text-[15px] 4xl:text-[16px] 5xl:text-[17px] text-white font-bold leading-normal hover:text-[#ffb300] hover:bg-primary-50 rounded-[8px] `}
             >
               Bathroom Remodeling
             </ListItem>
@@ -293,15 +288,15 @@ function NavList() {
           href="/contact-us"
           variant="small"
           color="blue-gray"
-          className="font-medium rounded-full text-sm md:text-sm xl:text-base 2xl:text-lg"
+          className="font-medium rounded-full  text-[14px] 3xl:text-[15px] 4xl:text-[16px] 5xl:text-[17px]"
         >
           <div>
             <ListItem
               className={`${
                 pathName === "/contact-us"
-                  ? "bg-secondary-900 rounded-[8px]"
+                  ? "text-[#ffb300] hover:underline"
                   : "drawer_nav_bg"
-              } px-0 hover:text-white md:py-1 font-family-secondary flex items-start md:items-center text-lg md:text-base 5xl:text-lg text-white font-bold leading-normal hover:bg-secondary-900 py-[6px] pl-[11px] md:pl-0`}
+              } pl-[11px] md:pl-0 py-[6px] md:py-1 font-family-primary flex items-start md:items-center text-[14px] 3xl:text-[15px] 4xl:text-[16px] 5xl:text-[17px] text-white font-bold leading-normal hover:text-[#ffb300] hover:bg-primary-50 rounded-[8px] `}
             >
               Contact Us
             </ListItem>
@@ -344,7 +339,7 @@ export function NavHeader() {
       <header className="sticky top-0 z-50">
         <div className="hidden md:block custom-container ">
           <Navbar className="container main__nav rounded-none py-0 shadow-none max-w-full pb-[6px]">
-            <div className="flex justify-between items-center gap-[30px] 5xl:gap-[50px]">
+            <div className="flex justify-between items-center gap-[100px] md:gap-[101px] lg:gap-[111px] xl:gap-[121px] 2xl:gap-[131px] 3xl:gap-[141px] 4xl:gap-[151px] 5xl:gap-[161px]">
               <div className="w-1/5">
                 <Link href="/" aria-label="Home">
                   <Image
@@ -363,13 +358,13 @@ export function NavHeader() {
                 <div className="pt-[2px]">
                   <div className=" flex justify-between items-center">
                     <div className="flex items-center gap-[10px]">
-                      <p className="text-lg font-bold text-white leading-[40px]">
+                      <p className="text-base font-bold text-white leading-[40px]">
                         Follow Us on:
                       </p>
                       <div className="flex items-center gap-3">
                         <div className="bg-primary-50 p-2 rounded-full">
                           <Link href="/" target="_blank" rel="nofollow">
-                            <FaYoutube className="w-[16px] h-[16px] text-white" />
+                            <FaYoutube className="w-[15px] h-[15px] text-white" />
                           </Link>
                         </div>
                         <div className="bg-primary-50 p-2 rounded-full">
@@ -378,12 +373,12 @@ export function NavHeader() {
                             target="_blank"
                             rel="nofollow"
                           >
-                            <FaInstagram className="w-[16px] h-[16px] text-white" />
+                            <FaInstagram className="w-[15px] h-[15px] text-white" />
                           </Link>
                         </div>
                         <div className="bg-primary-50 p-2 rounded-full">
                           <Link href="/" target="_blank" rel="nofollow">
-                            <FaLinkedin className="w-[16px] h-[16px] text-white" />
+                            <FaLinkedin className="w-[15px] h-[15px] text-white" />
                           </Link>
                         </div>
                         <div className="bg-primary-50 p-2 rounded-full">
@@ -392,7 +387,7 @@ export function NavHeader() {
                             target="_blank"
                             rel="nofollow"
                           >
-                            <FaFacebook className="w-[16px] h-[16px] text-white" />
+                            <FaFacebook className="w-[15px] h-[15px] text-white" />
                           </Link>
                         </div>
                       </div>
@@ -401,10 +396,10 @@ export function NavHeader() {
                     <div>
                       <button className="flex items-center gap-[8px] 5xl:gap-[12px]">
                         <div className="bg-primary-50 p-2 rounded-lg">
-                          <LuPhoneCall className="w-[18px] h-[18px] text-white" />
+                          <LuPhoneCall className="w-[16px] h-[16px] text-white" />
                         </div>
                         <Link
-                          className="font-family-secondary text-lg font-bold text-white leading-normal"
+                          className="font-family-primary text-base font-bold text-white leading-normal"
                           href="tel:(346) 445-6343"
                         >
                           (346) 445-6343
@@ -445,7 +440,7 @@ export function NavHeader() {
                 <LuPhoneCall className="w-[13px] h-[13px] text-white" />
               </div>
               <Link
-                className="font-family-secondary text-sm font-bold text-white leading-normal"
+                className="font-family-primary text-sm font-bold text-white leading-normal"
                 href="tel:(346) 445-6343"
               >
                 (346) 445-6343
@@ -478,7 +473,7 @@ export function NavHeader() {
         onClose={() => setOpenNav(false)}
         className="p-4 overflow-y-auto pb-24 !z-[1000000000000000000] bg-secondary-800"
       >
-        {/* <div className="font-family-secondary mb-6 flex items-center justify-between ">
+        {/* <div className="font-family-primary mb-6 flex items-center justify-between ">
           <Typography variant="paragraph" color="blue-gray">
             Glitz Floors & More
           </Typography>
@@ -522,7 +517,7 @@ export function NavHeader() {
               <LuPhoneCall className="w-[18px] h-[18px] text-white" />
             </div>
             <Link
-              className="font-family-secondary text-lg font-bold text-white leading-normal"
+              className="font-family-primary text-lg font-bold text-white leading-normal"
               href="tel:(346) 445-6343"
             >
               (346) 445-6343

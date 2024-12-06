@@ -109,9 +109,10 @@ module.exports = withMT({
                 'foreground': 'var(--foreground)',
             }),
             fontFamily: {
-                palatino: ['var(--font-palatinolinotype)', 'serif'],
-                mobotoSlab: ['var(--font-mobotoSlab)', 'sans-serif'],
+                mulish: ['var(--font-mulish)'],
+                robotoSerif: ['var(--font-robotoSerif)'],
             },
+             
 
         },
     },

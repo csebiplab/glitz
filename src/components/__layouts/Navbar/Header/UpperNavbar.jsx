@@ -32,7 +32,7 @@ const UpperNavbar = () => {
   }, []);
   return (
     <div className="container bg-dark-700 py-[4px]">
-      <div className="text-center text-xs md:text-sm xl:text-base font-bold text-black leading-normal">
+      <div className="text-center text-xs md:text-sm font-bold text-black leading-normal">
         {slideData[currentSlideIndex]}
       </div>
     </div>

@@ -1,16 +1,22 @@
 import { Suspense } from "react";
-import { Montserrat } from "next/font/google";
+import { Mulish, Roboto_Serif } from "next/font/google";
+
 import RoutingProgressBar from "@/components/common/RoutingProgressBar";
 import Footer from "@/components/__layouts/Footers/Footer";
 import ScrollToTopComponent from "@/components/common/ScrollToTop";
 import { NavHeader } from "@/components/__layouts/Navbar/Header/NavHeader";
-import { Palatino_Linotype } from "../font";
+// import { Palatino_Linotype } from "../font";
 import { headers } from "next/headers";
 import { projectfor } from "@/constants/projectfor";
 import AosSetup from "@/config/AosSetup";
 import "../globals.css";
 
-const montserrat = Montserrat({ subsets: ["latin"] });
+export const mulish = Mulish({ subsets: ["latin"], display: "swap" , variable : "--font-mulish"});
+export const robotoSerif = Roboto_Serif({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-robotoSerif"
+});
 
 export async function generateMetadata() {
   const headerList = headers();
@@ -70,7 +76,7 @@ export async function generateMetadata() {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${Palatino_Linotype.variable} ${montserrat.className}`}>
+      <body className={`${robotoSerif.variable} ${mulish.variable}`}>
         <main className="overflow-hidden">
           <Suspense>
             <RoutingProgressBar />
