@@ -11,6 +11,10 @@ import Faq from "./Faq/Faq";
 import AboutUs from "./AboutUs/AboutUs";
 import Installation from "./Installation/Installation";
 import BlendsStyle from "./BlendsStyle/BlendsStyle";
+import Discover from "./Discover/Discover";
+import YouCanTrust from "./YouCanTrust/YouCanTrust";
+import Repair from "./Repair/Repair";
+import Cleaner from "./Cleaner/Cleaner";
 
 const VinylFlooringInCypressTX = () => {
   return (
@@ -40,7 +44,23 @@ const VinylFlooringInCypressTX = () => {
       </section>
 
       <section>
+        <Repair />
+      </section>
+
+      <section>
+        <Cleaner />
+      </section>
+
+      <section>
         <Review />
+      </section>
+
+      <section>
+        <Discover />
+      </section>
+
+      <section>
+        <YouCanTrust />
       </section>
 
       <section>
