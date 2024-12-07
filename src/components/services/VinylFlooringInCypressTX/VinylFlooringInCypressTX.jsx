@@ -5,7 +5,6 @@ import Brand from "@/components/__shared_one_time/FlooringInstallation/Brand/Bra
 import Review from "@/components/__shared_one_time/HomePage/OnlyHomePage/Review/Review";
 import ServicesArea from "@/components/__shared_one_time/HomePage/OnlyHomePage/ServicesArea/ServicesArea";
 import Location from "@/components/__shared_one_time/HomePage/OnlyHomePage/Location/Location";
-import ProjectGallery from "@/components/__shared_one_time/HomePage/OnlyHomePage/ProjectGallery/ProjectGallery";
 import ContactUs from "./ContactUs/ContactUs";
 import Faq from "./Faq/Faq";
 import AboutUs from "./AboutUs/AboutUs";
@@ -15,6 +14,7 @@ import Discover from "./Discover/Discover";
 import YouCanTrust from "./YouCanTrust/YouCanTrust";
 import Repair from "./Repair/Repair";
 import Cleaner from "./Cleaner/Cleaner";
+import ProjectGallery from "./ProjectGallery/ProjectGallery";
 
 const VinylFlooringInCypressTX = () => {
   return (

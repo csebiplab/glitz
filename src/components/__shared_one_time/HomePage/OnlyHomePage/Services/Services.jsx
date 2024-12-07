@@ -35,19 +35,33 @@ const serviceSlides = [
 ];
 
 const Services = () => {
+  const [isMouseHover, setIsMouseHover] = useState(false);
   const [currentSlideIndex, setCurrentSlideIndex] = useState(0);
-  const [hoveredButtonIndex, setHoveredButtonIndex] = useState(null);
+  const [hoveredButtonIndex, setHoveredButtonIndex] = useState(0);
 
   useEffect(() => {
-    const slideIntervalId = setInterval(() => {
-      setCurrentSlideIndex(
-        (prevIndex) => (prevIndex + 1) % serviceSlides.length
-      );
-    }, 2000);
+    let slideIntervalId;
+    if(!isMouseHover){
+      slideIntervalId = setInterval(() => {
+        setCurrentSlideIndex(
+          (prevIndex) => (prevIndex + 1) % serviceSlides.length
+        );
+      }, 2000);
+    }
     return () => {
       clearInterval(slideIntervalId);
     };
-  }, []);
+  }, [isMouseHover, currentSlideIndex, hoveredButtonIndex]);
+
+  const onMouseOver = (v)=>{
+    setHoveredButtonIndex(v)
+    setIsMouseHover(true)
+  }
+  const onMouseLeave = (v)=>{
+    setCurrentSlideIndex(v)
+    setIsMouseHover(false)
+    setHoveredButtonIndex(0)
+  }
 
   return (
     <div data-aos="fade-up" className="padding__top custom-container relative">
@@ -80,7 +94,7 @@ const Services = () => {
       <div className="hidden md:block relative mt-[15px]">
         {/* Background Image */}
         <Image
-          src={serviceSlides[currentSlideIndex].image}
+          src={serviceSlides[currentSlideIndex >= 0 ? currentSlideIndex : 0]?.image}
           alt="services image"
           width={1920}
           height={604}
@@ -93,8 +107,8 @@ const Services = () => {
             <div
               key={index}
               className="relative group text-center text-white cursor-pointer px-4"
-              onMouseEnter={() => setHoveredButtonIndex(index)}
-              onMouseLeave={() => setHoveredButtonIndex(null)}
+              onMouseEnter={() => onMouseOver(index)}
+              onMouseLeave={() => onMouseLeave(0)}
             >
               <p
                 className={`flex items-center gap-2 font-bold text-sm 5xl:text-base ${
