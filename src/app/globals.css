@@ -41,9 +41,12 @@ footer * {
   @apply py-14 md:py-16 lg:py-20 xl:py-[90px] 2xl:py-24 3xl:py-[105px] 4xl:py-28 5xl:py-[120px]
 }
 
-/* section {
-  @apply container;
-} */
+.common__heading{
+  @apple text-[25px] md:text-[27px] lg:text-[30px] xl:text-[33px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[40px] 5xl:tex-[42px] font-bold text-black text-center md:text-left mb-[10px] leading-tight 5xl:leading-normal
+}
+.common__paragraph{
+  @apply text-base 5xl:text-lg text-black font-normal leading-[26px] lg:leading-[26px] xl:leading-[28px] 2xl:leading-[30px] 3xl:leading-[32px] 4xl:leading-[34px] 5xl:leading-[36px]
+}
 
 a {
   @apply text-black underline-offset-2 hover:underline decoration-primary select-none;

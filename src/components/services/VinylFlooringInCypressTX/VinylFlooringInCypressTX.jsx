@@ -8,6 +8,9 @@ import Location from "@/components/__shared_one_time/HomePage/OnlyHomePage/Locat
 import ProjectGallery from "@/components/__shared_one_time/HomePage/OnlyHomePage/ProjectGallery/ProjectGallery";
 import ContactUs from "./ContactUs/ContactUs";
 import Faq from "./Faq/Faq";
+import AboutUs from "./AboutUs/AboutUs";
+import Installation from "./Installation/Installation";
+import BlendsStyle from "./BlendsStyle/BlendsStyle";
 
 const VinylFlooringInCypressTX = () => {
   return (
@@ -18,6 +21,18 @@ const VinylFlooringInCypressTX = () => {
 
       <section>
         <Brand />
+      </section>
+
+      <section>
+        <AboutUs />
+      </section>
+
+      <section>
+        <Installation />
+      </section>
+
+      <section>
+        <BlendsStyle />
       </section>
 
       <section>

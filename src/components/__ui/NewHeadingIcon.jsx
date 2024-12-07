@@ -4,7 +4,7 @@ const NewHeadingIcon = ({ text = "empty text" }) => {
   return (
     <div>
       <p className="text-black text-base font-light leading-normal">{text}</p>
-      <div className="flex justify-center items-center">
+      <div className="flex justify-start items-center">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="72"
