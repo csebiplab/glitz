@@ -189,7 +189,7 @@ const Review = () => {
                     <button className="btn__bg_review text-lg font-normal text-white leading-normal py-[15px] px-[51px]">
                       <Link
                         className="font-family-primary text-white"
-                        href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3455.447281997168!2d-95.679383325182!3d29.99531067494835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640d57b61c6fd8d%3A0x2ba2182f0ab40249!2sGlitz%20Floors%20%26%20More!5e0!3m2!1sen!2sbd!4v1732205338949!5m2!1sen!2sbd"
+                        href="https://www.google.com/maps?ll=29.995311,-95.676808&z=15&t=m&hl=en&gl=BD&mapclient=embed&cid=3144102080180126281"
                         rel="nofollow"
                         target="_blank"
                       >
@@ -201,7 +201,7 @@ const Review = () => {
               </div>
 
               {/* small device  */}
-              <div className="block md:hidden flex flex-col items-center justify-between">
+              <div className="md:hidden flex flex-col items-center justify-between">
                 {/* left side  */}
                 <div>
                   {/* first div  */}
@@ -272,7 +272,7 @@ const Review = () => {
                     >
                       <div className="px-2">
                         <div className="flex items-center gap-[10px]">
-                          <p className="font-family-primary bg-secondary-500 py-[3px] px-[15px] rounded-[50px] text-white text-[25px] font-normal text-white leading-normal">
+                          <p className="font-family-primary bg-secondary-500 py-[3px] px-[15px] rounded-[50px] text-[25px] font-normal text-white leading-normal">
                             {data.sort_name}
                           </p>
                           <div>
