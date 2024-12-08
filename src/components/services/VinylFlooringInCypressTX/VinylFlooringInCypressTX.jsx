@@ -15,6 +15,10 @@ import YouCanTrust from "./YouCanTrust/YouCanTrust";
 import Repair from "./Repair/Repair";
 import Cleaner from "./Cleaner/Cleaner";
 import ProjectGallery from "./ProjectGallery/ProjectGallery";
+import Mistakes from "./Mistakes/Mistakes";
+import Type from "./Type/Type";
+import Benefits from "./Benefits/Benefits";
+import TheBestChoice from "./TheBestChoice/TheBestChoice";
 
 const VinylFlooringInCypressTX = () => {
   return (
@@ -40,6 +44,18 @@ const VinylFlooringInCypressTX = () => {
       </section>
 
       <section>
+        <TheBestChoice />
+      </section>
+
+      <section>
+        <Benefits />
+      </section>
+
+      <section>
+        <Type />
+      </section>
+
+      <section>
         <ProjectGallery />
       </section>
 
@@ -49,6 +65,10 @@ const VinylFlooringInCypressTX = () => {
 
       <section>
         <Cleaner />
+      </section>
+
+      <section>
+        <Mistakes />
       </section>
 
       <section>
