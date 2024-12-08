@@ -36,12 +36,16 @@ const our_service_menu_items = {
       route: "/flooring-installation",
     },
     {
-      title: "Bathroom Remodel in Cypress, TX",
+      title: "Bathroom Remodel",
       route: "/bathroom-remodel-in-cypress-tx",
     },
     {
-      title: "Kitchen Remodel in Cypress",
+      title: "Kitchen Remodel",
       route: "/kitchen-remodel-in-cypress",
+    },
+    {
+      title: "Vinyl Flooring",
+      route: "/vinyl-flooring-in-cypress-tx",
     },
   ],
 };
@@ -51,10 +55,10 @@ function OurServiceManu({setIsServiceClick}) {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false);
   const renderItems = (data = []) => {
-    return data?.map(({ route, title }, key) => (
-      <Link  href={route} key={key}>
-        <MenuItem className={`focus:bg-primary-50 focus:bg-opacity-100 active:bg-primary-50 active:bg-opacity-100 hover:text-[#ffb300] hover:bg-primary-50 text-white font-bold py-2 px-4 rounded rounded-md`} >
-          <Typography className={` text-white hover:text-[#ffb300]`}>{title}</Typography>
+    return data?.map(({ route, title }, index) => (
+      <Link  href={route} key={index}>
+        <MenuItem className={`focus:bg-primary-50 focus:bg-opacity-100 active:bg-primary-50 active:bg-opacity-100 hover:text-[#ffb300] hover:bg-primary-50 text-white font-bold py-2 px-4 rounded-md `} >
+          <Typography className={` text-white hover:text-[#ffb300] ${index === data.length - 1 ? "border-b-0" : "border-b-[1px] border-white"}`}>{title}</Typography>
         </MenuItem>
       </Link>
     ));
@@ -88,7 +92,7 @@ function OurServiceManu({setIsServiceClick}) {
               className={`${
                 pathName === "/kitchen-remodel-in-cypress" || pathName === "/flooring-installation" || pathName === "/bathroom-remodel-in-cypress-tx"
                   ? "text-[#ffb300] hover:underline"
-                  : "bg-primary-50 rounded-xl"
+                  : "bg-primary-50 rounded-t-[2px]"
               } font-family-primary font-bold leading-normal -mt-[7px] md:py-1 py-[6px] px-[11px] md:px-0 flex justify-between items-center text-[14px] 3xl:text-[15px] 4xl:text-[16px] 5xl:text-[17px] text-white hover:text-[#ffb300] hover:bg-primary-50 hover:bg-opacity-100 focus:bg-red-500 focus:bg-opacity-0 focus:text-white active:bg-primary-50 active:bg-opacity-100 bg-primary-50`}
               selected={isMenuOpen || isMobileMenuOpen}
               onClick={() => serviceMenuHandler() }
@@ -142,8 +146,8 @@ function OurServiceManu({setIsServiceClick}) {
                   <li
                     className={`${
                       pathName === our_service_menu_items.interior
-                        ? "bg-secondary-900 rounded-[8px]"
-                        : "drawer_nav_bg"
+                        ? "bg-secondary-900 rounded-[8px] "
+                        : "drawer_nav_bg rounded-b-[8px]"
                     } font-family-primary text-lg text-white font-bold`}
                   >
                     {renderItems(our_service_menu_items.interior)}
