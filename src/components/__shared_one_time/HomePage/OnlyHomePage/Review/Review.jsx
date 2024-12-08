@@ -201,7 +201,7 @@ const Review = () => {
               </div>
 
               {/* small device  */}
-              <div className="block md:hidden flex flex-col items-center justify-between">
+              <div className="md:hidden flex flex-col items-center justify-between">
                 {/* left side  */}
                 <div>
                   {/* first div  */}
@@ -272,7 +272,7 @@ const Review = () => {
                     >
                       <div className="px-2">
                         <div className="flex items-center gap-[10px]">
-                          <p className="font-family-primary bg-secondary-500 py-[3px] px-[15px] rounded-[50px] text-white text-[25px] font-normal text-white leading-normal">
+                          <p className="font-family-primary bg-secondary-500 py-[3px] px-[15px] rounded-[50px] text-[25px] font-normal text-white leading-normal">
                             {data.sort_name}
                           </p>
                           <div>
