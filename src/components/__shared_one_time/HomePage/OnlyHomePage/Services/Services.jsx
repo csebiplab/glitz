@@ -1,6 +1,5 @@
 "use client";
-// import NewHeadingIcon from "@/components/__ui/NewHeadingIcon";
-// import { headingIconText } from "@/utils/heading-text";
+
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import SmallDeviceService from "../SmallDeviceService/SmallDeviceService";
@@ -35,32 +34,31 @@ const serviceSlides = [
 ];
 
 const Services = () => {
-  const [isMouseHover, setIsMouseHover] = useState(false);
+  const [isMouseOver, setIsMouseOver] = useState(false);
   const [currentSlideIndex, setCurrentSlideIndex] = useState(0);
-  const [hoveredButtonIndex, setHoveredButtonIndex] = useState(0);
+  const [hoveredButtonIndex, setHoveredButtonIndex] = useState(null);
 
   useEffect(() => {
-    let slideIntervalId;
-    if(!isMouseHover){
-      slideIntervalId = setInterval(() => {
-        setCurrentSlideIndex(
-          (prevIndex) => (prevIndex + 1) % serviceSlides.length
-        );
-      }, 2000);
-    }
-    return () => {
-      clearInterval(slideIntervalId);
-    };
-  }, [isMouseHover, currentSlideIndex, hoveredButtonIndex]);
+      if(!isMouseOver) {
+        const slideIntervalId = setInterval(() => {
+          setCurrentSlideIndex(
+            (prevIndex) => (prevIndex + 1) % serviceSlides.length
+          );
+        }, 3000);
+  
+        return () => {
+          clearInterval(slideIntervalId);
+        };
+      }
+  }, [isMouseOver, currentSlideIndex]);
 
   const onMouseOver = (v)=>{
     setHoveredButtonIndex(v)
-    setIsMouseHover(true)
+    setIsMouseOver(true)
   }
-  const onMouseLeave = (v)=>{
-    setCurrentSlideIndex(v)
-    setIsMouseHover(false)
-    setHoveredButtonIndex(0)
+  const onMouseOut = (v)=>{
+    setHoveredButtonIndex(v)
+    setIsMouseOver(false)
   }
 
   return (
@@ -94,7 +92,7 @@ const Services = () => {
       <div className="hidden md:block relative mt-[15px]">
         {/* Background Image */}
         <Image
-          src={serviceSlides[currentSlideIndex >= 0 ? currentSlideIndex : 0]?.image}
+          src={serviceSlides[currentSlideIndex]?.image}
           alt="services image"
           width={1920}
           height={604}
@@ -108,7 +106,7 @@ const Services = () => {
               key={index}
               className="relative group text-center text-white cursor-pointer px-4"
               onMouseEnter={() => onMouseOver(index)}
-              onMouseLeave={() => onMouseLeave(0)}
+              onMouseLeave={() => onMouseOut(null)}
             >
               <p
                 className={`flex items-center gap-2 font-bold text-sm 5xl:text-base ${
