@@ -1,18 +1,17 @@
 import { Suspense } from "react";
 import { Mulish, Roboto_Serif } from "next/font/google";
+
 import RoutingProgressBar from "@/components/common/RoutingProgressBar";
 import Footer from "@/components/__layouts/Footers/Footer";
 import ScrollToTopComponent from "@/components/common/ScrollToTop";
 import { NavHeader } from "@/components/__layouts/Navbar/Header/NavHeader";
+// import { Palatino_Linotype } from "../font";
 import { headers } from "next/headers";
 import { projectfor } from "@/constants/projectfor";
 import AosSetup from "@/config/AosSetup";
-import { GoogleTagManager } from '@next/third-parties/google'
-import JsonLd from "@/components/__SEORelated/JsonLd";
-
 import "../globals.css";
 
-export const mulish = Mulish({ subsets: ["latin"], display: "swap", variable: "--font-mulish" });
+export const mulish = Mulish({ subsets: ["latin"], display: "swap" , variable : "--font-mulish"});
 export const robotoSerif = Roboto_Serif({
   subsets: ["latin"],
   display: "swap",
@@ -77,31 +76,12 @@ export async function generateMetadata() {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-
-      <GoogleTagManager gtmId="GTM-WSKJ7H8P" />
-
-
-
       <body className={`${robotoSerif.variable} ${mulish.variable}`}>
-
-        <JsonLd />
-
-        {/* <!-- Google Tag Manager (noscript) --> */}
-        <noscript>
-          <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WSKJ7H8P"
-            height="0" width="0" style={{ display: "none", visibility: "hidden" }}>
-          </iframe>
-        </noscript>
-        {/* <!-- End Google Tag Manager (noscript) --> */}
-
-
         <main className="overflow-hidden">
           <Suspense>
             <RoutingProgressBar />
           </Suspense>
-
           <AosSetup />
-
           <>
             <NavHeader />
           </>
