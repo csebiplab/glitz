@@ -74,6 +74,8 @@ export async function generateMetadata() {
   }
 }
 
+// changes for merge
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
