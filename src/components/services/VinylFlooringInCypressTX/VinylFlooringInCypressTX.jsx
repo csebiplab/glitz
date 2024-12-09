@@ -19,6 +19,7 @@ import Mistakes from "./Mistakes/Mistakes";
 import Type from "./Type/Type";
 import Benefits from "./Benefits/Benefits";
 import TheBestChoice from "./TheBestChoice/TheBestChoice";
+import Caring from "./Caring/Caring";
 
 const VinylFlooringInCypressTX = () => {
   return (
@@ -69,6 +70,10 @@ const VinylFlooringInCypressTX = () => {
 
       <section>
         <Mistakes />
+      </section>
+
+      <section>
+        <Caring />
       </section>
 
       <section>
