@@ -251,7 +251,7 @@ const Review = () => {
               <div className="pt-[15px] pb-[20px]">
                 {/* ==================== swiper slider ================ */}
                 <Swiper
-                  className="brand__bg border-2 border-gray-200 shadow-lg"
+                  className="border-2 border-gray-200 shadow-lg"
                   modules={[Autoplay]}
                   loop={true}
                   autoplay={{

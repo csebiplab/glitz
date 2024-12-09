@@ -67,7 +67,7 @@ const dimensions = {
 
 const Brand = () => {
   return (
-    <div className="homeSection__bg">
+    <div className="">
       <div className="container pt-[10px]">
         {/* large device  */}
         <div className="hidden md:block">
