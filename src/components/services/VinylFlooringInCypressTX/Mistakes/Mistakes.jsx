@@ -42,7 +42,7 @@ const Mistakes = () => {
       <div data-aos="zoom-in" className="container padding__top">
         <div className="flex flex-col items-center justify-center">
         <NewHeadingIcon text={headingIconText.mistakes__headingIconText}/>
-          <h2 className="common__heading">
+          <h2 className="common__heading text-center md:text-left">
           Common Mistakes When Installing Vinyl Plank Flooring
           </h2>
         </div>
