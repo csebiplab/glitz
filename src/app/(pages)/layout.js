@@ -3,7 +3,7 @@ import { Mulish, Roboto_Serif } from "next/font/google";
 import RoutingProgressBar from "@/components/common/RoutingProgressBar";
 import Footer from "@/components/__layouts/Footers/Footer";
 import ScrollToTopComponent from "@/components/common/ScrollToTop";
-import { NavHeader } from "@/components/__layouts/Navbar/Header/NavHeader";
+// import { NavHeader } from "@/components/__layouts/Navbar/Header/NavHeader";
 import { headers } from "next/headers";
 import { projectfor } from "@/constants/projectfor";
 import AosSetup from "@/config/AosSetup";
@@ -11,6 +11,7 @@ import { GoogleTagManager } from '@next/third-parties/google'
 import JsonLd from "@/components/__SEORelated/JsonLd";
 
 import "../globals.css";
+import Navbar from "@/components/__layouts/Navbar/Navbar";
 
 export const mulish = Mulish({ subsets: ["latin"], display: "swap", variable: "--font-mulish" });
 export const robotoSerif = Roboto_Serif({
@@ -97,7 +98,7 @@ export default function RootLayout({ children }) {
         {/* <!-- End Google Tag Manager (noscript) --> */}
 
 
-        <main className="overflow-hidden">
+        <main className="overflow-hidden custom-container">
           <Suspense>
             <RoutingProgressBar />
           </Suspense>
@@ -105,7 +106,8 @@ export default function RootLayout({ children }) {
           <AosSetup />
 
           <>
-            <NavHeader />
+            {/* <NavHeader /> */}
+            <Navbar/>
           </>
           {children}
           <>
