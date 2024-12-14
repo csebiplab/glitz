@@ -1,8 +1,8 @@
 import React from "react";
 import "./Benefits.css";
-import NewHeadingIcon from '@/components/__ui/NewHeadingIcon';
 import { headingIconText } from '@/utils/heading-text';
 import Image from "next/image";
+import NewHeadingCenterIcon from "@/components/__ui/NewHeadingCenterIcon";
 
 const benefitsData = [
   {
@@ -48,9 +48,9 @@ const Benefits = () => {
     <div>
       <div data-aos="zoom-in" className="container padding__top">
         <div className="flex flex-col justify-center items-center">
-        <NewHeadingIcon text={headingIconText.benefits__headingIconText}/>
+        <NewHeadingCenterIcon text={headingIconText.benefits__headingIconText}/>
           <h2 className="text-[25px] md:text-[27px] lg:text-[30px] xl:text-[33px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[40px] 5xl:tex-[42px] font-bold text-black text-center leading-normal">
-          The Benefits of Vinyl Flooring for Your Cypress Property
+          The Benefits of Vinyl Flooring <br className="block md:hidden"/> for Your Cypress Property
           </h2>
           <p className="text-lg font-normal leading-[35px] text-black text-center mt-[5px] md:mt-[10px]">
           Vinyl flooring offers numerous advantages for Cypress homeowners and business owners looking to enhance their spaces with style, durability, and practicality. Here are some of the top benefits of choosing vinyl flooring for your property: With Glitz Floors & More, you can explore various vinyl options that elevate your space while providing the practical benefits you need.

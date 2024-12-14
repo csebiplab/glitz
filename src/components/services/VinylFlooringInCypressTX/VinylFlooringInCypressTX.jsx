@@ -20,6 +20,7 @@ import Type from "./Type/Type";
 import Benefits from "./Benefits/Benefits";
 import TheBestChoice from "./TheBestChoice/TheBestChoice";
 import Caring from "./Caring/Caring";
+import WorkingProcess from "./WorkingProcess/WorkingProcess";
 
 const VinylFlooringInCypressTX = () => {
   return (
@@ -58,6 +59,10 @@ const VinylFlooringInCypressTX = () => {
 
       <section>
         <ProjectGallery />
+      </section>
+
+      <section>
+        <WorkingProcess />
       </section>
 
       <section>
