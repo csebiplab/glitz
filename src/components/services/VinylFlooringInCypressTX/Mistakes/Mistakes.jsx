@@ -1,7 +1,7 @@
 import React from "react";
-import NewHeadingIcon from '@/components/__ui/NewHeadingIcon';
 import { headingIconText } from '@/utils/heading-text';
 import "./Mistakes.css";
+import NewHeadingCenterIcon from "@/components/__ui/NewHeadingCenterIcon";
 
 const ourRenovatorData1 = [
   {
@@ -41,8 +41,8 @@ const Mistakes = () => {
     <div>
       <div data-aos="zoom-in" className="container padding__top">
         <div className="flex flex-col items-center justify-center">
-        <NewHeadingIcon text={headingIconText.mistakes__headingIconText}/>
-          <h2 className="common__heading text-center md:text-left">
+        <NewHeadingCenterIcon text={headingIconText.mistakes__headingIconText}/>
+          <h2 className="text-[25px] md:text-[27px] lg:text-[30px] xl:text-[33px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[40px] 5xl:tex-[42px] font-bold text-black leading-tight 5xl:leading-normal mb-[10px] text-center md:text-left">
           Common Mistakes When Installing Vinyl Plank Flooring
           </h2>
         </div>

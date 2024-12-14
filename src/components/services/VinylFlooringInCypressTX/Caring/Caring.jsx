@@ -1,8 +1,8 @@
 import React from "react";
 import "./Caring.css";
 import Image from "next/image";
-import NewHeadingIcon from "@/components/__ui/NewHeadingIcon";
 import { headingIconText } from '@/utils/heading-text';
+import NewHeadingCenterIcon from "@/components/__ui/NewHeadingCenterIcon";
 
 const workingData = [
   {
@@ -47,10 +47,10 @@ const Caring = () => {
   return (
     <div className="container padding__top">
       <div className="flex justify-center items-center">
-      <NewHeadingIcon text={headingIconText.caring__headingIconText}/>
+      <NewHeadingCenterIcon text={headingIconText.caring__headingIconText}/>
       </div>
       <div className="pb-[25px]">
-        <h2 className="common__heading text-center">
+        <h2 className="text-[25px] md:text-[27px] lg:text-[30px] xl:text-[33px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[40px] 5xl:tex-[42px] font-bold text-black leading-tight 5xl:leading-normal mb-[10px] text-center">
         Caring for Vinyl Flooring
         </h2>
         <p className="text-base 5xl:text-lg text-black font-normal text-center leading-[26px] lg:leading-[26px] xl:leading-[28px] 2xl:leading-[30px] 3xl:leading-[32px] 4xl:leading-[34px] 5xl:leading-[36px]">
