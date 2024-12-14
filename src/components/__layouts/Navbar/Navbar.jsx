@@ -10,6 +10,7 @@ import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { LuPhoneCall } from "react-icons/lu";
+import "./Navbar.css";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -100,15 +101,43 @@ const Navbar = () => {
                 >
                   Bathroom Remodeling
                 </Link>
-                <Link
-                  href="#"
-                  className="flex items-center gap-1 text-[13px] 2xl:text-[14px] 3xl:text-[15px] 4xl:text-[16px] 5xl:text-[17px] font-bold leading-normal text-white hover:text-[#ffb300] px-1"
-                  onMouseEnter={() => setHoverServices(false)}
-                  onMouseLeave={() => setHoverServices(true)}
-                >
-                  Our Services
-                  {hoverServices ? <IoIosArrowDown /> : <IoIosArrowUp />}
-                </Link>
+
+                <div className="dropdown">
+                  <button
+                    className="flex items-center gap-1 text-[13px] 2xl:text-[14px] 3xl:text-[15px] 4xl:text-[16px] 5xl:text-[17px] font-bold leading-normal text-white hover:text-[#ffb300] px-1"
+                    onMouseEnter={() => setHoverServices(false)}
+                    onMouseLeave={() => setHoverServices(true)}
+                  >
+                    Our Services{" "}
+                    {hoverServices ? <IoIosArrowDown /> : <IoIosArrowUp />}
+                  </button>
+                  <div className="dropdown-content">
+                    <a
+                      className="text-[13px] 2xl:text-[14px] 3xl:text-[15px] 4xl:text-[16px] 5xl:text-[17px] font-bold leading-normal"
+                      href="/flooring-installation"
+                    >
+                      Floor Installation
+                    </a>
+                    <a
+                      className="text-[13px] 2xl:text-[14px] 3xl:text-[15px] 4xl:text-[16px] 5xl:text-[17px] font-bold leading-normal border-t"
+                      href="/kitchen-remodel-in-cypress"
+                    >
+                      Kitchen Remodeling
+                    </a>
+                    <a
+                      className="text-[13px] 2xl:text-[14px] 3xl:text-[15px] 4xl:text-[16px] 5xl:text-[17px] font-bold leading-normal border-t"
+                      href="/bathroom-remodel-in-cypress-tx"
+                    >
+                      Bathroom Remodeling
+                    </a>
+                    <a
+                      className="text-[13px] 2xl:text-[14px] 3xl:text-[15px] 4xl:text-[16px] 5xl:text-[17px] font-bold leading-normal border-t"
+                      href="/vinyl-flooring-in-cypress-tx"
+                    >
+                      Vinyl Flooring
+                    </a>
+                  </div>
+                </div>
                 <Link
                   href="/contact-us"
                   className="text-[13px] 2xl:text-[14px] 3xl:text-[15px] 4xl:text-[16px] 5xl:text-[17px] font-bold leading-normal text-white hover:text-[#ffb300] pl-1 pr-4"
@@ -190,5 +219,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-
