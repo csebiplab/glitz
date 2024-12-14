@@ -10,7 +10,6 @@ import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { LuPhoneCall } from "react-icons/lu";
-import { IoMenuSharp } from "react-icons/io5";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -73,37 +72,37 @@ const Navbar = () => {
               <div className="hidden xl:flex justify-between items-center bg-primary-50 py-1 rounded-full">
                 <Link
                   href="/"
-                  className="text-[13px] 2xl:text-[14px] 3xl:text-[15px] 4xl:text-[16px] 5xl:text-[17px] font-bold leading-normal text-white hover:text-secondary-800  pl-4 pr-1"
+                  className="text-[13px] 2xl:text-[14px] 3xl:text-[15px] 4xl:text-[16px] 5xl:text-[17px] font-bold leading-normal text-white hover:text-[#ffb300]  pl-4 pr-1"
                 >
                   Home
                 </Link>
                 <Link
                   href="/about"
-                  className="text-[13px] 2xl:text-[14px] 3xl:text-[15px] 4xl:text-[16px] 5xl:text-[17px] font-bold leading-normal text-white hover:text-secondary-800 px-1"
+                  className="text-[13px] 2xl:text-[14px] 3xl:text-[15px] 4xl:text-[16px] 5xl:text-[17px] font-bold leading-normal text-white hover:text-[#ffb300] px-1"
                 >
                   About
                 </Link>
                 <Link
                   href="/gallery"
-                  className="text-[13px] 2xl:text-[14px] 3xl:text-[15px] 4xl:text-[16px] 5xl:text-[17px] font-bold leading-normal text-white hover:text-secondary-800 px-1"
+                  className="text-[13px] 2xl:text-[14px] 3xl:text-[15px] 4xl:text-[16px] 5xl:text-[17px] font-bold leading-normal text-white hover:text-[#ffb300] px-1"
                 >
                   Gallery
                 </Link>
                 <Link
                   href="/kitchen-remodel-in-cypress"
-                  className="text-[13px] 2xl:text-[14px] 3xl:text-[15px] 4xl:text-[16px] 5xl:text-[17px] font-bold leading-normal text-white hover:text-secondary-800 px-1"
+                  className="text-[13px] 2xl:text-[14px] 3xl:text-[15px] 4xl:text-[16px] 5xl:text-[17px] font-bold leading-normal text-white hover:text-[#ffb300] px-1"
                 >
                   Kitchen Remodeling
                 </Link>
                 <Link
                   href="/bathroom-remodel-in-cypress-tx"
-                  className="text-[13px] 2xl:text-[14px] 3xl:text-[15px] 4xl:text-[16px] 5xl:text-[17px] font-bold leading-normal text-white hover:text-secondary-800 px-1"
+                  className="text-[13px] 2xl:text-[14px] 3xl:text-[15px] 4xl:text-[16px] 5xl:text-[17px] font-bold leading-normal text-white hover:text-[#ffb300] px-1"
                 >
                   Bathroom Remodeling
                 </Link>
                 <Link
                   href="#"
-                  className="flex items-center gap-1 text-[13px] 2xl:text-[14px] 3xl:text-[15px] 4xl:text-[16px] 5xl:text-[17px] font-bold leading-normal text-white hover:text-secondary-800 px-1"
+                  className="flex items-center gap-1 text-[13px] 2xl:text-[14px] 3xl:text-[15px] 4xl:text-[16px] 5xl:text-[17px] font-bold leading-normal text-white hover:text-[#ffb300] px-1"
                   onMouseEnter={() => setHoverServices(false)}
                   onMouseLeave={() => setHoverServices(true)}
                 >
@@ -112,7 +111,7 @@ const Navbar = () => {
                 </Link>
                 <Link
                   href="/contact-us"
-                  className="text-[13px] 2xl:text-[14px] 3xl:text-[15px] 4xl:text-[16px] 5xl:text-[17px] font-bold leading-normal text-white hover:text-secondary-800 pl-1 pr-4"
+                  className="text-[13px] 2xl:text-[14px] 3xl:text-[15px] 4xl:text-[16px] 5xl:text-[17px] font-bold leading-normal text-white hover:text-[#ffb300] pl-1 pr-4"
                 >
                   Contact Us
                 </Link>
@@ -191,3 +190,5 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+
