@@ -1,9 +1,9 @@
 "use client";
-import HeadingIcon from "@/components/__ui/HeadingIcon";
 import "./WhyChoose.css";
 
 import Image from "next/image";
 import { headingIconText } from "@/utils/heading-text";
+import NewHeadingIcon from "@/components/__ui/NewHeadingIcon";
 
 const usualPool = [
   {
@@ -98,7 +98,7 @@ const WhyChoose = () => {
           <div className=" grid md:grid-cols-3 2xl:gap-[40px] md:gap-[30px] ">
             <div className="mx-auto flex flex-col items-center justify-center">
               <div className="w-full flex md:justify-start justify-center md:items-start items-center">
-                <HeadingIcon
+                <NewHeadingIcon
                   text={headingIconText.whyChoose__headingIconText}
                 />
               </div>

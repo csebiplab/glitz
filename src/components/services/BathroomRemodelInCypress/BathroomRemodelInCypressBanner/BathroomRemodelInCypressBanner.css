@@ -1,27 +1,21 @@
-/* Hero section */
-.hero-section {
-  /* width: 100%;
-  height: auto;
-  background-image: url("/assets/roofing_contractor/hero_section.png");
-  background-position: center center;
+/* large device  */
+.banner__bg{
+  background-image: url("/assets/glitz/vinylFlooringInCypress/lg_banner.png");
   background-size: cover;
-  background-repeat: no-repeat; */
-  background: #F2FCFF;
-  box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.25);
-}
-
-.hero-right {
-  width: 50%;
-}
-
-.hero-right .hero-main-image {
+  background-position: center center;
+  background-repeat: no-repeat;
   width: 100%;
-  object-fit: cover;
 }
-
+/* small device  */
+.small__banner__bg{
+  background-image: url("/assets/glitz/vinylFlooringInCypress/sm_banner.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+}
 .btn_bg{
-  border-radius: 6px;
-  border: 1.5px solid #1F1D20;
+  border-radius: 99px;
+  background: #005799;
+  box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.25);
 }
-  
-  

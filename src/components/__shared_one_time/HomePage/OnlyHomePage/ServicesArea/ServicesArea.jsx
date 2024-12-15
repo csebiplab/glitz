@@ -96,7 +96,7 @@ const ServicesArea = () => {
             </div>
           </div>
         <h2 className="text-[25px] md:text-[27px] lg:text-[30px] xl:text-[33px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[40px] 5xl:tex-[42px] font-bold text-black text-center leading-normal">
-          Glitz Floors & More Service Are
+          Glitz Floors & More Service Area
         </h2>
       </div>
 

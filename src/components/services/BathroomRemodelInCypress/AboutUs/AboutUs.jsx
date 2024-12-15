@@ -1,4 +1,5 @@
-import HeadingIcon from '@/components/__ui/HeadingIcon';
+
+import NewHeadingCenterIcon from '@/components/__ui/NewHeadingCenterIcon';
 import { headingIconText } from '@/utils/heading-text';
 import Image from 'next/image';
 import React from 'react';
@@ -13,7 +14,7 @@ const AboutUs = () => {
                     </div>
                     <div className='md:col-span-1'>
                         <div className='flex justify-center xl:justify-start items-center'>
-                            <HeadingIcon text={headingIconText.aboutUs__headingIconText}/>
+                            <NewHeadingCenterIcon text={headingIconText.aboutUs__headingIconText}/>
                         </div>
                         <div>
                             <h2 className='font-family-secondary text-[25px] md:text-[27px] lg:text-[29px] xl:text-[32px] 2xl:text-[35px] 3xl:text-[37px] 4xl:text-[40px]  5xl:text-[42px] font-bold text-secondary leading-[50px] pb-[10px] text-center xl:text-left'>About Our <br/>

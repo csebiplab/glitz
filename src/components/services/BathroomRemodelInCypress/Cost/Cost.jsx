@@ -4,8 +4,8 @@ import "./Cost.css";
 import Image from 'next/image';
 
 import { Card, Typography } from "@material-tailwind/react";
-import HeadingIcon from "@/components/__ui/HeadingIcon";
 import { headingIconText } from "@/utils/heading-text";
+import NewHeadingCenterIcon from "@/components/__ui/NewHeadingCenterIcon";
 
 const TABLE_HEAD = [
   "Information",
@@ -103,14 +103,14 @@ const Cost = () => {
   return (
     <div className="container padding__top swimmingPoolContractor__bg">
       <div className="flex flex-col items-center justify-center">
-          <HeadingIcon
+          <NewHeadingCenterIcon
             text={headingIconText.cost__headingIconText}
           />
           <h2 className="text-[25px] md:text-[27px] lg:text-[29px] xl:text-[32px] 2xl:text-[34px] 3xl:text-[36px] 4xl:text-[38px] 5xl:tex-[40px] font-bold text-black text-center leading-normal pt-[5px]">
           Cost for Bathroom Remodel Cypress TX
           </h2>
           <p className="text-lg font-normal text-black pt-[10px] text-center pb-[15px]">
-          When planning a bathroom remodel in Cypress, TX, it's essential to consider various factors that can influence the overall cost. Below is a general cost comparison based on different aspects of a typical bathroom remodel: The total cost of your bathroom remodel in Cypress, TX, will depend on your specific needs, preferences, and the extent of the work involved. It's advisable to get multiple quotes from local contractors and have a clear plan in place to ensure that your remodel stays within budget while achieving the desired results.
+          When planning a bathroom remodel in Cypress, TX, it's essential to consider various factors that can influence the overall cost. Below is a general cost comparison based on different aspects of a typical bathroom remodel:
           </p>
         </div>
       <Card className="h-full w-full overflow-scroll">

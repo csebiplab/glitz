@@ -1,8 +1,9 @@
-import HeadingIcon from "@/components/__ui/HeadingIcon";
+
 import { headingIconText } from "@/utils/heading-text";
 import React from "react";
 import Image from "next/image";
 import "./ConsiderationAndLimiting.css";
+import NewHeadingCenterIcon from "@/components/__ui/NewHeadingCenterIcon";
 
 const considerationAndLimitingData = [
   {
@@ -11,7 +12,7 @@ const considerationAndLimitingData = [
     title: "Budget",
     desc: (
         <>
-            <span> <strong>Cost Estimation:</strong> Determine a realistic budget that includes materials, labor, permits, and a contingency for unexpected expenses.</span>
+            <span> <strong>Cost Estimation:</strong> Determine a realistic budget that includes materials, labor, permits, and a contingency for unexpected expenses.</span> <br/>
             <span> <strong>Prioritization:</strong>  Decide which elements of the remodel are essential and which can be postponed if necessary.</span>
         </>
     ),
@@ -22,7 +23,7 @@ const considerationAndLimitingData = [
     title: "Space and Layout",
     desc: (
         <>
-            <span> <strong>Existing Space:</strong> Evaluate the current layout and dimensions of your bathroom to understand what changes are feasible.</span>
+            <span> <strong>Existing Space:</strong> Evaluate the current layout and dimensions of your bathroom to understand what changes are feasible.</span> <br/>
             <span> <strong>Flow and Functionality:</strong> Consider how the new layout will affect the overall flow and usability of the space. Ensure that fixtures and furniture do not obstruct movement.</span>
         </>
     ),
@@ -33,7 +34,7 @@ const considerationAndLimitingData = [
     title: "Permits and Regulations",
     desc: (
         <>
-            <span> <strong>Local Codes: </strong> Check local building codes and regulations that may require permits for plumbing, electrical work, or structural changes.</span>
+            <span> <strong>Local Codes: </strong> Check local building codes and regulations that may require permits for plumbing, electrical work, or structural changes.</span> <br/>
             <span> <strong>HOA Guidelines: </strong>  If you live in a community with a homeowners association, ensure your plans comply with their guidelines.</span>
         </>
     ),
@@ -44,7 +45,7 @@ const considerationAndLimitingData = [
     title: "Plumbing & Electric Consider",
     desc: (
         <>
-            <span> <strong>Existing Systems:</strong> Assess the condition and location of current plumbing and electrical systems. Moving these can significantly increase costs.</span>
+            <span> <strong>Existing Systems:</strong> Assess the condition and location of current plumbing and electrical systems. Moving these can significantly increase costs.</span> <br/>
             <span> <strong>Upgrades Needed:</strong> Consider whether your current plumbing or electrical systems need upgrades to meet modern standards.</span>
         </>
     ),
@@ -55,7 +56,7 @@ const considerationAndLimitingData = [
     title: "Material Selection",
     desc: (
         <>
-            <span> <strong>Durability and Maintenance:</strong> Choose materials that can withstand the high moisture levels in a bathroom.</span>
+            <span> <strong>Durability and Maintenance:</strong> Choose materials that can withstand the high moisture levels in a bathroom.</span> <br/>
             <span> <strong>Style and aesthetics:</strong>  Ensure selected materials align with your design vision while being functional for a bathroom environment.</span>
         </>
     ),
@@ -66,7 +67,7 @@ const considerationAndLimitingData = [
     title: "Timeline",
     desc: (
         <>
-            <span> <strong>Project Duration:</strong> Understand that remodeling a bathroom can take anywhere from a few days to several weeks, depending on the extent of the work.</span>
+            <span> <strong>Project Duration:</strong> Understand that remodeling a bathroom can take anywhere from a few days to several weeks, depending on the extent of the work.</span> <br/>
             <span> <strong>Disruption:</strong> Consider how the remodel will impact your daily routine and plan accordingly.</span>
         </>
     ),
@@ -77,7 +78,7 @@ const considerationAndLimitingData = [
     title: "Aesthetic Preferences",
     desc: (
         <>
-            <span> <strong>Design Cohesion:</strong> Ensure that the bathroom design aligns with the overall aesthetic of your home. This includes color schemes, fixtures, and finishes.</span>
+            <span> <strong>Design Cohesion:</strong> Ensure that the bathroom design aligns with the overall aesthetic of your home. This includes color schemes, fixtures, and finishes.</span> <br/>
             <span> <strong>Trends vs. Timelessness:</strong> Balance current design trends with timeless features to avoid needing another remodel in a few years.</span>
         </>
     ),
@@ -98,7 +99,7 @@ const considerationAndLimitingData = [
     title: "Environmental factors",
     desc: (
         <>
-            <span> <strong>Energy Efficiency:</strong> Consider energy-efficient fixtures and appliances to reduce water and electricity consumption.</span>
+            <span> <strong>Energy Efficiency:</strong> Consider energy-efficient fixtures and appliances to reduce water and electricity consumption.</span> <br/>
             <span> <strong>Sustainable Materials:</strong> Explore eco-friendly materials and practices to minimize the environmental impact of your remodel.</span>
         </>
     ),
@@ -111,7 +112,7 @@ const ConsiderationAndLimiting = () => {
     <div>
       <div className="container padding__top">
         <div className="flex flex-col items-center justify-center">
-          <HeadingIcon
+          <NewHeadingCenterIcon
             text={headingIconText.considerationAndLimiting__headingIconText}
           />
           <h2 className="font-family-secondary text-[25px] md:text-[26px] lg:text-[29px] xl:text-[32px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[41px] 5xl:text-[44px] font-bold text-secondary leading-normal text-center pt-[10px] pb-[5px]">
@@ -136,10 +137,10 @@ const ConsiderationAndLimiting = () => {
                   height={104}
                   className="absolute left-0 right-0 -top-14 w-[104px] h-[104px] mx-auto border-[2px] border-primary p-[5px] rounded-full bg-secondary-400"
                 />
-                <p className="font-family-secondary text-[25px] font-bold text-center text-black pt-[65px]">
+                <p className="font-family-secondary text-[20px] xl:text-[21px] 2xl:text-[22px] 3xl:text-[23px] 4xl:text-[24px] 5xl:text-[25px] font-bold text-center text-black pt-[65px]">
                   {data.title}
                 </p>
-                <p className="font-family-secondary text-lg font-normal text-center pt-[5px]">
+                <p className="font-family-secondary text-base 4xl:text-[17px] text-lg font-normal text-center pt-[5px]">
                   {data.desc}
                 </p>
               </div>
