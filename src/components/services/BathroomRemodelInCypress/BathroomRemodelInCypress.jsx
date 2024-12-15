@@ -4,10 +4,6 @@ import BathroomRemodelInCypressBanner from './BathroomRemodelInCypressBanner/Bat
 import Brand from '@/components/__shared_one_time/FlooringInstallation/Brand/Brand';
 import AboutUs from './AboutUs/AboutUs';
 import Contractors from './Contractors/Contractors';
-import Location from '@/components/__shared_one_time/FlooringInstallation/Location/Location';
-import ContactUs from '@/components/__shared_one_time/FlooringInstallation/ContactUs/ContactUs';
-import OurServiceAreas from '@/components/__shared_one_time/FlooringInstallation/OurServiceAreas/OurServiceAreas';
-import Review from '@/components/__shared_one_time/FlooringInstallation/Review/Review';
 import { titleHeadingTexts } from '@/utils/title-heading-text';
 import WhyChoose from './WhyChoose/WhyChoose';
 import Faq from './Faq/Faq';
@@ -21,6 +17,10 @@ import Services from './Services/Services';
 import ConsiderationAndLimiting from './ConsiderationAndLimiting/ConsiderationAndLimiting';
 import Gallery from './Gallery/Gallery';
 import Cost from './Cost/Cost';
+import Review from '@/components/__shared_one_time/HomePage/OnlyHomePage/Review/Review';
+import ServicesArea from '@/components/__shared_one_time/HomePage/OnlyHomePage/ServicesArea/ServicesArea';
+import Location from '@/components/__shared_one_time/HomePage/OnlyHomePage/Location/Location';
+import ContactUs from '@/components/__shared_one_time/HomePage/OnlyHomePage/ContactUs/ContactUs';
 
 const BathroomRemodelInCypress = () => {
     return (
@@ -70,7 +70,7 @@ const BathroomRemodelInCypress = () => {
             </section>
             
             <section>
-                <Review titleHeading={ titleHeadingTexts.bathroomRemodelReviewText} />
+                <Review />
             </section>
 
             <section>
@@ -94,11 +94,11 @@ const BathroomRemodelInCypress = () => {
             </section>
 
             <section>
-                <OurServiceAreas />
+                <ServicesArea />
             </section>
 
             <section>
-                <ContactUs contactUsTitle={titleHeadingTexts.bathroomRemodelContactUsText}/>
+                <ContactUs />
             </section>
 
             <section>
