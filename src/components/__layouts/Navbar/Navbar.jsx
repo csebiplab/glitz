@@ -15,6 +15,7 @@ import "./Navbar.css";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [hoverServices, setHoverServices] = useState(true);
+  const [isServiceClick, setIsServiceClick] = useState(false);
 
   return (
     <div className="sticky top-0 z-50">
@@ -22,8 +23,9 @@ const Navbar = () => {
       <div className="bg-secondary-800 py-1">
         <nav className="container">
           <div className="flex items-center justify-between gap-[100px] md:gap-[101px] lg:gap-[111px] xl:gap-[121px] 2xl:gap-[131px] 3xl:gap-[141px] 4xl:gap-[151px] 5xl:gap-[161px]">
+            {/* large device  */}
             {/* Left side: Logo */}
-            <div className="w-1/5 text-white text-lg font-bold">
+            <div className="w-1/5 hidden lg:block text-white text-lg font-bold">
               <Link href="/" aria-label="Home">
                 <Image
                   src="/assets/glitz/newHomePage/nav/nav__logo__glitz.png"
@@ -147,69 +149,143 @@ const Navbar = () => {
               </div>
             </div>
 
-            {/* Small Device Menu Icon */}
-            <div className="xl:hidden flex items-center">
-              <button
-                onClick={() => setIsOpen(!isOpen)}
-                className="text-white focus:outline-none"
-              >
-                {isOpen ? (
-                  <FiX className="w-6 h-6 text-white" />
-                ) : (
-                  <FiMenu className="w-6 h-6 text-white" />
+            {/* Small Device */}
+            <div className="lg:hidden w-full flex justify-between items-center">
+              <div>
+                {!isOpen && (
+                  <Link href="/" aria-label="Home">
+                    <Image
+                      src="/assets/glitz/newHomePage/nav/nav__logo__glitz.png"
+                      alt="nav logo"
+                      width={258}
+                      height={166}
+                      className="w-full h-full"
+                    />
+                  </Link>
                 )}
-              </button>
+              </div>
+
+              <div>
+                <button
+                  onClick={() => setIsOpen(!isOpen)}
+                  className="text-white focus:outline-none"
+                >
+                  {isOpen ? (
+                    <FiX className="w-6 h-6 text-white" />
+                  ) : (
+                    <FiMenu className="w-6 h-6 text-white" />
+                  )}
+                </button>
+              </div>
             </div>
           </div>
 
           {/* Mobile Menu */}
           {isOpen && (
-            <div className="xl:hidden mt-4 space-y-6">
+            <div className="lg:hidden mt-4 space-y-2 pb-12">
+              <div className="mb-8">
+                <Image
+                  src="/assets/glitz/newHomePage/nav/nav__logo__glitz.png"
+                  alt="nav logo"
+                  width={142}
+                  height={91}
+                  className="w-full"
+                />
+              </div>
+
               <Link
                 href="/"
-                className="block text-base 2xl:text-lg font-normal text-white hover:text-primary py-2"
+                className="block text-base 2xl:text-lg font-normal bg-primary-50 rounded-[8px] pl-3 text-white hover:text-[#ffb300] py-2"
               >
                 Home
               </Link>
               <Link
                 href="/about"
-                className="block text-base 2xl:text-lg font-normal text-white hover:text-primary py-2"
+                className="block text-base 2xl:text-lg font-normal bg-primary-50 rounded-[8px] pl-3 text-white hover:text-[#ffb300] py-2"
               >
                 About
               </Link>
               <Link
                 href="/gallery"
-                className="block text-base 2xl:text-lg font-normal text-white hover:text-primary py-2"
+                className="block text-base 2xl:text-lg font-normal bg-primary-50 rounded-[8px] pl-3 text-white hover:text-[#ffb300] py-2"
               >
                 Gallery
               </Link>
               <Link
                 href="/kitchen-remodel-in-cypress"
-                className="block text-base 2xl:text-lg font-normal text-white hover:text-primary py-2"
+                className="block text-base 2xl:text-lg font-normal bg-primary-50 rounded-[8px] pl-3 text-white hover:text-[#ffb300] py-2"
               >
                 Kitchen Remodeling
               </Link>
               <Link
                 href="/bathroom-remodel-in-cypress-tx"
-                className="block text-base 2xl:text-lg font-normal text-white hover:text-primary py-2"
+                className="block text-base 2xl:text-lg font-normal bg-primary-50 rounded-[8px] pl-3 text-white hover:text-[#ffb300] py-2"
               >
                 Bathroom Remodeling
               </Link>
               <Link
                 href="#"
-                className="block text-base 2xl:text-lg font-normal flex items-center text-white hover:text-primary py-2"
-                onMouseEnter={() => setHoverServices(false)}
-                onMouseLeave={() => setHoverServices(true)}
+                onclick={() => setIsServiceClick(!isServiceClick)}
+                className="w-full flex justify-between items-center text-base 2xl:text-lg font-normal bg-primary-50 px-3 leading-normal text-white hover:text-[#ffb300] rounded-[8px] py-2"
               >
                 Our Services
-                {hoverServices ? <IoIosArrowDown /> : <IoIosArrowUp />}
+                {isServiceClick ? <IoIosArrowDown /> : <IoIosArrowUp />}
               </Link>
+              {isServiceClick && (
+                <div className="bg-primary-50 rounded-[8px] pb-2">
+                  <div className="border-y py-1">
+                    <Link
+                      className="text-[13px] 2xl:text-[14px] 3xl:text-[15px] 4xl:text-[16px] 5xl:text-[17px] font-bold leading-normal text-white pl-3"
+                      href="/flooring-installation"
+                    >
+                      Floor Installation
+                    </Link>
+                  </div>
+                  <div className="border-b py-1">
+                    <Link
+                      className="text-[13px] 2xl:text-[14px] 3xl:text-[15px] 4xl:text-[16px] 5xl:text-[17px] font-bold leading-normal text-white pl-3"
+                      href="/kitchen-remodel-in-cypress"
+                    >
+                      Kitchen Remodeling
+                    </Link>
+                  </div>
+                  <div className="border-b py-1" >
+                    <Link
+                      className="text-[13px] 2xl:text-[14px] 3xl:text-[15px] 4xl:text-[16px] 5xl:text-[17px] font-bold leading-normal text-white pl-3"
+                      href="/bathroom-remodel-in-cypress-tx"
+                    >
+                      Bathroom Remodeling
+                    </Link>
+                  </div>
+                  <div className="py-1">
+                    <Link
+                      className="text-[13px] 2xl:text-[14px] 3xl:text-[15px] 4xl:text-[16px] 5xl:text-[17px] font-bold leading-normal text-white pl-3"
+                      href="/vinyl-flooring-in-cypress-tx"
+                    >
+                      Vinyl Flooring
+                    </Link>
+                  </div>
+                </div>
+              )}
               <Link
                 href="/contact-us"
-                className="block text-base 2xl:text-lg font-normal text-white hover:text-primary py-2"
+                className="block text-base 2xl:text-lg font-normal bg-primary-50 rounded-[8px] pl-3 text-white hover:text-[#ffb300] py-2"
               >
                 Contact Us
               </Link>
+              <div className="mt-12">
+                <button className="flex items-center gap-[8px] 5xl:gap-[12px]">
+                  <div className="bg-primary-50 p-2 rounded-lg">
+                    <LuPhoneCall className="w-[18px] h-[18px] text-white" />
+                  </div>
+                  <Link
+                    className="font-family-primary text-lg font-bold text-white leading-normal"
+                    href="tel:(346) 445-6343"
+                  >
+                    (346) 445-6343
+                  </Link>
+                </button>
+              </div>
             </div>
           )}
         </nav>
