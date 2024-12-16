@@ -104,13 +104,13 @@ const WhyChoose = () => {
               </div>
 
               <div>
-                <h2 className="font-family-secondary text-[25px] md:text-[26px] lg:text-[29px] xl:text-[32px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[41px] 5xl:text-[44px] font-bold text-secondary leading-normal py-[5px] text-center xl:text-left">
+                <h2 className="text-[25px] md:text-[27px] lg:text-[30px] xl:text-[33px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[40px] 5xl:tex-[42px] font-bold text-black leading-tight 5xl:leading-normal mb-[10px] text-center md:text-left">
                   Why Choose Our Bathroom Remodelers
                 </h2>
               </div>
 
               <div>
-                <p className="font-family-secondary text-lg font-normal md:text-start text-center text-secondary-50">
+                <p className="text-base 5xl:text-lg text-secondary-50 font-normal text-center md:text-left leading-[26px] lg:leading-[26px] xl:leading-[28px] 2xl:leading-[30px] 3xl:leading-[32px] 4xl:leading-[34px] 5xl:leading-[36px]">
                   Our best bathroom remodelers are dedicated professionals who
                   combine expertise, creativity, and a customer-centric approach
                   to transform your space. We bring years of experience and a

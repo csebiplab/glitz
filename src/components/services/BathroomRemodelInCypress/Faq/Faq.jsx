@@ -152,10 +152,10 @@ const Faq = () => {
           <NewHeadingCenterIcon text={headingIconText.faq__headingIconText} />
 
           <div>
-            <h2 className="font-family-secondary text-[25px] md:text-[26px] lg:text-[29px] xl:text-[32px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[41px] 5xl:text-[44px] font-bold text-secondary leading-normal text-center">
+            <h2 className="text-[25px] md:text-[27px] lg:text-[30px] xl:text-[33px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[40px] 5xl:tex-[42px] font-bold text-black leading-tight 5xl:leading-normal mb-[10px] text-center">
             FAQ of Bathroom Remodeling Services
             </h2>
-            <p className="text-lg font-normal text-secondary-50 text-center leading-[40px]">If you have any more questions or need further information, please don't hesitate to contact Glitz Floors & More. We're excited to partner with you on your bathroom remodel and help you create the perfect space!</p>
+            <p className="text-base 5xl:text-lg text-secondary-50 font-normal text-center leading-[26px] lg:leading-[26px] xl:leading-[28px] 2xl:leading-[30px] 3xl:leading-[32px] 4xl:leading-[34px] 5xl:leading-[36px]">If you have any more questions or need further information, please don't hesitate to contact Glitz Floors & More. We're excited to partner with you on your bathroom remodel and help you create the perfect space!</p>
           </div>
         </div>
       </div>
