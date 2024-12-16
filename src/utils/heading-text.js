@@ -51,13 +51,13 @@ export const headingIconText = {
 
   // Kitchen Remodel in Cypress page
   aboutUs__headingIconText: "About Us",
-  experiencedAndWellEquipped__headingIconText: "Experienced and Well-Equipped",
+  experiencedAndWellEquipped__headingIconText: "Experienced & Well-Equipped",
   elevating__headingIconText: "Elevating",
-  trust__headingIconText: "Trust",
+  expertContractors__headingIconText: "Expert Contractors ",
   professional__headingIconText: "Professional",
   doesAndDoNot__headingIconText: "Do's & Don't",
   gallery__headingIconText: "Gallery",
-  services__headingIconText: "Services",
+  comprehensive__headingIconText: "Comprehensive",
   outdoorKitchen__headingIconText: "Outdoor Kitchen",
   innovative__headingIconText: "Innovative",
   cost__headingIconText: "Cost",

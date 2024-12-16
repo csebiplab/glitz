@@ -1,7 +1,7 @@
 import React from "react";
-import HeadingIcon from "@/components/__ui/HeadingIcon";
 import { headingIconText } from "@/utils/heading-text";
 import Image from "next/image";
+import NewHeadingCenterIcon from "@/components/__ui/NewHeadingCenterIcon";
 
 const servicesData = [
   {
@@ -95,11 +95,11 @@ const Services = () => {
     <div>
       <div className="container padding__top">
         <div className="flex flex-col items-center justify-center">
-          <HeadingIcon text={headingIconText.services__headingIconText} />
-          <h2 className="font-family-secondary text-[25px] md:text-[26px] lg:text-[29px] xl:text-[32px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[41px] 5xl:text-[44px] font-bold text-secondary leading-normal text-center pt-[10px]">
+          <NewHeadingCenterIcon text={headingIconText.comprehensive__headingIconText} />
+          <h2 className="text-[25px] md:text-[27px] lg:text-[30px] xl:text-[33px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[40px] 5xl:tex-[42px] font-bold text-secondary leading-tight 5xl:leading-normal mb-[10px] text-center">
           Comprehensive Kitchen Remodeling Services
           </h2>
-          <p className="font-family-secondary text-lg font-normal text-center text-secondary">
+          <p className="text-base 5xl:text-lg text-secondary-50 font-normal text-center leading-[26px] lg:leading-[26px] xl:leading-[28px] 2xl:leading-[30px] 3xl:leading-[32px] 4xl:leading-[34px] 5xl:leading-[36px]">
           At Glitz Floors & More, we offer a wide array of comprehensive kitchen remodeling services to meet all your needs. Our services include:  With our extensive range of services, Glitz Floors & More is dedicated to making your kitchen remodel a seamless and rewarding experience. Let us help you create a beautiful, functional space that reflects your style and meets your needs!
           </p>
         </div>
@@ -114,10 +114,10 @@ const Services = () => {
                   height={129}
                   className="w-[129px] h-[129px] mx-auto"
                 />
-                <p className="font-family-secondary text-[22px] 5xl:text-[25px] font-bold text-secondary text-center leading-9 pt-[12px] pb-[5px]">
+                <p className="font-family-secondary text-[20px] xl:text-[21px] 2xl:text-[22px] 3xl:text-[23px] 4xl:text-[24px] 5xl:text-[25px] font-bold text-secondary text-center leading-9 pt-[12px] pb-[5px]">
                   {data.title}
                 </p>
-                <p className="font-family-secondary text-lg font-light text-black text-center pb-[25px]">
+                <p className="font-family-secondary text-base 5xl:text-lg font-light text-black text-center pb-[25px]">
                   {data.desc}
                 </p>
                 <div className="absolute bottom-0 w-full h-[2px] bg-secondary-300" />

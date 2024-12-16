@@ -1,8 +1,8 @@
-import HeadingIcon from "@/components/__ui/HeadingIcon";
 import { headingIconText } from "@/utils/heading-text";
 import React from "react";
 import Image from "next/image";
 import "./Innovative.css";
+import NewHeadingCenterIcon from "@/components/__ui/NewHeadingCenterIcon";
 
 const considerationAndLimitingData = [
   {
@@ -85,13 +85,13 @@ const Innovative = () => {
     <div>
       <div className="container padding__top">
         <div className="flex flex-col items-center justify-center">
-          <HeadingIcon
+          <NewHeadingCenterIcon
             text={headingIconText.innovative__headingIconText}
           />
-          <h2 className="font-family-secondary text-[25px] md:text-[26px] lg:text-[29px] xl:text-[32px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[41px] 5xl:text-[44px] font-bold text-secondary leading-normal text-center pt-[10px] pb-[5px]">
+          <h2 className="text-[25px] md:text-[27px] lg:text-[30px] xl:text-[33px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[40px] 5xl:tex-[42px] font-bold text-secondary leading-tight 5xl:leading-normal mb-[10px] text-center">
           Innovative Ideas for Your Kitchen Renovation
           </h2>
-          <p className="font-family-secondary text-lg font-normal text-center text-secondary">
+          <p className="text-base 5xl:text-lg text-secondary-50 font-normal text-center leading-[26px] lg:leading-[26px] xl:leading-[28px] 2xl:leading-[30px] 3xl:leading-[32px] 4xl:leading-[34px] 5xl:leading-[36px]">
           These innovative ideas can help you create a kitchen that not only meets your functional needs but also reflects your personal style. At Glitz Floors & More, we're here to bring your vision to life!
           </p>
         </div>
@@ -110,10 +110,10 @@ const Innovative = () => {
                   height={104}
                   className="absolute left-0 right-0 -top-14 w-[104px] h-[104px] mx-auto border-[2px] border-primary p-[5px] rounded-full bg-secondary-400"
                 />
-                <p className="font-family-secondary text-[25px] font-bold text-center text-black pt-[65px]">
+                <p className="font-family-secondary text-[20px] xl:text-[21px] 2xl:text-[22px] 3xl:text-[23px] 4xl:text-[24px] 5xl:text-[25px] font-bold text-center text-black pt-[65px]">
                   {data.title}
                 </p>
-                <p className="font-family-secondary text-lg font-normal text-center pt-[5px]">
+                <p className="font-family-secondary text-base 5xl:text-lg font-normal text-center pt-[5px]">
                   {data.desc}
                 </p>
               </div>
