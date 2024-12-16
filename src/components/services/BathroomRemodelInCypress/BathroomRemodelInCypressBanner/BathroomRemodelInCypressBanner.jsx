@@ -40,11 +40,11 @@ const BathroomRemodelInCypressBanner = () => {
       <div className="small__banner__bg container py-[55px] ">
           <div className=" h-full flex flex-col items-start justify-center">
             <h1 className="font-family-secondary text-[30px] font-extrabold italic text-white leading-normal">
-              Refresh Your Home <br />
-              This Summer
+            Bathroom Remodel <br/>
+            in Cypress, TX
             </h1>
             <p className="font-family-primary text-lg font-normal text-white leading-[35px]">
-              Flooring & Remodeling Services in Cypress, TX
+            Glitz Floors & More offers premier bathroom <br/> remodel in Cypress, TX, for modern <br/> elegance and comfort.
             </p>
             <div className="mt-[35px]">
               <button className="btn_bg flex items-center gap-[17px] py-[14px] pl-[31px] pr-[9px] text-base font-bold text-white leading-[21px]">

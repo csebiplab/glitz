@@ -48,12 +48,7 @@ const howWeDesginData = [
     id: 9,
     title: "Modern Technology Integration",
     desc: "Incorporate smart home features, such as automated lighting and digital faucets, for added convenience and luxury.",
-  },
-  {
-    id: 10,
-    title: "Personal Enjoyment",
-    desc: "Ultimately, a remodeled bathroom provides a more enjoyable and relaxing space for your daily routine, enhancing your overall quality.",
-  },
+  }
 ];
 
 const Benefits = () => {
@@ -66,10 +61,10 @@ const Benefits = () => {
           />
         </div>
         <div className="">
-          <h2 className="text-[25px] md:text-[27px] lg:text-[30px] xl:text-[33px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[40px] 5xl:tex-[42px] font-bold text-black leading-tight 5xl:leading-normal mb-[10px] text-center">
-            Benefits of Bathroom Remodeling With Our Company
+          <h2 className="text-[25px] md:text-[27px] lg:text-[30px] xl:text-[33px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[40px] 5xl:tex-[42px] font-bold text-secondary leading-tight 5xl:leading-normal mb-[10px] text-center">
+            Benefits of Bathroom <br className="block md:hidden"/> Remodeling With Our <br className="block md:hidden"/> Company
           </h2>
-          <p className="text-base 5xl:text-lg text-black font-normal leading-[26px] lg:leading-[26px] xl:leading-[28px] 2xl:leading-[30px] 3xl:leading-[32px] 4xl:leading-[34px] 5xl:leading-[36px] text-center">
+          <p className="text-base 5xl:text-lg text-secondary-50 font-normal text-center leading-[26px] lg:leading-[26px] xl:leading-[28px] 2xl:leading-[30px] 3xl:leading-[32px] 4xl:leading-[34px] 5xl:leading-[36px]">
             Choosing Glitz Floors & More for your bathroom remodel comes with
             numerous benefits that ensure a smooth and satisfying
             experience:Experience the benefits of a bathroom remodel with Glitz
@@ -93,6 +88,19 @@ const Benefits = () => {
               </div>
             );
           })}
+        </div>
+        {/* single cart  */}
+        <div className="w-full flex items-center justify-center mt-[15px]">
+          <div className="w-full lg:w-1/3 how_we_cart___bg pt-[14px] pb-[21px] px-2">
+            <p className="text-[20px] xl:text-[21px] 2xl:text-[22px] 3xl:text-[23px] 4xl:text-[24px] 5xl:text-[25px] text-center font-bold text-black leading-normal">
+              Personal Enjoyment
+            </p>
+            <p className="text-base 4xl:text-[17px] text-lg font-normal text-black leading-[30px] 5xl:leading-[35px] text-center">
+              Ultimately, a remodeled bathroom provides a more enjoyable and
+              relaxing space for your daily routine, enhancing your overall
+              quality.
+            </p>
+          </div>
         </div>
       </div>
     </div>

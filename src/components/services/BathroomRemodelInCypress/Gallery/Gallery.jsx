@@ -45,8 +45,8 @@ const Gallery = () => {
     <div className="container padding__top">
       <div className="flex flex-col items-center justify-center">
         <NewHeadingCenterIcon text={headingIconText.gallery__headingIconText} />
-        <h2 className="font-family-secondary text-[25px] md:text-[26px] lg:text-[29px] xl:text-[32px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[41px] 5xl:text-[44px] font-bold text-secondary leading-normal text-center pt-[10px] pb-[25px]">
-          Gallery Of Bathroom Remodel in Cypress, TX
+        <h2 className="text-[25px] md:text-[27px] lg:text-[30px] xl:text-[33px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[40px] 5xl:tex-[42px] font-bold text-black leading-tight 5xl:leading-normal mb-[25px] text-center">
+          Gallery Of Bathroom Remodel <br className="block md:hidden"/> in Cypress, TX
         </h2>
       </div>
       {/* gallery image */}
@@ -77,7 +77,7 @@ const Gallery = () => {
                   alt="hero small image"
                   className="w-[615px] h-[350px] 2xl:h-[440px] rounded-t-[16px]"
                 />
-                <p className="rounded-b-[16px] bg-[#905C4C] py-[12px] 5xl:py-[16px] text-center text-white text-[25px] font-bold leading-normal">Before</p>
+                <p className="rounded-b-[16px] bg-[#905C4C] py-[12px] 5xl:py-[16px] text-center text-white  text-[20px] xl:text-[21px] 2xl:text-[22px] 3xl:text-[23px] 4xl:text-[24px] 5xl:text-[25px] font-bold leading-normal">Before</p>
               </SwiperSlide>
             ))}
           </Swiper>
@@ -105,7 +105,7 @@ const Gallery = () => {
           >
             {galleryData2.map((img, index) => (
               <SwiperSlide key={index} className="!w-full !h-auto !md:h-full">
-                <p className="rounded-t-[16px] bg-[#905C4C] py-[12px] 5xl:py-[16px] text-center text-white text-[25px] font-bold leading-normal">After</p>
+                <p className="rounded-t-[16px] bg-[#905C4C] py-[12px] 5xl:py-[16px] text-center text-white text-[20px] xl:text-[21px] 2xl:text-[22px] 3xl:text-[23px] 4xl:text-[24px] 5xl:text-[25px] font-bold leading-normal">After</p>
                 <Image
                   width={615}
                   height={440}

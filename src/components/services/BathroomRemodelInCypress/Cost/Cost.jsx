@@ -78,19 +78,19 @@ const TABLE_ROWS = [
     title : "Additional Costs to Consider",
     vinyl: (
       <>
-        <span className="font-bold">Labor costs</span>
+        <span className="font-bold">Labor costs</span> <br/>
         <span>Labor costs typically account for <strong>20- <br/> 30%</strong> of the total bath remodeling <br/> budget. Hiring licensed contractors can <br/> ensure quality work but may increase <br/> overall costs.</span>
       </>
     ),
     fiberglass: (
       <>
-        <span className="font-bold">Permits and Inspections</span>
+        <span className="font-bold">Permits and Inspections</span> <br/>
         <span>Depending on the scope of the <br/> remodel, you may need permits, which <br/> can range from <strong>$100 to $500.</strong></span>
       </>
     ),
     concrete: (
       <>
-        <span className="font-bold">Unexpected Repairs</span>
+        <span className="font-bold">Unexpected Repairs</span> <br/>
         <span>Budget for potential issues that may <br/> arise during the remodel, such as <br/> plumbing or electrical upgrades, which <br/> can add <strong>$1,000</strong> or more.</span>
       </>
     )
@@ -106,14 +106,14 @@ const Cost = () => {
           <NewHeadingCenterIcon
             text={headingIconText.cost__headingIconText}
           />
-          <h2 className="text-[25px] md:text-[27px] lg:text-[29px] xl:text-[32px] 2xl:text-[34px] 3xl:text-[36px] 4xl:text-[38px] 5xl:tex-[40px] font-bold text-black text-center leading-normal pt-[5px]">
+          <h2 className="text-[25px] md:text-[27px] lg:text-[30px] xl:text-[33px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[40px] 5xl:tex-[42px] font-bold text-black leading-tight 5xl:leading-normal mb-[10px] text-center">
           Cost for Bathroom Remodel Cypress TX
           </h2>
-          <p className="text-lg font-normal text-black pt-[10px] text-center pb-[15px]">
+          <p className="text-base 5xl:text-lg text-secondary-50 font-normal text-center leading-[26px] lg:leading-[26px] xl:leading-[28px] 2xl:leading-[30px] 3xl:leading-[32px] 4xl:leading-[34px] 5xl:leading-[36px]">
           When planning a bathroom remodel in Cypress, TX, it's essential to consider various factors that can influence the overall cost. Below is a general cost comparison based on different aspects of a typical bathroom remodel:
           </p>
         </div>
-      <Card className="h-full w-full overflow-scroll">
+      <Card className="h-full w-full overflow-scroll mt-[20px] 5xl:mt-[25px]">
         <table className="w-full min-w-max table-auto text-left">
           <thead>
             <tr>
@@ -122,9 +122,9 @@ const Cost = () => {
                   <Typography
                     variant="small"
                     color="blue-gray"
-                    className="leading-none text-lg font-bold text-black "
+                    className="leading-none text-lg font-bold text-secondary "
                   >
-                    <span className="text-[20px] font-bold text-black text-center">{head}</span>
+                    <span className="text-lg font-bold text-secondary text-center">{head}</span>
                   </Typography>
                 </th>
               ))}

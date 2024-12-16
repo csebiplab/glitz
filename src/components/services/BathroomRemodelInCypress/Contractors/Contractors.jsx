@@ -17,9 +17,9 @@ const Contractors = () => {
                             <NewHeadingIcon text={headingIconText.contractors__headingIconText}/>
                         </div>
                         <div>
-                            <h2 className='font-family-secondary text-[25px] md:text-[27px] lg:text-[29px] xl:text-[32px] 2xl:text-[35px] 3xl:text-[37px] 4xl:text-[40px]  5xl:text-[42px] font-bold text-secondary leading-[50px] pb-[10px] text-center xl:text-left'>Cypress
+                            <h2 className='text-[25px] md:text-[27px] lg:text-[30px] xl:text-[33px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[40px] 5xl:tex-[42px] font-bold text-secondary leading-tight 5xl:leading-normal mb-[10px] text-center md:text-left'>Cypress
                             Bathroom Remodeling Contractors</h2>
-                            <p className='font-family-secondary text-lg font-normal text-secondary-50 leading-[40px] text-center xl:text-left'>Our Cypress bathroom remodeling contractors are dedicated to delivering exceptional results on every project. We start with a thorough consultation to understand your preferences and requirements, ensuring that the final design reflects your unique taste.
+                            <p className='text-base 5xl:text-lg text-secondary-50 font-normal text-center md:text-left leading-[26px] lg:leading-[26px] xl:leading-[28px] 2xl:leading-[30px] 3xl:leading-[32px] 4xl:leading-[34px] 5xl:leading-[36px]'>Our Cypress bathroom remodeling contractors are dedicated to delivering exceptional results on every project. We start with a thorough consultation to understand your preferences and requirements, ensuring that the final design reflects your unique taste.
                             We pride ourselves on our attention to detail, using only the finest materials and innovative techniques to ensure a durable and stylish finish. Whether you're looking to update fixtures, expand your space, or create a complete makeover, we have the expertise to handle projects of any size. At Glitz Floors & More, we also prioritize clear communication and transparency throughout the remodeling process. Our team will keep you informed at every stage, from planning and design to construction and finishing touches.</p>
                         </div>
                     </div>

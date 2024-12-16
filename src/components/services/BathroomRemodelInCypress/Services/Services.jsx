@@ -63,10 +63,10 @@ const Services = () => {
           <NewHeadingCenterIcon
             text={headingIconText.servicesIncluded__headingIconText}
           />
-          <h2 className="font-family-secondary text-[25px] md:text-[26px] lg:text-[29px] xl:text-[32px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[41px] 5xl:text-[44px] font-bold text-secondary leading-normal text-center pb-[5px]">
+          <h2 className="text-[25px] md:text-[27px] lg:text-[30px] xl:text-[33px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[40px] 5xl:tex-[42px] font-bold text-black leading-tight 5xl:leading-normal mb-[10px] text-center">
           Our Bathroom Remodeling Services Included
           </h2>
-          <p className="font-family-secondary text-lg font-normal text-center text-secondary">
+          <p className="text-base 5xl:text-lg text-secondary-50 font-normal text-center leading-[26px] lg:leading-[26px] xl:leading-[28px] 2xl:leading-[30px] 3xl:leading-[32px] 4xl:leading-[34px] 5xl:leading-[36px]">
           Transform your bathroom into a beautiful, functional space with Glitz Floors & More's expert remodeling services. Our team handles every detail, from design consultation to final touches, ensuring a seamless experience from start to finish.
           </p>
         </div>
@@ -75,9 +75,9 @@ const Services = () => {
                 servicesData?.map((data)=>{
                     return <div key={data.id} className="">
                         <Image className="rounded-t-[16px]" src={data.img} alt="services image" width={660} height={335}/>
-                        <div className="servicesCart___bg py-[16px] px-[8px] h-auto md:h-[720px] 2xl:h-[600px]">
-                        <h3 className="text-[22px] 5xl:text-[25px] text-center font-bold text-black leading-normal">{data.title}</h3>
-                        <p className="text-lg font-normal text-black leading-[35px] text-center">{data.desc}</p>
+                        <div className="servicesCart___bg py-[16px] px-[8px] h-auto md:h-[520px]">
+                        <h3 className="text-[20px] xl:text-[21px] 2xl:text-[22px] 3xl:text-[23px] 4xl:text-[24px] 5xl:text-[25px] text-center font-bold text-black leading-normal">{data.title}</h3>
+                        <p className="text-base 5xl:text-lg font-normal text-black leading-[30px] 5xl:leading-[35px] text-center">{data.desc}</p>
                         </div>
                         
                     </div>

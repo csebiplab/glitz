@@ -115,10 +115,10 @@ const ConsiderationAndLimiting = () => {
           <NewHeadingCenterIcon
             text={headingIconText.considerationAndLimiting__headingIconText}
           />
-          <h2 className="font-family-secondary text-[25px] md:text-[26px] lg:text-[29px] xl:text-[32px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[41px] 5xl:text-[44px] font-bold text-secondary leading-normal text-center pt-[10px] pb-[5px]">
-          Consideration and Limiting Factors for Bathroom Remodel
+          <h2 className="text-[25px] md:text-[27px] lg:text-[30px] xl:text-[33px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[40px] 5xl:tex-[42px] font-bold text-black leading-tight 5xl:leading-normal mb-[10px] text-center">
+          Consideration and Limiting <br className="block md:hidden"/> Factors for Bathroom <br className="block md:hidden"/> Remodel
           </h2>
-          <p className="font-family-secondary text-lg font-normal text-center text-secondary">
+          <p className="text-base 5xl:text-lg text-secondary-50 font-normal text-center leading-[26px] lg:leading-[26px] xl:leading-[28px] 2xl:leading-[30px] 3xl:leading-[32px] 4xl:leading-[34px] 5xl:leading-[36px]">
           When planning a bathroom remodel, it's crucial to consider several factors that can influence the design, budget, and overall outcome of the project. Here are key considerations and potential limiting factors to keep in mind: By thoughtfully considering these factors and potential limitations, you can create a more effective plan for your bathroom remodel, ensuring it meets your needs and preferences while staying within budget and timeline constraints. Proper planning will lead to a successful transformation that enhances the functionality and aesthetics of your space.
           </p>
         </div>
@@ -140,7 +140,7 @@ const ConsiderationAndLimiting = () => {
                 <p className="font-family-secondary text-[20px] xl:text-[21px] 2xl:text-[22px] 3xl:text-[23px] 4xl:text-[24px] 5xl:text-[25px] font-bold text-center text-black pt-[65px]">
                   {data.title}
                 </p>
-                <p className="font-family-secondary text-base 4xl:text-[17px] text-lg font-normal text-center pt-[5px]">
+                <p className="font-family-secondary text-base 4xl:text-[17px] 5xl:text-lg font-normal text-center pt-[5px]">
                   {data.desc}
                 </p>
               </div>
