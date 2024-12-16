@@ -4,8 +4,8 @@ import "./Cost.css";
 import Image from "next/image";
 
 import { Card, Typography } from "@material-tailwind/react";
-import HeadingIcon from "@/components/__ui/HeadingIcon";
 import { headingIconText } from "@/utils/heading-text";
+import NewHeadingCenterIcon from "@/components/__ui/NewHeadingCenterIcon";
 
 const TABLE_HEAD = ["Services", "Budget with Information"];
 
@@ -136,13 +136,13 @@ Vinyl: <strong>$1 to $7</strong> per square foot
 
 const Cost = () => {
   return (
-    <div className="container padding__top swimmingPoolContractor__bg">
+    <div className="container">
       <div className="flex flex-col items-center justify-center">
-        <HeadingIcon text={headingIconText.cost__headingIconText} />
-        <h2 className="text-[25px] md:text-[27px] lg:text-[29px] xl:text-[32px] 2xl:text-[34px] 3xl:text-[36px] 4xl:text-[38px] 5xl:tex-[40px] font-bold text-black text-center leading-normal pt-[5px]">
+        <NewHeadingCenterIcon text={headingIconText.cost__headingIconText} />
+        <h2 className="text-[25px] md:text-[27px] lg:text-[30px] xl:text-[33px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[40px] 5xl:tex-[42px] font-bold text-secondary leading-tight 5xl:leading-normal mb-[10px] text-center">
           Cost Ideas for Kitchen Remodeling Cypress TX
         </h2>
-        <p className="text-lg font-normal text-black pt-[10px] text-center pb-[15px]">
+        <p className="text-base 5xl:text-lg text-secondary-50 font-normal text-center leading-[26px] lg:leading-[26px] xl:leading-[28px] 2xl:leading-[30px] 3xl:leading-[32px] 4xl:leading-[34px] 5xl:leading-[36px]">
           When planning a kitchen remodel in Cypress, TX, it's essential to have
           a clear understanding of potential costs. Here's a breakdown of
           factors to consider that can help you budget effectively: By carefully
@@ -153,7 +153,7 @@ const Cost = () => {
           budget!
         </p>
       </div>
-      <Card className="h-full w-full overflow-scroll">
+      <Card className="h-full w-full overflow-scroll mt-[20px] 5xl:mt-[25px]">
         <table className="w-full min-w-max table-auto text-left">
           <thead>
             <tr>
@@ -164,7 +164,7 @@ const Cost = () => {
                     color="blue-gray"
                     className="leading-none text-lg font-bold text-black "
                   >
-                    <span className="text-[20px] font-bold text-black text-center">
+                    <span className="text-[20px] xl:text-[21px] 2xl:text-[22px] 3xl:text-[23px] 4xl:text-[24px] 5xl:text-[25px] font-bold text-black text-center">
                       {head}
                     </span>
                   </Typography>
@@ -189,16 +189,14 @@ const Cost = () => {
                       color="blue-gray"
                       className="font-bold"
                     >
-                      <span className="text-center pt-[10px] text-lg font-bold text-black">
+                      <span className="text-center pt-[10px] text-base 5xl:text-lg font-bold text-black">
                         {title}
                       </span>
                     </Typography>
                   </td>
                   <td className="py-[4px] px-[17px] cart__bg">
                     <div
-                      className={`text-base 5xl:text-lg font-normal text-black ${
-                        id === 2 ? "text-left" : "text-center"
-                      }`}
+                      className={`text-base 5xl:text-lg font-normal text-black text-center`}
                     >
                       {desc}
                     </div>

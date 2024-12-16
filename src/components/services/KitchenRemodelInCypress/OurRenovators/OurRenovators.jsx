@@ -1,7 +1,7 @@
 import React from "react";
-import HeadingIcon from "@/components/__ui/HeadingIcon";
 import { headingIconText } from "@/utils/heading-text";
 import "./OurRenovators.css";
+import NewHeadingCenterIcon from "@/components/__ui/NewHeadingCenterIcon";
 
 const ourRenovatorData1 = [
     {
@@ -63,27 +63,27 @@ const OurRenovators = () => {
     <div>
       <div className="container padding__top">
         <div className="flex flex-col items-center justify-center">
-          <HeadingIcon
+          <NewHeadingCenterIcon
             text={headingIconText.doesAndDoNot__headingIconText}
           />
-          <h2 className="font-family-secondary text-[25px] md:text-[26px] lg:text-[29px] xl:text-[32px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[41px] 5xl:text-[44px] font-bold text-secondary leading-normal text-center pb-[5px]">
+          <h2 className="text-[25px] md:text-[27px] lg:text-[30px] xl:text-[33px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[40px] 5xl:tex-[42px] font-bold text-secondary leading-tight 5xl:leading-normal mb-[10px] text-center">
           Our Renovators Do's and Don't
           </h2>
-          <p className="font-family-secondary text-lg font-normal text-center text-secondary">
+          <p className="text-base 5xl:text-lg text-secondary-50 font-normal text-center leading-[26px] lg:leading-[26px] xl:leading-[28px] 2xl:leading-[30px] 3xl:leading-[32px] 4xl:leading-[34px] 5xl:leading-[36px]">
           By following these dos and don'ts, you can help ensure a smoother and more successful renovation experience with our team at Glitz Floors & More!
           </p>
         </div>
 
         {/* Our Renovators Do's part  */}
         <div className="flex justify-center items-center my-[25px]">
-            <buttton className="text-[22px] 5xl:text-[25px] font-bold leading-normal text-white text-center bg-primary rounded-[50px] py-[14px] 5xl:py-[17px] px-[50px] lg:px-[140px] 5xl:px-[170px]">Our Renovators Do's</buttton>
+            <buttton className="text-[20px] xl:text-[21px] 2xl:text-[22px] 3xl:text-[23px] 4xl:text-[24px] 5xl:text-[25px] font-bold leading-normal text-white text-center bg-primary rounded-[50px] py-[12px] 5xl:py-[17px] px-[50px] lg:px-[140px] 5xl:px-[170px]">Our Renovators Do's</buttton>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-[15px]">
             {
                 ourRenovatorData1?.map((data)=>{
                     return <div key={data.id} className="how_we_cart___bg pt-[14px] pb-[21px] px-2">
-                        <p className="text-[22px] 5xl:text-[25px] text-center font-bold text-black leading-normal">{data.title}</p>
-                        <p className="text-lg font-normal text-black leading-[35px] text-center">{data.desc}</p>
+                        <p className="text-[20px] xl:text-[21px] 2xl:text-[22px] 3xl:text-[23px] 4xl:text-[24px] 5xl:text-[25px] text-center font-bold text-black leading-normal">{data.title}</p>
+                        <p className="text-base 5xl:text-lg font-normal text-black leading-[30px] 5xl:leading-[35px] text-center">{data.desc}</p>
                     </div>
                 })
             }
@@ -91,14 +91,14 @@ const OurRenovators = () => {
 
         {/* Our Renovators Don’ts part  */}
         <div className="flex justify-center items-center my-[25px]">
-            <buttton className="text-[22px] 5xl:text-[25px] font-bold leading-normal text-white text-center bg-primary rounded-[50px] py-[14px] 5xl:py-[17px] px-[50px] lg:px-[140px] 5xl:px-[170px]">Our Renovators Don'ts</buttton>
+            <buttton className="text-[20px] xl:text-[21px] 2xl:text-[22px] 3xl:text-[23px] 4xl:text-[24px] 5xl:text-[25px] font-bold leading-normal text-white text-center bg-primary rounded-[50px] py-[12px] 5xl:py-[17px] px-[50px] lg:px-[140px] 5xl:px-[170px]">Our Renovators Don'ts</buttton>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-[15px]">
             {
                 ourRenovatorData2?.map((data)=>{
                     return <div key={data.id} className="how_we_cart___bg pt-[14px] pb-[21px] px-2">
-                        <p className="text-[22px] 5xl:text-[25px] text-center font-bold text-black leading-normal">{data.title}</p>
-                        <p className="text-lg font-normal text-black leading-[35px] text-center">{data.desc}</p>
+                        <p className="text-[20px] xl:text-[21px] 2xl:text-[22px] 3xl:text-[23px] 4xl:text-[24px] 5xl:text-[25px] text-center font-bold text-black leading-normal">{data.title}</p>
+                        <p className="text-base 5xl:text-lg font-normal text-black leading-[30px] 5xl:leading-[35px] text-center">{data.desc}</p>
                     </div>
                 })
             }

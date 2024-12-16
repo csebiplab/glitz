@@ -1,9 +1,9 @@
 "use client";
-import HeadingIcon from "@/components/__ui/HeadingIcon";
 import "./WhyChoose.css";
 
 import Image from "next/image";
 import { headingIconText } from "@/utils/heading-text";
+import NewHeadingIcon from "@/components/__ui/NewHeadingIcon";
 
 const usualPool = [
   {
@@ -98,19 +98,16 @@ const WhyChoose = () => {
           <div className=" grid md:grid-cols-3 2xl:gap-[40px] md:gap-[30px] ">
             <div className="mx-auto flex flex-col items-center justify-center">
               <div className="w-full flex md:justify-start justify-center md:items-start items-center">
-                <HeadingIcon
+                <NewHeadingIcon
                   text={headingIconText.whyChoose__headingIconText}
                 />
               </div>
 
               <div>
-                <h2 className="font-family-secondary text-[25px] md:text-[26px] lg:text-[29px] xl:text-[32px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[41px] 5xl:text-[44px] font-bold text-secondary leading-normal py-[5px] text-center xl:text-left">
-                Why Choose Us for Your Kitchen Makeover
+                <h2 className="text-[25px] md:text-[27px] lg:text-[30px] xl:text-[33px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[40px] 5xl:tex-[42px] font-bold text-secondary leading-tight 5xl:leading-normal mb-[10px] text-center md:text-left">
+                Why Choose Us <br/> for Your Kitchen <br/> Makeover
                 </h2>
-              </div>
-
-              <div>
-                <p className="font-family-secondary text-lg font-normal md:text-start text-center text-secondary-50">
+                <p className="text-base 5xl:text-lg font-normal text-black leading-[30px] 5xl:leading-[35px] text-center md:text-left">
                 Choosing Glitz Floors & More for your kitchen makeover means partnering with a team dedicated to transforming your space into the kitchen of your dreams. We bring extensive expertise and experience to every project, ensuring that your remodel is visually stunning, functional, and durable. Our designers take the time to understand your unique style and needs, creating customized solutions that reflect your vision while maximizing efficiency. 
                 </p>
               </div>

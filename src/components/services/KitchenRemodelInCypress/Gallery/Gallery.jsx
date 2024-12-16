@@ -1,6 +1,5 @@
 "use client";
 import React, { useState } from "react";
-import HeadingIcon from "@/components/__ui/HeadingIcon";
 import { headingIconText } from "@/utils/heading-text";
 import Image from "next/image";
 import "swiper/css";
@@ -8,6 +7,7 @@ import "swiper/css/autoplay";
 import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { SwiperNavButtons } from "./SwiperSliderButton";
+import NewHeadingCenterIcon from "@/components/__ui/NewHeadingCenterIcon";
 
 const breakpoints = {
   0: {
@@ -44,8 +44,8 @@ const Gallery = () => {
   return (
     <div className="container padding__top">
       <div className="flex flex-col items-center justify-center">
-        <HeadingIcon text={headingIconText.gallery__headingIconText} />
-        <h2 className="font-family-secondary text-[25px] md:text-[26px] lg:text-[29px] xl:text-[32px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[41px] 5xl:text-[44px] font-bold text-secondary leading-normal text-center pt-[10px] pb-[25px]">
+        <NewHeadingCenterIcon text={headingIconText.gallery__headingIconText} />
+        <h2 className="text-[25px] md:text-[27px] lg:text-[30px] xl:text-[33px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[40px] 5xl:tex-[42px] font-bold text-secondary leading-tight 5xl:leading-normal mb-[25px] text-center">
         Gallery Of Kitchen Remodel in Cypress, TX
         </h2>
       </div>
@@ -77,7 +77,7 @@ const Gallery = () => {
                   alt="hero small image"
                   className="w-[615px] h-[350px] 2xl:h-[440px] rounded-t-[16px]"
                 />
-                <p className="rounded-b-[16px] bg-[#905C4C] py-[12px] 5xl:py-[16px] text-center text-white text-[25px] font-bold leading-normal">Before</p>
+                <p className="rounded-b-[16px] bg-[#905C4C] py-[12px] 5xl:py-[16px] text-center text-white text-[20px] xl:text-[21px] 2xl:text-[22px] 3xl:text-[23px] 4xl:text-[24px] 5xl:text-[25px] font-bold leading-normal">Before</p>
               </SwiperSlide>
             ))}
           </Swiper>
@@ -105,7 +105,7 @@ const Gallery = () => {
           >
             {galleryData2.map((img, index) => (
               <SwiperSlide key={index} className="!w-full !h-auto !md:h-full">
-                <p className="rounded-t-[16px] bg-[#905C4C] py-[12px] 5xl:py-[16px] text-center text-white text-[25px] font-bold leading-normal">After</p>
+                <p className="rounded-t-[16px] bg-[#905C4C] py-[12px] 5xl:py-[16px] text-center text-white text-[20px] xl:text-[21px] 2xl:text-[22px] 3xl:text-[23px] 4xl:text-[24px] 5xl:text-[25px] font-bold leading-normal mt-1">After</p>
                 <Image
                   width={615}
                   height={440}

@@ -1,13 +1,8 @@
 import React from 'react';
 import "./KitchenRemodelInCypress.css";
 import KitchenRemodelInCypressBanner from './KitchenRemodelInCypressBanner/KitchenRemodelInCypressBanner';
-import Location from '@/components/__shared_one_time/FlooringInstallation/Location/Location';
-import ContactUs from '@/components/__shared_one_time/FlooringInstallation/ContactUs/ContactUs';
-import OurServiceAreas from '@/components/__shared_one_time/FlooringInstallation/OurServiceAreas/OurServiceAreas';
-import { titleHeadingTexts } from '@/utils/title-heading-text';
 import Brand from '@/components/__shared_one_time/FlooringInstallation/Brand/Brand';
 import Faq from './Faq/Faq';
-import Review from '@/components/__shared_one_time/FlooringInstallation/Review/Review';
 import AboutUs from './AboutUs/AboutUs';
 import Experienced from './Experienced/Experienced';
 import Elevating from './Elevating/Elevating';
@@ -23,6 +18,10 @@ import Cost from './Cost/Cost';
 import Services from './Services/Services';
 import Gallery from './Gallery/Gallery';
 import OurRenovators from './OurRenovators/OurRenovators';
+import ServicesArea from '@/components/__shared_one_time/HomePage/OnlyHomePage/ServicesArea/ServicesArea';
+import ContactUs from '@/components/__shared_one_time/HomePage/OnlyHomePage/ContactUs/ContactUs';
+import Location from '@/components/__shared_one_time/HomePage/OnlyHomePage/Location/Location';
+import Review from '@/components/__shared_one_time/HomePage/OnlyHomePage/Review/Review';
 
 const KitchenRemodelInCypress = () => {
     return (
@@ -80,7 +79,7 @@ const KitchenRemodelInCypress = () => {
             </section>
 
             <section>
-                <Review titleHeading={ titleHeadingTexts.kitchenRemodelReviewText} />
+                <Review />
             </section>
 
             <section>
@@ -104,11 +103,11 @@ const KitchenRemodelInCypress = () => {
             </section>
 
             <section>
-                <OurServiceAreas />
+                <ServicesArea />
             </section>
 
             <section>
-                <ContactUs contactUsTitle={titleHeadingTexts.kitchenRemodelContactUsText}/>
+                <ContactUs />
             </section>
 
             <section>
