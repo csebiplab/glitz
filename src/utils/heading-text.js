@@ -34,12 +34,9 @@ export const headingIconText = {
   experienced__headingIconText: "Experienced",
   equippedAdnExpert__headingIconText: "Equipped and Expert",
   elevatingDesign__headingIconText: "Elevating Design",
-
   benefits__headingIconText: "Benefits",
-
   gallery__headingIconText: "Gallery",
   streamlinedProcess__headingIconText: "Streamlined Process",
-
   servicesIncluded__headingIconText: "Services Included",
   review__headingIconText: "Review",
   cost__headingIconText: "Cost",
@@ -90,4 +87,40 @@ export const headingIconText = {
   services__headingIconText: "Services",
   connectNow__headingIconText: "Connect Now",
   connectNow__headingIconText: "Connect Now",
+
+  // Roofing Contractor in Cypress, TX page 
+  aboutUs__headingIconText : "About Us",
+  contractor__headingIconText : "#1 Contractor",
+  wellEquipped__headingIconText : "Well Equipped",
+  excellentDesign__headingIconText : "Excellent Design",
+  workingProcess__headingIconText : "Working Process",
+  gallery__headingIconText : "Gallery",
+  bestRoofingService__headingIconText : "Best Roofing Service",
+  solution__headingIconText : "Solution",
+  review__headingIconText : "Review",
+  nationwidRoofers__headingIconText : "Nationwide Roofers",
+  whyChoose__headingIconText : "Why Choose",
+  workWithUs__headingIconText : "Work with Us",
+  faq__headingIconText : "FAQ",
+  servicess__headingIconText : "Services",
+  connectNow__headingIconText : "Connect Now",
+
+  // Painting Contractors in Cypress, TX page 
+  aboutUs__headingIconText : "About Us",
+  premiumProducts__headingIconText : "Premium Products",
+  paintingMaterials__headingIconText : "Painting Materials",
+  process__headingIconText : "Process",
+  painting__headingIconText : "Painting",
+  gallery__headingIconText : "Gallery",
+  paintingServices__headingIconText : "Painting Services",
+  review__headingIconText : "Review",
+  whyChoose__headingIconText : "Why Choose",
+  expertPainters__headingIconText : "Expert Painters",
+  youCanTrust__headingIconText : "You Can Trust",
+  faq__headingIconText : "FAQ",
+  services__headingIconText : "Services",
+  connectNow__headingIconText : "Connect Now",
+
+
+  
 };
