@@ -9,6 +9,7 @@ import AboutUs from "./AboutUs/AboutUs";
 import Gallery from "./Gallery/Gallery";
 import Painting from "./Painting/Painting";
 import PremiumProducts from "./PremiumProducts/PremiumProducts";
+import Faq from "./Faq/Faq";
 
 const PaintingContractorsAllComponent = () => {
   return (
@@ -39,6 +40,10 @@ const PaintingContractorsAllComponent = () => {
 
       <section>
         <Review />
+      </section>
+
+      <section>
+        <Faq />
       </section>
       
       <section>
