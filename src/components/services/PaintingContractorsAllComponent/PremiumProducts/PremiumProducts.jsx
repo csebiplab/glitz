@@ -14,7 +14,7 @@ const PremiumProducts = () => {
                     </div>
                     <div className='order-2 md:order-1 md:col-span-3'>
                         <div className='flex justify-center xl:justify-start items-center'>
-                            <NewHeadingCenterIcon text={headingIconText.aboutUs__headingIconText}/>
+                            <NewHeadingCenterIcon text={headingIconText.premiumProducts__headingIconText}/>
                         </div>
                         <div>
                             <h2 className="text-[25px] md:text-[27px] lg:text-[30px] xl:text-[33px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[40px] 5xl:tex-[42px] font-bold text-secondary leading-tight 5xl:leading-normal mb-[10px] text-center md:text-left">Premium Products for Superior Performance</h2>
