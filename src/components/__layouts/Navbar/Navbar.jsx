@@ -138,6 +138,18 @@ const Navbar = () => {
                     >
                       Vinyl Flooring
                     </a>
+                    <a
+                      className="text-[13px] 2xl:text-[14px] 3xl:text-[15px] 4xl:text-[16px] 5xl:text-[17px] font-bold leading-normal border-t"
+                      href="/painting-contractors-in-cypress-tx"
+                    >
+                      Painting Contractors
+                    </a>
+                    <a
+                      className="text-[13px] 2xl:text-[14px] 3xl:text-[15px] 4xl:text-[16px] 5xl:text-[17px] font-bold leading-normal border-t"
+                      href="/roofing-contractor-in-cypress-tx"
+                    >
+                      Roofing Contractor
+                    </a>
                   </div>
                 </div>
                 <Link
@@ -263,6 +275,22 @@ const Navbar = () => {
                       href="/vinyl-flooring-in-cypress-tx"
                     >
                       Vinyl Flooring
+                    </Link>
+                  </div>
+                  <div className="py-1">
+                    <Link
+                      className="text-[13px] 2xl:text-[14px] 3xl:text-[15px] 4xl:text-[16px] 5xl:text-[17px] font-bold leading-normal text-white pl-3"
+                      href="/painting-contractors-in-cypress-tx"
+                    >
+                      Painting Contractors
+                    </Link>
+                  </div>
+                  <div className="py-1">
+                    <Link
+                      className="text-[13px] 2xl:text-[14px] 3xl:text-[15px] 4xl:text-[16px] 5xl:text-[17px] font-bold leading-normal text-white pl-3"
+                      href="/roofing-contractor-in-cypress-tx"
+                    >
+                      Roofing Contractor
                     </Link>
                   </div>
                 </div>
