@@ -1,10 +1,11 @@
-import RoofingContractorAllComponent from '@/components/services/RoofingContractorAllComponent/RoofingContractorAllComponent';
+// import RoofingContractorAllComponent from '@/components/services/RoofingContractorAllComponent/RoofingContractorAllComponent';
 import React from 'react';
 
 const page = () => {
     return (
         <div>
-            <RoofingContractorAllComponent/>
+            {/* <RoofingContractorAllComponent/> */}
+            RoofingContractorAllComponent page
         </div>
     );
 };
