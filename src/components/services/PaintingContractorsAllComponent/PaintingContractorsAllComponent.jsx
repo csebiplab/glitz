@@ -6,6 +6,9 @@ import ServicesArea from "@/components/__shared_one_time/HomePage/OnlyHomePage/S
 import React from "react";
 import PaintingContractorBanner from "./PaintingContractorBanner/PaintingContractorBanner";
 import AboutUs from "./AboutUs/AboutUs";
+import Gallery from "./Gallery/Gallery";
+import Painting from "./Painting/Painting";
+import PremiumProducts from "./PremiumProducts/PremiumProducts";
 
 const PaintingContractorsAllComponent = () => {
   return (
@@ -20,6 +23,18 @@ const PaintingContractorsAllComponent = () => {
 
       <section>
         <AboutUs/>
+      </section>
+
+      <section>
+        <PremiumProducts />
+      </section>
+
+      <section>
+        <Painting/>
+      </section>
+
+      <section>
+        <Gallery/>
       </section>
 
       <section>
