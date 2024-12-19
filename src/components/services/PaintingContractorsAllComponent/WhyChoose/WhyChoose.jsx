@@ -8,85 +8,85 @@ import NewHeadingIcon from "@/components/__ui/NewHeadingIcon";
 const usualPool = [
   {
     id : 1,
-    title: "Unreliable Project Timelines",
+    title: "Lack of attention to detail",
   },
   {
     id : 2,
-    title: "Poor quality workmanship",
+    title: "Use of low-quality materials",
   },
   {
     id : 3,
-    title: "Hidden costs and fees",
+    title: "Inconsistent or uneven finishes",
   },
   {
     id : 4,
-    title: "Lack of Communication",
+    title: "Poor preparation of surfaces",
   },
   {
     id : 5,
-    title: "Limited Design Options",
+    title: "Unreliable scheduling",
   },
   {
     id : 6,
-    title: "Subpar Customer Service",
+    title: "Minimal or no color consultation",
   },
   {
     id : 7,
-    title: "Inconsistent Materials",
+    title: "Messy work environment",
   },
   {
     id : 8,
-    title: "Messy Job Sites",
+    title: "Limited warranty or after-service support",
   },
   {
     id : 9,
-    title: "Failure to Meet Codes",
+    title: "Lack of communicate during the project",
   },
   {
     id : 10,
-    title: "Unsatisfactory Warranty Policies",
+    title: "Inadequate surface protection",
   }
 ];
 const easyPool = [
   {
     id : 1,
-    title: "Timely project completion",
+    title: "Skilled and experienced team",
   },
   {
     id : 2,
-    title: "Exceptional Craftsmanship",
+    title: "High-quality materials",
   },
   {
     id : 3,
-    title: "Transparent Pricing Structure",
+    title: "Attention to detail",
   },
   {
     id : 4,
-    title: "Customized Design Solutions",
+    title: "Clean and efficient work process",
   },
   {
     id : 5,
-    title: "Outstanding Customer Support",
+    title: "Commitment to timelines",
   },
   {
     id : 6,
-    title: "High-Quality Materials",
+    title: "Excellent color matching & consultation",
   },
   {
     id : 7,
-    title: "Expert Installation Team",
+    title: "Durable and long-lasting finishes",
   },
   {
     id : 8,
-    title: "Impressive Portfolio of Work",
+    title: "Personalized customer service",
   },
   {
     id : 9,
-    title: "Comprehensive Project Management",
+    title: "Thorough surface preparation",
   },
   {
     id : 10,
-    title: "Satisfaction Guaranteed",
+    title: "Competitive Pricing",
   } 
 ];
 
@@ -105,27 +105,20 @@ const WhyChoose = () => {
 
               <div>
                 <h2 className="text-[25px] md:text-[27px] lg:text-[30px] xl:text-[33px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[40px] 5xl:tex-[42px] font-bold text-black leading-tight 5xl:leading-normal mb-[10px] text-center md:text-left">
-                  Why Choose Our Bathroom Remodelers
+                Why Hire Our Painting Contractors Cypress, TX
                 </h2>
               </div>
 
               <div>
                 <p className="text-base 5xl:text-lg text-secondary-50 font-normal text-center md:text-left leading-[26px] lg:leading-[26px] xl:leading-[28px] 2xl:leading-[30px] 3xl:leading-[32px] 4xl:leading-[34px] 5xl:leading-[36px]">
-                  Our best bathroom remodelers are dedicated professionals who
-                  combine expertise, creativity, and a customer-centric approach
-                  to transform your space. We bring years of experience and a
-                  skilled team to ensure high-quality craftsmanship and
-                  innovative designs tailored to your preferences. Our strong
-                  reputation, supported by positive customer reviews and
-                  comprehensive services, guarantees a seamless remodeling
-                  experience.
+                Choosing our painting contractors in Cypress, TX, means selecting quality, precision, and professionalism. Our team uses premium materials and thorough preparation techniques to deliver smooth, even coats that withstand wear and weather. From color consultations to final touches, we're dedicated to enhancing your space with results that exceed expectations. Trust us for a seamless painting experience that transforms your property beautifully and efficiently.
                 </p>
               </div>
             </div>
 
             <div className="w-full border-2 my-6 md:my-0 cart1">
               <p className="font-family-secondary title-bg text-center 2xl:py-[20px] py-[19px] text-primary text-[15px] 2xl:text-base font-bold">
-                Usual Bathroom Remodelers
+              Usual Painting Contractors
               </p>
               <div className="grid grid-rows-8 3xl:pt-[35px] pt-[20px] px-[20px] 2xl:text-[16px] lg:text-sm xs:text-[9px]">
                 {usualPool?.map((usual) => (
@@ -157,7 +150,7 @@ const WhyChoose = () => {
                   width={80}
                   height={80}
                 />
-                Our Bathroom Remodelers
+                Our Painting Contractor
               </p>
               <div className="grid grid-rows-8 3xl:pt-[35px] pt-[25px] px-[20px] 2xl:text-[16px] lg:text-sm xs:text-[9px]">
                 {easyPool.map((usual) => (
