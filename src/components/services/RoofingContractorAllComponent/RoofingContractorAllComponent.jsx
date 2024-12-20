@@ -9,6 +9,10 @@ import Gallery from "./Gallery/Gallery";
 import Review from "@/components/__shared_one_time/HomePage/OnlyHomePage/Review/Review";
 import WhyChoose from "./WhyChoose/WhyChoose";
 import BestRoofingService from "./BestRoofingService/BestRoofingService";
+import AboutUs from "./AboutUs/AboutUs";
+import Contractor from "./Contractor/Contractor";
+import WellEquipped from "./WellEquipped/WellEquipped";
+import ExcellentDesign from "./ExcellentDesign/ExcellentDesign";
 
 const RoofingContractorAllComponent = () => {
   return (
@@ -19,6 +23,22 @@ const RoofingContractorAllComponent = () => {
 
       <section>
         <Brand />
+      </section>
+
+      <section>
+        <AboutUs />
+      </section>
+
+      <section>
+        <Contractor />
+      </section>
+
+      <section>
+        <WellEquipped />
+      </section>
+
+      <section>
+        <ExcellentDesign />
       </section>
 
       <section>
