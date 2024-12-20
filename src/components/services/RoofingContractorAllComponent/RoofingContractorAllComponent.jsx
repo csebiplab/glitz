@@ -13,6 +13,9 @@ import AboutUs from "./AboutUs/AboutUs";
 import Contractor from "./Contractor/Contractor";
 import WellEquipped from "./WellEquipped/WellEquipped";
 import ExcellentDesign from "./ExcellentDesign/ExcellentDesign";
+import Solution from "./Solution/Solution";
+import NationwideRoofers from "./NationwideRoofers/NationwideRoofers";
+import WorkwithUs from "./WorkwithUs/WorkwithUs";
 
 const RoofingContractorAllComponent = () => {
   return (
@@ -50,11 +53,23 @@ const RoofingContractorAllComponent = () => {
       </section>
 
       <section>
+        <Solution />
+      </section>
+
+      <section>
         <Review />
       </section>
 
       <section>
+        <NationwideRoofers />
+      </section>
+
+      <section>
         <WhyChoose />
+      </section>
+
+      <section>
+        <WorkwithUs />
       </section>
 
       <section>
