@@ -9,10 +9,10 @@ const Solution = () => {
         <div>
             <div className='full__section_l_p pr-3 md:pr-0 padding__top'>
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-[20px] 2xl:gap-[33px]'>
-                    <div className='order-2 md:col-span-1'>
+                    <div className='order-1 md:order-2 md:col-span-1'>
                         <Image src="/assets/glitz/roofing-contractor/solution.png" alt='solution' width={788} height={525} className="w-full"/>
                     </div>
-                    <div className='order-1 md:col-span-1'>
+                    <div className='order-2 md:order-1 md:col-span-1'>
                         <div className='flex justify-center xl:justify-start items-center'>
                             <NewHeadingCenterIcon text={headingIconText.solution__headingIconText}/>
                         </div>

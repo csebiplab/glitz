@@ -38,7 +38,7 @@ const PaintingContractorBanner = () => {
       {/* small device  */}
       <div className="block md:hidden">
       <div className="small__banner__bg container py-[55px] ">
-          <div className=" h-full flex flex-col items-start justify-center">
+          <div className=" h-full flex flex-col items-start justify-center px-[16px] sm:px-[20px]">
             <h1 className="font-family-secondary text-[30px] font-extrabold italic text-white leading-normal">
             Painting Contractors <br/>
             in Cypress, TX

@@ -13,8 +13,6 @@ body {
   @apply font-robotoSerif;
 }
 
-
-
 footer * {
   @apply text-white;
 }
