@@ -39,7 +39,7 @@ const Navbar = () => {
             </div>
 
             {/* right side  */}
-            <div className="w-4/5 hidden lg:block">
+            <div className="w-4/5 hidden lg:block py-1">
               {/* first  */}
               <div className="flex justify-between items-center">
                 <div className="flex items-center gap-2">
@@ -72,7 +72,7 @@ const Navbar = () => {
               </div>
 
               {/* second  */}
-              <div className="hidden xl:flex justify-between items-center bg-primary-50 py-1 rounded-full">
+              <div className="hidden xl:flex justify-between items-center bg-primary-50 py-1 rounded-full mt-1 5xl:mt-2">
                 <Link
                   href="/"
                   className="text-[13px] 2xl:text-[14px] 3xl:text-[15px] 4xl:text-[16px] 5xl:text-[17px] font-bold leading-normal text-white hover:text-[#ffb300]  pl-4 pr-1"

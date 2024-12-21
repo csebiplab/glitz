@@ -10,6 +10,12 @@ import Gallery from "./Gallery/Gallery";
 import Painting from "./Painting/Painting";
 import PremiumProducts from "./PremiumProducts/PremiumProducts";
 import Faq from "./Faq/Faq";
+import Process from "./Process/Process";
+import PaintingMaterials from "./PaintingMaterials/PaintingMaterials";
+import PaintingServices from "./PaintingServices/PaintingServices";
+import WhyChoose from "./WhyChoose/WhyChoose";
+import YouCanTrust from "./YouCanTrust/YouCanTrust";
+import ExpertPainters from "./ExpertPainters/ExpertPainters";
 
 const PaintingContractorsAllComponent = () => {
   return (
@@ -31,6 +37,14 @@ const PaintingContractorsAllComponent = () => {
       </section>
 
       <section>
+        <PaintingMaterials />
+      </section>
+
+      <section>
+        <Process />
+      </section>
+
+      <section>
         <Painting/>
       </section>
 
@@ -39,7 +53,23 @@ const PaintingContractorsAllComponent = () => {
       </section>
 
       <section>
+        <PaintingServices/>
+      </section>
+
+      <section>
         <Review />
+      </section>
+
+      <section>
+        <WhyChoose />
+      </section>
+
+      <section>
+        <ExpertPainters />
+      </section>
+
+      <section>
+        <YouCanTrust />
       </section>
 
       <section>

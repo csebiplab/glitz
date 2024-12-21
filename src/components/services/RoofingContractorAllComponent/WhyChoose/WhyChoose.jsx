@@ -8,86 +8,78 @@ import NewHeadingIcon from "@/components/__ui/NewHeadingIcon";
 const usualPool = [
   {
     id : 1,
-    title: "Lack of attention to detail",
+    title: "Limited warranty options",
   },
   {
     id : 2,
-    title: "Use of low-quality materials",
+    title: "High upfront costs",
   },
   {
     id : 3,
-    title: "Inconsistent or uneven finishes",
+    title: "Slow response times for repairs",
   },
   {
     id : 4,
-    title: "Poor preparation of surfaces",
+    title: "Inconsistent quality of work",
   },
   {
     id : 5,
-    title: "Unreliable scheduling",
+    title: "Lack of clear communication",
   },
   {
     id : 6,
-    title: "Minimal or no color consultation",
+    title: "Subcontracting without prior notice",
   },
   {
     id : 7,
-    title: "Messy work environment",
+    title: "Unexpected additional fees",
   },
   {
     id : 8,
-    title: "Limited warranty or after-service support",
+    title: "Delays due to supply shortages",
   },
   {
     id : 9,
-    title: "Lack of communicate during the project",
-  },
-  {
-    id : 10,
-    title: "Inadequate surface protection",
+    title: "Limited variety of roofing materials",
   }
 ];
 const easyPool = [
   {
     id : 1,
-    title: "Skilled and experienced team",
+    title: "High-quality workmanship",
   },
   {
     id : 2,
-    title: "High-quality materials",
+    title: "Fast response times for repairs",
   },
   {
     id : 3,
-    title: "Attention to detail",
+    title: "Transparent pricing with no hidden fees",
   },
   {
     id : 4,
-    title: "Clean and efficient work process",
+    title: "Wide selection of roofing materials",
   },
   {
     id : 5,
-    title: "Commitment to timelines",
+    title: "Excellent customer communication",
   },
   {
     id : 6,
-    title: "Excellent color matching & consultation",
+    title: "Professional and experienced team",
   },
   {
     id : 7,
-    title: "Durable and long-lasting finishes",
+    title: "Timely project completion",
   },
   {
     id : 8,
-    title: "Personalized customer service",
+    title: "Thorough cleanup after job completion",
   },
   {
     id : 9,
-    title: "Thorough surface preparation",
-  },
-  {
-    id : 10,
-    title: "Competitive Pricing",
-  } 
+    title: "Flexible financing options",
+  }
 ];
 
 const WhyChoose = () => {
@@ -105,20 +97,20 @@ const WhyChoose = () => {
 
               <div>
                 <h2 className="text-[25px] md:text-[27px] lg:text-[30px] xl:text-[33px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[40px] 5xl:tex-[42px] font-bold text-black leading-tight 5xl:leading-normal mb-[10px] text-center md:text-left">
-                Why Hire Our Painting Contractors Cypress, TX
+                Why Choose Our Roof Installer
                 </h2>
               </div>
 
               <div>
                 <p className="text-base 5xl:text-lg text-secondary-50 font-normal text-center md:text-left leading-[26px] lg:leading-[26px] xl:leading-[28px] 2xl:leading-[30px] 3xl:leading-[32px] 4xl:leading-[34px] 5xl:leading-[36px]">
-                Choosing our painting contractors in Cypress, TX, means selecting quality, precision, and professionalism. Our team uses premium materials and thorough preparation techniques to deliver smooth, even coats that withstand wear and weather. From color consultations to final touches, we're dedicated to enhancing your space with results that exceed expectations. Trust us for a seamless painting experience that transforms your property beautifully and efficiently.
+                Choosing Glitz Floors & More means selecting a roof installer committed to quality and customer satisfaction. Our experienced team delivers expert craftsmanship using high-quality materials, ensuring your roof is durable and reliable. We prioritize transparency with clear pricing and comprehensive services, from inspections to installations. With a focus on timely project completion and ongoing support, you can trust us to protect your home with a roof you can depend on for years. Contact us today to experience the difference!
                 </p>
               </div>
             </div>
 
             <div className="w-full border-2 my-6 md:my-0 cart1">
               <p className="font-family-secondary title-bg text-center 2xl:py-[20px] py-[19px] text-primary text-[15px] 2xl:text-base font-bold">
-              Usual Painting Contractors
+              Usual roofing contractor
               </p>
               <div className="grid grid-rows-8 3xl:pt-[35px] pt-[20px] px-[20px] 2xl:text-[16px] lg:text-sm xs:text-[9px]">
                 {usualPool?.map((usual) => (
@@ -150,7 +142,7 @@ const WhyChoose = () => {
                   width={80}
                   height={80}
                 />
-                Our Painting Contractor
+                Our roofing contractor
               </p>
               <div className="grid grid-rows-8 3xl:pt-[35px] pt-[25px] px-[20px] 2xl:text-[16px] lg:text-sm xs:text-[9px]">
                 {easyPool.map((usual) => (
