@@ -51,7 +51,7 @@ const Process = () => {
             text={headingIconText.process__headingIconText}
           />
           <h2 className="text-[25px] md:text-[27px] lg:text-[30px] xl:text-[33px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[40px] 5xl:tex-[42px] font-bold text-black leading-tight 5xl:leading-normal mb-[10px] text-center">
-            Our Approach to Painting Service Is Different
+            Our Approach to Painting <br className="block md:hidden"/> Service Is Different
           </h2>
           <p className="text-base 5xl:text-lg text-secondary-50 font-normal text-center leading-[26px] lg:leading-[26px] xl:leading-[28px] 2xl:leading-[30px] 3xl:leading-[32px] 4xl:leading-[34px] 5xl:leading-[36px]">
             Glitz Floors & More believes exceptional painting service goes

@@ -131,7 +131,7 @@ const WhyChoose = () => {
                         height={20}
                         className="2xl:h-[20px] 2xl:w-[20px] h-[15px] w-[15px]"
                       />
-                      <p className="font-family-secondary text-xs 2xl:text-sm text-black font-bold">
+                      <p className="font-family-secondary text-[13px] md:text-xs 2xl:text-sm text-black font-bold">
                         {usual.title}
                       </p>
                     </div>
@@ -163,7 +163,7 @@ const WhyChoose = () => {
                         height={20}
                         className="2xl:h-[20px] 2xl:w-[20px] h-[15px] w-[15px]"
                       />
-                      <p className="font-family-secondary text-xs 2xl:text-sm text-black font-bold">
+                      <p className="font-family-secondary text-[13px] md:text-xs 2xl:text-sm text-black font-bold">
                         {usual.title}
                       </p>
                     </div>
