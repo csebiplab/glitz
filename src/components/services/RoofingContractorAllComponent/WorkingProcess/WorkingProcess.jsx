@@ -6,39 +6,39 @@ import NewHeadingCenterIcon from "@/components/__ui/NewHeadingCenterIcon";
 const processData = [
   {
     id: 1,
-    img: "/assets/glitz/bathroomRemodel/process1.png",
-    title: "Consultation & Design Plan",
-    desc: "Our process starts with a detailed consultation to understand your vision, needs, and budget. We help you select high-quality materials, fixtures, and design elements that align with your style. Our design experts work closely with you to develop a tailored plan"
+    img: "/assets/glitz/roofing-contractor/working-process/working-process1.png",
+    title: "Initial Consultation",
+    desc: "We begin with a free, in-depth consultation to understand your roofing needs. During this stage, our team will assess the roof, discuss your goals, and provide a transparent overview of the process, including timelines and materials."
   },
   {
     id: 2,
-    img: "/assets/glitz/bathroomRemodel/process2.png",
-    title: "Project Preparation",
-    desc: "Before starting the remodel, we handle all necessary permits and inspections to ensure a smooth, compliant process. We prepare the space by protecting surrounding areas to minimize disruption and keep your home clean and organized throughout the project",
+    img: "/assets/glitz/roofing-contractor/working-process/working-process2.png",
+    title: "Detailed Roof Inspection",
+    desc: "Our experienced roofing professionals conduct a thorough inspection, identifying potential issues such as leaks, structural damage, or material wear. This step helps us plan a targeted approach to ensure your roof receives attention.",
   },
   {
     id: 3,
-    img: "/assets/glitz/bathroomRemodel/process3.png",
-    title: "Demolition & site prepare",
-    desc: "Once prepared, our team handles the demolition of existing structures safely and efficiently. We remove old fixtures, flooring, and outdated elements, ensuring a clean slate for your new bathroom design."
+    img: "/assets/glitz/roofing-contractor/working-process/working-process3.png",
+    title: "Custom Proposal & Budget",
+    desc: "Based on the inspection, we create a tailored proposal, outlining all work involved, materials needed, and accurate pricing. We prioritize transparency, ensuring you understand the scope and cost before moving forward."
   },
   {
     id: 4,
-    img: "/assets/glitz/bathroomRemodel/process4.png",
-    title: "Structural & Plumbing",
-    desc: "Glitz Floors & More prioritizes quality, so we upgrade necessary plumbing, wiring, and structural elements to meet modern standards and support your new fixtures and layout. Our skilled professionals ensure that each installation is built to last.",
+    img: "/assets/glitz/roofing-contractor/working-process/working-process4.png",
+    title: "Quality Material Selection",
+    desc: "We source top-quality roofing materials that suit your home's style and needs. Our team will walk you through the options, ensuring durability, energy efficiency, and aesthetic appeal.",
   },
   {
     id: 5,
-    img: "/assets/glitz/bathroomRemodel/process5.png",
-    title: "Install & finish touches",
-    desc: "With a strong foundation, we install all new components, from flooring and tiles to vanities and lighting. Our team handles every detail, ensuring your bathroom remodel is flawless and precisely to your specifications.",
+    img: "/assets/glitz/roofing-contractor/working-process/working-process5.png",
+    title: "Expert Installation",
+    desc: "Our skilled contractors follow a meticulous installation process to ensure precision and quality. We work diligently while respecting your property, minimizing disruptions, and adhering to all safety standards.",
   },
   {
     id: 6,
-    img: "/assets/glitz/bathroomRemodel/process6.png",
-    title: "Final Walk & Quality Check",
-    desc: "After completing the remodel, we conduct a thorough quality check and a walkthrough with you to ensure everything meets your satisfaction. We address any final touches to ensure your bathroom is ready for years of comfort and beauty.",
+    img: "/assets/glitz/roofing-contractor/working-process/working-process6.png",
+    title: "Final Inspection & Cleanup",
+    desc: "After installation, we perform a final inspection to verify the work's quality and durability. Our team ensures that your property is left spotless, removing all debris and materials, so you can enjoy a beautiful, reliable roof right away.",
   },
 ];
 
@@ -47,12 +47,15 @@ const WorkingProcess = () => {
     <div>
       <div className="container padding__top">
         <div className="flex flex-col items-center justify-center">
-          <NewHeadingCenterIcon text={headingIconText.streamlinedProcess__headingIconText} />
+          <NewHeadingCenterIcon text={headingIconText.workingProcess__headingIconText} />
           <h2 className="text-[25px] md:text-[27px] lg:text-[30px] xl:text-[33px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[40px] 5xl:tex-[42px] font-bold text-black leading-tight 5xl:leading-normal mb-[10px] text-center">
-          Streamlined Process of <br className="block md:hidden"/> Bathroom Remodel Project
+          Working Process of Our Roofing Contractor
           </h2>
+          <p className="text-base 5xl:text-lg text-secondary-50 font-normal text-center leading-[26px] lg:leading-[26px] xl:leading-[28px] 2xl:leading-[30px] 3xl:leading-[32px] 4xl:leading-[34px] 5xl:leading-[36px]">
+          Our commitment to precision, quality, and lasting durability drives our roofing services at Glitz Floors & More. Here's how our step-by-step process ensures exceptional results for every project:
+          </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-[60px] 5xl:gap-[75px]">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-[60px] 5xl:gap-[75px] mt-[25px]">
           {processData?.map((data) => {
             return (
               <div key={data.id} className="relative">
@@ -73,6 +76,26 @@ const WorkingProcess = () => {
               </div>
             );
           })}
+        </div>
+
+        {/* second part  */}
+        <div className="w-full flex flex-col md:flex-row justify-center gap-[60px] 5xl:gap-[75px] mt-[25px]">
+        <div className="w-full md:w-1/3 relative">
+                <Image
+                  src="/assets/glitz/roofing-contractor/working-process/working-process7.png"
+                  alt="working image"
+                  width={129}
+                  height={129}
+                  className="w-[129px] h-[129px] mx-auto"
+                />
+                <p className="font-family-secondary text-[20px] xl:text-[21px] 2xl:text-[22px] 3xl:text-[23px] 4xl:text-[24px] 5xl:text-[25px] font-bold text-secondary text-center leading-9 pt-[12px] pb-[5px]">
+                Customer Satisfy Follow-Up
+                </p>
+                <p className="font-family-secondary text-base 5xl:text-lg font-light text-black text-center pb-[25px]">
+                We pride ourselves on customer satisfaction. After completion, our team follows up to confirm that you are completely satisfied and to answer any questions.
+                </p>
+                <div className="absolute bottom-0 w-full h-[2px] bg-secondary-300" />
+              </div>
         </div>
 
       </div>

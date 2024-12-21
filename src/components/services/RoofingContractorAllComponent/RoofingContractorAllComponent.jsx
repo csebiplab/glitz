@@ -16,6 +16,7 @@ import ExcellentDesign from "./ExcellentDesign/ExcellentDesign";
 import Solution from "./Solution/Solution";
 import NationwideRoofers from "./NationwideRoofers/NationwideRoofers";
 import WorkwithUs from "./WorkwithUs/WorkwithUs";
+import WorkingProcess from "./WorkingProcess/WorkingProcess";
 
 const RoofingContractorAllComponent = () => {
   return (
@@ -42,6 +43,10 @@ const RoofingContractorAllComponent = () => {
 
       <section>
         <ExcellentDesign />
+      </section>
+
+      <section>
+        <WorkingProcess />
       </section>
 
       <section>
