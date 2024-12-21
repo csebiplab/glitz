@@ -162,7 +162,7 @@ const Navbar = () => {
             </div>
 
             {/* Small Device */}
-            <div className="lg:hidden w-full flex justify-between items-center">
+            <div className="lg:hidden w-full flex justify-between items-center px-[16px] sm:px-[20px]">
               <div>
                 {!isOpen && (
                   <Link href="/" aria-label="Home">

@@ -1,5 +1,4 @@
-
-import NewHeadingCenterIcon from '@/components/__ui/NewHeadingCenterIcon';
+import NewHeadingIcon from '@/components/__ui/NewHeadingIcon';
 import { headingIconText } from '@/utils/heading-text';
 import Image from 'next/image';
 import React from 'react';
@@ -9,12 +8,12 @@ const WorkwithUs = () => {
         <div>
             <div className='container padding__top'>
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-[20px] 2xl:gap-[33px]'>
-                    <div className='order-2 md:col-span-1'>
+                    <div className='order-1 md:order-2 md:col-span-1'>
                         <Image src="/assets/glitz/roofing-contractor/work_with_us.png" alt='work with us' width={607} height={763} className="w-full"/>
                     </div>
-                    <div className='order-1 md:col-span-1'>
+                    <div className='order-2 md:order-1 md:col-span-1'>
                         <div className='flex justify-center xl:justify-start items-center'>
-                            <NewHeadingCenterIcon text={headingIconText.workWithUs__headingIconText}/>
+                            <NewHeadingIcon text={headingIconText.workWithUs__headingIconText}/>
                         </div>
                         <div>
                             <h2 className="text-[25px] md:text-[27px] lg:text-[30px] xl:text-[33px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[40px] 5xl:tex-[42px] font-bold text-secondary leading-tight 5xl:leading-normal mb-[10px] text-center md:text-left">Start With Our Roof Installers</h2>
