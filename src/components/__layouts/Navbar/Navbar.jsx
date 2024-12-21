@@ -48,7 +48,9 @@ const Navbar = () => {
                   </p>
                   <div className="flex items-center gap-2">
                     <div className="bg-primary-50 p-2 rounded-full">
-                      <FaInstagram className="text-white " />
+                      <Link href="https://www.instagram.com/glitz.floors.and.more/?fbclid=IwAR3YJkB2MW6Wi5tPbL4jMuORAz5g7iV8Qa55RUhn-q9lihiMgr5v7ZRvN6A">
+                        <FaInstagram className="text-white " />
+                      </Link>
                     </div>
                     <div className="bg-primary-50 p-2 rounded-full">
                       <FaYoutube className="text-white " />
@@ -57,7 +59,9 @@ const Navbar = () => {
                       <FaLinkedin className="text-white " />
                     </div>
                     <div className="bg-primary-50 p-2 rounded-full">
-                      <FaFacebook className="text-white " />
+                      <Link href="https://www.facebook.com/p/Glitz-Floors-More-100095651767067/">
+                        <FaFacebook className="text-white " />
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -66,13 +70,15 @@ const Navbar = () => {
                     <LuPhoneCall className="text-white " />
                   </div>
                   <p className="text-[17px] 3xl:text-lg 4xl:text-[19px] 5xl:text-[20px] font-bold leading-[40px] text-white">
-                    (346) 445-6343
+                    <Link className="text-white" href="tel:(346) 445-6343">
+                      (346) 445-6343
+                    </Link>
                   </p>
                 </div>
               </div>
 
               {/* second  */}
-              <div className="hidden lg:flex justify-between items-center bg-primary-50 py-1 rounded-full mt-1 5xl:mt-2">
+              <div className="hidden lg:flex justify-between items-center bg-primary-50 py-1 rounded-full mt-1 2xl:mt-3 5xl:mt-2">
                 <Link
                   href="/"
                   className="text-[13px] 2xl:text-[14px] 3xl:text-[15px] 4xl:text-[16px] 5xl:text-[17px] font-bold leading-normal text-white hover:text-[#ffb300]  pl-4 pr-1"
@@ -261,7 +267,7 @@ const Navbar = () => {
                       Kitchen Remodeling
                     </Link>
                   </div>
-                  <div className="border-b py-1" >
+                  <div className="border-b py-1">
                     <Link
                       className="text-[13px] 2xl:text-[14px] 3xl:text-[15px] 4xl:text-[16px] 5xl:text-[17px] font-bold leading-normal text-white pl-3"
                       href="/bathroom-remodel-in-cypress-tx"
