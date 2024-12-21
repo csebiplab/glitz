@@ -5,7 +5,6 @@ const page = () => {
     return (
         <div>
             <RoofingContractorAllComponent/>
-            RoofingContractorAllComponent page
         </div>
     );
 };

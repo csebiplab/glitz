@@ -8,86 +8,78 @@ import NewHeadingIcon from "@/components/__ui/NewHeadingIcon";
 const usualPool = [
   {
     id : 1,
-    title: "Unreliable Project Timelines",
+    title: "Limited warranty options",
   },
   {
     id : 2,
-    title: "Poor quality workmanship",
+    title: "High upfront costs",
   },
   {
     id : 3,
-    title: "Hidden costs and fees",
+    title: "Slow response times for repairs",
   },
   {
     id : 4,
-    title: "Lack of Communication",
+    title: "Inconsistent quality of work",
   },
   {
     id : 5,
-    title: "Limited Design Options",
+    title: "Lack of clear communication",
   },
   {
     id : 6,
-    title: "Subpar Customer Service",
+    title: "Subcontracting without prior notice",
   },
   {
     id : 7,
-    title: "Inconsistent Materials",
+    title: "Unexpected additional fees",
   },
   {
     id : 8,
-    title: "Messy Job Sites",
+    title: "Delays due to supply shortages",
   },
   {
     id : 9,
-    title: "Failure to Meet Codes",
-  },
-  {
-    id : 10,
-    title: "Unsatisfactory Warranty Policies",
+    title: "Limited variety of roofing materials",
   }
 ];
 const easyPool = [
   {
     id : 1,
-    title: "Timely project completion",
+    title: "High-quality workmanship",
   },
   {
     id : 2,
-    title: "Exceptional Craftsmanship",
+    title: "Fast response times for repairs",
   },
   {
     id : 3,
-    title: "Transparent Pricing Structure",
+    title: "Transparent pricing with no hidden fees",
   },
   {
     id : 4,
-    title: "Customized Design Solutions",
+    title: "Wide selection of roofing materials",
   },
   {
     id : 5,
-    title: "Outstanding Customer Support",
+    title: "Excellent customer communication",
   },
   {
     id : 6,
-    title: "High-Quality Materials",
+    title: "Professional and experienced team",
   },
   {
     id : 7,
-    title: "Expert Installation Team",
+    title: "Timely project completion",
   },
   {
     id : 8,
-    title: "Impressive Portfolio of Work",
+    title: "Thorough cleanup after job completion",
   },
   {
     id : 9,
-    title: "Comprehensive Project Management",
-  },
-  {
-    id : 10,
-    title: "Satisfaction Guaranteed",
-  } 
+    title: "Flexible financing options",
+  }
 ];
 
 const WhyChoose = () => {
@@ -105,27 +97,20 @@ const WhyChoose = () => {
 
               <div>
                 <h2 className="text-[25px] md:text-[27px] lg:text-[30px] xl:text-[33px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[40px] 5xl:tex-[42px] font-bold text-black leading-tight 5xl:leading-normal mb-[10px] text-center md:text-left">
-                  Why Choose Our Bathroom Remodelers
+                Why Choose Our Roof Installer
                 </h2>
               </div>
 
               <div>
                 <p className="text-base 5xl:text-lg text-secondary-50 font-normal text-center md:text-left leading-[26px] lg:leading-[26px] xl:leading-[28px] 2xl:leading-[30px] 3xl:leading-[32px] 4xl:leading-[34px] 5xl:leading-[36px]">
-                  Our best bathroom remodelers are dedicated professionals who
-                  combine expertise, creativity, and a customer-centric approach
-                  to transform your space. We bring years of experience and a
-                  skilled team to ensure high-quality craftsmanship and
-                  innovative designs tailored to your preferences. Our strong
-                  reputation, supported by positive customer reviews and
-                  comprehensive services, guarantees a seamless remodeling
-                  experience.
+                Choosing Glitz Floors & More means selecting a roof installer committed to quality and customer satisfaction. Our experienced team delivers expert craftsmanship using high-quality materials, ensuring your roof is durable and reliable. We prioritize transparency with clear pricing and comprehensive services, from inspections to installations. With a focus on timely project completion and ongoing support, you can trust us to protect your home with a roof you can depend on for years. Contact us today to experience the difference!
                 </p>
               </div>
             </div>
 
             <div className="w-full border-2 my-6 md:my-0 cart1">
               <p className="font-family-secondary title-bg text-center 2xl:py-[20px] py-[19px] text-primary text-[15px] 2xl:text-base font-bold">
-                Usual Bathroom Remodelers
+              Usual roofing contractor
               </p>
               <div className="grid grid-rows-8 3xl:pt-[35px] pt-[20px] px-[20px] 2xl:text-[16px] lg:text-sm xs:text-[9px]">
                 {usualPool?.map((usual) => (
@@ -157,7 +142,7 @@ const WhyChoose = () => {
                   width={80}
                   height={80}
                 />
-                Our Bathroom Remodelers
+                Our roofing contractor
               </p>
               <div className="grid grid-rows-8 3xl:pt-[35px] pt-[25px] px-[20px] 2xl:text-[16px] lg:text-sm xs:text-[9px]">
                 {easyPool.map((usual) => (

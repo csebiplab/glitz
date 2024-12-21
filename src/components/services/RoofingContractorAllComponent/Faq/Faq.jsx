@@ -6,141 +6,183 @@ import NewHeadingCenterIcon from "@/components/__ui/NewHeadingCenterIcon";
 const QAPoolInstallationQuestionsNAns = [
   {
     id: 1,
-    question: "Is vinyl flooring suitable for high-traffic areas?",
+    question: "What types of roofing services do you offer?",
     answer:
-      "Absolutely! Vinyl flooring is designed to withstand heavy foot traffic, making it an excellent choice for commercial spaces and busy households. Its durability and resistance to scratches and dents ensure it looks great for years.",
+      "We provide a wide range of services, including roof installation, roof maintenance, roof replacement, and emergency repairs. We specialize in both commercial and residential roofing projects in Cypress, TX.",
   },
   {
     id: 2,
-    question: "Do you offer free consultations?",
+    question: "How often should I schedule roofing maintenance?",
     answer:
-      "Yes! At Glitz Floors & More, we offer free consultations to discuss your vinyl flooring needs, preferences, and budget.",
+      "Regular roof maintenance is recommended at least once a year to help extend your roof's lifespan, identify issues early, and prevent costly repairs.",
   },
   {
     id: 3,
-    question: "Are your vinyl flooring products eco-friendly?",
+    question: "Do you handle commercial roofing projects?",
     answer:
-      "We are committed to sustainability! Many of our vinyl flooring products are made with eco-friendly materials and practices, allowing you to enjoy stylish flooring while minimizing environmental impact.",
+      "Yes, we are experienced commercial roofing contractors and can manage projects of any scale. Our team is equipped to handle the specific requirements of commercial buildings in Cypress, TX.",
   },
   {
     id: 4,
-    question: "How can I get started with my vinyl flooring project?",
+    question: "Are you licensed and insured?",
     answer:
-      "Getting started is easy! Contact us to schedule your free consultation. Our team will guide you through the selection and installation process, ensuring a smooth and enjoyable experience.",
+      "Yes, our roofing contractors are fully licensed, insured, and trained to provide professional, safe, and high-quality roofing services.",
   },
   {
     id: 5,
-    question: "Is professional installation necessary for vinyl flooring?",
+    question: "Can you handle emergency roofing repairs?",
     answer:
-      "While some DIY enthusiasts may attempt to install vinyl flooring, we strongly recommend professional installation. Our skilled team ensures that your flooring is laid correctly, maximizing durability and aesthetic appeal.",
+      "Yes, we offer emergency roofing services in Cypress, TX, for situations such as storm damage, sudden leaks, and structural issues that need immediate attention.",
   },
   {
     id: 6,
-    question: "What should I expect during the installation process?",
+    question: "What should I do if my roof is leaking?",
     answer:
-      "Our team will arrive on time and prepare the area by moving furniture if needed during the installation. We will carefully install your vinyl flooring, paying attention to detail to ensure a flawless finish.",
+      "If you notice a roof leak, it's important to call for a professional inspection right away. Our team can quickly assess the issue and provide necessary repairs to prevent further damage.",
   },
   {
     id: 7,
-    question: "What styles are currently trending in vinyl flooring?",
+    question: "How long does a roof installation take?",
     answer:
-      "Vinyl flooring trends often include natural wood looks, stone textures, and bold geometric patterns. Light and neutral tones are popular for creating a spacious feel, while rich, darker hues add warmth and sophistication. Our team can help you navigate the latest trends to find the perfect style for your home.",
+      "The time frame for a roof installation varies based on factors like roof size, material, and weather conditions. Typically, residential installations can take a few days, while larger commercial projects may take longer.",
   },
   {
     id: 8,
-    question: "Can vinyl flooring be used in commercial spaces?",
+    question: "What types of roofing materials do you offer?",
     answer:
-      "Absolutely! Vinyl flooring is a fantastic choice for commercial environments due to its durability, ease of maintenance, and versatility. It can handle heavy foot traffic while providing a professional appearance that enhances the workspace.",
+      "We offer a variety of high-quality roofing materials, including asphalt shingles, metal roofing, tile, and flat roofing solutions, to suit residential and commercial needs.",
   },
   {
     id: 9,
-    question: "Do you provide maintenance tips for extending the life of my vinyl flooring?",
+    question: "What should I expect during a roof replacement?",
     answer:
-      "Yes! Regular cleaning, prompt attention to spills, and using furniture pads can significantly extend the life of your flooring.",
+      "During a roof replacement, our team will remove the old roofing materials, inspect and repair the underlying structure if necessary, and install new roofing materials. We prioritize a clean and safe work environment, keeping you informed every step of the way.",
   },
   {
     id: 10,
-    question: "What areas do you serve?",
+    question: "How can I prepare my property for a roofing project?",
     answer:
-      "While we primarily serve Cypress, TX, our services extend to surrounding areas. Contact us to find out if we can assist you in your location.",
+      "We recommend removing any valuable or fragile items from the attic, securing outdoor furniture, and preparing for some noise. Our team will guide you to make the process as smooth as possible.",
   },
   {
     id: 11,
-    question: "How does vinyl flooring compare to other options like hardwood or tile?",
+    question: "What sets your company apart from other roofing contractors in Cypress, TX?",
     answer:
-      "Vinyl flooring offers several advantages over hardwood and tile, including lower cost, easier installation, and enhanced comfort underfoot. It's also more resistant to moisture and scratches, making it ideal for families and busy environments.",
+      "Our dedication to quality workmanship, attention to detail, and excellent customer service set us apart. We also provide transparent pricing, timely project completion, and a strong commitment to customer satisfaction.",
   },
   {
     id: 12,
-    question: "What should I do to prepare for my vinyl flooring installation?",
+    question: "What is the lifespan of a new roof?",
     answer:
-      "Before installation, we recommend clearing the whole area. Our team will handle the rest, including removing old flooring and preparing the subfloor.",
+      "The lifespan depends on the roofing materials used and proper maintenance. Asphalt shingles typically last 20-30 years, while metal and tile roofs can last 50 years or more with good care.",
   },
   {
     id: 13,
-    question: "How can I choose the right color for my vinyl flooring?",
+    question: "Will you handle permits for my roofing project?",
     answer:
-      "Selecting the right color involves considering your overall design scheme and the mood you want to create in your space. Lighter colors make a room more open, while darker tones add warmth and depth. We can provide samples and help you visualize how different colors will look in your home.",
+      "Yes, we handle all necessary permits and follow local codes to ensure your roofing project is compliant and hassle-free.",
   },
   {
     id: 14,
-    question: "What is the lifespan of vinyl flooring?",
+    question: "How can I schedule a roofing inspection?",
     answer:
-      "With proper care and maintenance, vinyl flooring can last anywhere from 10 to 25 years or more, depending on the quality of the material and installation.",
+      "You can schedule a roofing inspection by calling us directly or filling out our online contact form. We offer flexible appointment options to fit your schedule and provide a thorough assessment of your roofing needs.",
   },
   {
     id: 15,
-    question: "Are there options for textured or embossed vinyl flooring?",
+    question: "Do you offer eco-friendly roofing options?",
     answer:
-      "Yes! Many of our vinyl flooring products come with textured or embossed finishes that mimic the look and feel of natural materials like wood and stone. This adds depth and realism to your floors while enhancing slip resistance.",
+      "Yes, we offer eco-friendly roofing materials and options, including energy-efficient shingles and reflective roofing, which can reduce energy costs and minimize environmental impact.",
   },
   {
     id: 16,
-    question: "What makes Glitz Floors & More stand out from other flooring companies?",
+    question: "How does Cypress, TX, weather affect my roof?",
     answer:
-      "At Glitz Floors & More, we prioritize quality, customer service, and expertise. Our knowledgeable team of flooring contractors is dedicated to understanding your needs and providing personalized solutions. We're committed to using high-quality materials and delivering exceptional craftsmanship on every project.",
+      "The weather in Cypress, TX, including intense heat, rain, and storms, can take a toll on your roof. Our roofing materials and techniques are chosen to withstand local weather conditions, providing long-lasting durability.",
   },
   {
     id: 17,
-    question: "Do you offer post-installation support?",
+    question: "Can I stay in my home during roof installation or replacement?",
     answer:
-      "Absolutely! We provide ongoing support and advice on maintenance and care, ensuring you have all the resources you need to keep your flooring in excellent condition.",
+      "Yes, you can typically stay in your home during roof installation. However, be prepared for some noise, and consider making accommodations if you have young children, pets, or work-from-home needs.",
   },
   {
     id: 18,
-    question: "Can I schedule a consultation after hours or on weekends?",
+    question: "What roofing systems are best for commercial properties?",
     answer:
-      "We strive to accommodate our customers' schedules. If you need a consultation outside regular business hours, just let us know, and we will do our best to arrange a convenient time.",
+      "We offer various roofing systems for commercial properties, including TPO, EPDM, and metal roofing. Our team will help you select the system that meets your building's needs, budget, and energy goals.",
   },
   {
     id: 19,
-    question: "Is there a recommended temperature for installing vinyl flooring?",
+    question: "Do you offer seasonal roof inspections?",
     answer:
-      "Yes, for optimal installation, vinyl flooring should be installed in temperatures between 65°F and 85°F. This ensures proper adhesion and prevents issues with expansion or contraction. Our team will assess conditions before installation to ensure a successful outcome."
+      "Yes, we recommend seasonal inspections, especially before and after extreme weather. This helps catch any issues early and keeps your roof in optimal condition."
   },
   {
     id: 20,
-    question: "Are there vinyl flooring options that are safe for pets?",
+    question: "How do I know if my roof has storm damage?",
     answer:
-      "Many vinyl flooring options are pet-friendly due to their durability and resistance to scratches and stains. We can guide you to products that will hold up well in homes with pets, ensuring both style and practicality.",
+      "Signs of storm damage include missing shingles, leaks, dents in metal roofing, and visible wear around flashing and edges. If you suspect storm damage, contact us for a professional inspection to assess potential issues.",
   },
   {
     id: 21,
-    question: "What makes vinyl flooring a good choice for allergy sufferers?",
+    question: "Can you repair leaks in any type of roof?",
     answer:
-      "Vinyl flooring is non-porous, which means it doesn't trap dust, allergens, or pet dander like carpets can. Regular cleaning will help maintain a healthier indoor environment, making it a great choice for allergy sufferers.",
+      "Yes, we specialize in leak repairs for a wide range of roofing materials, including shingles, metal, tile, and flat roofs. Our team quickly identifies the source of leaks and provides reliable solutions.",
   },
   {
     id: 22,
-    question: "Do you offer any special promotions or discounts?",
+    question: "Do you offer roof coatings for additional protection?",
     answer:
-      "We frequently run promotions and discounts on our vinyl flooring products and installation services. Be sure to ask during your consultation or check our website for current offers to help you save on your project.",
+      "Yes, we offer roof coating services that add an extra layer of protection against UV rays, weather damage, and leaks, especially beneficial for flat and low-slope roofs. Coatings can also improve energy efficiency.",
   },
   {
     id: 23,
-    question: "Is vinyl flooring waterproof?",
+    question: "What should I do if my roof repair is denied by insurance?",
     answer:
-      "Vinyl flooring is primarily water resistant; it can handle spills and moisture without significant damage. However, it's not completely waterproof. Prolonged exposure to standing water can cause issues like warping or separation. For areas that may experience a lot of moisture—such as bathrooms or laundry rooms—opt for vinyl products specifically labeled as waterproof, as they are designed to withstand higher levels of water without compromising their integrity.",
+      "If your claim is denied, we can assist by reviewing the details and potentially advocating on your behalf. We also provide competitive rates to make out-of-pocket repairs more manageable.",
+  },
+  {
+    id: 24,
+    question: "How do you ensure safety during roofing projects?",
+    answer:
+      "Safety is a top priority. Our team follows strict safety protocols, uses quality safety equipment, and stays updated on OSHA guidelines to ensure a safe work environment for our crew and clients.",
+  },
+  {
+    id: 25,
+    question: "Are there any hidden costs in your roofing estimates?",
+    answer:
+      "No, our estimates are transparent and detailed, with no hidden fees. We provide a breakdown of costs upfront so you know exactly what to expect.",
+  },
+  {
+    id: 26,
+    question: "Do you offer discounts for large commercial projects?",
+    answer:
+      "Yes, we offer competitive pricing and may provide discounts on larger commercial roofing projects. Contact us to discuss your specific project needs and to receive a custom quote.",
+  },
+  {
+    id: 27,
+    question: "How resistant are your roofing materials to Texas weather?",
+    answer:
+      "We use high-quality materials that are selected for their durability and resistance to Texas weather conditions, including heat, humidity, and storms. Each material is chosen to maximize the lifespan and resilience of your roof.",
+  },
+  {
+    id: 28,
+    question: "Can you install roofing insulation as part of the project?",
+    answer:
+      "Yes, we offer roofing insulation services to improve energy efficiency and comfort. Adding insulation during a roofing project can significantly reduce energy costs.",
+  },
+  {
+    id: 29,
+    question: "What is the process for filing an insurance claim for roof repairs?",
+    answer:
+      "We can guide you through the entire insurance claims process, from documenting damage to working with adjusters. Our team ensures you get the coverage you're entitled to for any repairs or replacements.",
+  },
+  {
+    id: 30,
+    question: "Can I customize the color and style of my roofing materials?",
+    answer:
+      "Yes, we offer a variety of colors and styles to match your aesthetic preferences. Our team can provide samples and advice to help you choose the best fit for your home or business.",
   },
 ];
 
@@ -153,8 +195,11 @@ const Faq = () => {
 
           <div>
             <h2 className="font-family-secondary text-[25px] md:text-[26px] lg:text-[29px] xl:text-[32px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[41px] 5xl:text-[44px] font-bold text-secondary leading-normal text-center">
-             FAQ of Painting Contractors Services
+            FAQ of Roofing Contractor Services
             </h2>
+            <p className="text-base 5xl:text-lg text-secondary-50 font-normal text-center leading-[26px] lg:leading-[26px] xl:leading-[28px] 2xl:leading-[30px] 3xl:leading-[32px] 4xl:leading-[34px] 5xl:leading-[36px]">
+            For more information or specific questions, feel free to contact our team. We're proud to serve the Cypress, TX, community with quality, reliability, and a commitment to excellence in roofing services!
+          </p>
           </div>
         </div>
       </div>
