@@ -11,9 +11,9 @@ export const headingIconText = {
 
   // flooring installation page
   aboutUs__headingIconText: "About Us",
-  installation__headingIconText: "#1 Installation",
+  installationCompany__headingIconText: "#1 Installation Company",
   residentialAndCommercial__headingIconText: "Residential & Commercial",
-  flooringInstallation__headingIconText: "Flooring Installation",
+  flooringInstallation__headingIconText: "Flooring Installation Company",
   bestFlooring__headingIconText: "Best Flooring",
   services__headingIconText: "Services",
   flooringContractors__headingIconText: "Flooring Contractors",

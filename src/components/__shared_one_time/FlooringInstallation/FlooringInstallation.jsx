@@ -13,7 +13,6 @@ import WhyChooseUs from './WhyChooseUs/WhyChooseUs';
 import OurServiceAreas from './OurServiceAreas/OurServiceAreas';
 import Services from './Services/Services';
 import Brand from './Brand/Brand';
-import HomeBanner from './HomeBanner/HomeBanner';
 import WorkingProcess from './WorkingProcess/WorkingProcess';
 import FlooringContractors from './FlooringContractors/FlooringContractors';
 import ContactUs from './ContactUs/ContactUs';
@@ -23,13 +22,14 @@ import StartYourProject from './StartYourProject/StartYourProject';
 import HowWeDesign from './HowWeDesign/HowWeDesign';
 import { titleHeadingTexts } from '@/utils/title-heading-text';
 import CostComparison from './CostComparison/CostComparison';
+import FlooringInstallationBanner from './FlooringInstallationBanner/FlooringInstallationBanner';
 
 const FlooringInstallationServices = () => {
     return (
         <div className="custom-container">
 
             <section>
-                <HomeBanner/>
+                <FlooringInstallationBanner/>
             </section>
 
             <section>
