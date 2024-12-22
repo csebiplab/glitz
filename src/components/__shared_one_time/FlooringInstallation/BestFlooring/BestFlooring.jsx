@@ -1,8 +1,8 @@
-import HeadingIcon from "@/components/__ui/HeadingIcon";
 import { headingIconText } from "@/utils/heading-text";
 import Image from "next/image";
 import React from "react";
 import "./BestFlooring.css";
+import NewHeadingIcon from "@/components/__ui/NewHeadingIcon";
 
 const BestFlooring = () => {
   return (
@@ -19,7 +19,7 @@ const BestFlooring = () => {
           </div>
           <div className="xl:col-span-1">
             <div className="flex justify-center xl:justify-start items-center">
-              <HeadingIcon
+              <NewHeadingIcon
                 text={headingIconText.bestFlooring__headingIconText}
               />
             </div>

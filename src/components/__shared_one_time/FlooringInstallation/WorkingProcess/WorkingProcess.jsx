@@ -1,8 +1,8 @@
 import React from "react";
 import "./WorkingProcess.css";
-import HeadingIcon from "@/components/__ui/HeadingIcon";
 import { headingIconText } from "@/utils/heading-text";
 import Image from "next/image";
+import NewHeadingCenterIcon from "@/components/__ui/NewHeadingCenterIcon";
 
 const workingData = [
   {
@@ -48,7 +48,7 @@ const WorkingProcess = () => {
     <div>
       <div className="container padding__top">
         <div className="flex flex-col items-center justify-center">
-          <HeadingIcon text={headingIconText.workingProcess__headingIconText} />
+          <NewHeadingCenterIcon text={headingIconText.workingProcess__headingIconText} />
           <h2 className="font-family-secondary text-[25px] md:text-[26px] lg:text-[29px] xl:text-[32px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[41px] 5xl:text-[44px] font-bold text-secondary leading-normal text-center pt-[10px] pb-[25px]">
             Working Process of Our Flooring Installers
           </h2>

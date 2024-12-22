@@ -8,8 +8,8 @@ import "swiper/css";
 import "swiper/css/autoplay";
 import "swiper/css/effect-coverflow";
 import "swiper/css/grid";
-import HeadingIcon from "@/components/__ui/HeadingIcon";
 import { headingIconText } from "@/utils/heading-text";
+import NewHeadingCenterIcon from "@/components/__ui/NewHeadingCenterIcon";
 
 const galImgs = [
   "/assets/glitz/gallery/gallery1.png",
@@ -54,7 +54,7 @@ const ProjectGallery = () => {
       <div className="custom-containe padding__top">
         <div className="container">
           <div className="flex flex-col justify-center items-center">
-            <HeadingIcon text={headingIconText.gallery__headingIconText} />
+            <NewHeadingCenterIcon text={headingIconText.gallery__headingIconText} />
             <div className="pb-5">
               <h2 className="font-family-secondary text-black text-[32px] md:text-[33px] xl:text-[34px] 2xl:text-[36px] 3xl:text-[38px]4xl:text-[40px] 5xl:text-[42px] font-bold text-center">
                 Gallery of Our Past Projects

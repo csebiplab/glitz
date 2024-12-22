@@ -2,8 +2,8 @@
 import React from "react";
 import "./Services.css";
 import Image from "next/image";
-import HeadingIcon from "@/components/__ui/HeadingIcon";
 import { headingIconText } from "@/utils/heading-text";
+import NewHeadingCenterIcon from "@/components/__ui/NewHeadingCenterIcon";
 
 const servicesData = [
   {
@@ -40,7 +40,7 @@ const Services = () => {
   return (
     <div className="container padding__top swimmingPoolContractor__bg">
       <div className="flex flex-col items-center justify-center">
-        <HeadingIcon text={headingIconText.services__headingIconText} />
+        <NewHeadingCenterIcon text={headingIconText.services__headingIconText} />
         <h2 className="font-family-secondary text-[32px] md:text-[34px] lg:text-4xl xl:text-[38px] 3xl:text-[40px] 5xl:text-[42px] font-bold text-black text-center pt-[5px]">
           Services We Provide
         </h2>

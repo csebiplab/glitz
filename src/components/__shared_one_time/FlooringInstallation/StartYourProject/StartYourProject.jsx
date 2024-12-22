@@ -1,4 +1,4 @@
-import HeadingIcon from '@/components/__ui/HeadingIcon';
+import NewHeadingIcon from '@/components/__ui/NewHeadingIcon';
 import { headingIconText } from '@/utils/heading-text';
 import Image from 'next/image';
 import React from 'react';
@@ -13,7 +13,7 @@ const StartYourProject = () => {
                     </div>
                     <div className='xl:col-span-1'>
                         <div className='flex justify-center xl:justify-start items-center'>
-                            <HeadingIcon text={headingIconText.startYourProject__headingIconText}/>
+                            <NewHeadingIcon text={headingIconText.startYourProject__headingIconText}/>
                         </div>
                         <div>
                             <h2 className='font-family-secondary text-[25px] md:text-[26px] lg:text-[29px] xl:text-[32px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[41px]  5xl:text-[44px] font-bold text-secondary leading-normal pb-[5px] text-center xl:text-left'>Start Your Project With Glitz Floors & More</h2>

@@ -1,8 +1,8 @@
-import HeadingIcon from "@/components/__ui/HeadingIcon";
 import { headingIconText } from "@/utils/heading-text";
 import React from "react";
 import Image from "next/image";
 import "./FlooringContractors.css";
+import NewHeadingCenterIcon from "@/components/__ui/NewHeadingCenterIcon";
 
 const flooringData = [
   {
@@ -50,7 +50,7 @@ const FlooringContractors = () => {
     <div>
       <div className="padding__top">
         <div className="container flex flex-col items-center justify-center">
-          <HeadingIcon
+          <NewHeadingCenterIcon
             text={headingIconText.flooringContractors__headingIconText}
           />
           <h2 className="font-family-secondary text-[25px] md:text-[26px] lg:text-[29px] xl:text-[32px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[41px] 5xl:text-[44px] font-bold text-secondary leading-normal text-center pt-[10px] pb-[5px]">
