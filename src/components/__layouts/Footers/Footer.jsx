@@ -12,14 +12,13 @@ import { FaLocationDot } from "react-icons/fa6";
 import { FaPhoneVolume } from "react-icons/fa6";
 import { CiClock2 } from "react-icons/ci";
 import { IoSettingsSharp } from "react-icons/io5";
-
-
+import FooterBottom from "./FooterBottom";
 
 const Footer = () => {
   return (
     <footer className="font-family-primary">
       {/* large device  */}
-      <div className="hidden xl:block">
+      <div className="hidden lg:block">
         <div className="footer__bg container py-[40px] 5xl:py-[60px]">
           <div className="grid grid-cols-8 gap-10 5xl:gap-[54px]">
             {/* first div  */}
@@ -32,14 +31,14 @@ const Footer = () => {
                 className="w-full"
               />
               <p className="mt-2 font-family-primary text-base 5xl:text-lg font-normal text-white text-left leading-[30px]">
-                If you're in the Cypress area and looking for expert flooring
+               If you're in the Cypress area and looking for expert flooring
                 and remodeling services, contact us today.
               </p>
             </div>
             {/* second div  */}
             <div className="col-span-2">
               <p className="font-family-primary flex items-center justify-start gap-[10px] 5xl:gap-[16px] text-lg font-bold text-white pb-[15px] 5xl:pb-[17px] leading-[29px]">
-                <CiClock2 className="w-[24px] h-[24px]"/>
+                <CiClock2 className="w-[24px] h-[24px]" />
                 Hours of Operations:
               </p>
               <ul className="text-white font-family-primary pl-[34px] 5xl:pl-[40px]">
@@ -63,7 +62,7 @@ const Footer = () => {
                 </li>
               </ul>
               <p className="font-family-primary text-sm font-normal text-white leading-[21px] pl-[34px] 5xl:pl-[40px]">
-                * We remain open during statutoryholidays and operate as per our
+                <span className="text-danger-50">*</span> We remain open during statutoryholidays and operate as per our
                 regular hours.
               </p>
             </div>
@@ -71,7 +70,7 @@ const Footer = () => {
             <div className="col-span-2">
               <div className="">
                 <p className="font-family-primary flex items-center justify-start gap-[10px] 5xl:gap-[16px] text-lg font-bold text-white pb-[17px] leading-[29px]">
-                  <IoSettingsSharp className="w-[24px] h-[24px]"/>
+                  <IoSettingsSharp className="w-[24px] h-[24px]" />
                   Our Services
                 </p>
                 <ul className="font-family-primary pl-[34px] 5xl:pl-[40px]">
@@ -98,24 +97,24 @@ const Footer = () => {
             <div className="col-span-2">
               <ul className="font-family-primary">
                 <li className="flex items-start gap-[12px] 5xl:gap-[24px] text-base 5xl:text-lg font-normal leading-[20px]">
-                  <FaLocationDot className="w-[24px] h-[24px] mt-2"/>
+                  <FaLocationDot className="w-[24px] h-[24px] mt-2" />
                   <Link
                     className="text-white"
                     href="location:16726 Huffmeister Rd D400, Cypress, TX 77429, United States"
                   >
                     16726 Huffmeister Rd <br className="hidden xl:block" />{" "}
-                    D400, Cypress, TX <br className="hidden xl:block" /> 
+                    D400, Cypress, TX <br className="hidden xl:block" />
                     77429, United States
                   </Link>
                 </li>
                 <li className="flex items-center gap-[12px] 5xl:gap-[24px] text-base 5xl:text-lg font-normal leading-[20px] py-[20px] 5xl:py-[24px]">
-                  <FaPhoneVolume className="w-[24px] h-[18px]"/>
+                  <FaPhoneVolume className="w-[24px] h-[18px]" />
                   <Link className="text-white" href="tel:(281) 758-5450">
-                  (281) 758-5450
+                    (281) 758-5450
                   </Link>
                 </li>
                 <li className="flex items-center gap-[12px] 5xl:gap-[24px] text-base 5xl:text-lg font-normal leading-[20px]">
-                  <MdOutlineEmail className="w-[24px] h-[24px]"/>
+                  <MdOutlineEmail className="w-[24px] h-[24px]" />
                   <Link
                     className="text-white"
                     href="mail:info@glitzfloors&more.us"
@@ -124,48 +123,19 @@ const Footer = () => {
                   </Link>
                 </li>
               </ul>
-              <div className="flex items-center gap-[30px] pt-[29px]">
-                <FaYoutube className="w-[21px] h-[21px]"/>
-                <FaLinkedin className="w-[21px] h-[21px]"/>
-                <FaFacebook className="w-[21px] h-[21px]"/>
-              </div>
             </div>
           </div>
         </div>
         {/* footer bottom  */}
-        <div className="bg-secondary-800 py-[8px] container flex justify-between items-center">
-          <div className="flex items-center gap-[15px]">
-            <p className="font-family-primary text-sm 5xl:text-base font-semibold text-white">
-              WEBSITE DESIGN AND SEO BY :-
-            </p>
-            <Image
-              src="/assets/glitz/icons/gokundu.png"
-              alt="gokundu logo"
-              width={141}
-              height={36}
-            />
-          </div>
-          <div>
-            <p className="font-family-primary text-sm 5xl:text-base font-medium text-white">
-              © All Copyright 2024 by GLITZ FLOORS & MORE
-            </p>
-          </div>
-          <div className="flex items-center justify-between gap-[5px]">
-            <p className="font-family-primary text-sm 5xl:text-base font-medium text-white pr-4">
-              Terms & Condition
-            </p>
-            <p className="font-family-primary text-sm 5xl:text-base font-medium text-white">Privacy Policy</p>
-          </div>
-        </div>
+        <FooterBottom />
       </div>
 
       {/* small device  */}
-      <div className="block md:hidden">
+      <div className="block lg:hidden">
         <div className="small_footer_image ">
           {/* first div  */}
           <div className="pt-[35px] px-[30px]">
             <Image
-              // src="/assets/glitz/logo/nav_logo.png"
               src="/assets/glitz/newHomePage/nav/nav__logo__glitz.png"
               alt="footer logo"
               width={144}
@@ -180,7 +150,7 @@ const Footer = () => {
           {/* second div  */}
           <div className="pt-[20px] px-[30px]">
             <p className="font-family-primary flex items-center justify-start gap-[10px] 5xl:gap-[16px] text-lg text-center font-bold text-white pb-[17px] leading-[29px]">
-            <CiClock2 className="w-[24px] h-[24px]"/>
+              <CiClock2 className="w-[24px] h-[24px]" />
               Hours of Operations:
             </p>
             <ul className="text-white font-family-primary">
@@ -204,15 +174,15 @@ const Footer = () => {
               </li>
             </ul>
             <p className="font-family-primary text-sm font-normal text-left text-white leading-[21px]">
-              * We remain open during <br/> statutoryholidays and operate as <br/> per our
-              regular hours.
+              <span className="text-danger-50">*</span> We remain open during <br /> statutoryholidays and operate as{" "}
+              <br /> per our regular hours.
             </p>
           </div>
           {/* third div  */}
           <div className="pt-[20px] px-[30px]">
             <div className="">
               <p className="font-family-primary flex items-center justify-start gap-[10px] 5xl:gap-[16px] text-lg text-center font-bold text-white pb-[17px] leading-[29px]">
-              <IoSettingsSharp className="w-[24px] h-[24px]"/>
+                <IoSettingsSharp className="w-[24px] h-[24px]" />
                 Our Services
               </p>
               <ul className="font-family-primary">
@@ -235,10 +205,10 @@ const Footer = () => {
             </div>
           </div>
           {/* fourth div  */}
-          <div className="pt-[20px] px-[30px]">
+          <div className="py-[20px] px-[30px]">
             <ul className="font-family-primary">
               <li className="flex justify-left items-start gap-[14px] text-base 5xl:text-lg font-normal leading-[20px]">
-              <FaLocationDot className="w-[24px] h-[24px] mt-2"/>
+                <FaLocationDot className="w-[24px] h-[24px] mt-2" />
                 <Link
                   className="text-white"
                   href="location:16726 Huffmeister Rd D400, Cypress, TX 77429, United States"
@@ -249,13 +219,13 @@ const Footer = () => {
                 </Link>
               </li>
               <li className="flex justify-start items-center gap-[14px] text-base 5xl:text-lg font-normal leading-[20px] py-[20px]">
-              <FaPhoneVolume className="w-[24px] h-[18px]"/>
+                <FaPhoneVolume className="w-[24px] h-[18px]" />
                 <Link className="text-white" href="tel:(281) 758-5450">
-                (281) 758-5450
+                  (281) 758-5450
                 </Link>
               </li>
               <li className="flex justify-start items-center gap-[14px] text-base 5xl:text-lg font-normal leading-[20px]">
-              <MdOutlineEmail className="w-[24px] h-[24px]"/>
+                <MdOutlineEmail className="w-[24px] h-[24px]" />
                 <Link
                   className="text-white"
                   href="mail:info@glitzfloors&more.us"
@@ -264,36 +234,43 @@ const Footer = () => {
                 </Link>
               </li>
             </ul>
-            <div className="flex justify-start items-center gap-[30px] pt-[20px]">
-                <FaYoutube className="w-[21px] h-[21px]"/>
-                <FaLinkedin className="w-[21px] h-[21px]"/>
-                <FaFacebook className="w-[21px] h-[21px]"/>
-              
-            </div>
-          </div>
-          {/* fifth div  */}
-          <div className="pt-[40px]">
-            <div className="border border-black  mx-[30px]" />
-            <p className="font-family-primary text-base font-medium pb-[15px] text-white text-center pt-[20px]">
-              © All Copyright 2024 by GLITZ FLOORS & MORE
-            </p>
-            <div className="flex justify-evenly">
-              <p className="font-family-primary text-base font-medium text-white">
-                Terms & Condition
-              </p>
-              <p className="font-family-primary text-base font-medium text-white">Privacy Policy</p>
-            </div>
           </div>
           {/* footer bottom  */}
-          <div className="flex items-center justify-center gap-[12px] py-[8px] bg-secondary-800 mt-[34px]">
-            <p className="font-family-primary text-xs font-semibold text-whtie">
+          <div className="bg-secondary-800 py-[6px] container">
+            <div className="flex flex-col justify-center items-center gap-[8px] sm:gap-[10px]">
+              <p className="text-sm 4xl:text-[15px] 5xl:text-base font-bold text-white leading-normal">
+                © All Copyright 2024 by GLITZ FLOORS & MORE
+              </p>
+              <div className="flex items-center gap-[10px]">
+                <div className="bg-primary-50 p-2 rounded-full">
+                  <FaYoutube className="w-[21px] h-[21px]" />
+                </div>
+                <div className="bg-primary-50 p-2 rounded-full">
+                  <FaLinkedin className="w-[21px] h-[21px]" />
+                </div>
+                <div className="bg-primary-50 p-2 rounded-full">
+                  <FaFacebook className="w-[21px] h-[21px]" />
+                </div>
+              </div>
+              <div className="flex items-center gap-5">
+                <p className="text-sm 4xl:text-[15px] 5xl:text-base font-bold text-white leading-normal">
+                  Terms & Condition
+                </p>
+                <p className="text-sm 4xl:text-[15px] 5xl:text-base font-bold text-white leading-normal">
+                  Privacy Policy
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="bg-secondary-400 flex justify-center items-center gap-[15px] py-1">
+            <p className="text-dark-800 text-sm 4xl:text-[15px] 5xl:text-base font-bold leading-normal">
               WEBSITE DESIGN AND SEO BY :-
             </p>
             <Image
               src="/assets/glitz/icons/gokundu.png"
-              alt="company logo"
-              width={112}
-              height={28}
+              alt="gokundu logo"
+              width={141}
+              height={36}
             />
           </div>
         </div>
