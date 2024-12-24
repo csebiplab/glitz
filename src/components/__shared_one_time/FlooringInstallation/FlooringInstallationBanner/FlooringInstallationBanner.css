@@ -1,6 +1,6 @@
 /* large device  */
 .banner__bg{
-    background-image: url("/assets/glitz/vinylFlooringInCypress/lg_hero.png");
+    background-image: url("/assets/glitz/flooring-installation/lg_hero.png");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -8,7 +8,7 @@
 }
 /* small device  */
 .small__banner__bg{
-    background-image: url("/assets/glitz/vinylFlooringInCypress/sm_hero.png");
+    background-image: url("/assets/glitz/flooring-installation/sm_hero.png");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;

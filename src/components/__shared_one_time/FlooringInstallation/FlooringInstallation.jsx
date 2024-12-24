@@ -5,31 +5,30 @@ import ResidentialCommercial from './ResidentialCommercial/ResidentialCommercial
 import BestFlooring from './BestFlooring/BestFlooring';
 import TrustUs from './TrustUs/TrustUs';
 import FloorsNow from './FloorsNow/FloorsNow';
-import Location from './Location/Location';
 import HowToVisualize from './HowToVisualize/HowToVisualize';
 import Faq from './Faq/Faq';
 import ProjectGallery from './ProjectGallery/ProjectGallery';
 import WhyChooseUs from './WhyChooseUs/WhyChooseUs';
-import OurServiceAreas from './OurServiceAreas/OurServiceAreas';
 import Services from './Services/Services';
 import Brand from './Brand/Brand';
-import HomeBanner from './HomeBanner/HomeBanner';
 import WorkingProcess from './WorkingProcess/WorkingProcess';
 import FlooringContractors from './FlooringContractors/FlooringContractors';
-import ContactUs from './ContactUs/ContactUs';
-import Review from './Review/Review';
 import FlooringInstallationCompany from './FlooringInstallationCompany/FlooringInstallationCompany';
 import StartYourProject from './StartYourProject/StartYourProject';
 import HowWeDesign from './HowWeDesign/HowWeDesign';
-import { titleHeadingTexts } from '@/utils/title-heading-text';
 import CostComparison from './CostComparison/CostComparison';
+import FlooringInstallationBanner from './FlooringInstallationBanner/FlooringInstallationBanner';
+import ServicesArea from '../HomePage/OnlyHomePage/ServicesArea/ServicesArea';
+import ContactUs from '../HomePage/OnlyHomePage/ContactUs/ContactUs';
+import Location from '../HomePage/OnlyHomePage/Location/Location';
+import Review from '../HomePage/OnlyHomePage/Review/Review';
 
 const FlooringInstallationServices = () => {
     return (
         <div className="custom-container">
 
             <section>
-                <HomeBanner/>
+                <FlooringInstallationBanner/>
             </section>
 
             <section>
@@ -81,7 +80,7 @@ const FlooringInstallationServices = () => {
             </section>
             
             <section>
-                <Review titleHeading={ titleHeadingTexts.flooringInstallationReviewText} />
+                <Review />
             </section>
 
             <section>
@@ -109,15 +108,15 @@ const FlooringInstallationServices = () => {
             </section>
 
             <section>
-                <OurServiceAreas/>
+                <ServicesArea />
             </section>
 
             <section>
-                <ContactUs  contactUsTitle={titleHeadingTexts.flooringInstallationContactUsText}/>
+                <ContactUs />
             </section>
 
             <section>
-                <Location/>
+                <Location />
             </section>
 
         </div>

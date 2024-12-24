@@ -1,7 +1,7 @@
 import React from "react";
-import HeadingIcon from "@/components/__ui/HeadingIcon";
 import { headingIconText } from "@/utils/heading-text";
 import "./HowWeDesign.css";
+import NewHeadingCenterIcon from "@/components/__ui/NewHeadingCenterIcon";
 
 const howWeDesginData = [
     {
@@ -36,13 +36,13 @@ const HowWeDesign = () => {
     <div>
       <div className="container padding__top">
         <div className="flex flex-col items-center justify-center">
-          <HeadingIcon
+          <NewHeadingCenterIcon
             text={headingIconText.howWeDesign__headingIconText}
           />
-          <h2 className="font-family-secondary text-[25px] md:text-[26px] lg:text-[29px] xl:text-[32px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[41px] 5xl:text-[44px] font-bold text-secondary leading-normal text-center pb-[5px]">
+          <h2 className="text-[25px] md:text-[27px] lg:text-[30px] xl:text-[33px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[40px] 5xl:tex-[42px] font-bold text-secondary leading-tight 5xl:leading-normal mb-[10px] text-center">
           How We Design Your Floor in Cypress
           </h2>
-          <p className="font-family-secondary text-lg font-normal text-center text-secondary">
+          <p className="text-base 5xl:text-lg text-secondary-50 font-normal text-center leading-[26px] lg:leading-[26px] xl:leading-[28px] 2xl:leading-[30px] 3xl:leading-[32px] 4xl:leading-[34px] 5xl:leading-[36px]">
           At Glitz Floors & More, we make your flooring vision a reality with our personalized design process. Starting with a consultation, we assess your space, style preferences, and budget. Our experts will guide you through a variety of flooring options, from hardwood to tile and everything in between. We'll help you select the perfect materials and designs that suit your aesthetic, lifestyle, and home needs. Once chosen, our team ensures precision installation, using top-quality products for a flawless finish. Thanks to Glitz Floors & More, your Cypress home will have stylish and durable floors. At Glitz Floors & More, we pride ourselves on making every step of the flooring process hassle-free, delivering a result that reflects your unique style and stands the test of time.
           </p>
         </div>
@@ -52,7 +52,7 @@ const HowWeDesign = () => {
                 howWeDesginData?.map((data)=>{
                     return <div key={data.id} className="how_we_cart___bg pt-[14px] pb-[21px] px-2">
                         <p className="text-[22px] 5xl:text-[25px] text-center font-bold text-black leading-normal">{data.title}</p>
-                        <p className="text-lg font-normal text-black leading-[35px] text-center">{data.desc}</p>
+                        <p className="text-base 4xl:text-[17px] 5xl:text-lg font-normal text-black leading-[35px] text-center">{data.desc}</p>
                     </div>
                 })
             }

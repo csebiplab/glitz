@@ -1,15 +1,15 @@
-import HeadingIcon from "@/components/__ui/HeadingIcon";
 import { headingIconText } from "@/utils/heading-text";
 import Image from "next/image";
 import React from "react";
 import "./BestFlooring.css";
+import NewHeadingIcon from "@/components/__ui/NewHeadingIcon";
 
 const BestFlooring = () => {
   return (
     <div className="bg__color">
       <div className="full__section_r_p pl-3 md:pl-0 pt-[19px] pb-[14px]">
-        <div className="grid grid-cols-1 xl:grid-cols-2 gap-[35px]">
-          <div className="xl:col-span-1">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-[35px]">
+          <div className="md:col-span-1">
             <Image
               src="/assets/glitz/images/about_us.png"
               alt="about us"
@@ -17,17 +17,17 @@ const BestFlooring = () => {
               height={780}
             />
           </div>
-          <div className="xl:col-span-1">
-            <div className="flex justify-center xl:justify-start items-center">
-              <HeadingIcon
+          <div className="md:col-span-1">
+            <div className="flex justify-center md:justify-start items-center">
+              <NewHeadingIcon
                 text={headingIconText.bestFlooring__headingIconText}
               />
             </div>
             <div className="">
-              <h2 className="font-family-secondary text-[25px] md:text-[26px] lg:text-[29px] xl:text-[32px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[41px]  5xl:text-[44px] font-bold text-secondary leading-normal pt-[10px] pb-[5px] text-center xl:text-left">
+              <h2 className="text-[25px] md:text-[27px] lg:text-[30px] xl:text-[33px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[40px] 5xl:tex-[42px] font-bold text-secondary leading-tight 5xl:leading-normal mb-[10px] text-center md:text-left">
                 Best Flooring in Cypress
               </h2>
-              <p className="font-family-secondary text-lg font-normal text-secondary-50 text-center xl:text-left">
+              <p className="text-base 5xl:text-lg text-secondary-50 font-normal text-center md:text-left leading-[26px] lg:leading-[26px] xl:leading-[28px] 2xl:leading-[30px] 3xl:leading-[32px] 4xl:leading-[34px] 5xl:leading-[36px]">
                 We offer an extensive range of high-quality flooring options to
                 suit any style and budget, including elegant hardwood, durable
                 laminate, versatile tile, and luxurious vinyl. Our team is
@@ -47,7 +47,7 @@ const BestFlooring = () => {
               </p>
               <div className="flex justify-start items-center gap-[25px] 5xl:gap-[35px] pt-[20px] xl:pt-[30px] 5xl:pt-[40px]">
                 <div className="">
-                  <button className="font-family-secondary flex items-center gap-[5px] text-base md:text-lg font-bold md:font-normal text-primary leading-normal best_flooring_btn_bg px-[10px] md:px-[30px] 5xl:px-[35px] py-[14px] md:py-[17px]">
+                  <button className="flex items-center gap-[5px] text-base md:text-lg font-bold md:font-normal text-primary leading-normal best_flooring_btn_bg px-[10px] md:px-[30px] 5xl:px-[35px] py-[14px] md:py-[17px]">
                     Contact Us{" "}
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -63,7 +63,7 @@ const BestFlooring = () => {
                     </svg>
                   </button>
                 </div>
-                <p className="font-family-secondary text-base font-bold text-black leading-normal">
+                <p className=" text-base font-bold text-black leading-normal">
                   Or
                 </p>
                 <Image

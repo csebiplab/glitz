@@ -20,7 +20,7 @@ const Navbar = () => {
   return (
     <div className="sticky top-0 z-50">
       <UpperNavbar />
-      <div className="bg-secondary-800 py-1">
+      <div className="w-full bg-secondary-800 py-1">
         <nav className="container">
           <div className="flex items-center justify-between gap-[100px] md:gap-[101px] lg:gap-[111px] xl:gap-[121px] 2xl:gap-[131px] 3xl:gap-[141px] 4xl:gap-[151px] 5xl:gap-[161px]">
             {/* large device  */}

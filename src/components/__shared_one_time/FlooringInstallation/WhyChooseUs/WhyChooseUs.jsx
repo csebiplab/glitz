@@ -1,9 +1,9 @@
 "use client";
-import HeadingIcon from "@/components/__ui/HeadingIcon";
 import "./WhyChooseUs.css";
 
 import Image from "next/image";
 import { headingIconText } from "@/utils/heading-text";
+import NewHeadingIcon from "@/components/__ui/NewHeadingIcon";
 
 const usualPool = [
   {
@@ -98,10 +98,10 @@ const WhyChooseUs = () => {
           <div className=" grid md:grid-cols-3 2xl:gap-[40px] md:gap-[30px] ">
             
             <div className="w-full border-2 my-6 md:my-0 cart1">
-              <p className="font-family-secondary title-bg text-center 2xl:py-[15px] py-[14px] text-primary text-base md:text-lg font-bold">
+              <p className="title-bg text-center py-[19px] text-secondary-800 text-base 5xl:text-lg font-bold">
               Usual Flooring Company
               </p>
-              <div className="grid grid-rows-8 3xl:py-[35px] py-[20px] px-[20px] 2xl:text-[16px] lg:text-sm xs:text-[9px]">
+              <div className="grid grid-rows-8 3xl:py-[35px] py-[20px] pl-[20px] pr-[5px] 2xl:text-[16px] lg:text-sm xs:text-[9px]">
                 {usualPool?.map((usual) => (
                   <div key={usual?.id}>
                   <div
@@ -115,7 +115,7 @@ const WhyChooseUs = () => {
                       height={20}
                       className="2xl:h-[20px] 2xl:w-[20px] h-[15px] w-[15px]"
                     />
-                    <p className="font-family-secondary text-[13px] 2xl:text-sm text-black font-bold">
+                    <p className="text-sm md:text-xs 2xl:text-sm text-black font-bold">
                       {usual.title}
                     </p>
                   </div>
@@ -127,11 +127,11 @@ const WhyChooseUs = () => {
               </div>
             </div>
             <div className="border-2 my-6 md:my-0 cart2">
-              <p className="font-family-secondary flex items-center gap-[5px] 5xl:gap-[10px] title-bg2 text-center 2xl:py-[15px] py-[14px] text-black text-base md:text-lg font-bold">
+              <p className=" flex items-center gap-[5px] 5xl:gap-[10px] title-bg2 text-center text-black text-base 5xl:text-lg font-bold">
               <Image className="pl-[3px] 5xl:pl-[5px]" src="/assets/glitz/logo/why_chose_us_logo.png" alt="bland logo" width={80} height={80}/>
               Our Flooring Company
               </p>
-              <div className="grid grid-rows-8 3xl:py-[35px] py-[25px] px-[20px] 2xl:text-[16px] lg:text-sm xs:text-[9px]">
+              <div className="grid grid-rows-8 3xl:py-[35px] py-[25px] pl-[20px] pr-[5px] 2xl:text-[16px] lg:text-sm xs:text-[9px]">
                 {easyPool.map((usual) => (
                   <div key={usual?.id}>
                   <div
@@ -145,7 +145,7 @@ const WhyChooseUs = () => {
                       height={20}
                       className="2xl:h-[20px] 2xl:w-[20px] h-[15px] w-[15px]"
                     />
-                    <p className="font-family-secondary text-[13px] 2xl:text-sm text-black font-bold">
+                    <p className="text-sm md:text-xs 2xl:text-sm text-black font-bold">
                       {usual.title}
                     </p>
                   </div>
@@ -157,19 +157,19 @@ const WhyChooseUs = () => {
             </div>
             <div className="mx-auto flex flex-col items-center justify-center">
               <div className="w-full flex md:justify-start justify-center md:items-start items-center">
-              <HeadingIcon
+              <NewHeadingIcon
                 text={headingIconText.whyChooseUs__headingIconText}
               />
               </div>
 
               <div>
-                <h2 className="font-family-secondary text-[25px] md:text-[26px] lg:text-[29px] xl:text-[32px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[41px] 5xl:text-[44px] font-bold text-secondary leading-normal py-[5px] text-center xl:text-left">
+                <h2 className="text-[25px] md:text-[27px] lg:text-[30px] xl:text-[33px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[40px] 5xl:tex-[42px] font-bold text-secondary leading-tight 5xl:leading-normal mb-[10px] text-center md:text-left">
                 Why Choose Our Floor Refinishing Service
                 </h2>
               </div>
 
               <div>
-                <p className="font-family-secondary text-lg font-normal md:text-start text-center text-secondary-50">
+                <p className="text-base 5xl:text-lg text-secondary-50 font-normal text-center md:text-left leading-[26px] lg:leading-[26px] xl:leading-[28px] 2xl:leading-[30px] 3xl:leading-[32px] 4xl:leading-[34px] 5xl:leading-[36px]">
                 Choose our floor refinishing service for a professional, efficient, and high-quality solution that revitalizes your floors and enhances the beauty of your space. Experience the difference between professionally refinished floors. Contact us today for a free consultation and let us help you bring new life to your home or business!
                 </p>
               </div>

@@ -1,6 +1,6 @@
 /* large device  */
 .banner__bg{
-    background-image: url("/assets/glitz/roofing-contractor/lg_banner.png");
+    background-image: url("/assets/glitz/roofing-contractor/lg_hero.png");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -8,7 +8,7 @@
 }
 /* small device  */
 .small__banner__bg{
-    background-image: url("/assets/glitz/roofing-contractor/sm_banner.png");
+    background-image: url("/assets/glitz/roofing-contractor/sm_hero.png");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
