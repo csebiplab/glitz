@@ -7,9 +7,9 @@ const ResidentialCommercial = () => {
   return (
     <div>
       <div className="full__section_r_p pl-3 md:pl-0 padding__top">
-        <div className="grid grid-cols-1 xl:grid-cols-2 gap-[25px]">
-          <div className="order-2 xl:col-span-1">
-            <div className='flex justify-center xl:justify-start items-center'>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-[25px]">
+          <div className="order-2 md:col-span-1">
+            <div className='flex justify-center md:justify-start items-center'>
               <NewHeadingIcon
                 text={headingIconText.residentialAndCommercial__headingIconText}
               />
@@ -23,7 +23,7 @@ const ResidentialCommercial = () => {
               </p>
             </div>
           </div>
-          <div className="order-1 xl:col-span-1">
+          <div className="order-1 md:col-span-1">
             <Image
               src="/assets/glitz/flooring-installation/residential-commercial.png"
               alt="residentialCommercial image"

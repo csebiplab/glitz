@@ -7,9 +7,9 @@ const FlooringInstallationCompany = () => {
   return (
     <div>
       <div className="full__section_l_p pr-3 md:pr-0 padding__all">
-        <div className="grid grid-cols-1 xl:grid-cols-2 gap-[35px]">
-          <div className="order-2 xl:order-1 xl:col-span-1">
-            <div className='flex justify-center xl:justify-start items-center'>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-[35px]">
+          <div className="order-2 md:order-1 md:col-span-1">
+            <div className='flex justify-center md:justify-start items-center'>
               <NewHeadingIcon
                 text={headingIconText.flooringInstallation__headingIconText}
               />
@@ -23,7 +23,7 @@ const FlooringInstallationCompany = () => {
               </p>
             </div>
           </div>
-          <div className="order-1 xl:order-2 xl:col-span-1">
+          <div className="order-1 md:order-2 md:col-span-1">
             <Image
               src="/assets/glitz/flooring-installation/flooring-installation-company.png"
               alt="flooring_installation image"

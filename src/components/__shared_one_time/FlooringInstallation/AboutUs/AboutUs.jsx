@@ -7,12 +7,12 @@ const AboutUs = () => {
     return (
         <div>
             <div className='full__section_r_p pl-3 md:pl-0 padding__top'>
-                <div className='grid grid-cols-1 xl:grid-cols-2 gap-[11px]'>
-                    <div className='xl:col-span-1'>
+                <div className='grid grid-cols-1 md:grid-cols-2 gap-[11px]'>
+                    <div className='md:col-span-1'>
                         <Image src="/assets/glitz/flooring-installation/aboutUs.png" alt='about us' width={812} height={488}/>
                     </div>
-                    <div className='xl:col-span-1'>
-                        <div className='flex justify-center xl:justify-start items-center'>
+                    <div className='md:col-span-1'>
+                        <div className='flex justify-center md:justify-start items-center'>
                             <NewHeadingIcon text={headingIconText.aboutUs__headingIconText}/>
                         </div>
                         <div>

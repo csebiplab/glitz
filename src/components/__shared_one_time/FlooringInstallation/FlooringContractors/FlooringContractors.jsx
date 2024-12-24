@@ -53,10 +53,10 @@ const FlooringContractors = () => {
           <NewHeadingCenterIcon
             text={headingIconText.flooringContractors__headingIconText}
           />
-          <h2 className="font-family-secondary text-[25px] md:text-[26px] lg:text-[29px] xl:text-[32px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[41px] 5xl:text-[44px] font-bold text-secondary leading-normal text-center pt-[10px] pb-[5px]">
+          <h2 className="text-[25px] md:text-[27px] lg:text-[30px] xl:text-[33px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[40px] 5xl:tex-[42px] font-bold text-secondary leading-tight 5xl:leading-normal mb-[10px] text-center">
             Our Flooring Contractors Also Offer
           </h2>
-          <p className="font-family-secondary text-lg font-normal text-center text-secondary">
+          <p className="text-base 5xl:text-lg text-secondary-50 font-normal text-center leading-[26px] lg:leading-[26px] xl:leading-[28px] 2xl:leading-[30px] 3xl:leading-[32px] 4xl:leading-[34px] 5xl:leading-[36px]">
             At Glitz Floors & More, our skilled flooring contractors go beyond
             traditional installations to provide a full spectrum of services
             designed to enhance your flooring experience. In addition to expert
@@ -64,7 +64,7 @@ const FlooringContractors = () => {
           </p>
         </div>
         {/* cart first div  */}
-        <div className="grid grid-cols-1 xl:grid-cols-3 gap-[80px] md:gap-[44px] pt-[80px] px-[10px] md:px-0">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-[80px] md:gap-[44px] pt-[80px] px-[10px] md:px-0">
           {flooringData?.map((data) => {
             return (
               <div
@@ -76,12 +76,12 @@ const FlooringContractors = () => {
                   alt="flooring image"
                   width={104}
                   height={104}
-                  className="absolute left-0 right-0 -top-14 w-[104px] h-[104px] mx-auto border-[2px] border-primary p-[5px] rounded-full bg-secondary-400"
+                  className="absolute left-0 right-0 -top-14 w-[104px] h-[104px] mx-auto border-[3px] border-secondary-800 p-[5px] rounded-full bg-secondary-400"
                 />
-                <p className="font-family-secondary text-[25px] font-bold text-center text-black pt-[65px]">
+                <p className="text-[25px] md:text-[22px] 3xl:text-[23px] 4xl:text-[24px] 5xl:text-[25px] font-bold text-center text-black pt-[65px]">
                   {data.title}
                 </p>
-                <p className="font-family-secondary text-lg font-normal text-center pt-[5px]">
+                <p className=" text-lg font-normal text-center pt-[5px]">
                   {data.desc}
                 </p>
               </div>
@@ -89,7 +89,7 @@ const FlooringContractors = () => {
           })}
         </div>
         {/* cart second div  */}
-        <div className="grid grid-cols-1 xl:grid-cols-3 gap-[80px] md:gap-[44px]  pt-[80px] pb-[25px]  px-[10px] md:px-0">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-[80px] md:gap-[44px]  pt-[80px] pb-[25px]  px-[10px] md:px-0">
           {flooringData1?.map((data) => {
             return (
               <div
@@ -101,12 +101,12 @@ const FlooringContractors = () => {
                   alt="flooring image"
                   width={104}
                   height={104}
-                  className="absolute left-0 right-0 -top-14 w-[104px] h-[104px] mx-auto border-[2px] border-primary p-[5px] rounded-full bg-secondary-400"
+                  className="absolute left-0 right-0 -top-14 w-[104px] h-[104px] mx-auto border-[3px] border-secondary-800 p-[5px] rounded-full bg-secondary-400"
                 />
-                <p className="font-family-secondary text-[25px] font-bold text-center text-black pt-[65px]">
+                <p className="text-[25px] md:text-[22px] 3xl:text-[23px] 4xl:text-[24px] 5xl:text-[25px] font-bold text-center text-black pt-[65px]">
                   {data.title}
                 </p>
-                <p className="font-family-secondary text-lg font-normal text-center pt-[5px]">
+                <p className="text-base 4xl:text-[17px] 5xl:text-lg font-normal text-center pt-[5px]">
                   {data.desc}
                 </p>
               </div>
@@ -114,20 +114,20 @@ const FlooringContractors = () => {
           })}
         </div>
         {/* third div  */}
-        <div className="flex flex-col xl:flex-row gap-[80px] md:gap-[60px] 5xl:gap-[75px] pt-[60px] 5xl:pt-[75px]  px-[10px] md:px-0">
-          <div className="w-full xl:w-1/3">
+        <div className="flex flex-col md:flex-row gap-[80px] md:gap-[44px] pt-[60px] 5xl:pt-[75px]  px-[10px] md:px-0">
+          <div className="w-full md:w-1/3">
             <div className="cart_bg relative px-[11px] pb-[25px]">
               <Image
                 src="/assets/glitz/flooring/flooring7.png"
                 alt="flooring image"
                 width={104}
                 height={104}
-                className="absolute left-0 right-0 -top-14 w-[104px] h-[104px] mx-auto border-[2px] border-primary p-[5px] rounded-full bg-secondary-400"
+                className="absolute left-0 right-0 -top-14 w-[104px] h-[104px] mx-auto border-[3px] border-secondary-800 p-[5px] rounded-full bg-secondary-400"
               />
-              <p className="font-family-secondary text-[25px] font-bold text-center text-black pt-[65px]">
+              <p className="text-[25px] md:text-[22px] 3xl:text-[23px] 4xl:text-[24px] 5xl:text-[25px] font-bold text-center text-black pt-[65px]">
                 Shower Glass Installation
               </p>
-              <p className="font-family-secondary text-lg font-normal text-center pt-[5px]">
+              <p className="text-base 4xl:text-[17px] 5xl:text-lg font-normal text-center pt-[5px]">
                 Elevate your bathroom with sleek and stylish shower glass
                 installation from Glitz Floors & More. Our expert team
                 specializes in custom glass solutions that enhance the look and
@@ -139,19 +139,19 @@ const FlooringContractors = () => {
               </p>
             </div>
           </div>
-          <div className="w-full xl:w-1/3">
+          <div className="w-full md:w-1/3">
             <div className="cart_bg relative px-[11px] pb-[25px]">
               <Image
                 src="/assets/glitz/flooring/flooring8.png"
                 alt="flooring image"
                 width={104}
                 height={104}
-                className="absolute left-0 right-0 -top-14 w-[104px] h-[104px] mx-auto border-[2px] border-primary p-[5px] rounded-full bg-secondary-400"
+                className="absolute left-0 right-0 -top-14 w-[104px] h-[104px] mx-auto border-[3px] border-secondary-800 p-[5px] rounded-full bg-secondary-400"
               />
-              <p className="font-family-secondary text-[25px] font-bold text-center text-black pt-[65px]">
+              <p className="text-[25px] md:text-[22px] 3xl:text-[23px] 4xl:text-[24px] 5xl:text-[25px] font-bold text-center text-black pt-[65px]">
                 Add Rooms
               </p>
-              <p className="font-family-secondary text-lg font-normal text-center pt-[5px]">
+              <p className="text-base 4xl:text-[17px] 5xl:text-lg font-normal text-center pt-[5px]">
                 Expand your living space with expert room additions from Glitz
                 Floors & More. Our skilled team designs and constructs custom
                 rooms that seamlessly integrate with your home, enhancing both
@@ -163,17 +163,17 @@ const FlooringContractors = () => {
               </p>
             </div>
           </div>
-          <div className="w-full xl:w-1/3 h-full">
+          <div className="w-full md:w-1/3 h-full">
             <div className="cart_bg px-[11px] pb-[25px]">
-              <p className="font-family-secondary text-[25px] font-bold text-center text-black pt-[65px]">
+              <p className="text-[25px] md:text-[22px] 3xl:text-[23px] 4xl:text-[24px] 5xl:text-[25px] font-bold text-center text-black pt-[65px]">
                 Have a project in mind? <br />
                 Contact us!
               </p>
               <div className="flex justify-between items-center pt-[35px]">
               <div className="">
-              <button className="font-family-secondary text-lg font-normal text-primary flooring_btn_bg p-[10px] md:p-[15px]">Get Free Quote</button>
+              <button className="text-base 4xl:text-[17px] 5xl:text-lg font-normal text-secondary-800 flooring_btn_bg p-[10px] md:p-[15px]">Get Free Quote</button>
               </div>
-              <p className="font-family-secondary text-lg font-bold text-black leading-normal">Or</p>
+              <p className=" text-lg font-bold text-black leading-normal">Or</p>
               <Image
                 src="/assets/glitz/flooring/flooring_btn.png"
                 alt="flooring btn image"
