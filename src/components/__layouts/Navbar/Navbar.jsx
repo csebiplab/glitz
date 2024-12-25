@@ -16,11 +16,10 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [hoverServices, setHoverServices] = useState(true);
   const [isServiceClick, setIsServiceClick] = useState(false);
-
   return (
     <div className="sticky top-0 z-50">
       <UpperNavbar />
-      <div className="w-full bg-secondary-800 py-1">
+      <div className="w-full h-auto bg-secondary-800 py-1">
         <nav className="container">
           <div className="flex items-center justify-between gap-[100px] md:gap-[101px] lg:gap-[111px] xl:gap-[121px] 2xl:gap-[131px] 3xl:gap-[141px] 4xl:gap-[151px] 5xl:gap-[161px]">
             {/* large device  */}
@@ -28,7 +27,8 @@ const Navbar = () => {
             <div className="w-1/5 hidden lg:block text-white text-lg font-bold">
               <Link href="/" aria-label="Home">
                 <Image
-                  src="/assets/glitz/newHomePage/nav/nav__logo__glitz.png"
+                  // src="/assets/glitz/newHomePage/nav/nav__logo__glitz.png"
+                  src="/assets/glitz/logo/lg_nav_logo.png"
                   alt="nav logo"
                   width={258}
                   height={166}
@@ -48,7 +48,11 @@ const Navbar = () => {
                   </p>
                   <div className="flex items-center gap-2">
                     <div className="bg-primary-50 p-2 rounded-full">
-                      <Link href="https://www.instagram.com/glitz.floors.and.more/?fbclid=IwAR3YJkB2MW6Wi5tPbL4jMuORAz5g7iV8Qa55RUhn-q9lihiMgr5v7ZRvN6A">
+                      <Link
+                        target="_blank"
+                        rel="nofollow"
+                        href="https://www.instagram.com/glitz.floors.and.more/?fbclid=IwAR3YJkB2MW6Wi5tPbL4jMuORAz5g7iV8Qa55RUhn-q9lihiMgr5v7ZRvN6A"
+                      >
                         <FaInstagram className="text-white " />
                       </Link>
                     </div>
@@ -59,7 +63,11 @@ const Navbar = () => {
                       <FaLinkedin className="text-white " />
                     </div>
                     <div className="bg-primary-50 p-2 rounded-full">
-                      <Link href="https://www.facebook.com/p/Glitz-Floors-More-100095651767067/">
+                      <Link
+                        target="_blank"
+                        rel="nofollow"
+                        href="https://www.facebook.com/p/Glitz-Floors-More-100095651767067/"
+                      >
                         <FaFacebook className="text-white " />
                       </Link>
                     </div>
@@ -70,7 +78,12 @@ const Navbar = () => {
                     <LuPhoneCall className="text-white " />
                   </div>
                   <p className="text-[17px] 3xl:text-lg 4xl:text-[19px] 5xl:text-[20px] font-bold leading-[40px] text-white">
-                    <Link className="text-white" href="tel:(346) 445-6343">
+                    <Link
+                      target="_blank"
+                      rel="nofollow"
+                      className="text-white"
+                      href="tel:(346) 445-6343"
+                    >
                       (346) 445-6343
                     </Link>
                   </p>
@@ -168,7 +181,7 @@ const Navbar = () => {
             </div>
 
             {/* Small Device */}
-            <div className="lg:hidden w-full flex justify-between items-center px-[16px] sm:px-[20px]">
+            <div className=" lg:hidden w-full flex justify-between items-center px-[10px] md:px-0">
               <div>
                 {!isOpen && (
                   <Link href="/" aria-label="Home">
@@ -180,6 +193,22 @@ const Navbar = () => {
                       className="w-full h-full"
                     />
                   </Link>
+                )}
+              </div>
+
+              <div className="ml-2">
+                {!isOpen && (
+                  <button className="flex items-center gap-[4px]">
+                    <div className="bg-primary-50 p-2 rounded-lg">
+                      <LuPhoneCall className="w-[13px] h-[13px] text-white" />
+                    </div>
+                    <Link
+                      className="text-sm font-bold text-white leading-normal"
+                      href="tel:(346) 445-6343"
+                    >
+                      (346) 445-6343
+                    </Link>
+                  </button>
                 )}
               </div>
 
@@ -200,7 +229,7 @@ const Navbar = () => {
 
           {/* Mobile Menu */}
           {isOpen && (
-            <div className="lg:hidden mt-4 space-y-2 pb-12">
+            <div className="lg:hidden mt-4  pb-12">
               <div className="mb-8">
                 <Image
                   src="/assets/glitz/newHomePage/nav/nav__logo__glitz.png"
@@ -213,44 +242,45 @@ const Navbar = () => {
 
               <Link
                 href="/"
-                className="block text-base 2xl:text-lg font-normal bg-primary-50 rounded-[8px] pl-3 text-white hover:text-[#ffb300] py-2"
+                className="block text-base 2xl:text-lg font-normal bg-primary-50 rounded-[8px] pl-3 text-white hover:text-[#ffb300] py-2  mb-2"
               >
                 Home
               </Link>
               <Link
                 href="/about"
-                className="block text-base 2xl:text-lg font-normal bg-primary-50 rounded-[8px] pl-3 text-white hover:text-[#ffb300] py-2"
+                className="block text-base 2xl:text-lg font-normal bg-primary-50 rounded-[8px] pl-3 text-white hover:text-[#ffb300] py-2  mb-2"
               >
                 About
               </Link>
               <Link
                 href="/gallery"
-                className="block text-base 2xl:text-lg font-normal bg-primary-50 rounded-[8px] pl-3 text-white hover:text-[#ffb300] py-2"
+                className="block text-base 2xl:text-lg font-normal bg-primary-50 rounded-[8px] pl-3 text-white hover:text-[#ffb300] py-2 mb-2"
               >
                 Gallery
               </Link>
               <Link
                 href="/kitchen-remodel-in-cypress"
-                className="block text-base 2xl:text-lg font-normal bg-primary-50 rounded-[8px] pl-3 text-white hover:text-[#ffb300] py-2"
+                className="block text-base 2xl:text-lg font-normal bg-primary-50 rounded-[8px] pl-3 text-white hover:text-[#ffb300] py-2 mb-2"
               >
                 Kitchen Remodeling
               </Link>
               <Link
                 href="/bathroom-remodel-in-cypress-tx"
-                className="block text-base 2xl:text-lg font-normal bg-primary-50 rounded-[8px] pl-3 text-white hover:text-[#ffb300] py-2"
+                className="block text-base 2xl:text-lg font-normal bg-primary-50 rounded-[8px] pl-3 text-white hover:text-[#ffb300] py-2  mb-2"
               >
                 Bathroom Remodeling
               </Link>
-              <Link
-                href="#"
-                onclick={() => setIsServiceClick(!isServiceClick)}
-                className="w-full flex justify-between items-center text-base 2xl:text-lg font-normal bg-primary-50 px-3 leading-normal text-white hover:text-[#ffb300] rounded-[8px] py-2"
+              <button
+                onClick={() => setIsServiceClick(!isServiceClick)}
+                className={`w-full flex justify-between items-center text-base 2xl:text-lg font-normal bg-primary-50 px-3 leading-normal text-white hover:text-[#ffb300] py-2 ${
+                  isServiceClick ? "rounded-t-[8px]" : "rounded-[8px]"
+                }`}
               >
                 Our Services
                 {isServiceClick ? <IoIosArrowDown /> : <IoIosArrowUp />}
-              </Link>
+              </button>
               {isServiceClick && (
-                <div className="bg-primary-50 rounded-[8px] pb-2">
+                <div className="bg-primary-50 rounded-b-[8px] pb-2 px-3">
                   <div className="border-y py-1">
                     <Link
                       className="text-[13px] 2xl:text-[14px] 3xl:text-[15px] 4xl:text-[16px] 5xl:text-[17px] font-bold leading-normal text-white pl-3"
@@ -275,7 +305,7 @@ const Navbar = () => {
                       Bathroom Remodeling
                     </Link>
                   </div>
-                  <div className="py-1">
+                  <div className="border-b py-1">
                     <Link
                       className="text-[13px] 2xl:text-[14px] 3xl:text-[15px] 4xl:text-[16px] 5xl:text-[17px] font-bold leading-normal text-white pl-3"
                       href="/vinyl-flooring-in-cypress-tx"
@@ -283,7 +313,7 @@ const Navbar = () => {
                       Vinyl Flooring
                     </Link>
                   </div>
-                  <div className="py-1">
+                  <div className="border-b py-1">
                     <Link
                       className="text-[13px] 2xl:text-[14px] 3xl:text-[15px] 4xl:text-[16px] 5xl:text-[17px] font-bold leading-normal text-white pl-3"
                       href="/painting-contractors-in-cypress-tx"
@@ -303,7 +333,7 @@ const Navbar = () => {
               )}
               <Link
                 href="/contact-us"
-                className="block text-base 2xl:text-lg font-normal bg-primary-50 rounded-[8px] pl-3 text-white hover:text-[#ffb300] py-2"
+                className="block text-base 2xl:text-lg font-normal bg-primary-50 rounded-[8px] pl-3 text-white hover:text-[#ffb300] py-2 mt-2"
               >
                 Contact Us
               </Link>

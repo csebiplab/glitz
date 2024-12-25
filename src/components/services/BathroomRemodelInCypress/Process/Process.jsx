@@ -63,10 +63,10 @@ const Process = () => {
                   height={129}
                   className="w-[129px] h-[129px] mx-auto"
                 />
-                <p className="font-family-secondary text-[20px] xl:text-[21px] 2xl:text-[22px] 3xl:text-[23px] 4xl:text-[24px] 5xl:text-[25px] font-bold text-secondary text-center leading-9 pt-[12px] pb-[5px]">
+                <p className=" text-[20px] xl:text-[21px] 2xl:text-[22px] 3xl:text-[23px] 4xl:text-[24px] 5xl:text-[25px] font-bold text-secondary text-center leading-9 pt-[12px] pb-[5px]">
                   {data.title}
                 </p>
-                <p className="font-family-secondary text-base 5xl:text-lg font-light text-black text-center pb-[25px]">
+                <p className=" text-base 5xl:text-lg font-light text-black text-center pb-[25px]">
                   {data.desc}
                 </p>
                 <div className="absolute bottom-0 w-full h-[2px] bg-secondary-300" />

@@ -117,7 +117,7 @@ const WhyChoose = () => {
             </div>
 
             <div className="w-full border-2 my-6 md:my-0 cart1">
-              <p className="font-family-secondary title-bg text-center 2xl:py-[20px] py-[19px] text-primary text-[15px] 2xl:text-base font-bold">
+              <p className=" title-bg text-center 2xl:py-[20px] py-[19px] text-primary text-[15px] 2xl:text-base font-bold">
               Usual Painting Contractors
               </p>
               <div className="grid grid-rows-8 3xl:pt-[35px] pt-[20px] px-[20px] 2xl:text-[16px] lg:text-sm xs:text-[9px]">
@@ -131,7 +131,7 @@ const WhyChoose = () => {
                         height={20}
                         className="2xl:h-[20px] 2xl:w-[20px] h-[15px] w-[15px]"
                       />
-                      <p className="font-family-secondary text-[13px] md:text-xs 2xl:text-sm text-black font-bold">
+                      <p className=" text-[13px] md:text-xs 2xl:text-sm text-black font-bold">
                         {usual.title}
                       </p>
                     </div>
@@ -142,7 +142,7 @@ const WhyChoose = () => {
             </div>
 
             <div className="border-2 my-6 md:my-0 cart2">
-              <p className="font-family-secondary flex items-center gap-[2px] 5xl:gap-[10px] title-bg2 text-center py-[2px] text-black text-[15px] 2xl:text-base font-bold">
+              <p className=" flex items-center gap-[2px] 5xl:gap-[10px] title-bg2 text-center py-[2px] text-black text-[15px] 2xl:text-base font-bold">
                 <Image
                   className="pl-[3px] 5xl:pl-[5px]"
                   src="/assets/glitz/logo/why_chose_us_logo.png"
@@ -163,7 +163,7 @@ const WhyChoose = () => {
                         height={20}
                         className="2xl:h-[20px] 2xl:w-[20px] h-[15px] w-[15px]"
                       />
-                      <p className="font-family-secondary text-[13px] md:text-xs 2xl:text-sm text-black font-bold">
+                      <p className=" text-[13px] md:text-xs 2xl:text-sm text-black font-bold">
                         {usual.title}
                       </p>
                     </div>
