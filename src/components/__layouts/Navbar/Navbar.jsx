@@ -16,11 +16,10 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [hoverServices, setHoverServices] = useState(true);
   const [isServiceClick, setIsServiceClick] = useState(false);
-  console.log(isServiceClick, "hi")
   return (
     <div className="sticky top-0 z-50">
       <UpperNavbar />
-      <div className="w-10/12 md:w-full bg-secondary-800 py-1">
+      <div className="w-full h-auto bg-secondary-800 py-1">
         <nav className="container">
           <div className="flex items-center justify-between gap-[100px] md:gap-[101px] lg:gap-[111px] xl:gap-[121px] 2xl:gap-[131px] 3xl:gap-[141px] 4xl:gap-[151px] 5xl:gap-[161px]">
             {/* large device  */}
@@ -28,7 +27,8 @@ const Navbar = () => {
             <div className="w-1/5 hidden lg:block text-white text-lg font-bold">
               <Link href="/" aria-label="Home">
                 <Image
-                  src="/assets/glitz/newHomePage/nav/nav__logo__glitz.png"
+                  // src="/assets/glitz/newHomePage/nav/nav__logo__glitz.png"
+                  src="/assets/glitz/logo/lg_nav_logo.png"
                   alt="nav logo"
                   width={258}
                   height={166}
@@ -48,7 +48,7 @@ const Navbar = () => {
                   </p>
                   <div className="flex items-center gap-2">
                     <div className="bg-primary-50 p-2 rounded-full">
-                      <Link href="https://www.instagram.com/glitz.floors.and.more/?fbclid=IwAR3YJkB2MW6Wi5tPbL4jMuORAz5g7iV8Qa55RUhn-q9lihiMgr5v7ZRvN6A">
+                      <Link target="_blank" rel="nofollow" href="https://www.instagram.com/glitz.floors.and.more/?fbclid=IwAR3YJkB2MW6Wi5tPbL4jMuORAz5g7iV8Qa55RUhn-q9lihiMgr5v7ZRvN6A">
                         <FaInstagram className="text-white " />
                       </Link>
                     </div>
@@ -59,7 +59,7 @@ const Navbar = () => {
                       <FaLinkedin className="text-white " />
                     </div>
                     <div className="bg-primary-50 p-2 rounded-full">
-                      <Link href="https://www.facebook.com/p/Glitz-Floors-More-100095651767067/">
+                      <Link target="_blank" rel="nofollow" href="https://www.facebook.com/p/Glitz-Floors-More-100095651767067/">
                         <FaFacebook className="text-white " />
                       </Link>
                     </div>
@@ -70,7 +70,7 @@ const Navbar = () => {
                     <LuPhoneCall className="text-white " />
                   </div>
                   <p className="text-[17px] 3xl:text-lg 4xl:text-[19px] 5xl:text-[20px] font-bold leading-[40px] text-white">
-                    <Link className="text-white" href="tel:(346) 445-6343">
+                    <Link target="_blank" rel="nofollow" className="text-white" href="tel:(346) 445-6343">
                       (346) 445-6343
                     </Link>
                   </p>
@@ -168,7 +168,7 @@ const Navbar = () => {
             </div>
 
             {/* Small Device */}
-            <div className=" lg:hidden w-full flex justify-between items-center px-[16px] sm:px-[20px]">
+            <div className=" lg:hidden w-full flex justify-between items-center px-[10px] md:px-0">
               <div>
                 {!isOpen && (
                   <Link href="/" aria-label="Home">
