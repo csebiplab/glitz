@@ -91,8 +91,8 @@ const Brand = () => {
             >
               <div className="w-full !flex items-center gap-4 5xl:gap-16">
                 <div className="pl-5 5xl:pl-14">
-                  <p className="font-family-secondary text-sm 5xl:text-[15px] text-secondary font-bold leading-normal pb-[7px]">
-                    Verifying Review From Trusted Site:{" "}
+                  <p className=" text-sm 5xl:text-[15px] text-secondary font-bold leading-normal pb-[7px]">
+                    Verifying Review From Trusted Site :{" "}
                   </p>
                   <Image
                     src="/assets/glitz/icons/five_star.png"
@@ -158,8 +158,8 @@ const Brand = () => {
         <div className="block md:hidden">
           <div className="brand__bg pt-[8px] pb-[1px]" >
             <div className="flex flex-col justify-center items-center">
-              <p className="font-family-secondary text-sm sm:text-base text-secondary text-center font-bold leading-normal pb-[7px]">
-                Verifying Review From Trusted Site:{" "}
+              <p className=" text-sm sm:text-base text-secondary text-center font-bold leading-normal pb-[7px]">
+                Verifying Review From Trusted Site :{" "}
               </p>
               <div className="w-1/5 ">
               <Image

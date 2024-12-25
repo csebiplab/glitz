@@ -74,10 +74,10 @@ const PaintingMaterials = () => {
                   height={104}
                   className="absolute left-0 right-0 -top-14 w-[104px] h-[104px] mx-auto border-[6px] border-primary p-[5px] rounded-full bg-secondary-400"
                 />
-                <p className="font-family-secondary text-lg 4xl:text-[19px] 5xl:text-[20px] font-bold text-center text-black pt-[65px]">
+                <p className=" text-lg 4xl:text-[19px] 5xl:text-[20px] font-bold text-center text-black pt-[65px]">
                   {data.title}
                 </p>
-                <p className="font-family-secondary text-base 4xl:text-[17px] 5xl:text-lg font-normal text-center pt-[5px]">
+                <p className=" text-base 4xl:text-[17px] 5xl:text-lg font-normal text-center pt-[5px]">
                   {data.desc}
                 </p>
               </div>
@@ -96,10 +96,10 @@ const PaintingMaterials = () => {
                   height={104}
                   className="absolute left-0 right-0 -top-14 w-[104px] h-[104px] mx-auto border-[6px] border-primary p-[5px] rounded-full bg-secondary-400"
                 />
-                <p className="font-family-secondary text-lg 4xl:text-[19px] 5xl:text-[20px] font-bold text-center text-black pt-[65px]">
+                <p className=" text-lg 4xl:text-[19px] 5xl:text-[20px] font-bold text-center text-black pt-[65px]">
                 Drop Cloths and Protective Materials
                 </p>
-                <p className="font-family-secondary text-base 4xl:text-[17px] 5xl:text-lg font-normal text-center pt-[5px]">
+                <p className=" text-base 4xl:text-[17px] 5xl:text-lg font-normal text-center pt-[5px]">
                 Our team uses high-quality drop cloths and masking materials to safeguard floors, furniture, and fixtures from paint splatter and spills.
                 </p>
               </div>

@@ -152,7 +152,7 @@ const Faq = () => {
           <NewHeadingCenterIcon text={headingIconText.faq__headingIconText} />
 
           <div>
-            <h2 className="font-family-secondary text-[25px] md:text-[26px] lg:text-[29px] xl:text-[32px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[41px] 5xl:text-[44px] font-bold text-secondary leading-normal text-center">
+            <h2 className=" text-[25px] md:text-[26px] lg:text-[29px] xl:text-[32px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[41px] 5xl:text-[44px] font-bold text-secondary leading-normal text-center">
             FAQ of Our Vinyl Flooring
             </h2>
           </div>
@@ -163,7 +163,7 @@ const Faq = () => {
           <div key={idx}>
             <details className="group [&_summary::-webkit-details-marker]:hidden">
               <summary className="flex cursor-pointer items-center justify-between gap-1.5 bg-secondary-800  py-3 px-5 5xl:py-[14px] 5xl:px-8 border-2">
-                <p className="font-family-secondary text-white text-sm lg:text-sm xl:text-base 5xl:text-lg 5xl:leading-[22px] font-bold">
+                <p className=" text-white text-sm lg:text-sm xl:text-base 5xl:text-lg 5xl:leading-[22px] font-bold">
                   {ques.question}
                 </p>
 
@@ -172,7 +172,7 @@ const Faq = () => {
                 </div>
               </summary>
 
-              <p className="font-family-secondary py-3 pl-4 pr-8 lg:py-4 lg:px-6 5xl:py-5 5xl:px-7 border-2 text-black text-sm lg:text-sm 5xl:text-base font-normal 5xl:leading-[30px]">
+              <p className=" py-3 pl-4 pr-8 lg:py-4 lg:px-6 5xl:py-5 5xl:px-7 border-2 text-black text-sm lg:text-sm 5xl:text-base font-normal 5xl:leading-[30px]">
                 {ques.answer}
               </p>
             </details>

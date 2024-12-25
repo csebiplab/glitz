@@ -78,10 +78,10 @@ const Process = () => {
                   height={129}
                   className="w-[129px] h-[129px] mx-auto"
                 />
-                <p className="font-family-secondary text-[20px] xl:text-[21px] 2xl:text-[22px] 3xl:text-[23px] 4xl:text-[24px] 5xl:text-[25px] font-bold text-secondary text-center leading-9 pt-[12px] pb-[5px]">
+                <p className=" text-[20px] xl:text-[21px] 2xl:text-[22px] 3xl:text-[23px] 4xl:text-[24px] 5xl:text-[25px] font-bold text-secondary text-center leading-9 pt-[12px] pb-[5px]">
                   {data.title}
                 </p>
-                <p className="font-family-secondary text-base 5xl:text-lg font-light text-black text-center pb-[25px]">
+                <p className=" text-base 5xl:text-lg font-light text-black text-center pb-[25px]">
                   {data.desc}
                 </p>
                 <div className="absolute bottom-0 w-full h-[2px] bg-secondary-300" />
@@ -99,10 +99,10 @@ const Process = () => {
               height={129}
               className="w-[129px] h-[129px] mx-auto"
             />
-            <p className="font-family-secondary text-[20px] xl:text-[21px] 2xl:text-[22px] 3xl:text-[23px] 4xl:text-[24px] 5xl:text-[25px] font-bold text-secondary text-center leading-9 pt-[12px] pb-[5px]">
+            <p className=" text-[20px] xl:text-[21px] 2xl:text-[22px] 3xl:text-[23px] 4xl:text-[24px] 5xl:text-[25px] font-bold text-secondary text-center leading-9 pt-[12px] pb-[5px]">
               Post-Project Follow-Up
             </p>
-            <p className="font-family-secondary text-base 5xl:text-lg font-light text-black text-center pb-[25px]">
+            <p className=" text-base 5xl:text-lg font-light text-black text-center pb-[25px]">
               We conduct a thorough post-project inspection and follow-up to
               ensure your satisfaction with the results.
             </p>
@@ -116,10 +116,10 @@ const Process = () => {
               height={129}
               className="w-[129px] h-[129px] mx-auto"
             />
-            <p className="font-family-secondary text-[20px] xl:text-[21px] 2xl:text-[22px] 3xl:text-[23px] 4xl:text-[24px] 5xl:text-[25px] font-bold text-secondary text-center leading-9 pt-[12px] pb-[5px]">
+            <p className=" text-[20px] xl:text-[21px] 2xl:text-[22px] 3xl:text-[23px] 4xl:text-[24px] 5xl:text-[25px] font-bold text-secondary text-center leading-9 pt-[12px] pb-[5px]">
               Eco-Friendly Practices
             </p>
-            <p className="font-family-secondary text-base 5xl:text-lg font-light text-black text-center pb-[25px]">
+            <p className=" text-base 5xl:text-lg font-light text-black text-center pb-[25px]">
               We prioritize sustainability by offering eco-friendly paint
               options and implementing practices that minimize waste and
               environmental impact. This allows you to achieve your desired look
