@@ -48,7 +48,11 @@ const Navbar = () => {
                   </p>
                   <div className="flex items-center gap-2">
                     <div className="bg-primary-50 p-2 rounded-full">
-                      <Link target="_blank" rel="nofollow" href="https://www.instagram.com/glitz.floors.and.more/?fbclid=IwAR3YJkB2MW6Wi5tPbL4jMuORAz5g7iV8Qa55RUhn-q9lihiMgr5v7ZRvN6A">
+                      <Link
+                        target="_blank"
+                        rel="nofollow"
+                        href="https://www.instagram.com/glitz.floors.and.more/?fbclid=IwAR3YJkB2MW6Wi5tPbL4jMuORAz5g7iV8Qa55RUhn-q9lihiMgr5v7ZRvN6A"
+                      >
                         <FaInstagram className="text-white " />
                       </Link>
                     </div>
@@ -59,7 +63,11 @@ const Navbar = () => {
                       <FaLinkedin className="text-white " />
                     </div>
                     <div className="bg-primary-50 p-2 rounded-full">
-                      <Link target="_blank" rel="nofollow" href="https://www.facebook.com/p/Glitz-Floors-More-100095651767067/">
+                      <Link
+                        target="_blank"
+                        rel="nofollow"
+                        href="https://www.facebook.com/p/Glitz-Floors-More-100095651767067/"
+                      >
                         <FaFacebook className="text-white " />
                       </Link>
                     </div>
@@ -70,7 +78,12 @@ const Navbar = () => {
                     <LuPhoneCall className="text-white " />
                   </div>
                   <p className="text-[17px] 3xl:text-lg 4xl:text-[19px] 5xl:text-[20px] font-bold leading-[40px] text-white">
-                    <Link target="_blank" rel="nofollow" className="text-white" href="tel:(346) 445-6343">
+                    <Link
+                      target="_blank"
+                      rel="nofollow"
+                      className="text-white"
+                      href="tel:(346) 445-6343"
+                    >
                       (346) 445-6343
                     </Link>
                   </p>
@@ -183,6 +196,22 @@ const Navbar = () => {
                 )}
               </div>
 
+              <div className="ml-2">
+                {!isOpen && (
+                  <button className="flex items-center gap-[4px]">
+                    <div className="bg-primary-50 p-2 rounded-lg">
+                      <LuPhoneCall className="w-[13px] h-[13px] text-white" />
+                    </div>
+                    <Link
+                      className="text-sm font-bold text-white leading-normal"
+                      href="tel:(346) 445-6343"
+                    >
+                      (346) 445-6343
+                    </Link>
+                  </button>
+                )}
+              </div>
+
               <div>
                 <button
                   onClick={() => setIsOpen(!isOpen)}
@@ -243,7 +272,9 @@ const Navbar = () => {
               </Link>
               <button
                 onClick={() => setIsServiceClick(!isServiceClick)}
-                className={`w-full flex justify-between items-center text-base 2xl:text-lg font-normal bg-primary-50 px-3 leading-normal text-white hover:text-[#ffb300] py-2 ${isServiceClick ? "rounded-t-[8px]" : "rounded-[8px]"}`}
+                className={`w-full flex justify-between items-center text-base 2xl:text-lg font-normal bg-primary-50 px-3 leading-normal text-white hover:text-[#ffb300] py-2 ${
+                  isServiceClick ? "rounded-t-[8px]" : "rounded-[8px]"
+                }`}
               >
                 Our Services
                 {isServiceClick ? <IoIosArrowDown /> : <IoIosArrowUp />}
