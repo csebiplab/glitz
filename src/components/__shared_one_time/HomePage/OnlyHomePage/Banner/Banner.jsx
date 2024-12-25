@@ -77,7 +77,7 @@ const Banner = () => {
     <>
       <div>
         {/* Large device */}
-        <div className="relative w-full h-[500px] lg:h-[600px]">
+        <div className="relative w-full h-[375px] md:h-[460px] lg:h-[475px] xl:h-[490px] 2xl:h-[505px] 3xl:h-[520px] 4xl:h-[535px] 5xl:h-[549px]">
           <div className="hidden md:block">
             <Image
               src="/assets/glitz/newHomePage/lg_hero.png"
