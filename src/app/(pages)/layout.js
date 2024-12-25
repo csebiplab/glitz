@@ -65,6 +65,13 @@ export async function generateMetadata() {
       },
       robots:
         "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        links: [
+          {
+            rel: 'preload',
+            as: 'image',
+            href: '/assets/glitz/newHomePage/lg_hero.png',
+      },
+      ],
     };
   } catch (error) {
     return {
