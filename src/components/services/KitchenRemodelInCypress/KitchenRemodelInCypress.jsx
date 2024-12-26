@@ -25,7 +25,7 @@ import Review from '@/components/__shared_one_time/HomePage/OnlyHomePage/Review/
 
 const KitchenRemodelInCypress = () => {
     return (
-        <div>
+        <div className='custom-container'>
             <section>
                 <KitchenRemodelInCypressBanner/>
             </section>

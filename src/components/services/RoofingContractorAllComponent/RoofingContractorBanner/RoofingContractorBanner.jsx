@@ -74,7 +74,7 @@ import Link from "next/link";
 const RoofingContractorBanner = () => {
   return (
     <>
-      <div className="relative w-screen h-[375px] md:h-[460px] lg:h-[475px] xl:h-[490px] 2xl:h-[505px] 3xl:h-[520px] 4xl:h-[535px] 5xl:h-[549px] overflow-hidden">
+      <div className="relative w-full h-[375px] md:h-[460px] lg:h-[475px] xl:h-[490px] 2xl:h-[505px] 3xl:h-[520px] 4xl:h-[535px] 5xl:h-[549px] overflow-hidden">
         <div className="hidden md:block">
           <Image
             src="/assets/glitz/roofing-contractor/lg_hero.png"
