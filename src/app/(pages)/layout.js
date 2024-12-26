@@ -105,7 +105,7 @@ export default function RootLayout({ children }) {
         {/* <!-- End Google Tag Manager (noscript) --> */}
 
 
-        <main className="overflow-hidden custom-container">
+        <main className=" custom-container">
           <Suspense>
             <RoutingProgressBar />
           </Suspense>

@@ -19,12 +19,13 @@ const Navbar = () => {
   return (
     <div className="sticky top-0 z-50">
       <UpperNavbar />
-      <div className="w-full h-auto bg-secondary-800 py-1">
+      {/* large device  */}
+      <div className="hidden lg:block w-full h-auto bg-secondary-800 py-1">
         <nav className="container">
+          
           <div className="flex items-center justify-between gap-[100px] md:gap-[101px] lg:gap-[111px] xl:gap-[121px] 2xl:gap-[131px] 3xl:gap-[141px] 4xl:gap-[151px] 5xl:gap-[161px]">
-            {/* large device  */}
             {/* Left side: Logo */}
-            <div className="w-1/5 hidden lg:block text-white text-lg font-bold">
+            <div className="w-1/5 text-white text-lg font-bold">
               <Link href="/" aria-label="Home">
                 <Image
                   // src="/assets/glitz/newHomePage/nav/nav__logo__glitz.png"
@@ -39,7 +40,7 @@ const Navbar = () => {
             </div>
 
             {/* right side  */}
-            <div className="w-4/5 hidden lg:block py-1">
+            <div className="w-4/5 py-1">
               {/* first  */}
               <div className="flex justify-between items-center">
                 <div className="flex items-center gap-2">
@@ -179,57 +180,72 @@ const Navbar = () => {
                 </Link>
               </div>
             </div>
+          </div>
+        </nav>
+      </div>
 
-            {/* Small Device */}
-            <div className=" lg:hidden w-full flex justify-between items-center px-[10px] md:px-0">
-              <div>
-                {!isOpen && (
-                  <Link href="/" aria-label="Home">
-                    <Image
-                      src="/assets/glitz/newHomePage/nav/nav__logo__glitz.png"
-                      alt="nav logo"
-                      width={258}
-                      height={166}
-                      className="w-full h-full"
-                    />
-                  </Link>
-                )}
-              </div>
-
-              <div className="ml-2">
-                {!isOpen && (
-                  <button className="flex items-center gap-[4px]">
-                    <div className="bg-primary-50 p-2 rounded-lg">
-                      <LuPhoneCall className="w-[13px] h-[13px] text-white" />
-                    </div>
-                    <Link
-                      className="text-sm font-bold text-white leading-normal"
-                      href="tel:(346) 445-6343"
-                    >
-                      (346) 445-6343
-                    </Link>
-                  </button>
-                )}
-              </div>
-
-              <div>
-                <button
-                  onClick={() => setIsOpen(!isOpen)}
-                  className="text-white focus:outline-none"
-                >
-                  {isOpen ? (
-                    <FiX className="w-6 h-6 text-white" />
-                  ) : (
-                    <FiMenu className="w-6 h-6 text-white" />
-                  )}
-                </button>
-              </div>
-            </div>
+      {/* Small Device */}
+      <div
+        className="block lg:hidden w-full h-auto bg-secondary-800 py-1"
+      >
+        <div className="w-full flex justify-between items-center px-[10px] md:px-0">
+          <div>
+            {/* {!isOpen && (
+              <Link href="/" aria-label="Home">
+                <Image
+                  src="/assets/glitz/newHomePage/nav/nav__logo__glitz.png"
+                  alt="nav logo"
+                  width={258}
+                  height={166}
+                  className="w-full h-full"
+                />
+              </Link>
+            )} */}
+            <Link href="/" aria-label="Home">
+                <Image
+                  src="/assets/glitz/newHomePage/nav/nav__logo__glitz.png"
+                  alt="nav logo"
+                  width={258}
+                  height={166}
+                  className="w-full h-full"
+                />
+              </Link>
           </div>
 
-          {/* Mobile Menu */}
+          <div className="ml-2">
+            {!isOpen && (
+              <button className="flex items-center gap-[4px]">
+                <div className="bg-primary-50 p-2 rounded-lg">
+                  <LuPhoneCall className="w-[13px] h-[13px] text-white" />
+                </div>
+                <Link
+                  className="text-sm font-bold text-white leading-normal"
+                  href="tel:(346) 445-6343"
+                >
+                  (346) 445-6343
+                </Link>
+              </button>
+            )}
+          </div>
+
+          <div>
+            <button
+              onClick={() => setIsOpen(!isOpen)}
+              className="text-white focus:outline-none"
+            >
+              {isOpen ? (
+                <FiX className="w-6 h-6 text-white" />
+              ) : (
+                <FiMenu className="w-6 h-6 text-white" />
+              )}
+            </button>
+          </div>
+        </div>
+        <div className={`${
+          isOpen ? "left-0 w-[75%]" : "-left-[100%] w-full"
+        } fixed bottom-0 top-0 z-20 h-fit bg-secondary-800`}>
           {isOpen && (
-            <div className="lg:hidden mt-4  pb-12">
+            <div className="lg:hidden mt-4 pb-12 px-5">
               <div className="mb-8">
                 <Image
                   src="/assets/glitz/newHomePage/nav/nav__logo__glitz.png"
@@ -352,7 +368,7 @@ const Navbar = () => {
               </div>
             </div>
           )}
-        </nav>
+        </div>
       </div>
     </div>
   );
