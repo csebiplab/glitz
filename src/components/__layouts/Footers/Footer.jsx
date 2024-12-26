@@ -262,7 +262,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="bg-secondary-400 flex justify-center items-center gap-[15px] py-1">
+          <div className="bg-secondary-400 flex justify-center items-center gap-[10px] py-1">
             <p className="text-dark-800 text-sm 4xl:text-[15px] 5xl:text-base font-bold leading-normal">
               WEBSITE DESIGN AND SEO BY :-
             </p>

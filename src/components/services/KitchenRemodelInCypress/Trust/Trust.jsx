@@ -9,7 +9,7 @@ const Trust = () => {
             <div className='full__section_l_p pr-3 md:pr-0 padding__top'>
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-[20px] 5xl:gap-[32px]'>
                     <div className='order-1 md:order-2 md:col-span-1'>
-                        <Image src="/assets/glitz/kitchenRemodel/trust.png" alt='trust iamge' width={788} height={893}/>
+                        <Image src="/assets/glitz/kitchenRemodel/trust.png" alt='trust iamge' width={788} height={893} className="h-[650px] 5xl:h-[690px]"/>
                     </div>
                     <div className='order-2 md:order-1 md:col-span-1'>
                         <div className='flex justify-center xl:justify-start items-center'>

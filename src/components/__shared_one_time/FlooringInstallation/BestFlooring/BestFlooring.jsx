@@ -15,6 +15,7 @@ const BestFlooring = () => {
               alt="about us"
               width={901}
               height={780}
+              className="h-[565px] 5xl:h-[600px]"
             />
           </div>
           <div className="md:col-span-1">
