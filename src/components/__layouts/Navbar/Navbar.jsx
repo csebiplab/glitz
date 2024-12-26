@@ -203,7 +203,8 @@ const Navbar = () => {
             )} */}
             <Link href="/" aria-label="Home">
                 <Image
-                  src="/assets/glitz/newHomePage/nav/nav__logo__glitz.png"
+                  // src="/assets/glitz/newHomePage/nav/nav__logo__glitz.png"
+                  src="/assets/glitz/logo/lg_nav_logo.png"
                   alt="nav logo"
                   width={258}
                   height={166}
@@ -248,7 +249,8 @@ const Navbar = () => {
             <div className="lg:hidden mt-4 pb-12 px-5">
               <div className="mb-8">
                 <Image
-                  src="/assets/glitz/newHomePage/nav/nav__logo__glitz.png"
+                  // src="/assets/glitz/newHomePage/nav/nav__logo__glitz.png"
+                  src="/assets/glitz/logo/lg_nav_logo.png"
                   alt="nav logo"
                   width={142}
                   height={91}

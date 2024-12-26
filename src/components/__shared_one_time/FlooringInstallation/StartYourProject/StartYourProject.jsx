@@ -9,7 +9,7 @@ const StartYourProject = () => {
             <div className='full__section_r_p pl-3 md:pl-0 padding__top'>
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-[35px]'>
                     <div className='md:col-span-1'>
-                        <Image src="/assets/glitz/images/start_your_project.png" alt='start your project' width={722} height={449}/>
+                        <Image src="/assets/glitz/images/start_your_project.png" alt='start your project' width={722} height={449} className='w-full'/>
                     </div>
                     <div className='md:col-span-1'>
                         <div className='flex justify-center md:justify-start items-center'>
