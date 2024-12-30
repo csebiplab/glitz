@@ -9,7 +9,7 @@ const NationwideRoofers = () => {
             <div className='full__section_r_p pl-3 md:pl-0 padding__top'>
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-[20px] 2xl:gap-[33px]'>
                     <div className='md:col-span-1'>
-                        <Image src="/assets/glitz/roofing-contractor/nationwide_roofers.png" alt='nationwideRoofers' width={777} height={483} className="w-full"/>
+                        <Image src="/assets/glitz/roofing-contractor/nationwide_roofers.png" alt='nationwideRoofers' width={777} height={483} className="w-full h-[445px]"/>
                     </div>
                     <div className='md:col-span-1'>
                         <div className='flex justify-center xl:justify-start items-center'>

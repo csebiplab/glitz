@@ -59,7 +59,7 @@ const Caring = () => {
       </div>
 
       {/* working data  */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 5xl:grid-cols-4 gap-[20px] md:gap-[25px] 5xl:gap-[30px]">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[20px] md:gap-[25px] 5xl:gap-[30px]">
         {
           workingData?.map((data)=>{
               return <div key={data.id} className="caring_cart__bg relative mt-10 px-[10px] pb-[24px]">

@@ -72,7 +72,7 @@ const PaintingMaterials = () => {
                   alt="flooring image"
                   width={104}
                   height={104}
-                  className="absolute left-0 right-0 -top-14 w-[104px] h-[104px] mx-auto border-[6px] border-primary p-[5px] rounded-full bg-secondary-400"
+                  className="absolute left-0 right-0 -top-14 w-[104px] h-[104px] mx-auto border-[3px] border-primary p-[5px] rounded-full bg-secondary-400"
                 />
                 <p className=" text-lg 4xl:text-[19px] 5xl:text-[20px] font-bold text-center text-black pt-[65px]">
                   {data.title}
@@ -94,7 +94,7 @@ const PaintingMaterials = () => {
                   alt="flooring image"
                   width={104}
                   height={104}
-                  className="absolute left-0 right-0 -top-14 w-[104px] h-[104px] mx-auto border-[6px] border-primary p-[5px] rounded-full bg-secondary-400"
+                  className="absolute left-0 right-0 -top-14 w-[104px] h-[104px] mx-auto border-[3px] border-primary p-[5px] rounded-full bg-secondary-400"
                 />
                 <p className=" text-lg 4xl:text-[19px] 5xl:text-[20px] font-bold text-center text-black pt-[65px]">
                 Drop Cloths and Protective Materials
