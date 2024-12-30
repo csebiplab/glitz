@@ -14,7 +14,7 @@ const AboutUs = () => {
               alt="about us"
               width={726}
               height={597}
-              className="w-full"
+              className="w-full h-[450px] 5xl:h-[520px]"
             />
           </div>
           <div className="md:col-span-1">

@@ -9,7 +9,7 @@ const Elevating = () => {
             <div className='full__section_r_p pl-3 md:pl-0 padding__top'>
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-[20px] 5xl:gap-[32px]'>
                     <div className='md:col-span-1'>
-                        <Image src="/assets/glitz/kitchenRemodel/elevating.png" alt='elevating' width={781} height={773}/>
+                        <Image src="/assets/glitz/kitchenRemodel/elevating.png" alt='elevating' width={781} height={773} className='w-full h-[620px] 5xl:h-[650px]'/>
                     </div>
                     <div className='md:col-span-1'>
                         <div className='flex justify-center xl:justify-start items-center'>

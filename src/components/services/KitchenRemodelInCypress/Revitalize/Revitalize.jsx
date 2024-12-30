@@ -9,7 +9,7 @@ const Revitalize = () => {
             <div className='full__section_r_p pl-3 md:pl-0 padding__top'>
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-[20px] 5xl:gap-[32px]'>
                     <div className='md:col-span-1'>
-                        <Image src="/assets/glitz/kitchenRemodel/revitalize.png" alt='revitalize' width={788} height={823}/>
+                        <Image src="/assets/glitz/kitchenRemodel/revitalize.png" alt='revitalize' width={788} height={823} className="w-full h-[570px] 5xl:h-[600px]"/>
                     </div>
                     <div className='md:col-span-1'>
                         <div className='flex justify-center xl:justify-start items-center'>
