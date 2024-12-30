@@ -237,7 +237,7 @@ const PaintingServices = () => {
                   width={660}
                   height={335}
                 />
-                <div className="servicesCart___bg py-[16px] px-[8px] h-auto md:h-[600px]">
+                <div className="servicesCart___bg py-[16px] px-[8px] h-auto md:h-[620px] 2xl:h-[630px]">
                   <h3 className="text-[20px] xl:text-[21px] 2xl:text-[22px] 3xl:text-[23px] 4xl:text-[24px] 5xl:text-[25px] text-center font-bold text-black leading-normal">
                     {data.title}
                   </h3>

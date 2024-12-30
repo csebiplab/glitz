@@ -9,7 +9,7 @@ const ExpertPainters = () => {
             <div className='container padding__top'>
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-[20px] 2xl:gap-[33px]'>
                     <div className='order-1 md:order-2 md:col-span-1'>
-                        <Image src="/assets/glitz/painting-contractors/expert-painter.png" alt='expert painter' width={606} height={732} className="w-full"/>
+                        <Image src="/assets/glitz/painting-contractors/expert-painter.png" alt='expert painter' width={606} height={732} className="w-full h-[600px] 5xl:h-[710px]"/>
                     </div>
                     <div className='order-2 md:order-1 md:col-span-1'>
                         <div className='flex justify-center xl:justify-start items-center'>
