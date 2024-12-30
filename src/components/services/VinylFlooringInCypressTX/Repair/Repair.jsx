@@ -8,7 +8,7 @@ const Repair = () => {
         <div className="full__section_r_p pl-3 md:pl-0 padding__top">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-[16px] 5xl:gap-[20px]">
                 <div className='md:col-span-1'>
-                    <Image src="/assets/glitz/vinylFlooringInCypress/repair.png" alt='repair' width={836} height={632}/>
+                    <Image src="/assets/glitz/vinylFlooringInCypress/repair.png" alt='repair' width={836} height={632} className="w-full h-[570px] 5xl:h-[600px]"/>
                 </div>
                 <div className='md:col-span-1'>
                     <div className="flex items-center justify-center md:justify-start">
